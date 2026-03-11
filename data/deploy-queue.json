@@ -107,7 +107,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "Finalizada",
+      "jira_status": "Cancelado",
       "mr_status": "merged",
       "source_branch": "revert-43c1dde0",
       "target_branch": "stage",
@@ -117,7 +117,7 @@
       "is_ready": false,
       "priority_weight": 100,
       "detected_at": "2026-03-11T15:26:15.771Z",
-      "updated_at": "2026-03-11T22:27:06.938Z",
+      "updated_at": "2026-03-11T23:26:27.003Z",
       "deployed_at": null,
       "assignee_name": "Vanesa Yanina Burman",
       "assignee_email": "vanesa.burman@ayi.group",
@@ -340,5 +340,5 @@
       ]
     }
   ],
-  "last_updated": "2026-03-11T22:27:06.938Z"
+  "last_updated": "2026-03-11T23:26:27.003Z"
 }
