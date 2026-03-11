@@ -234,11 +234,11 @@ function summaryToHtml(plainText, config, humorPhrase) {
     </div>
     <div style="background: #F8FAFC; padding: 16px 28px; border-top: 1px solid #E2E8F0; text-align: center;">
       <p style="font-size: 11px; color: #9CA3AF; margin: 0;">
-        Generado por Deploy Tracker Agent &#x2022;
+        Generado por Deploy Tracker Agent de Vane <3 &#x2022;
         <a href="${jiraBase}" style="color: #667eea; text-decoration: none;">Jira</a> &#x2022;
         <a href="${config.gitlab_base_url}" style="color: #667eea; text-decoration: none;">GitLab</a>
       </p>
-      <p style="font-size: 10px; color: #D1D5DB; margin: 6px 0 0 0;">
+      <p style="font-size: 13px; color: #D1D5DB; margin: 6px 0 0 0;">
         1 deploy = 1 chismecito &#x1F63A;
       </p>
     </div>
