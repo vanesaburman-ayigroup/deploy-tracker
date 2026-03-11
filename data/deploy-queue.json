@@ -19,7 +19,7 @@
       "is_ready": false,
       "priority_weight": 100,
       "detected_at": "2026-03-11T14:15:29.943Z",
-      "updated_at": "2026-03-11T15:26:17.017Z",
+      "updated_at": "2026-03-11T15:27:17.208Z",
       "deployed_at": null,
       "jira_summary": "Errores GCBA"
     },
@@ -42,7 +42,7 @@
       "is_ready": false,
       "priority_weight": 0,
       "detected_at": "2026-03-11T14:27:51.487Z",
-      "updated_at": "2026-03-11T15:26:16.730Z",
+      "updated_at": "2026-03-11T15:27:16.873Z",
       "deployed_at": null,
       "jira_summary": "Agregar boton para la migracion a SGC"
     },
@@ -65,7 +65,7 @@
       "is_ready": false,
       "priority_weight": 0,
       "detected_at": "2026-03-11T14:27:51.488Z",
-      "updated_at": "2026-03-11T15:26:16.731Z",
+      "updated_at": "2026-03-11T15:27:16.874Z",
       "deployed_at": null,
       "jira_summary": "Agregar boton para la migracion a SGC"
     },
@@ -78,7 +78,7 @@
       "project_path": "backend/wstramitador",
       "service_type": "secondary_backend",
       "is_core": false,
-      "jira_priority": "Media",
+      "jira_priority": "Bloqueante",
       "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "hotfix/varios-tramitadores",
@@ -89,7 +89,7 @@
       "is_ready": true,
       "priority_weight": 50,
       "detected_at": "2026-03-11T15:26:15.770Z",
-      "updated_at": "2026-03-11T15:26:15.770Z",
+      "updated_at": "2026-03-11T15:27:11.630Z",
       "deployed_at": null
     },
     {
@@ -101,7 +101,7 @@
       "project_path": "backend/wsdocumento",
       "service_type": "core_backend",
       "is_core": true,
-      "jira_priority": "Media",
+      "jira_priority": "Bloqueante",
       "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "revert-43c1dde0",
@@ -112,9 +112,9 @@
       "is_ready": true,
       "priority_weight": 150,
       "detected_at": "2026-03-11T15:26:15.771Z",
-      "updated_at": "2026-03-11T15:26:15.771Z",
+      "updated_at": "2026-03-11T15:27:11.631Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-11T15:26:17.017Z"
+  "last_updated": "2026-03-11T15:27:17.208Z"
 }
