@@ -29,7 +29,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm ci --production
+        run: npm ci --production --registry https://registry.npmjs.org
 
       - name: Generate and send summary
         env:
@@ -41,4 +41,6 @@ jobs:
           SLACK_USER_TOKEN: ${{ secrets.SLACK_USER_TOKEN }}
           SLACK_PM_EMAIL: ${{ secrets.SLACK_PM_EMAIL }}
           SLACK_PM_USER_ID: ${{ secrets.SLACK_PM_USER_ID }}
+          SLACK_CC_EMAIL: ${{ secrets.SLACK_CC_EMAIL }}
+          SLACK_CC_USER_ID: ${{ secrets.SLACK_CC_USER_ID }}
         run: node src/generate-summary.js

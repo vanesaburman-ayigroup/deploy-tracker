@@ -110,17 +110,33 @@ async function sendDM(text, blocks) {
     return { success: false, reason: "no_pm_configured" };
   }
 
-  let userId;
-  if (pmIdentifier.startsWith("U")) {
-    userId = pmIdentifier;
-  } else {
-    userId = await lookupUserByEmail(pmIdentifier);
+  // Send to PM
+  await sendDMToUser(pmIdentifier, text, blocks, "PM");
+
+  // Send to CC (Vane) if configured
+  const ccIdentifier = process.env.SLACK_CC_USER_ID || process.env.SLACK_CC_EMAIL;
+  if (ccIdentifier) {
+    await sendDMToUser(ccIdentifier, text, blocks, "CC");
   }
 
-  const channelId = await openDMChannel(userId);
-  const result = await postMessage(channelId, text, blocks);
-  console.log(`Slack DM sent to PM. Channel: ${channelId}, TS: ${result.ts}`);
-  return { success: true, channel: channelId, ts: result.ts };
+  return { success: true };
+}
+
+async function sendDMToUser(identifier, text, blocks, label) {
+  try {
+    let userId;
+    if (identifier.startsWith("U")) {
+      userId = identifier;
+    } else {
+      userId = await lookupUserByEmail(identifier);
+    }
+
+    const channelId = await openDMChannel(userId);
+    const result = await postMessage(channelId, text, blocks);
+    console.log(`Slack DM sent to ${label}. Channel: ${channelId}, TS: ${result.ts}`);
+  } catch (err) {
+    console.error(`Failed to send Slack DM to ${label}:`, err.message);
+  }
 }
 
 // ══════════════════════════════════════

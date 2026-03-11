@@ -110,11 +110,13 @@ async function main() {
           if (config.pm_email) {
             try {
               const htmlBody = summaryToHtml(alertText, config);
+              const cc = config.cc_email || "";
               await sendEmail(
                 config.pm_email,
                 `🚨 DEPLOY CORE: ${mr.repo_name} — ${ticketId} [${jiraPriority}]`,
                 alertText,
-                htmlBody
+                htmlBody,
+                cc
               );
               recordNotification(ticketId, mr.iid, "alert_ready", "email", alertText);
               alertsSent++;

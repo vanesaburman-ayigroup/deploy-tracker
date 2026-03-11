@@ -3,33 +3,33 @@ const fetch = require("node-fetch");
 /**
  * Send an email using Gmail API with OAuth2.
  *
- * Expects GMAIL_ACCESS_TOKEN env var (refreshed in the GitHub Action).
- * For initial setup, use the setup-oauth.js script to get refresh token,
- * then the GitHub Action refreshes it automatically.
- *
  * @param {string} to - Recipient email
  * @param {string} subject - Email subject
  * @param {string} body - Email body (plain text)
  * @param {string} [htmlBody] - Optional HTML body
+ * @param {string} [cc] - Optional CC email(s), comma-separated
  */
-async function sendEmail(to, subject, body, htmlBody) {
+async function sendEmail(to, subject, body, htmlBody, cc) {
   const accessToken = process.env.GMAIL_ACCESS_TOKEN;
 
   if (!accessToken) {
     console.log("=== EMAIL (dry run — no GMAIL_ACCESS_TOKEN) ===");
-    console.log(`To: ${to}`);
+    console.log(`To: ${to}${cc ? ` | CC: ${cc}` : ""}`);
     console.log(`Subject: ${subject}`);
     console.log(`Body:\n${body}`);
     console.log("=== END EMAIL ===");
     return { success: true, dryRun: true };
   }
 
-  // Build MIME message
+  // Build MIME headers
+  const headers = [`To: ${to}`];
+  if (cc) headers.push(`Cc: ${cc}`);
+  headers.push(`Subject: ${subject}`);
+
   const boundary = "boundary_deploy_tracker";
   const mimeContent = htmlBody
     ? [
-        `To: ${to}`,
-        `Subject: ${subject}`,
+        ...headers,
         `MIME-Version: 1.0`,
         `Content-Type: multipart/alternative; boundary="${boundary}"`,
         "",
@@ -45,9 +45,7 @@ async function sendEmail(to, subject, body, htmlBody) {
         "",
         `--${boundary}--`,
       ].join("\r\n")
-    : [`To: ${to}`, `Subject: ${subject}`, `Content-Type: text/plain; charset="UTF-8"`, "", body].join(
-        "\r\n"
-      );
+    : [...headers, `Content-Type: text/plain; charset="UTF-8"`, "", body].join("\r\n");
 
   // Base64url encode
   const encoded = Buffer.from(mimeContent)

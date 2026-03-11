@@ -39,6 +39,10 @@ jobs:
           SLACK_USER_TOKEN: ${{ secrets.SLACK_USER_TOKEN }}
           SLACK_PM_EMAIL: ${{ secrets.SLACK_PM_EMAIL }}
           SLACK_PM_USER_ID: ${{ secrets.SLACK_PM_USER_ID }}
+          SLACK_CC_EMAIL: ${{ secrets.SLACK_CC_EMAIL }}
+          SLACK_CC_USER_ID: ${{ secrets.SLACK_CC_USER_ID }}
+          PM_CALENDAR_EMAIL: ${{ secrets.PM_CALENDAR_EMAIL }}
+          CC_CALENDAR_EMAIL: ${{ secrets.CC_CALENDAR_EMAIL }}
         run: node src/poll-jira.js
 
       - name: Commit state changes

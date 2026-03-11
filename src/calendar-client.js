@@ -52,6 +52,14 @@ async function createDeployWindowEvent(coreDeploys) {
     colorId: "11", // Red (tomato)
   };
 
+  // Add attendees (PM + CC for monitoring)
+  const attendees = [];
+  const pmEmail = process.env.PM_CALENDAR_EMAIL || "";
+  const ccEmail = process.env.CC_CALENDAR_EMAIL || "";
+  if (pmEmail) attendees.push({ email: pmEmail });
+  if (ccEmail) attendees.push({ email: ccEmail });
+  if (attendees.length > 0) event.attendees = attendees;
+
   const response = await fetch(
     `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(calendarId)}/events`,
     {

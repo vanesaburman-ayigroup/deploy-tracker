@@ -40,7 +40,8 @@ async function main() {
         : `📋 Deploy Tracker: ${pending.length} MR(s) pendiente(s)`;
 
       const htmlBody = summaryToHtml(summaryText, config);
-      await sendEmail(config.pm_email, subject, summaryText, htmlBody);
+      const cc = config.cc_email || "";
+      await sendEmail(config.pm_email, subject, summaryText, htmlBody, cc);
       console.log("📧 Summary email sent.");
     } catch (err) {
       console.error("Failed to send summary email:", err.message);
