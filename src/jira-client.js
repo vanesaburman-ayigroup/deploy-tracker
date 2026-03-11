@@ -59,7 +59,7 @@ async function getRecentlyUpdatedIssues(minutesAgo = 20) {
   );
 
   const fields = "key,summary,status,priority,comment";
-  const data = await jiraFetch(`search?jql=${jql}&fields=${fields}&maxResults=50`);
+  const data = await jiraFetch(`search/jql?jql=${jql}&fields=${fields}&maxResults=50`);
 
   return data.issues || [];
 }
