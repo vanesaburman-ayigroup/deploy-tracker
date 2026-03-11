@@ -1,5 +1,5 @@
 const { generateSummary } = require("./gemini-client");
-const { sendEmail, refreshAccessToken, summaryToHtml } = require("./gmail-client");
+const { sendEmail, refreshAccessToken, summaryToHtml, getRandomPhrase } = require("./gmail-client");
 const { sendSlackMessage, buildSummaryBlocks } = require("./slack-client");
 const { getConfig, getPendingDeploys, getPendingCoreDeploys } = require("./state");
 
@@ -39,7 +39,7 @@ async function main() {
         ? `🚀 Deploy Tracker: ${corePending.length} core + ${pending.length - corePending.length} secundarios pendientes`
         : `📋 Deploy Tracker: ${pending.length} MR(s) pendiente(s)`;
 
-      const htmlBody = summaryToHtml(summaryText, config);
+      const htmlBody = summaryToHtml(summaryText, config, getRandomPhrase());
       const cc = config.cc_email || "";
       await sendEmail(config.pm_email, subject, summaryText, htmlBody, cc);
       console.log("📧 Summary email sent.");

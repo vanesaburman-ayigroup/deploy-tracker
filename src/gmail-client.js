@@ -187,30 +187,101 @@ function alertToHtml(entry, config) {
 }
 
 /**
- * Convert plain text summary to a styled HTML email.
+ * Convert plain text summary to a styled HTML email with humor + cataas cat.
  */
-function summaryToHtml(plainText, config) {
+function summaryToHtml(plainText, config, humorPhrase) {
+  const cacheBuster = Date.now() + Math.floor(Math.random() * 100000);
+  const catUrl = `https://cataas.com/cat?width=200&type=small&cb=${cacheBuster}`;
+  const jiraBase = config.jira_base_url.replace(/\/$/, "");
+  const now = new Date();
+  const dateStr = now.toLocaleDateString("es-AR", { weekday: "long", day: "numeric", month: "long", timeZone: "America/Buenos_Aires" });
+  const timeStr = now.toLocaleTimeString("es-AR", { hour: "2-digit", minute: "2-digit", timeZone: "America/Buenos_Aires" });
+
+  const humorBanner = humorPhrase ? `
+    <div style="background: #FFFBF0; padding: 20px 28px; border-bottom: 1px solid #FEE2B3; text-align: center;">
+      <p style="margin: 0 0 8px 0; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; color: #B45309; font-weight: 600;">
+        &#x1F431; El gatito del d&iacute;a
+      </p>
+      <img
+        src="${catUrl}"
+        alt="Gatito del dia"
+        width="180"
+        style="border-radius: 12px; margin: 8px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"
+      />
+      <p style="margin: 8px 0 0 0; font-size: 14px; color: #78350F; font-style: italic; font-family: Georgia, 'Times New Roman', serif; line-height: 1.4;">
+        &ldquo;${escapeHtml(humorPhrase)}&rdquo;
+      </p>
+    </div>` : '';
+
   return `<!DOCTYPE html>
 <html><head><meta charset="UTF-8"></head>
-<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #f5f5f5;">
-  <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <div style="background: #1B3A5C; padding: 16px 24px;">
-      <h1 style="color: white; font-size: 18px; margin: 0;">
-        &#x1F680; Deploy Tracker &#x2014; Resumen
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #f0f4f8;">
+  <div style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.08);">
+    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 24px 28px; text-align: center;">
+      <h1 style="color: white; font-size: 20px; margin: 0; font-weight: 700; letter-spacing: -0.3px;">
+        &#x1F680; Deploy Tracker
       </h1>
+      <p style="color: rgba(255,255,255,0.85); font-size: 13px; margin: 6px 0 0 0; font-weight: 400;">
+        Resumen de deploys &mdash; ${escapeHtml(dateStr)}, ${timeStr}
+      </p>
     </div>
-    <div style="padding: 24px;">
-      <pre style="font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 13px; line-height: 1.6; white-space: pre-wrap; color: #1F2937; background: #F9FAFB; padding: 16px; border-radius: 8px; border: 1px solid #E5E7EB;">${escapeHtml(plainText)}</pre>
+    ${humorBanner}
+    <div style="padding: 24px 28px;">
+      <h2 style="font-size: 14px; color: #6B7280; text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 16px 0; font-weight: 600;">
+        Estado de deploys
+      </h2>
+      <pre style="font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 13px; line-height: 1.7; white-space: pre-wrap; color: #1F2937; background: #F8FAFC; padding: 20px; border-radius: 10px; border: 1px solid #E2E8F0; margin: 0;">${escapeHtml(plainText)}</pre>
     </div>
-    <div style="background: #F9FAFB; padding: 12px 24px; border-top: 1px solid #E5E7EB;">
+    <div style="background: #F8FAFC; padding: 16px 28px; border-top: 1px solid #E2E8F0; text-align: center;">
       <p style="font-size: 11px; color: #9CA3AF; margin: 0;">
         Generado por Deploy Tracker Agent &#x2022;
-        <a href="${config.jira_base_url}" style="color: #6B7280;">Jira</a> &#x2022;
-        <a href="${config.gitlab_base_url}" style="color: #6B7280;">GitLab</a>
+        <a href="${jiraBase}" style="color: #667eea; text-decoration: none;">Jira</a> &#x2022;
+        <a href="${config.gitlab_base_url}" style="color: #667eea; text-decoration: none;">GitLab</a>
+      </p>
+      <p style="font-size: 10px; color: #D1D5DB; margin: 6px 0 0 0;">
+        1 deploy = 1 chismecito &#x1F63A;
       </p>
     </div>
   </div>
 </body></html>`;
+}
+
+/**
+ * Get a random humor phrase, avoiding recent repeats.
+ * Uses the notification log to track which phrases were used.
+ */
+function getRandomPhrase() {
+  try {
+    const fs = require("fs");
+    const path = require("path");
+    const humorPath = path.join(__dirname, "..", "data", "humor.json");
+    const humor = JSON.parse(fs.readFileSync(humorPath, "utf-8"));
+    const phrases = humor.phrases || [];
+    if (phrases.length === 0) return null;
+
+    // Try to read recently used phrases from notification log
+    const { getNotificationLog } = require("./state");
+    const log = getNotificationLog();
+    const recentPhrases = log.notifications
+      .filter(n => n.channel === "humor_phrase")
+      .slice(-20) // last 20 used phrases
+      .map(n => n.payload);
+
+    // Filter out recently used
+    const available = phrases.filter(p => !recentPhrases.includes(p));
+    const pool = available.length > 0 ? available : phrases; // reset if all used
+
+    const phrase = pool[Math.floor(Math.random() * pool.length)];
+
+    // Record usage
+    const { recordNotification } = require("./state");
+    recordNotification("humor", 0, "phrase", "humor_phrase", phrase);
+
+    return phrase;
+  } catch (err) {
+    console.warn("Could not load humor phrases:", err.message);
+    return null;
+  }
 }
 
 function escapeHtml(text) {
@@ -220,4 +291,4 @@ function escapeHtml(text) {
     .replace(/>/g, "&gt;");
 }
 
-module.exports = { sendEmail, refreshAccessToken, summaryToHtml, alertToHtml };
+module.exports = { sendEmail, refreshAccessToken, summaryToHtml, alertToHtml, getRandomPhrase };
