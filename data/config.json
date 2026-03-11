@@ -18,7 +18,8 @@
     "wstoken",
     "wsperfilespermisos",
     "wsprovinciaart",
-    "wsconsultasreclamos"
+    "wsconsultasreclamos",
+    "wsmesacarga"
   ],
   "core_frontend": [
     "wsfrontend",
@@ -27,11 +28,11 @@
     "solicitudesgenericas",
     "logistica"
   ],
-  "alert_priorities": ["Blocker", "High", "Highest"],
+  "alert_priorities": ["Blocker", "Bloqueante", "High", "Highest", "Alta", "Más alta"],
   "priority_groups": [
     {
       "name": "bugs-produccion",
-      "jql": "project = GRV AND type = Bug AND priority in (Highest, High)",
+      "jql": "project = GRV AND type = Bug AND priority in (Bloqueante, Alta, 'Más alta')",
       "weight": 20
     },
     {
@@ -42,6 +43,7 @@
   ],
   "deploy_window_hour": 19,
   "pm_email": "mathias.fraifer@ayi.group",
+  "cc_email": "vanesa.burman@ayi.group",
   "jira_base_url": "https://ayigroup.atlassian.net/",
   "gitlab_base_url": "https://gitlab.com/grvx",
   "summary_hours_utc": ["12:30", "16:00", "18:00"],

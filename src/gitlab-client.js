@@ -5,14 +5,24 @@ const GITLAB_TOKEN = process.env.GITLAB_TOKEN;
 /**
  * Get MR details from GitLab API.
  *
- * @param {string} baseUrl - GitLab base URL (e.g., "https://gitlab.grv.com.ar")
- * @param {string} projectPath - Project path (e.g., "grv/backend/wssiniestralidad")
+ * @param {string} baseUrl - GitLab base URL including group (e.g., "https://gitlab.com/grvx")
+ * @param {string} projectPath - Project path relative to group (e.g., "backend/wssiniestralidad")
  * @param {string} mrIid - MR internal ID (e.g., "892")
  * @returns {Promise<Object>} MR details
  */
 async function getMergeRequest(baseUrl, projectPath, mrIid) {
-  const encodedPath = encodeURIComponent(projectPath);
-  const url = `${baseUrl}/api/v4/projects/${encodedPath}/merge_requests/${mrIid}`;
+  // Extract the GitLab host and group from baseUrl
+  // e.g., "https://gitlab.com/grvx" → host: "https://gitlab.com", group: "grvx"
+  const urlParts = new URL(baseUrl);
+  const apiBase = `${urlParts.protocol}//${urlParts.host}`;
+  const group = urlParts.pathname.replace(/^\/|\/$/g, ""); // "grvx"
+
+  // Full project path for the API: "grvx/backend/wslogistica"
+  const fullProjectPath = group ? `${group}/${projectPath}` : projectPath;
+  const encodedPath = encodeURIComponent(fullProjectPath);
+  const url = `${apiBase}/api/v4/projects/${encodedPath}/merge_requests/${mrIid}`;
+
+  console.log(`  📡 GitLab API: ${url}`);
 
   const response = await fetch(url, {
     headers: {
@@ -71,6 +81,13 @@ async function getMergeRequests(baseUrl, mrRefs) {
   const results = await Promise.allSettled(
     mrRefs.map((ref) => getMergeRequest(baseUrl, ref.projectPath, ref.mrIid))
   );
+
+  // Log failures
+  results.forEach((r, i) => {
+    if (r.status === "rejected") {
+      console.error(`  ❌ Failed to fetch MR ${mrRefs[i].projectPath}!${mrRefs[i].mrIid}: ${r.reason.message}`);
+    }
+  });
 
   return results
     .filter((r) => r.status === "fulfilled")
