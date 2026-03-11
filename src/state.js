@@ -134,6 +134,11 @@ function markAsDeployed(ticketId, mrId) {
   }
 }
 
+/**
+ * Mark ALL MRs for a ticket+repo as deployed.
+ * Used when a MR to master/main is merged — the develop MR for the same
+ * ticket and repo should also be considered deployed.
+ */
 function markAsDeployedByTicketAndRepo(ticketId, repoName) {
   const queue = getDeployQueue();
   let changed = false;
@@ -160,6 +165,22 @@ module.exports = {
   upsertToQueue,
   getPendingDeploys,
   getPendingCoreDeploys,
+/**
+ * Mark ALL MRs for a ticket as deployed (used when ticket is Finalizado).
+ */
+function markAsDeployedByTicket(ticketId) {
+  const queue = getDeployQueue();
+  let changed = false;
+  for (const item of queue.queue) {
+    if (item.jira_ticket === ticketId && !item.deployed_at) {
+      item.deployed_at = new Date().toISOString();
+      changed = true;
+    }
+  }
+  if (changed) saveDeployQueue(queue);
+}
+
   markAsDeployed,
   markAsDeployedByTicketAndRepo,
+  markAsDeployedByTicket,
 };

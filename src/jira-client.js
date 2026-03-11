@@ -52,13 +52,11 @@ async function jiraFetch(path) {
 async function getRecentlyUpdatedIssues(minutesAgo = 20) {
   const config = getConfig();
 
-  // JQL to find issues updated recently in the GRV project
-  // that have comments (likely containing MR links)
   const jql = encodeURIComponent(
     `project = GRV AND updated >= -${minutesAgo}m ORDER BY updated DESC`
   );
 
-  const fields = "key,summary,status,priority,comment";
+  const fields = "key,summary,status,priority,comment,assignee,components";
   const data = await jiraFetch(`search/jql?jql=${jql}&fields=${fields}&maxResults=50`);
 
   return data.issues || [];
@@ -163,6 +161,11 @@ async function pollJira(minutesAgo = 20) {
       }
     }
 
+    const assignee = issue.fields?.assignee;
+    const assigneeName = assignee?.displayName || "";
+    const assigneeEmail = assignee?.emailAddress || "";
+    const components = (issue.fields?.components || []).map(c => c.name);
+
     results.push({
       issue: {
         key,
@@ -170,12 +173,14 @@ async function pollJira(minutesAgo = 20) {
           status: { name: status },
           priority: { name: priority },
           summary: issue.fields?.summary || "",
+          assignee: { displayName: assigneeName, emailAddress: assigneeEmail },
+          components,
         },
       },
       commentText,
     });
 
-    console.log(`  → ${key} | ${status} | ${priority} | ${commentText.length} chars of comments`);
+    console.log(`  → ${key} | ${status} | ${priority} | ${assigneeName} | [${components.join(', ')}] | ${commentText.length} chars`);
   }
 
   return results;

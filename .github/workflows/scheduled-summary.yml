@@ -2,13 +2,10 @@ name: Scheduled Summary
 
 on:
   schedule:
-    # Horarios pensados para la rutina del PM:
-    # 9:15 ART — 15 min antes de la daily (para que llegue leído)
-    # 13:00 ART — después del almuerzo, antes del bloque de la tarde
-    # 15:00 ART — última revisión antes del cierre
-    - cron: "15 12 * * 1-5"  # 9:15 ART Lun-Vie (pre-daily)
-    - cron: "0 16 * * 1-5"   # 13:00 ART
-    - cron: "0 18 * * 1-5"   # 15:00 ART
+    # 9:15 ART — 15 min antes de la daily
+    # 14:00 ART — después del almuerzo
+    - cron: "15 12 * * 1-5"  # 9:15 ART Lun-Vie
+    - cron: "0 17 * * 1-5"   # 14:00 ART
   
   # Allow manual trigger for testing
   workflow_dispatch:
@@ -16,8 +13,6 @@ on:
 jobs:
   summary:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     timeout-minutes: 5
 
     steps:

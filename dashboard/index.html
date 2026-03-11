@@ -41,18 +41,31 @@
       background: var(--bg-deep);
       color: var(--text-primary);
       min-height: 100vh;
+      position: relative;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: url('./space-cats.png') center center / cover no-repeat;
+      opacity: 0.08;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .app-container {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px 20px;
     }
 
     /* Scrollbar */
     ::-webkit-scrollbar { width: 6px; }
     ::-webkit-scrollbar-track { background: transparent; }
     ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
-
-    .app-container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 24px 20px;
-    }
 
     /* Header */
     .header {
@@ -219,6 +232,23 @@
     .mr-card:hover {
       background: var(--bg-card-hover);
       border-color: var(--border);
+    }
+
+    .mr-card.priority-blocker {
+      box-shadow: 0 0 12px rgba(239, 68, 68, 0.25), inset 0 0 0 1px rgba(239, 68, 68, 0.15);
+      border-color: rgba(239, 68, 68, 0.3);
+    }
+    .mr-card.priority-high {
+      box-shadow: 0 0 12px rgba(245, 158, 11, 0.2), inset 0 0 0 1px rgba(245, 158, 11, 0.12);
+      border-color: rgba(245, 158, 11, 0.25);
+    }
+    .mr-card.priority-medium {
+      box-shadow: 0 0 8px rgba(234, 179, 8, 0.15), inset 0 0 0 1px rgba(234, 179, 8, 0.08);
+      border-color: rgba(234, 179, 8, 0.2);
+    }
+    .mr-card.priority-low {
+      box-shadow: 0 0 8px rgba(59, 130, 246, 0.12), inset 0 0 0 1px rgba(59, 130, 246, 0.08);
+      border-color: rgba(59, 130, 246, 0.15);
     }
 
     .mr-card-header {
@@ -533,64 +563,160 @@
       );
     }
 
-    function MRCard({ item }) {
+    const PM_EMAILS = ["mathias.fraifer@ayi.group"];
+    const PM_NAMES = ["mathias fraifer"];
+
+    function isPMAssigned(item) {
+      const email = (item.assignee_email || '').toLowerCase();
+      const name = (item.assignee_name || '').toLowerCase();
+      return PM_EMAILS.includes(email) || PM_NAMES.some(n => name.includes(n));
+    }
+
+    function statusBadge(status, isPmRelease) {
+      if (isPmRelease) {
+        return <span className="badge" style={{background: 'rgba(245, 158, 11, 0.15)', color: '#f59e0b', fontFamily: 'var(--font-body)', fontWeight: 600}}>Pendiente informe release</span>;
+      }
+      const statusStyles = {
+        'listo para prod': { bg: 'var(--accent-green-dim)', color: 'var(--accent-green)', label: 'LISTO PARA PROD' },
+        'test': { bg: 'rgba(139, 92, 246, 0.15)', color: '#8b5cf6', label: 'TEST' },
+        'en curso': { bg: 'var(--accent-blue-dim)', color: 'var(--accent-blue)', label: 'EN CURSO' },
+        'pendiente de mr': { bg: 'rgba(100, 116, 139, 0.15)', color: '#94a3b8', label: 'PENDIENTE MR' },
+      };
+      const s = statusStyles[(status || '').toLowerCase()] || { bg: 'rgba(100,116,139,0.15)', color: '#64748b', label: status };
+      return <span className="badge" style={{background: s.bg, color: s.color}}>{s.label}</span>;
+    }
+
+    /**
+     * Group MRs by jira_ticket. Each ticket becomes one card.
+     * If any MR in the ticket is core, the ticket is core.
+     */
+    function groupByTicket(items) {
+      const map = {};
+      for (const item of items) {
+        if (!map[item.jira_ticket]) {
+          map[item.jira_ticket] = {
+            jira_ticket: item.jira_ticket,
+            jira_summary: item.jira_summary || item.mr_title || '',
+            jira_url: item.jira_url,
+            jira_status: item.jira_status,
+            jira_priority: item.jira_priority,
+            assignee_name: item.assignee_name || '',
+            assignee_email: item.assignee_email || '',
+            components: item.components || [],
+            is_core: false,
+            is_ready: item.is_ready,
+            priority_weight: 0,
+            detected_at: item.detected_at,
+            mrs: [],
+            core_repos: [],
+            secondary_repos: [],
+          };
+        }
+        const group = map[item.jira_ticket];
+        group.mrs.push(item);
+        if (item.is_core) {
+          group.is_core = true;
+          if (!group.core_repos.includes(item.repo_name)) group.core_repos.push(item.repo_name);
+        } else {
+          if (!group.secondary_repos.includes(item.repo_name)) group.secondary_repos.push(item.repo_name);
+        }
+        if (item.priority_weight > group.priority_weight) group.priority_weight = item.priority_weight;
+        if (item.jira_summary) group.jira_summary = item.jira_summary;
+        if (item.assignee_name) group.assignee_name = item.assignee_name;
+        if (item.assignee_email) group.assignee_email = item.assignee_email;
+        if (item.components && item.components.length > 0) group.components = item.components;
+        if (item.is_ready) group.is_ready = true;
+        // Keep earliest detected_at
+        if (item.detected_at && (!group.detected_at || item.detected_at < group.detected_at)) {
+          group.detected_at = item.detected_at;
+        }
+      }
+      return Object.values(map);
+    }
+
+    function TicketCard({ ticket }) {
+      const pmRelease = ticket.is_ready && isPMAssigned(ticket);
+      const allRepos = [...ticket.core_repos, ...ticket.secondary_repos];
+      const components = ticket.components || [];
+      const pClass = `priority-${priorityClass(ticket.jira_priority)}`;
+
       return (
-        <div className="mr-card">
+        <div className={`mr-card ${pClass}`}>
           <div className="mr-card-header">
             <div className="mr-card-left">
-              <div className={`priority-dot ${priorityClass(item.jira_priority)}`} />
-              <a href={item.jira_url} target="_blank" rel="noopener"
+              <div className={`priority-dot ${priorityClass(ticket.jira_priority)}`} />
+              <a href={ticket.jira_url} target="_blank" rel="noopener"
                  style={{fontFamily: 'var(--font-mono)', fontSize: 13, fontWeight: 600, color: 'var(--accent-blue)', textDecoration: 'none'}}>
-                {item.jira_ticket}
+                {ticket.jira_ticket}
               </a>
               <span style={{fontSize: 12, color: 'var(--text-muted)', padding: '2px 8px', background: 'var(--bg-surface)', borderRadius: 4, fontWeight: 500}}>
-                {item.jira_priority}
+                {ticket.jira_priority}
               </span>
             </div>
             <div className="mr-card-badges">
-              {item.is_core && <span className="badge core-type">CORE</span>}
-              {item.is_ready
-                ? <span className="badge ready">LISTO</span>
-                : <span className="badge not-ready">{item.jira_status}</span>
-              }
+              {ticket.is_core && <span className="badge core-type">CORE</span>}
+              {statusBadge(ticket.jira_status, pmRelease)}
             </div>
           </div>
 
-          {/* Título del ticket — lo que le importa al PM */}
-          <div style={{fontSize: 15, fontWeight: 600, color: 'var(--text-primary)', marginBottom: 6, lineHeight: 1.4}}>
-            {item.jira_summary || item.mr_title || 'Sin descripción'}
+          {/* Título del ticket */}
+          <div style={{fontSize: 15, fontWeight: 600, color: 'var(--text-primary)', marginBottom: 4, lineHeight: 1.4}}>
+            {ticket.jira_summary}
           </div>
 
-          {/* Servicio afectado */}
-          <div style={{fontSize: 13, color: 'var(--text-secondary)', marginBottom: 10}}>
-            Servicio: <span style={{fontFamily: 'var(--font-mono)', fontWeight: 500, color: 'var(--text-primary)'}}>{item.repo_name}</span>
-            <span style={{margin: '0 8px', color: 'var(--border)'}}>·</span>
-            por {item.author}
-            <span style={{margin: '0 8px', color: 'var(--border)'}}>·</span>
-            hace {timeAgo(item.detected_at)}
+          {/* Componente de Jira */}
+          {components.length > 0 && (
+            <div style={{fontSize: 12, color: 'var(--accent-purple)', marginBottom: 6}}>
+              {components.join(', ')}
+            </div>
+          )}
+
+          {/* Servicios afectados */}
+          <div style={{fontSize: 13, color: 'var(--text-secondary)', marginBottom: 4}}>
+            {ticket.core_repos.length > 0 && (
+              <span>Servicios core: <span style={{fontFamily: 'var(--font-mono)', fontWeight: 500, color: 'var(--accent-red)'}}>{ticket.core_repos.join(', ')}</span></span>
+            )}
+            {ticket.core_repos.length > 0 && ticket.secondary_repos.length > 0 && (
+              <span style={{margin: '0 6px', color: 'var(--border)'}}>·</span>
+            )}
+            {ticket.secondary_repos.length > 0 && (
+              <span>Secundarios: <span style={{fontFamily: 'var(--font-mono)', fontWeight: 500, color: 'var(--text-muted)'}}>{ticket.secondary_repos.join(', ')}</span></span>
+            )}
           </div>
 
-          {/* Links discretos al final */}
-          <div style={{display: 'flex', gap: 12, fontSize: 12}}>
-            <a href={item.jira_url} target="_blank" rel="noopener"
+          {/* Asignado + tiempo */}
+          <div style={{fontSize: 12, color: 'var(--text-muted)', marginBottom: 10}}>
+            {ticket.assignee_name && <span>Asignado a: {ticket.assignee_name}</span>}
+            {ticket.assignee_name && <span style={{margin: '0 6px', color: 'var(--border)'}}>·</span>}
+            <span>hace {timeAgo(ticket.detected_at)}</span>
+          </div>
+
+          {/* Links */}
+          <div style={{display: 'flex', gap: 12, fontSize: 12, flexWrap: 'wrap'}}>
+            <a href={ticket.jira_url} target="_blank" rel="noopener"
                style={{color: 'var(--accent-blue)', textDecoration: 'none', opacity: 0.8}}>
               Ver en Jira ↗
             </a>
-            <a href={item.mr_url} target="_blank" rel="noopener"
-               style={{color: 'var(--accent-purple)', textDecoration: 'none', opacity: 0.6}}>
-              MR !{item.mr_id} en GitLab ↗
-            </a>
+            {ticket.mrs.map(mr => (
+              <a key={mr.mr_id} href={mr.mr_url} target="_blank" rel="noopener"
+                 style={{color: 'var(--accent-purple)', textDecoration: 'none', opacity: 0.6}}>
+                MR !{mr.mr_id} {mr.repo_name} ↗
+              </a>
+            ))}
           </div>
         </div>
       );
     }
 
     function QueuePanel({ queue }) {
-      const core = queue.filter(i => i.is_core && !i.deployed_at);
-      const secondary = queue.filter(i => !i.is_core && !i.deployed_at);
+      // Filter out deployed and finalized
+      const active = queue.filter(i => !i.deployed_at);
+      const tickets = groupByTicket(active);
+      const coreTickets = tickets.filter(t => t.is_core);
+      const secondaryTickets = tickets.filter(t => !t.is_core);
       const sorted = (arr) => [...arr].sort((a, b) => b.priority_weight - a.priority_weight);
 
-      if (core.length === 0 && secondary.length === 0) {
+      if (tickets.length === 0) {
         return (
           <div className="empty-state">
             <div className="empty-icon">✅</div>
@@ -602,31 +728,31 @@
 
       return (
         <div>
-          {core.length > 0 && (
+          {coreTickets.length > 0 && (
             <>
               <div className="mr-group-title">
                 <span className="mr-group-badge core">CORE</span>
                 Requieren ventana de no uso — 19hs
                 <span style={{marginLeft: 'auto', fontFamily: 'var(--font-mono)', fontSize: 11}}>
-                  {core.length} pendiente{core.length > 1 ? 's' : ''}
+                  {coreTickets.length} ticket{coreTickets.length > 1 ? 's' : ''}
                 </span>
               </div>
-              {sorted(core).map(item => (
-                <MRCard key={`${item.jira_ticket}-${item.mr_id}`} item={item} />
+              {sorted(coreTickets).map(ticket => (
+                <TicketCard key={ticket.jira_ticket} ticket={ticket} />
               ))}
             </>
           )}
-          {secondary.length > 0 && (
+          {secondaryTickets.length > 0 && (
             <>
-              <div className="mr-group-title" style={{ marginTop: core.length > 0 ? 24 : 0 }}>
+              <div className="mr-group-title" style={{ marginTop: coreTickets.length > 0 ? 24 : 0 }}>
                 <span className="mr-group-badge secondary">SECUNDARIO</span>
                 Deploy directo
                 <span style={{marginLeft: 'auto', fontFamily: 'var(--font-mono)', fontSize: 11}}>
-                  {secondary.length} pendiente{secondary.length > 1 ? 's' : ''}
+                  {secondaryTickets.length} ticket{secondaryTickets.length > 1 ? 's' : ''}
                 </span>
               </div>
-              {sorted(secondary).map(item => (
-                <MRCard key={`${item.jira_ticket}-${item.mr_id}`} item={item} />
+              {sorted(secondaryTickets).map(ticket => (
+                <TicketCard key={ticket.jira_ticket} ticket={ticket} />
               ))}
             </>
           )}
@@ -639,11 +765,13 @@
       const results = useMemo(() => {
         if (!search.trim()) return [];
         const q = search.toLowerCase();
-        return queue.filter(i =>
+        const filtered = queue.filter(i =>
           i.jira_ticket.toLowerCase().includes(q) ||
           i.repo_name.toLowerCase().includes(q) ||
-          i.mr_title.toLowerCase().includes(q)
+          (i.jira_summary || '').toLowerCase().includes(q) ||
+          (i.components || []).some(c => c.toLowerCase().includes(q))
         );
+        return groupByTicket(filtered);
       }, [search, queue]);
 
       return (
@@ -651,7 +779,7 @@
           <div className="config-input-row" style={{ marginBottom: 20 }}>
             <input
               className="config-input"
-              placeholder="Buscar por ticket (ART-1234), repo o título de MR..."
+              placeholder="Buscar por ticket (GRV-1234), servicio, tema o componente..."
               value={search}
               onChange={e => setSearch(e.target.value)}
             />
@@ -660,11 +788,11 @@
             <div className="empty-state">
               <div className="empty-icon">🔍</div>
               <div className="empty-title">Sin resultados</div>
-              <div className="empty-desc">No se encontraron MRs para "{search}"</div>
+              <div className="empty-desc">No se encontraron tickets para "{search}"</div>
             </div>
           )}
-          {results.map(item => (
-            <MRCard key={`${item.jira_ticket}-${item.mr_id}`} item={item} />
+          {results.map(ticket => (
+            <TicketCard key={ticket.jira_ticket} ticket={ticket} />
           ))}
         </div>
       );

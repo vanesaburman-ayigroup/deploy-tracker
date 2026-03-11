@@ -4,6 +4,7 @@ const {
   calculatePriorityWeight,
   extractMRLinks,
   isReadyForProd,
+  isFinalized,
 } = require("./classify");
 const { getMergeRequests } = require("./gitlab-client");
 const { generateAlertMessage } = require("./gemini-client");
@@ -50,6 +51,14 @@ async function main() {
     const jiraPriority = issue.fields?.priority?.name || "";
     const isReady = isReadyForProd(jiraStatus);
 
+    // If ticket is Finalizado, mark all its MRs as deployed and skip
+    if (isFinalized(jiraStatus)) {
+      const { markAsDeployedByTicket } = require("./state");
+      markAsDeployedByTicket(ticketId);
+      console.log(`\n✅ ${ticketId} is finalized — marked as deployed`);
+      continue;
+    }
+
     // Extract MR links from comments
     const mrLinks = extractMRLinks(commentText, config.gitlab_base_url);
 
@@ -88,9 +97,12 @@ async function main() {
         author: mr.author,
         is_ready: isReady,
         priority_weight: weight,
+        assignee_name: issue.fields?.assignee?.displayName || "",
+        assignee_email: issue.fields?.assignee?.emailAddress || "",
+        components: issue.fields?.components || [],
       };
 
-           console.log(
+      console.log(
         `  → ${mr.repo_name} (${classification.type}) | Core: ${classification.isCore} | Alert: ${alertPriority} | Ready: ${isReady} | Branch: ${mr.target_branch} | MR: ${mr.state}`
       );
 
@@ -100,15 +112,17 @@ async function main() {
 
       if (isDeployedToProd) {
         console.log(`  ✅ MR to ${mr.target_branch} is merged — marking ${ticketId}/${mr.repo_name} as deployed to production`);
+        // Mark ALL MRs for this ticket+repo as deployed (the develop MR too)
         const { markAsDeployedByTicketAndRepo } = require("./state");
         markAsDeployedByTicketAndRepo(ticketId, mr.repo_name);
         processedMRs++;
-        continue;
+        continue; // Don't re-alert for production MRs
       }
 
       // Update deploy queue
       upsertToQueue(entry);
       processedMRs++;
+
       // Immediate alert for core + high priority + ready
       if (classification.isCore && alertPriority && isReady) {
         const alreadyNotified = wasAlreadyNotified(ticketId, mr.iid, "alert_ready");
@@ -124,7 +138,7 @@ async function main() {
               const htmlBody = alertToHtml(entry, config);
               const cc = config.cc_email || "";
               const jiraSummary = issue.fields?.summary || entry.mr_title || "";
-              const subject = `ALERTA DEPLOY CORE - ${entry.repo_name} - ${entry.jira_ticket} - Solicitar ventana ${config.deploy_window_hour}hs - ${jiraSummary}`;
+              const subject = `🚨 DEPLOY CORE: ${entry.repo_name} — ${entry.jira_ticket} [${entry.jira_priority}] — Solicitar ventana ${config.deploy_window_hour}hs — ${jiraSummary}`;
               await sendEmail(
                 config.pm_email,
                 subject,

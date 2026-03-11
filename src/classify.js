@@ -116,17 +116,29 @@ function extractMRLinks(commentText, gitlabBaseUrl) {
 function isReadyForProd(jiraStatus) {
   if (!jiraStatus) return false;
   const readyStatuses = [
-    "ready for prod",
-    "ready for production",
     "listo para prod",
     "listo para produccion",
     "listo para producción",
+    "ready for prod",
+    "ready for production",
     "ready to deploy",
-    "aprobado qa",
-    "qa aprobado",
-    "done",
   ];
   return readyStatuses.includes(jiraStatus.toLowerCase().trim());
+}
+
+/**
+ * Check if a ticket is finalized (should disappear from dashboard).
+ */
+function isFinalized(jiraStatus) {
+  if (!jiraStatus) return false;
+  const finalStatuses = [
+    "finalizado",
+    "cerrado",
+    "closed",
+    "done",
+    "finished",
+  ];
+  return finalStatuses.includes(jiraStatus.toLowerCase().trim());
 }
 
 module.exports = {
@@ -135,4 +147,5 @@ module.exports = {
   calculatePriorityWeight,
   extractMRLinks,
   isReadyForProd,
+  isFinalized,
 };
