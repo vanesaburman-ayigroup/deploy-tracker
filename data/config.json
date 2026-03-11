@@ -28,11 +28,11 @@
     "solicitudesgenericas",
     "logistica"
   ],
-  "alert_priorities": ["Blocker", "High", "Highest"],
+  "alert_priorities": ["Blocker", "Bloqueante", "High", "Highest", "Alta", "Más alta"],
   "priority_groups": [
     {
       "name": "bugs-produccion",
-      "jql": "project = GRV AND type = Bug AND priority in (Highest, High)",
+      "jql": "project = GRV AND type = Bug AND priority in (Bloqueante, Alta, 'Más alta')",
       "weight": 20
     },
     {
