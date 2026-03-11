@@ -9,8 +9,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  poll:
+  summary:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     timeout-minutes: 5
 
     steps:
