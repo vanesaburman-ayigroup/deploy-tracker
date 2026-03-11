@@ -153,18 +153,6 @@ function markAsDeployedByTicketAndRepo(ticketId, repoName) {
   }
 }
 
-module.exports = {
-  getConfig,
-  getDeployQueue,
-  saveDeployQueue,
-  getNotificationLog,
-  saveNotificationLog,
-  generateEventHash,
-  wasAlreadyNotified,
-  recordNotification,
-  upsertToQueue,
-  getPendingDeploys,
-  getPendingCoreDeploys,
 /**
  * Mark ALL MRs for a ticket as deployed (used when ticket is Finalizado).
  */
@@ -180,6 +168,18 @@ function markAsDeployedByTicket(ticketId) {
   if (changed) saveDeployQueue(queue);
 }
 
+module.exports = {
+  getConfig,
+  getDeployQueue,
+  saveDeployQueue,
+  getNotificationLog,
+  saveNotificationLog,
+  generateEventHash,
+  wasAlreadyNotified,
+  recordNotification,
+  upsertToQueue,
+  getPendingDeploys,
+  getPendingCoreDeploys,
   markAsDeployed,
   markAsDeployedByTicketAndRepo,
   markAsDeployedByTicket,
