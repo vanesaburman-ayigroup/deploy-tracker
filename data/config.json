@@ -42,6 +42,7 @@
   ],
   "deploy_window_hour": 19,
   "pm_email": "mathias.fraifer@ayi.group",
+  "cc_email": "vanesa.burman@ayi.group",
   "jira_base_url": "https://ayigroup.atlassian.net/",
   "gitlab_base_url": "https://gitlab.com/grvx",
   "summary_hours_utc": ["12:30", "16:00", "18:00"],
