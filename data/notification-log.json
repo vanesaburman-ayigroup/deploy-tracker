@@ -1,32 +1,4 @@
 {
-  "notifications": [
-    {
-      "event_hash": "fdc15cec7facbb1f",
-      "ticket_id": "GRV-1645",
-      "mr_id": 114,
-      "status": "alert_ready",
-      "channel": "email",
-      "sent_at": "2026-03-11T14:27:55.124Z",
-      "payload": "¡Atención PM! GRV-1645 (core) listo para deploy."
-    },
-    {
-      "event_hash": "7630bc2792a9c371",
-      "ticket_id": "GRV-1645",
-      "mr_id": 114,
-      "status": "calendar_event",
-      "channel": "calendar",
-      "sent_at": "2026-03-11T14:27:55.711Z",
-      "payload": "Event created"
-    },
-    {
-      "event_hash": "63983b7ef66043eb",
-      "ticket_id": "GRV-1645",
-      "mr_id": 114,
-      "status": "alert_slack",
-      "channel": "slack",
-      "sent_at": "2026-03-11T14:27:55.712Z",
-      "payload": "🚨 CORE listo: wsmesacarga (GRV-1645) — Bloqueante"
-    }
-  ],
-  "last_checked": "2026-03-11T14:27:55.712Z"
+  "notifications": [],
+  "last_checked": null
 }
