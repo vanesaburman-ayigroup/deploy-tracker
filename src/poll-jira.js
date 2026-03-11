@@ -90,14 +90,25 @@ async function main() {
         priority_weight: weight,
       };
 
-      console.log(
-        `  → ${mr.repo_name} (${classification.type}) | Core: ${classification.isCore} | Alert: ${alertPriority} | Ready: ${isReady}`
+           console.log(
+        `  → ${mr.repo_name} (${classification.type}) | Core: ${classification.isCore} | Alert: ${alertPriority} | Ready: ${isReady} | Branch: ${mr.target_branch} | MR: ${mr.state}`
       );
+
+      // Check if this is a MR to master/main that's merged = deployed to prod
+      const prodBranches = ["master", "main"];
+      const isDeployedToProd = prodBranches.includes(mr.target_branch) && mr.state === "merged";
+
+      if (isDeployedToProd) {
+        console.log(`  ✅ MR to ${mr.target_branch} is merged — marking ${ticketId}/${mr.repo_name} as deployed to production`);
+        const { markAsDeployedByTicketAndRepo } = require("./state");
+        markAsDeployedByTicketAndRepo(ticketId, mr.repo_name);
+        processedMRs++;
+        continue;
+      }
 
       // Update deploy queue
       upsertToQueue(entry);
       processedMRs++;
-
       // Immediate alert for core + high priority + ready
       if (classification.isCore && alertPriority && isReady) {
         const alreadyNotified = wasAlreadyNotified(ticketId, mr.iid, "alert_ready");

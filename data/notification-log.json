@@ -1,32 +1,32 @@
 {
   "notifications": [
     {
-      "event_hash": "fdc15cec7facbb1f",
-      "ticket_id": "GRV-1645",
-      "mr_id": 114,
+      "event_hash": "5a198b180b1d1abf",
+      "ticket_id": "GRV-1661",
+      "mr_id": 1208,
       "status": "alert_ready",
       "channel": "email",
-      "sent_at": "2026-03-11T14:27:55.124Z",
-      "payload": "¡Atención PM! GRV-1645 (core) listo para deploy."
+      "sent_at": "2026-03-11T15:27:14.916Z",
+      "payload": " PM: Necesitamos deploy GRV-1661 (wsdocumento). Es bloqueante"
     },
     {
-      "event_hash": "7630bc2792a9c371",
-      "ticket_id": "GRV-1645",
-      "mr_id": 114,
+      "event_hash": "f18b549c505c8e1a",
+      "ticket_id": "GRV-1661",
+      "mr_id": 1208,
       "status": "calendar_event",
       "channel": "calendar",
-      "sent_at": "2026-03-11T14:27:55.711Z",
+      "sent_at": "2026-03-11T15:27:15.604Z",
       "payload": "Event created"
     },
     {
-      "event_hash": "63983b7ef66043eb",
-      "ticket_id": "GRV-1645",
-      "mr_id": 114,
+      "event_hash": "5c7812e54e1378d9",
+      "ticket_id": "GRV-1661",
+      "mr_id": 1208,
       "status": "alert_slack",
       "channel": "slack",
-      "sent_at": "2026-03-11T14:27:55.712Z",
-      "payload": "🚨 CORE listo: wsmesacarga (GRV-1645) — Bloqueante"
+      "sent_at": "2026-03-11T15:27:15.604Z",
+      "payload": "🚨 CORE listo: wsdocumento (GRV-1661) — Bloqueante"
     }
   ],
-  "last_checked": "2026-03-11T14:27:55.712Z"
+  "last_checked": "2026-03-11T15:27:15.604Z"
 }

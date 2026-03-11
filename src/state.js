@@ -134,6 +134,20 @@ function markAsDeployed(ticketId, mrId) {
   }
 }
 
+function markAsDeployedByTicketAndRepo(ticketId, repoName) {
+  const queue = getDeployQueue();
+  let changed = false;
+  for (const item of queue.queue) {
+    if (item.jira_ticket === ticketId && item.repo_name === repoName && !item.deployed_at) {
+      item.deployed_at = new Date().toISOString();
+      changed = true;
+    }
+  }
+  if (changed) {
+    saveDeployQueue(queue);
+  }
+}
+
 module.exports = {
   getConfig,
   getDeployQueue,
@@ -147,4 +161,5 @@ module.exports = {
   getPendingDeploys,
   getPendingCoreDeploys,
   markAsDeployed,
+  markAsDeployedByTicketAndRepo,
 };
