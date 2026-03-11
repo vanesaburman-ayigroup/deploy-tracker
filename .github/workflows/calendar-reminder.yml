@@ -1,0 +1,32 @@
+name: Calendar Reminder
+
+on:
+  schedule:
+    # 18:30 ART = 21:30 UTC
+    - cron: "30 21 * * 1-5"  # Lun-Vie
+  
+  workflow_dispatch:
+
+jobs:
+  reminder:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci --production
+
+      - name: Check and create calendar event
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          PM_CALENDAR_ID: ${{ secrets.PM_CALENDAR_ID }}
+        run: node src/calendar-reminder.js

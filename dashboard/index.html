@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deploy Tracker — GRV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+  <style>
+    :root {
+      --bg-deep: #0a0e17;
+      --bg-surface: #111827;
+      --bg-card: #1a2235;
+      --bg-card-hover: #1f2a40;
+      --border: #2a3650;
+      --border-subtle: #1e2d45;
+      --text-primary: #e8edf5;
+      --text-secondary: #8899b3;
+      --text-muted: #5a6a85;
+      --accent-blue: #3b82f6;
+      --accent-blue-dim: rgba(59, 130, 246, 0.15);
+      --accent-red: #ef4444;
+      --accent-red-dim: rgba(239, 68, 68, 0.12);
+      --accent-orange: #f59e0b;
+      --accent-orange-dim: rgba(245, 158, 11, 0.12);
+      --accent-green: #10b981;
+      --accent-green-dim: rgba(16, 185, 129, 0.12);
+      --accent-purple: #8b5cf6;
+      --radius: 10px;
+      --font-body: 'Outfit', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-deep);
+      color: var(--text-primary);
+      min-height: 100vh;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+    .app-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px 20px;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 32px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .header-left { display: flex; align-items: center; gap: 14px; }
+
+    .logo-mark {
+      width: 40px; height: 40px;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+      box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
+    }
+
+    .header-title {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .header-subtitle {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+
+    .header-right { display: flex; gap: 10px; align-items: center; }
+
+    .last-update {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    /* Stats bar */
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    .stat-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stat-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 3px; height: 100%;
+    }
+
+    .stat-card.red::before { background: var(--accent-red); }
+    .stat-card.orange::before { background: var(--accent-orange); }
+    .stat-card.green::before { background: var(--accent-green); }
+    .stat-card.blue::before { background: var(--accent-blue); }
+
+    .stat-label {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      font-weight: 500;
+      margin-bottom: 6px;
+    }
+
+    .stat-value {
+      font-size: 28px;
+      font-weight: 700;
+      font-family: var(--font-mono);
+    }
+
+    .stat-card.red .stat-value { color: var(--accent-red); }
+    .stat-card.orange .stat-value { color: var(--accent-orange); }
+    .stat-card.green .stat-value { color: var(--accent-green); }
+    .stat-card.blue .stat-value { color: var(--accent-blue); }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 2px;
+      margin-bottom: 20px;
+      background: var(--bg-surface);
+      border-radius: var(--radius);
+      padding: 3px;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .tab {
+      flex: 1;
+      padding: 10px 16px;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-family: var(--font-body);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: all 0.2s;
+    }
+
+    .tab:hover { color: var(--text-secondary); }
+    .tab.active {
+      background: var(--bg-card);
+      color: var(--text-primary);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    }
+
+    /* MR Cards */
+    .mr-group-title {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border-subtle);
+      display: flex; align-items: center; gap: 8px;
+    }
+
+    .mr-group-badge {
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      font-family: var(--font-mono);
+    }
+
+    .mr-group-badge.core {
+      background: var(--accent-red-dim);
+      color: var(--accent-red);
+    }
+
+    .mr-group-badge.secondary {
+      background: var(--accent-green-dim);
+      color: var(--accent-green);
+    }
+
+    .mr-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      margin-bottom: 10px;
+      transition: all 0.15s;
+      cursor: default;
+    }
+
+    .mr-card:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--border);
+    }
+
+    .mr-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+
+    .mr-card-left { display: flex; align-items: center; gap: 10px; }
+
+    .priority-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .priority-dot.blocker { background: var(--accent-red); box-shadow: 0 0 8px var(--accent-red); }
+    .priority-dot.high { background: var(--accent-orange); box-shadow: 0 0 8px var(--accent-orange); }
+    .priority-dot.medium { background: var(--accent-blue); }
+    .priority-dot.low { background: var(--accent-green); }
+
+    .ticket-id {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent-blue);
+    }
+
+    .repo-name {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .mr-card-badges { display: flex; gap: 6px; }
+
+    .badge {
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-family: var(--font-mono);
+      font-weight: 600;
+    }
+
+    .badge.ready {
+      background: var(--accent-green-dim);
+      color: var(--accent-green);
+    }
+
+    .badge.not-ready {
+      background: rgba(100, 116, 139, 0.15);
+      color: #64748b;
+    }
+
+    .badge.core-type {
+      background: var(--accent-red-dim);
+      color: var(--accent-red);
+    }
+
+    .mr-title {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    .mr-meta {
+      display: flex;
+      gap: 16px;
+      font-size: 12px;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    .mr-meta a {
+      color: var(--accent-blue);
+      text-decoration: none;
+      opacity: 0.7;
+      transition: opacity 0.15s;
+    }
+
+    .mr-meta a:hover { opacity: 1; }
+
+    /* Config panel */
+    .config-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+
+    .config-title {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: var(--text-primary);
+    }
+
+    .config-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+
+    .config-chip {
+      display: flex; align-items: center; gap: 6px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 12px;
+      font-family: var(--font-mono);
+      color: var(--text-secondary);
+    }
+
+    .config-chip .remove-btn {
+      background: none; border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 14px;
+      padding: 0 2px;
+      transition: color 0.15s;
+    }
+
+    .config-chip .remove-btn:hover { color: var(--accent-red); }
+
+    .config-input-row { display: flex; gap: 8px; }
+
+    .config-input {
+      flex: 1;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 8px 12px;
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+
+    .config-input:focus { border-color: var(--accent-blue); }
+    .config-input::placeholder { color: var(--text-muted); }
+
+    .btn {
+      padding: 8px 16px;
+      border-radius: 6px;
+      border: none;
+      font-family: var(--font-body);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .btn-primary {
+      background: var(--accent-blue);
+      color: white;
+    }
+
+    .btn-primary:hover { background: #2563eb; }
+
+    .btn-secondary {
+      background: var(--bg-surface);
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+    }
+
+    .btn-secondary:hover {
+      background: var(--bg-card-hover);
+      color: var(--text-primary);
+    }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+
+    .empty-icon { font-size: 40px; margin-bottom: 12px; }
+    .empty-title { font-size: 16px; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px; }
+    .empty-desc { font-size: 13px; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .stats-bar { grid-template-columns: repeat(2, 1fr); }
+      .header { flex-direction: column; align-items: flex-start; gap: 12px; }
+      .mr-card-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+      .mr-meta { flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel">
+    const { useState, useEffect, useMemo } = React;
+
+    // ── Demo data (replace with GitHub API fetch in production) ──
+    const DEMO_QUEUE = [
+      {
+        jira_ticket: "ART-4521", mr_id: 892, mr_title: "Fix campo nro_siniestro_srt (20 chars)",
+        repo_name: "wssiniestralidad", project_path: "grv/backend/wssiniestralidad",
+        service_type: "core_backend", is_core: true, jira_priority: "Blocker",
+        jira_status: "Ready for Prod", mr_status: "merged", is_ready: true,
+        source_branch: "fix/campo-siniestro", target_branch: "develop",
+        mr_url: "#", jira_url: "#", author: "vane", priority_weight: 190,
+        detected_at: new Date(Date.now() - 14 * 3600000).toISOString(), deployed_at: null,
+      },
+      {
+        jira_ticket: "ART-4518", mr_id: 445, mr_title: "Geocoding fix para direcciones CABA",
+        repo_name: "wslogistica", project_path: "grv/backend/wslogistica",
+        service_type: "core_backend", is_core: true, jira_priority: "High",
+        jira_status: "Ready for Prod", mr_status: "merged", is_ready: true,
+        source_branch: "fix/geocoding-caba", target_branch: "develop",
+        mr_url: "#", jira_url: "#", author: "vane", priority_weight: 180,
+        detected_at: new Date(Date.now() - 20 * 3600000).toISOString(), deployed_at: null,
+      },
+      {
+        jira_ticket: "ART-4530", mr_id: 112, mr_title: "Nuevo reporte mensual SRT",
+        repo_name: "ws-reportes", project_path: "grv/backend/ws-reportes",
+        service_type: "secondary_backend", is_core: false, jira_priority: "Medium",
+        jira_status: "Ready for Prod", mr_status: "merged", is_ready: true,
+        source_branch: "feat/reporte-mensual", target_branch: "develop",
+        mr_url: "#", jira_url: "#", author: "caren", priority_weight: 70,
+        detected_at: new Date(Date.now() - 48 * 3600000).toISOString(), deployed_at: null,
+      },
+      {
+        jira_ticket: "ART-4535", mr_id: 67, mr_title: "Fix validación CIE-10 en formulario alta",
+        repo_name: "portal-art", project_path: "grv/frontend/portal-art",
+        service_type: "core_frontend", is_core: true, jira_priority: "High",
+        jira_status: "QA Aprobado", mr_status: "merged", is_ready: true,
+        source_branch: "fix/cie10-validation", target_branch: "develop",
+        mr_url: "#", jira_url: "#", author: "diego", priority_weight: 180,
+        detected_at: new Date(Date.now() - 5 * 3600000).toISOString(), deployed_at: null,
+      },
+      {
+        jira_ticket: "ART-4540", mr_id: 23, mr_title: "Update landing logos",
+        repo_name: "landing-grv", project_path: "grv/frontend/landing-grv",
+        service_type: "secondary_frontend", is_core: false, jira_priority: "Low",
+        jira_status: "In Progress", mr_status: "opened", is_ready: false,
+        source_branch: "chore/logos", target_branch: "develop",
+        mr_url: "#", jira_url: "#", author: "caren", priority_weight: 10,
+        detected_at: new Date(Date.now() - 2 * 3600000).toISOString(), deployed_at: null,
+      },
+    ];
+
+    const DEMO_CONFIG = {
+      core_backend: ["wssiniestralidad", "wslogistica", "wsauditoriafacturacion", "wsauditoriatraslados", "ws-srt-integration", "ws-prestadores"],
+      core_frontend: ["portal-art", "portal-prestador", "portal-srt"],
+      alert_priorities: ["Blocker", "High"],
+      deploy_window_hour: 19,
+    };
+
+    // ── Helpers ──
+    function timeAgo(dateStr) {
+      const diff = Date.now() - new Date(dateStr).getTime();
+      const hours = Math.floor(diff / 3600000);
+      if (hours < 1) return `${Math.floor(diff / 60000)}m`;
+      if (hours < 24) return `${hours}h`;
+      return `${Math.floor(hours / 24)}d`;
+    }
+
+    function priorityClass(p) {
+      if (!p) return "low";
+      const l = p.toLowerCase();
+      if (l === "blocker" || l === "highest") return "blocker";
+      if (l === "high") return "high";
+      if (l === "medium") return "medium";
+      return "low";
+    }
+
+    // ── Components ──
+    function StatCard({ label, value, color }) {
+      return (
+        <div className={`stat-card ${color}`}>
+          <div className="stat-label">{label}</div>
+          <div className="stat-value">{value}</div>
+        </div>
+      );
+    }
+
+    function MRCard({ item }) {
+      return (
+        <div className="mr-card">
+          <div className="mr-card-header">
+            <div className="mr-card-left">
+              <div className={`priority-dot ${priorityClass(item.jira_priority)}`} />
+              <span className="ticket-id">{item.jira_ticket}</span>
+              <span className="repo-name">{item.repo_name}</span>
+            </div>
+            <div className="mr-card-badges">
+              {item.is_core && <span className="badge core-type">CORE</span>}
+              {item.is_ready
+                ? <span className="badge ready">READY</span>
+                : <span className="badge not-ready">{item.jira_status}</span>
+              }
+            </div>
+          </div>
+          <div className="mr-title">!{item.mr_id}: {item.mr_title}</div>
+          <div className="mr-meta">
+            <span>{item.source_branch} → {item.target_branch}</span>
+            <span>por {item.author}</span>
+            <span>hace {timeAgo(item.detected_at)}</span>
+            <a href={item.jira_url} target="_blank" rel="noopener">Jira ↗</a>
+            <a href={item.mr_url} target="_blank" rel="noopener">GitLab ↗</a>
+          </div>
+        </div>
+      );
+    }
+
+    function QueuePanel({ queue }) {
+      const core = queue.filter(i => i.is_core && !i.deployed_at);
+      const secondary = queue.filter(i => !i.is_core && !i.deployed_at);
+      const sorted = (arr) => [...arr].sort((a, b) => b.priority_weight - a.priority_weight);
+
+      if (core.length === 0 && secondary.length === 0) {
+        return (
+          <div className="empty-state">
+            <div className="empty-icon">✅</div>
+            <div className="empty-title">Todo deployado</div>
+            <div className="empty-desc">No hay MRs pendientes de deploy</div>
+          </div>
+        );
+      }
+
+      return (
+        <div>
+          {core.length > 0 && (
+            <>
+              <div className="mr-group-title">
+                <span className="mr-group-badge core">CORE</span>
+                Requieren ventana de no uso — 19hs
+                <span style={{marginLeft: 'auto', fontFamily: 'var(--font-mono)', fontSize: 11}}>
+                  {core.length} pendiente{core.length > 1 ? 's' : ''}
+                </span>
+              </div>
+              {sorted(core).map(item => (
+                <MRCard key={`${item.jira_ticket}-${item.mr_id}`} item={item} />
+              ))}
+            </>
+          )}
+          {secondary.length > 0 && (
+            <>
+              <div className="mr-group-title" style={{ marginTop: core.length > 0 ? 24 : 0 }}>
+                <span className="mr-group-badge secondary">SECUNDARIO</span>
+                Deploy directo
+                <span style={{marginLeft: 'auto', fontFamily: 'var(--font-mono)', fontSize: 11}}>
+                  {secondary.length} pendiente{secondary.length > 1 ? 's' : ''}
+                </span>
+              </div>
+              {sorted(secondary).map(item => (
+                <MRCard key={`${item.jira_ticket}-${item.mr_id}`} item={item} />
+              ))}
+            </>
+          )}
+        </div>
+      );
+    }
+
+    function SearchPanel({ queue }) {
+      const [search, setSearch] = useState('');
+      const results = useMemo(() => {
+        if (!search.trim()) return [];
+        const q = search.toLowerCase();
+        return queue.filter(i =>
+          i.jira_ticket.toLowerCase().includes(q) ||
+          i.repo_name.toLowerCase().includes(q) ||
+          i.mr_title.toLowerCase().includes(q)
+        );
+      }, [search, queue]);
+
+      return (
+        <div>
+          <div className="config-input-row" style={{ marginBottom: 20 }}>
+            <input
+              className="config-input"
+              placeholder="Buscar por ticket (ART-1234), repo o título de MR..."
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+            />
+          </div>
+          {search.trim() && results.length === 0 && (
+            <div className="empty-state">
+              <div className="empty-icon">🔍</div>
+              <div className="empty-title">Sin resultados</div>
+              <div className="empty-desc">No se encontraron MRs para "{search}"</div>
+            </div>
+          )}
+          {results.map(item => (
+            <MRCard key={`${item.jira_ticket}-${item.mr_id}`} item={item} />
+          ))}
+        </div>
+      );
+    }
+
+    function ConfigPanel({ config, onConfigChange }) {
+      const [newBackend, setNewBackend] = useState('');
+      const [newFrontend, setNewFrontend] = useState('');
+
+      const addRepo = (list, value, setter) => {
+        if (!value.trim()) return;
+        const updated = { ...config, [list]: [...config[list], value.trim()] };
+        onConfigChange(updated);
+        setter('');
+      };
+
+      const removeRepo = (list, idx) => {
+        const updated = { ...config, [list]: config[list].filter((_, i) => i !== idx) };
+        onConfigChange(updated);
+      };
+
+      return (
+        <div>
+          <div className="config-section">
+            <div className="config-title">🔴 Backend Core</div>
+            <div className="config-list">
+              {config.core_backend.map((repo, i) => (
+                <div key={repo} className="config-chip">
+                  {repo}
+                  <button className="remove-btn" onClick={() => removeRepo('core_backend', i)}>×</button>
+                </div>
+              ))}
+            </div>
+            <div className="config-input-row">
+              <input
+                className="config-input"
+                placeholder="Nombre del repo (ej: ws-turnos)"
+                value={newBackend}
+                onChange={e => setNewBackend(e.target.value)}
+                onKeyDown={e => e.key === 'Enter' && addRepo('core_backend', newBackend, setNewBackend)}
+              />
+              <button className="btn btn-primary" onClick={() => addRepo('core_backend', newBackend, setNewBackend)}>
+                Agregar
+              </button>
+            </div>
+          </div>
+
+          <div className="config-section">
+            <div className="config-title">🟠 Frontend Core</div>
+            <div className="config-list">
+              {config.core_frontend.map((repo, i) => (
+                <div key={repo} className="config-chip">
+                  {repo}
+                  <button className="remove-btn" onClick={() => removeRepo('core_frontend', i)}>×</button>
+                </div>
+              ))}
+            </div>
+            <div className="config-input-row">
+              <input
+                className="config-input"
+                placeholder="Nombre del repo (ej: portal-admin)"
+                value={newFrontend}
+                onChange={e => setNewFrontend(e.target.value)}
+                onKeyDown={e => e.key === 'Enter' && addRepo('core_frontend', newFrontend, setNewFrontend)}
+              />
+              <button className="btn btn-primary" onClick={() => addRepo('core_frontend', newFrontend, setNewFrontend)}>
+                Agregar
+              </button>
+            </div>
+          </div>
+
+          <div className="config-section">
+            <div className="config-title">⚙️ Configuración General</div>
+            <div style={{ display: 'grid', gap: 10 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                <span style={{ fontSize: 13, color: 'var(--text-secondary)', minWidth: 180 }}>Ventana de deploy:</span>
+                <span style={{ fontFamily: 'var(--font-mono)', fontSize: 13 }}>{config.deploy_window_hour}:00 hs</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                <span style={{ fontSize: 13, color: 'var(--text-secondary)', minWidth: 180 }}>Prioridades de alerta:</span>
+                <span style={{ fontFamily: 'var(--font-mono)', fontSize: 13 }}>{config.alert_priorities.join(', ')}</span>
+              </div>
+            </div>
+          </div>
+
+          <div style={{ textAlign: 'right', marginTop: 12 }}>
+            <button className="btn btn-secondary" style={{ marginRight: 8 }}>
+              Exportar JSON
+            </button>
+            <button className="btn btn-primary">
+              Guardar Cambios
+            </button>
+          </div>
+        </div>
+      );
+    }
+
+    // ── Main App ──
+    function App() {
+      const [tab, setTab] = useState('queue');
+      const [queue, setQueue] = useState(DEMO_QUEUE);
+      const [config, setConfig] = useState(DEMO_CONFIG);
+
+      const pending = queue.filter(i => !i.deployed_at);
+      const corePending = pending.filter(i => i.is_core);
+      const readyCount = pending.filter(i => i.is_ready).length;
+      const blockerCount = pending.filter(i =>
+        i.jira_priority?.toLowerCase() === 'blocker' && i.is_core
+      ).length;
+
+      return (
+        <div className="app-container">
+          <header className="header">
+            <div className="header-left">
+              <div className="logo-mark">🚀</div>
+              <div>
+                <div className="header-title">Deploy Tracker</div>
+                <div className="header-subtitle">GRV — Agente de Gestión de Deploys</div>
+              </div>
+            </div>
+            <div className="header-right">
+              <span className="last-update">
+                demo mode — datos de ejemplo
+              </span>
+            </div>
+          </header>
+
+          <div className="stats-bar">
+            <StatCard label="Core pendientes" value={corePending.length} color="red" />
+            <StatCard label="Bloqueantes" value={blockerCount} color="orange" />
+            <StatCard label="Ready for prod" value={readyCount} color="green" />
+            <StatCard label="Total pendientes" value={pending.length} color="blue" />
+          </div>
+
+          <div className="tabs">
+            <button className={`tab ${tab === 'queue' ? 'active' : ''}`} onClick={() => setTab('queue')}>
+              Cola de Deploy
+            </button>
+            <button className={`tab ${tab === 'search' ? 'active' : ''}`} onClick={() => setTab('search')}>
+              Buscar Ticket
+            </button>
+            <button className={`tab ${tab === 'config' ? 'active' : ''}`} onClick={() => setTab('config')}>
+              Configuración
+            </button>
+          </div>
+
+          {tab === 'queue' && <QueuePanel queue={queue} />}
+          {tab === 'search' && <SearchPanel queue={queue} />}
+          {tab === 'config' && <ConfigPanel config={config} onConfigChange={setConfig} />}
+        </div>
+      );
+    }
+
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</body>
+</html>
