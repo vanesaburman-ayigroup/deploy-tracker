@@ -2,8 +2,8 @@ name: Poll Jira
 
 on:
   schedule:
-    # Every 15 minutes, Mon-Fri, during work hours (8 AM - 20 PM ART = 11-23 UTC)
-    - cron: "*/15 11-23 * * 1-5"
+    # Every hour, Mon-Fri, during work hours (8 AM - 20 PM ART = 11-23 UTC)
+    - cron: "0 11-23 * * 1-5"
 
   # Manual trigger for testing
   workflow_dispatch:
@@ -11,8 +11,6 @@ on:
 jobs:
   poll:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     timeout-minutes: 5
 
     steps:

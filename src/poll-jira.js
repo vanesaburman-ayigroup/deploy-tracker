@@ -7,7 +7,7 @@ const {
 } = require("./classify");
 const { getMergeRequests } = require("./gitlab-client");
 const { generateAlertMessage } = require("./gemini-client");
-const { sendEmail, refreshAccessToken, summaryToHtml } = require("./gmail-client");
+const { sendEmail, refreshAccessToken, alertToHtml } = require("./gmail-client");
 const { createDeployWindowEvent } = require("./calendar-client");
 const { sendSlackMessage, buildAlertBlocks } = require("./slack-client");
 const {
@@ -33,8 +33,8 @@ async function main() {
     console.warn("Could not refresh OAuth token:", err.message);
   }
 
-  // Poll Jira — look back 20 minutes to overlap with 15-min cron
-  const issues = await pollJira(20);
+  // Poll Jira — look back 65 minutes to overlap with hourly cron
+  const issues = await pollJira(65);
 
   if (issues.length === 0) {
     console.log("✅ No recently updated issues. Done.");
@@ -71,6 +71,7 @@ async function main() {
 
       const entry = {
         jira_ticket: ticketId,
+        jira_summary: issue.fields?.summary || "",
         mr_id: mr.iid,
         mr_title: mr.title,
         repo_name: mr.repo_name,
@@ -109,11 +110,13 @@ async function main() {
           // Send email
           if (config.pm_email) {
             try {
-              const htmlBody = summaryToHtml(alertText, config);
+              const htmlBody = alertToHtml(entry, config);
               const cc = config.cc_email || "";
+              const jiraSummary = issue.fields?.summary || entry.mr_title || "";
+              const subject = `ALERTA DEPLOY CORE - ${entry.repo_name} - ${entry.jira_ticket} - Solicitar ventana ${config.deploy_window_hour}hs - ${jiraSummary}`;
               await sendEmail(
                 config.pm_email,
-                `🚨 DEPLOY CORE: ${mr.repo_name} — ${ticketId} [${jiraPriority}]`,
+                subject,
                 alertText,
                 htmlBody,
                 cc
