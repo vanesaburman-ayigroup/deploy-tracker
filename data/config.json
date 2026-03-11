@@ -1,34 +1,49 @@
 {
   "core_backend": [
-    "wssiniestralidad",
+    "wsdocumento",
+    "wsturnos",
+    "wscie10",
+    "wsnotificaciones",
+    "wssiniestro",
+    "wsimportarexportar",
+    "wslistados",
+    "wsorquestadorintegraciones",
     "wslogistica",
-    "wsauditoriafacturacion",
-    "wsauditoriatraslados",
-    "ws-srt-integration",
-    "ws-prestadores"
+    "wssolicitudesgenericas",
+    "wslogin",
+    "wslogintools",
+    "wsempleador",
+    "wspersona",
+    "wsgeneracionpdf",
+    "wstoken",
+    "wsperfilespermisos",
+    "wsprovinciaart",
+    "wsconsultasreclamos"
   ],
   "core_frontend": [
-    "portal-art",
-    "portal-prestador",
-    "portal-srt"
+    "wsfrontend",
+    "containerapp",
+    "login",
+    "solicitudesgenericas",
+    "logistica"
   ],
-  "alert_priorities": ["Blocker", "High"],
+  "alert_priorities": ["Blocker", "High", "Highest"],
   "priority_groups": [
     {
       "name": "bugs-produccion",
-      "jql": "project = ART AND type = Bug AND priority in (Blocker, High)",
+      "jql": "project = GRV AND type = Bug AND priority in (Highest, High)",
       "weight": 20
     },
     {
       "name": "sprint-actual",
-      "jql": "project = ART AND sprint in openSprints()",
+      "jql": "project = GRV AND sprint in openSprints()",
       "weight": 10
     }
   ],
   "deploy_window_hour": 19,
-  "pm_email": "",
-  "jira_base_url": "https://jira.grv.com.ar",
-  "gitlab_base_url": "https://gitlab.grv.com.ar",
+  "pm_email": "mathias.fraifer@ayi.group",
+  "jira_base_url": "https://ayigroup.atlassian.net/",
+  "gitlab_base_url": "https://gitlab.com/grvx",
   "summary_hours_utc": ["12:30", "16:00", "18:00"],
   "timezone": "America/Buenos_Aires"
 }
