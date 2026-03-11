@@ -10,6 +10,8 @@ on:
 jobs:
   reminder:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     timeout-minutes: 3
 
     steps:
