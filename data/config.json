@@ -18,7 +18,8 @@
     "wstoken",
     "wsperfilespermisos",
     "wsprovinciaart",
-    "wsconsultasreclamos"
+    "wsconsultasreclamos",
+    "wsmesacarga"
   ],
   "core_frontend": [
     "wsfrontend",
