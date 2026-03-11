@@ -132,7 +132,10 @@ async function main() {
         : `📋 Deploy Tracker: ${tickets.length} ticket(s) pendiente(s)`;
 
       const htmlBody = summaryToHtml(summaryText, config, getRandomPhrase());
-      const cc = config.cc_email || "";
+      // CCO/BCC: acepta string ("a@x.com, b@y.com") o array ["a@x.com", "b@y.com"]
+      const cc = Array.isArray(config.cc_email)
+        ? config.cc_email.filter(Boolean).join(", ")
+        : (config.cc_email || "");
       await sendEmail(config.pm_email, subject, summaryText, htmlBody, cc);
       console.log("📧 Summary email sent.");
     } catch (err) {

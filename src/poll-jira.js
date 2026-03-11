@@ -136,7 +136,9 @@ async function main() {
           if (config.pm_email) {
             try {
               const htmlBody = alertToHtml(entry, config);
-              const cc = config.cc_email || "";
+              const cc = Array.isArray(config.cc_email)
+                ? config.cc_email.filter(Boolean).join(", ")
+                : (config.cc_email || "");
               const jiraSummary = issue.fields?.summary || entry.mr_title || "";
               const subject = `🚨 DEPLOY CORE: ${entry.repo_name} — ${entry.jira_ticket} [${entry.jira_priority}] — Solicitar ventana ${config.deploy_window_hour}hs — ${jiraSummary}`;
               await sendEmail(

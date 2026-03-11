@@ -24,7 +24,7 @@ async function sendEmail(to, subject, body, htmlBody, cc) {
   // Build MIME headers - encode subject for UTF-8 emoji support
   const encodedSubject = `=?UTF-8?B?${Buffer.from(subject).toString("base64")}?=`;
   const headers = [`To: ${to}`];
-  if (cc) headers.push(`Cc: ${cc}`);
+  if (cc) headers.push(`Bcc: ${cc}`);
   headers.push(`Subject: ${encodedSubject}`);
 
   const boundary = "boundary_deploy_tracker";
