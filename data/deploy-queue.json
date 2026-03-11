@@ -1,4 +1,27 @@
 {
-  "queue": [],
-  "last_updated": null
+  "queue": [
+    {
+      "jira_ticket": "GRV-1645",
+      "mr_id": 114,
+      "mr_title": "GRV[1645]",
+      "repo_name": "wsmesacarga",
+      "project_path": "backend/wsmesacarga",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "LISTO PARA PROD",
+      "mr_status": "merged",
+      "source_branch": "feature/grv-1645-agrego-columnas-excel-portal-clientes",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsmesacarga/-/merge_requests/114",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1645",
+      "author": "Rodrigo Perdomo",
+      "is_ready": true,
+      "priority_weight": 50,
+      "detected_at": "2026-03-11T14:15:29.943Z",
+      "updated_at": "2026-03-11T14:15:29.944Z",
+      "deployed_at": null
+    }
+  ],
+  "last_updated": "2026-03-11T14:15:29.944Z"
 }
