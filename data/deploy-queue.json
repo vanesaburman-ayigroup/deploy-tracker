@@ -6,8 +6,8 @@
       "mr_title": "GRV[1645]",
       "repo_name": "wsmesacarga",
       "project_path": "backend/wsmesacarga",
-      "service_type": "secondary_backend",
-      "is_core": false,
+      "service_type": "core_backend",
+      "is_core": true,
       "jira_priority": "Bloqueante",
       "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
@@ -17,11 +17,11 @@
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1645",
       "author": "Rodrigo Perdomo",
       "is_ready": true,
-      "priority_weight": 50,
+      "priority_weight": 150,
       "detected_at": "2026-03-11T14:15:29.943Z",
-      "updated_at": "2026-03-11T14:15:29.944Z",
+      "updated_at": "2026-03-11T14:17:32.237Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-11T14:15:29.944Z"
+  "last_updated": "2026-03-11T14:17:32.238Z"
 }
