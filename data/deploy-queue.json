@@ -404,7 +404,33 @@
       "detected_at": "2026-03-13T15:42:22.400Z",
       "updated_at": "2026-03-13T15:42:22.400Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1673",
+      "jira_summary": "Error al cargar turnos de cirugia ",
+      "mr_id": 662,
+      "mr_title": "Agrego fix para ambiente de test cuando no encuentra una autorizacion asociada a un turno",
+      "repo_name": "wsturnos",
+      "project_path": "backend/wsturnos",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/grv-test",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/662",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1673",
+      "author": "Rodrigo Perdomo",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
+      "components": [],
+      "detected_at": "2026-03-13T17:35:04.111Z",
+      "updated_at": "2026-03-13T17:35:04.111Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-13T15:42:22.400Z"
+  "last_updated": "2026-03-13T17:35:04.111Z"
 }
