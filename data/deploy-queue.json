@@ -47,7 +47,7 @@
       "is_ready": false,
       "priority_weight": 0,
       "detected_at": "2026-03-11T14:27:51.487Z",
-      "updated_at": "2026-03-12T17:49:42.158Z",
+      "updated_at": "2026-03-13T15:42:22.398Z",
       "deployed_at": null,
       "jira_summary": "Agregar boton para la migracion a SGC",
       "assignee_name": "Vanesa Yanina Burman",
@@ -75,7 +75,7 @@
       "is_ready": false,
       "priority_weight": 0,
       "detected_at": "2026-03-11T14:27:51.488Z",
-      "updated_at": "2026-03-12T17:49:42.159Z",
+      "updated_at": "2026-03-13T15:42:22.399Z",
       "deployed_at": null,
       "jira_summary": "Agregar boton para la migracion a SGC",
       "assignee_name": "Vanesa Yanina Burman",
@@ -360,7 +360,7 @@
       "is_core": false,
       "jira_priority": "Media",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "feature/update-lib",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/libreriamodulosgrv/-/merge_requests/85",
@@ -374,9 +374,37 @@
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-03-12T17:49:42.159Z",
-      "updated_at": "2026-03-12T17:49:42.160Z",
+      "updated_at": "2026-03-13T15:42:22.400Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1631",
+      "jira_summary": "Agregar boton para la migracion a SGC",
+      "mr_id": 35,
+      "mr_title": "Feature/update lib modules",
+      "repo_name": "atencioncliente",
+      "project_path": "frontend/atencioncliente",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/update-lib-modules",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/atencioncliente/-/merge_requests/35",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1631",
+      "author": "Rodrigo Perdomo",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
+      "components": [
+        "SAS_Atencion al Cliente"
+      ],
+      "detected_at": "2026-03-13T15:42:22.400Z",
+      "updated_at": "2026-03-13T15:42:22.400Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-12T17:49:42.160Z"
+  "last_updated": "2026-03-13T15:42:22.400Z"
 }
