@@ -436,9 +436,11 @@
       "priority_weight": 100,
       "assignee_name": "Vanesa Yanina Burman",
       "assignee_email": "vanesa.burman@ayi.group",
-      "components": [],
+      "components": [
+        "SAS_Tramitadores"
+      ],
       "detected_at": "2026-03-13T17:35:04.111Z",
-      "updated_at": "2026-03-13T17:35:04.111Z",
+      "updated_at": "2026-03-16T15:00:04.013Z",
       "deployed_at": null
     },
     {
@@ -638,5 +640,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-16T11:47:50.613Z"
+  "last_updated": "2026-03-16T15:00:04.013Z"
 }
