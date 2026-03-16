@@ -638,7 +638,63 @@
       "detected_at": "2026-03-16T11:47:50.202Z",
       "updated_at": "2026-03-16T11:47:50.203Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1604",
+      "jira_summary": "Error con SG",
+      "mr_id": 413,
+      "mr_title": "Se corrige descripcion area gestion ucapp",
+      "repo_name": "wssolicitudesgenericas",
+      "project_path": "backend/wssolicitudesgenericas",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "Finalizada",
+      "mr_status": "opened",
+      "source_branch": "hotfix/error-sg",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/413",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1604",
+      "author": "Blanca López",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-03-16T18:00:18.298Z",
+      "updated_at": "2026-03-16T18:00:18.298Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1604",
+      "jira_summary": "Error con SG",
+      "mr_id": 414,
+      "mr_title": "Se revierte query consulta area gestion sg findByDescripcionIgnoreCase",
+      "repo_name": "wssolicitudesgenericas",
+      "project_path": "backend/wssolicitudesgenericas",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "Finalizada",
+      "mr_status": "merged",
+      "source_branch": "hotfix/GRV-1604-revierto-query-area-gestion-sg",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/414",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1604",
+      "author": "Blanca López",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-03-16T18:00:18.299Z",
+      "updated_at": "2026-03-16T18:00:18.299Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-16T15:00:04.013Z"
+  "last_updated": "2026-03-16T18:00:18.299Z"
 }
