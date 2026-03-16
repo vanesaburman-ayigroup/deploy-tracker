@@ -694,7 +694,35 @@
       "detected_at": "2026-03-16T18:00:18.299Z",
       "updated_at": "2026-03-16T18:00:18.299Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1671",
+      "jira_summary": "Error en generacion de Cuit",
+      "mr_id": 1646,
+      "mr_title": "GRV-1671 / se corrige useEffect que sobreescribia el cuil sin importan si...",
+      "repo_name": "frontend",
+      "project_path": "frontend/frontend",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1671-sobreescritura-CUIL",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1646",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1671",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-03-16T19:17:36.758Z",
+      "updated_at": "2026-03-16T19:17:36.758Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-16T18:00:18.299Z"
+  "last_updated": "2026-03-16T19:17:36.758Z"
 }
