@@ -733,22 +733,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1680-error-historial-cierre-siniestro",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/828",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1680",
       "author": "Blanca López",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-17T13:12:51.703Z",
-      "updated_at": "2026-03-17T17:58:44.633Z",
+      "updated_at": "2026-03-17T21:37:54.691Z",
       "deployed_at": null
     },
     {
@@ -862,7 +862,63 @@
       "detected_at": "2026-03-17T19:15:17.458Z",
       "updated_at": "2026-03-17T19:15:17.458Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1658",
+      "jira_summary": "FILTRO TRAZADORAS DENUNCIAS CERRADAS",
+      "mr_id": 123,
+      "mr_title": "Feature/grv 1658 trazadora cerrada novedades",
+      "repo_name": "wsmesacarga",
+      "project_path": "backend/wsmesacarga",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "LISTO PARA PROD",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1658-trazadora-cerrada-novedades",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsmesacarga/-/merge_requests/123",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1658",
+      "author": "Francisco Ziegler",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
+      "components": [
+        "PDC_Portal de Clientes"
+      ],
+      "detected_at": "2026-03-17T21:37:54.412Z",
+      "updated_at": "2026-03-17T21:37:54.412Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1658",
+      "jira_summary": "FILTRO TRAZADORAS DENUNCIAS CERRADAS",
+      "mr_id": 416,
+      "mr_title": "GRV-1658 / se agrega pestana de patologia trazadora",
+      "repo_name": "portalclientes",
+      "project_path": "frontend/portalclientes",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "LISTO PARA PROD",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1658-trazadora-cerrada-novedades",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/portalclientes/-/merge_requests/416",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1658",
+      "author": "Francisco Ziegler",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
+      "components": [
+        "PDC_Portal de Clientes"
+      ],
+      "detected_at": "2026-03-17T21:37:54.413Z",
+      "updated_at": "2026-03-17T21:37:54.413Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-17T20:39:34.081Z"
+  "last_updated": "2026-03-17T21:37:54.691Z"
 }
