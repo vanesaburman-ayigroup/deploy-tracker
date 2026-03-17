@@ -145,20 +145,20 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "Finalizada",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1638-fecha-requerida-pago",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/364",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1638",
       "author": "Francisco Ziegler",
-      "is_ready": false,
-      "priority_weight": 100,
+      "is_ready": true,
+      "priority_weight": 150,
       "detected_at": "2026-03-11T18:53:50.014Z",
-      "updated_at": "2026-03-16T11:47:50.403Z",
+      "updated_at": "2026-03-17T19:15:17.457Z",
       "deployed_at": null,
-      "assignee_name": "Mathias Fraifer",
-      "assignee_email": "mathias.fraifer@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ]
@@ -173,20 +173,20 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "Finalizada",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1638-fecha-requerida-pago",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/296",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1638",
       "author": "Francisco Ziegler",
-      "is_ready": false,
-      "priority_weight": 100,
+      "is_ready": true,
+      "priority_weight": 150,
       "detected_at": "2026-03-11T18:53:50.015Z",
-      "updated_at": "2026-03-16T11:47:50.403Z",
+      "updated_at": "2026-03-17T19:15:17.458Z",
       "deployed_at": null,
-      "assignee_name": "Mathias Fraifer",
-      "assignee_email": "mathias.fraifer@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ]
@@ -834,7 +834,35 @@
       "detected_at": "2026-03-17T13:12:52.631Z",
       "updated_at": "2026-03-17T17:58:45.191Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1638",
+      "jira_summary": "Convertir campo \"Fecha requerida del pago\" en editable",
+      "mr_id": 377,
+      "mr_title": "GRV-1638 / se agrega fechaPago a request enviada a SAP",
+      "repo_name": "wslogistica",
+      "project_path": "backend/wslogistica",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "LISTO PARA PROD",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-1638-fecha-requerida-pago",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/377",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1638",
+      "author": "Francisco Ziegler",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-03-17T19:15:17.458Z",
+      "updated_at": "2026-03-17T19:15:17.458Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-17T17:58:45.522Z"
+  "last_updated": "2026-03-17T19:15:17.458Z"
 }
