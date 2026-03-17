@@ -714,13 +714,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-03-16T19:17:36.758Z",
-      "updated_at": "2026-03-17T13:12:52.260Z",
+      "updated_at": "2026-03-17T14:57:16.229Z",
       "deployed_at": null
     },
     {
@@ -836,5 +836,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-17T13:12:52.631Z"
+  "last_updated": "2026-03-17T14:57:16.229Z"
 }
