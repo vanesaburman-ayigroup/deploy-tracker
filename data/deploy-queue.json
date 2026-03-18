@@ -938,13 +938,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-18T15:03:09.695Z",
-      "updated_at": "2026-03-18T20:37:37.791Z",
+      "updated_at": "2026-03-18T22:33:08.830Z",
       "deployed_at": null
     },
     {
@@ -994,13 +994,13 @@
       "author": "Blanca López",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-18T17:00:18.112Z",
-      "updated_at": "2026-03-18T21:35:19.622Z",
+      "updated_at": "2026-03-18T22:33:09.546Z",
       "deployed_at": null
     },
     {
@@ -1022,13 +1022,13 @@
       "author": "Blanca López",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-18T17:00:18.113Z",
-      "updated_at": "2026-03-18T21:35:24.401Z",
+      "updated_at": "2026-03-18T22:33:09.547Z",
       "deployed_at": null
     },
     {
@@ -1050,13 +1050,13 @@
       "author": "Francisco Ziegler",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-18T17:00:18.382Z",
-      "updated_at": "2026-03-18T21:35:25.288Z",
+      "updated_at": "2026-03-18T22:33:09.315Z",
       "deployed_at": null
     },
     {
@@ -1078,13 +1078,13 @@
       "author": "Blanca López",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-18T19:51:49.361Z",
-      "updated_at": "2026-03-18T21:35:25.012Z",
+      "updated_at": "2026-03-18T22:33:09.101Z",
       "deployed_at": null
     },
     {
@@ -1114,7 +1114,35 @@
       "detected_at": "2026-03-18T21:35:25.526Z",
       "updated_at": "2026-03-18T21:35:25.526Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1692",
+      "jira_summary": "Error pdf ambulancia ",
+      "mr_id": 387,
+      "mr_title": "Bugfix/grv 1692 regeneracion pdf ambulancias",
+      "repo_name": "wslogistica",
+      "project_path": "backend/wslogistica",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "Tareas por hacer",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1692-regeneracion-pdf-ambulancias",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/387",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1692",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-03-18T22:33:09.853Z",
+      "updated_at": "2026-03-18T22:33:09.853Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-18T21:35:25.526Z"
+  "last_updated": "2026-03-18T22:33:09.853Z"
 }
