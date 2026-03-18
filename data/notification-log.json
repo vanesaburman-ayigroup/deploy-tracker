@@ -53,7 +53,34 @@
       "channel": "slack",
       "sent_at": "2026-03-11T20:34:11.205Z",
       "payload": "🚨 CORE listo: wsmesacarga (GRV-1645) — Bloqueante"
+    },
+    {
+      "event_hash": "e075fcb584dbce4b",
+      "ticket_id": "GRV-1659",
+      "mr_id": 666,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-03-18T20:37:35.819Z",
+      "payload": "¡Atención PM! 🚨\n\n**GRV-1659 (Error"
+    },
+    {
+      "event_hash": "679129cf2d0ac7a7",
+      "ticket_id": "GRV-1659",
+      "mr_id": 666,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-03-18T20:37:36.481Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "7278a6fbcdd9c187",
+      "ticket_id": "GRV-1659",
+      "mr_id": 666,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-03-18T20:37:36.482Z",
+      "payload": "🚨 CORE listo: wsturnos (GRV-1659) — Bloqueante"
     }
   ],
-  "last_checked": "2026-03-11T20:34:11.205Z"
+  "last_checked": "2026-03-18T20:37:36.482Z"
 }
