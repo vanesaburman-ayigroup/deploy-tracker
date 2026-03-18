@@ -155,7 +155,7 @@
       "is_ready": true,
       "priority_weight": 150,
       "detected_at": "2026-03-11T18:53:50.014Z",
-      "updated_at": "2026-03-18T18:59:41.783Z",
+      "updated_at": "2026-03-18T19:51:49.992Z",
       "deployed_at": null,
       "assignee_name": "Mathias Fraifer",
       "assignee_email": "mathias.fraifer@ayi.group",
@@ -183,7 +183,7 @@
       "is_ready": true,
       "priority_weight": 150,
       "detected_at": "2026-03-11T18:53:50.015Z",
-      "updated_at": "2026-03-18T18:59:41.784Z",
+      "updated_at": "2026-03-18T19:51:49.993Z",
       "deployed_at": null,
       "assignee_name": "Mathias Fraifer",
       "assignee_email": "mathias.fraifer@ayi.group",
@@ -440,7 +440,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-13T17:35:04.111Z",
-      "updated_at": "2026-03-17T20:39:33.497Z",
+      "updated_at": "2026-03-18T19:51:49.589Z",
       "deployed_at": null
     },
     {
@@ -860,7 +860,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-17T19:15:17.458Z",
-      "updated_at": "2026-03-18T18:59:41.785Z",
+      "updated_at": "2026-03-18T19:51:49.994Z",
       "deployed_at": null
     },
     {
@@ -944,7 +944,7 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-18T15:03:09.695Z",
-      "updated_at": "2026-03-18T17:00:17.868Z",
+      "updated_at": "2026-03-18T19:51:48.915Z",
       "deployed_at": null
     },
     {
@@ -972,7 +972,7 @@
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-03-18T15:03:10.024Z",
-      "updated_at": "2026-03-18T18:59:42.390Z",
+      "updated_at": "2026-03-18T19:51:49.133Z",
       "deployed_at": null
     },
     {
@@ -1058,7 +1058,35 @@
       "detected_at": "2026-03-18T17:00:18.382Z",
       "updated_at": "2026-03-18T17:00:18.382Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1659",
+      "jira_summary": "Error en turno Rmn ",
+      "mr_id": 666,
+      "mr_title": "Corrección set estado turnos en dictaminar autorizacion",
+      "repo_name": "wsturnos",
+      "project_path": "backend/wsturnos",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1659-turnos-estado-desconocido",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/666",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1659",
+      "author": "Blanca López",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Yosselyn González",
+      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-03-18T19:51:49.361Z",
+      "updated_at": "2026-03-18T19:51:49.361Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-18T18:59:42.390Z"
+  "last_updated": "2026-03-18T19:51:49.994Z"
 }
