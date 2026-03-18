@@ -714,13 +714,13 @@
       "author": "Francisco Ziegler",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-03-16T19:17:36.758Z",
-      "updated_at": "2026-03-17T17:58:45.522Z",
+      "updated_at": "2026-03-18T13:13:26.309Z",
       "deployed_at": null
     },
     {
@@ -742,13 +742,13 @@
       "author": "Blanca López",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-17T13:12:51.703Z",
-      "updated_at": "2026-03-17T21:37:54.691Z",
+      "updated_at": "2026-03-18T13:13:26.582Z",
       "deployed_at": null
     },
     {
@@ -770,13 +770,13 @@
       "author": "Blanca López",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-03-17T13:12:52.629Z",
-      "updated_at": "2026-03-17T17:58:45.189Z",
+      "updated_at": "2026-03-18T13:13:25.843Z",
       "deployed_at": null
     },
     {
@@ -798,13 +798,13 @@
       "author": "Blanca López",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-03-17T13:12:52.630Z",
-      "updated_at": "2026-03-17T17:58:45.190Z",
+      "updated_at": "2026-03-18T13:13:25.844Z",
       "deployed_at": null
     },
     {
@@ -826,13 +826,13 @@
       "author": "Blanca López",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-03-17T13:12:52.631Z",
-      "updated_at": "2026-03-17T17:58:45.191Z",
+      "updated_at": "2026-03-18T13:13:25.844Z",
       "deployed_at": null
     },
     {
@@ -882,13 +882,13 @@
       "author": "Francisco Ziegler",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-03-17T21:37:54.412Z",
-      "updated_at": "2026-03-17T21:37:54.412Z",
+      "updated_at": "2026-03-18T13:13:26.114Z",
       "deployed_at": null
     },
     {
@@ -910,15 +910,15 @@
       "author": "Francisco Ziegler",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-03-17T21:37:54.413Z",
-      "updated_at": "2026-03-17T21:37:54.413Z",
+      "updated_at": "2026-03-18T13:13:26.115Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-18T11:46:13.180Z"
+  "last_updated": "2026-03-18T13:13:26.582Z"
 }
