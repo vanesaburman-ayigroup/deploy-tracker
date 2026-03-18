@@ -944,7 +944,7 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-18T15:03:09.695Z",
-      "updated_at": "2026-03-18T22:33:08.830Z",
+      "updated_at": "2026-03-18T23:30:57.654Z",
       "deployed_at": null
     },
     {
@@ -966,13 +966,13 @@
       "author": "Francisco Ziegler",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-03-18T15:03:10.024Z",
-      "updated_at": "2026-03-18T21:35:24.746Z",
+      "updated_at": "2026-03-18T23:30:57.428Z",
       "deployed_at": null
     },
     {
@@ -1000,7 +1000,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-18T17:00:18.112Z",
-      "updated_at": "2026-03-18T22:33:09.546Z",
+      "updated_at": "2026-03-18T23:30:58.331Z",
       "deployed_at": null
     },
     {
@@ -1028,7 +1028,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-18T17:00:18.113Z",
-      "updated_at": "2026-03-18T22:33:09.547Z",
+      "updated_at": "2026-03-18T23:30:58.332Z",
       "deployed_at": null
     },
     {
@@ -1056,7 +1056,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-18T17:00:18.382Z",
-      "updated_at": "2026-03-18T22:33:09.315Z",
+      "updated_at": "2026-03-18T23:30:58.108Z",
       "deployed_at": null
     },
     {
@@ -1084,7 +1084,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-18T19:51:49.361Z",
-      "updated_at": "2026-03-18T22:33:09.101Z",
+      "updated_at": "2026-03-18T23:30:57.898Z",
       "deployed_at": null
     },
     {
@@ -1144,5 +1144,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-18T22:33:09.853Z"
+  "last_updated": "2026-03-18T23:30:58.332Z"
 }
