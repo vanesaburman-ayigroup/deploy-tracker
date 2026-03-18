@@ -918,7 +918,63 @@
       "detected_at": "2026-03-17T21:37:54.413Z",
       "updated_at": "2026-03-18T13:13:26.115Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1687",
+      "jira_summary": "error en indicadores",
+      "mr_id": 642,
+      "mr_title": "Agrego optimizacion de sql en...",
+      "repo_name": "wsauditoria",
+      "project_path": "backend/wsauditoria",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/grv-1687-optimizacion-sp",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/642",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1687",
+      "author": "Rodrigo Perdomo",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-03-18T15:03:09.695Z",
+      "updated_at": "2026-03-18T15:03:09.695Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1495",
+      "jira_summary": "(LIC. SANCHEZ JULIAN JOSE (FKT) - 20346523590",
+      "mr_id": 395,
+      "mr_title": "GRV-1495 / se resuelve conflicto que evitaba la reaparicion de un prestador medico como tal",
+      "repo_name": "wsproveedor",
+      "project_path": "backend/wsproveedor",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1495-proveedores-tipos-proveedor",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsproveedor/-/merge_requests/395",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1495",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Contrataciones"
+      ],
+      "detected_at": "2026-03-18T15:03:10.024Z",
+      "updated_at": "2026-03-18T15:03:10.024Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-18T13:13:26.582Z"
+  "last_updated": "2026-03-18T15:03:10.024Z"
 }
