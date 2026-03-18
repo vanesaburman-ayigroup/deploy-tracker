@@ -80,7 +80,34 @@
       "channel": "slack",
       "sent_at": "2026-03-18T20:37:36.482Z",
       "payload": "🚨 CORE listo: wsturnos (GRV-1659) — Bloqueante"
+    },
+    {
+      "event_hash": "0e3ac0db5ac1dfea",
+      "ticket_id": "GRV-1681",
+      "mr_id": 664,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-03-18T21:35:23.019Z",
+      "payload": "**¡Alerta de Deploy Urgente!**\n\nPM, necesitamos ventana de no uso a las"
+    },
+    {
+      "event_hash": "876fecdb2c3f9658",
+      "ticket_id": "GRV-1681",
+      "mr_id": 664,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-03-18T21:35:24.400Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "8e1698c105f15ca9",
+      "ticket_id": "GRV-1681",
+      "mr_id": 664,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-03-18T21:35:24.400Z",
+      "payload": "🚨 CORE listo: wsturnos (GRV-1681) — Bloqueante"
     }
   ],
-  "last_checked": "2026-03-18T20:37:36.482Z"
+  "last_checked": "2026-03-18T21:35:24.400Z"
 }
