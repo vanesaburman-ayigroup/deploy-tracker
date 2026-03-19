@@ -107,7 +107,34 @@
       "channel": "slack",
       "sent_at": "2026-03-18T21:35:24.400Z",
       "payload": "🚨 CORE listo: wsturnos (GRV-1681) — Bloqueante"
+    },
+    {
+      "event_hash": "461ab23f420e6a50",
+      "ticket_id": "GRV-1672",
+      "mr_id": 673,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-03-19T21:35:56.372Z",
+      "payload": "¡Alerta PM! GRV-1672 (Corrección fecha carga) listo"
+    },
+    {
+      "event_hash": "abbdfc76699bc500",
+      "ticket_id": "GRV-1672",
+      "mr_id": 673,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-03-19T21:35:56.996Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "856361ac28661258",
+      "ticket_id": "GRV-1672",
+      "mr_id": 673,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-03-19T21:35:56.996Z",
+      "payload": "🚨 CORE listo: wsturnos (GRV-1672) — Alta"
     }
   ],
-  "last_checked": "2026-03-18T21:35:24.400Z"
+  "last_checked": "2026-03-19T21:35:56.996Z"
 }
