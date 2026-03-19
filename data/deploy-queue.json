@@ -434,13 +434,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Rodrigo Perdomo",
-      "assignee_email": "rodrigo.perdomo@ayi.group",
+      "assignee_name": "Francisco Ziegler",
+      "assignee_email": "francisco.ziegler@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-13T17:35:04.111Z",
-      "updated_at": "2026-03-18T19:51:49.589Z",
+      "updated_at": "2026-03-19T13:05:17.720Z",
       "deployed_at": null
     },
     {
@@ -1125,7 +1125,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "Tareas por hacer",
+      "jira_status": "En curso",
       "mr_status": "opened",
       "source_branch": "bugfix/GRV-1692-regeneracion-pdf-ambulancias",
       "target_branch": "develop",
@@ -1134,15 +1134,43 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Mathias Fraifer",
-      "assignee_email": "mathias.fraifer@ayi.group",
+      "assignee_name": "Francisco Ziegler",
+      "assignee_email": "francisco.ziegler@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-18T22:33:09.853Z",
-      "updated_at": "2026-03-18T22:33:09.853Z",
+      "updated_at": "2026-03-19T13:05:18.004Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1672",
+      "jira_summary": "Reclamo fecha de carga",
+      "mr_id": 673,
+      "mr_title": "Corrección error fecha carga en crear evolucion",
+      "repo_name": "wsturnos",
+      "project_path": "backend/wsturnos",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1672-evolucion-fecha-carga",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/673",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1672",
+      "author": "Blanca López",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Yosselyn González",
+      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-03-19T13:05:18.200Z",
+      "updated_at": "2026-03-19T13:05:18.200Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-18T23:30:58.332Z"
+  "last_updated": "2026-03-19T13:05:18.200Z"
 }
