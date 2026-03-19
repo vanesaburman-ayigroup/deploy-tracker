@@ -1162,13 +1162,13 @@
       "author": "Blanca López",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-19T13:05:18.200Z",
-      "updated_at": "2026-03-19T21:35:53.220Z",
+      "updated_at": "2026-03-19T22:29:18.347Z",
       "deployed_at": null
     },
     {
@@ -1200,5 +1200,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-19T21:35:57.367Z"
+  "last_updated": "2026-03-19T22:29:18.348Z"
 }
