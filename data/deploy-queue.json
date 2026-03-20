@@ -1126,7 +1126,7 @@
       "is_core": true,
       "jira_priority": "Bloqueante",
       "jira_status": "En curso",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-1692-regeneracion-pdf-ambulancias",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/387",
@@ -1140,7 +1140,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-18T22:33:09.853Z",
-      "updated_at": "2026-03-19T21:35:57.366Z",
+      "updated_at": "2026-03-20T16:43:15.030Z",
       "deployed_at": null
     },
     {
@@ -1175,14 +1175,14 @@
       "jira_ticket": "GRV-1692",
       "jira_summary": "Error pdf ambulancia ",
       "mr_id": 260,
-      "mr_title": "Draft: Bugfix/grv 1692 regeneracion pdf ambulancias",
+      "mr_title": "Bugfix/grv 1692 regeneracion pdf ambulancias",
       "repo_name": "wstraslados",
       "project_path": "backend/wstraslados",
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
       "jira_status": "En curso",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-1692-regeneracion-pdf-ambulancias",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstraslados/-/merge_requests/260",
@@ -1196,7 +1196,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-19T21:35:57.367Z",
-      "updated_at": "2026-03-19T21:35:57.367Z",
+      "updated_at": "2026-03-20T16:43:15.031Z",
       "deployed_at": null
     },
     {
@@ -1254,7 +1254,35 @@
       "detected_at": "2026-03-20T13:00:15.230Z",
       "updated_at": "2026-03-20T13:00:15.230Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1692",
+      "jira_summary": "Error pdf ambulancia ",
+      "mr_id": 682,
+      "mr_title": "GRV-1692 / se regenera pdf de autorizacion de traslado en reprogramacion de turno",
+      "repo_name": "wsturnos",
+      "project_path": "backend/wsturnos",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "En curso",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-1692-regeneracion-pdf-ambulancias",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/682",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1692",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Francisco Ziegler",
+      "assignee_email": "francisco.ziegler@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-03-20T16:43:15.032Z",
+      "updated_at": "2026-03-20T16:43:15.032Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-20T13:00:15.230Z"
+  "last_updated": "2026-03-20T16:43:15.032Z"
 }
