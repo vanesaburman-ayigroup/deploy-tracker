@@ -1198,7 +1198,63 @@
       "detected_at": "2026-03-19T21:35:57.367Z",
       "updated_at": "2026-03-19T21:35:57.367Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1184",
+      "jira_summary": "SINIESTROS CON INDICACIONES PENDIENTES",
+      "mr_id": 648,
+      "mr_title": "feat(GRV-1184): agregar columna indicaciones pendientes al tablero de informes",
+      "repo_name": "wsauditoria",
+      "project_path": "backend/wsauditoria",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-1184-sinisestros-con-indicaciones-pendientes",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/648",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1184",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-03-20T13:00:15.228Z",
+      "updated_at": "2026-03-20T13:00:15.228Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1184",
+      "jira_summary": "SINIESTROS CON INDICACIONES PENDIENTES",
+      "mr_id": 554,
+      "mr_title": "feat(GRV-1184): agregar columna indicaciones pendientes al tablero de informes",
+      "repo_name": "auditoriamedica",
+      "project_path": "frontend/auditoriamedica",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-1184-sinisestros-con-indicaciones-pendientes",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/554",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1184",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-03-20T13:00:15.230Z",
+      "updated_at": "2026-03-20T13:00:15.230Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-19T22:29:18.348Z"
+  "last_updated": "2026-03-20T13:00:15.230Z"
 }
