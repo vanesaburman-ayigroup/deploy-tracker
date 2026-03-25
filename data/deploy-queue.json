@@ -1134,13 +1134,13 @@
       "author": "Francisco Ziegler",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-18T22:33:09.853Z",
-      "updated_at": "2026-03-25T21:39:21.280Z",
+      "updated_at": "2026-03-25T22:36:38.565Z",
       "deployed_at": null
     },
     {
@@ -1190,13 +1190,13 @@
       "author": "Francisco Ziegler",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-19T21:35:57.367Z",
-      "updated_at": "2026-03-25T21:39:25.274Z",
+      "updated_at": "2026-03-25T22:36:38.567Z",
       "deployed_at": null
     },
     {
@@ -1274,13 +1274,13 @@
       "author": "Francisco Ziegler",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-20T16:43:15.032Z",
-      "updated_at": "2026-03-25T21:39:25.276Z",
+      "updated_at": "2026-03-25T22:36:38.567Z",
       "deployed_at": null
     },
     {
@@ -1330,13 +1330,13 @@
       "author": "Leandro Lesca",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-20T17:35:44.774Z",
-      "updated_at": "2026-03-25T21:39:20.808Z",
+      "updated_at": "2026-03-25T22:36:39.283Z",
       "deployed_at": null
     },
     {
@@ -1358,13 +1358,13 @@
       "author": "Leandro Lesca",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-20T17:35:44.776Z",
-      "updated_at": "2026-03-25T21:39:20.809Z",
+      "updated_at": "2026-03-25T22:36:39.284Z",
       "deployed_at": null
     },
     {
@@ -1498,13 +1498,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-25T14:59:39.243Z",
-      "updated_at": "2026-03-25T19:07:27.961Z",
+      "updated_at": "2026-03-25T22:36:38.812Z",
       "deployed_at": null
     },
     {
@@ -1526,13 +1526,13 @@
       "author": "Francisco Ziegler",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-25T14:59:39.488Z",
-      "updated_at": "2026-03-25T21:39:21.019Z",
+      "updated_at": "2026-03-25T22:36:39.086Z",
       "deployed_at": null
     },
     {
@@ -1620,5 +1620,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-25T21:39:29.459Z"
+  "last_updated": "2026-03-25T22:36:39.284Z"
 }
