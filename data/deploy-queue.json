@@ -1125,22 +1125,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1692-regeneracion-pdf-ambulancias",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/387",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1692",
       "author": "Francisco Ziegler",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-18T22:33:09.853Z",
-      "updated_at": "2026-03-20T20:33:28.944Z",
+      "updated_at": "2026-03-25T21:39:21.280Z",
       "deployed_at": null
     },
     {
@@ -1181,22 +1181,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1692-regeneracion-pdf-ambulancias",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstraslados/-/merge_requests/260",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1692",
       "author": "Francisco Ziegler",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-19T21:35:57.367Z",
-      "updated_at": "2026-03-20T20:33:28.945Z",
+      "updated_at": "2026-03-25T21:39:25.274Z",
       "deployed_at": null
     },
     {
@@ -1265,22 +1265,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1692-regeneracion-pdf-ambulancias",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/682",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1692",
       "author": "Francisco Ziegler",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-20T16:43:15.032Z",
-      "updated_at": "2026-03-20T20:33:28.946Z",
+      "updated_at": "2026-03-25T21:39:25.276Z",
       "deployed_at": null
     },
     {
@@ -1321,22 +1321,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "GRV-1227",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/420",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1227",
       "author": "Leandro Lesca",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-20T17:35:44.774Z",
-      "updated_at": "2026-03-20T18:51:24.462Z",
+      "updated_at": "2026-03-25T21:39:20.808Z",
       "deployed_at": null
     },
     {
@@ -1349,22 +1349,22 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "GRV-1227",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/solicitudesgenericas/-/merge_requests/153",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1227",
       "author": "Leandro Lesca",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-20T17:35:44.776Z",
-      "updated_at": "2026-03-20T18:51:24.463Z",
+      "updated_at": "2026-03-25T21:39:20.809Z",
       "deployed_at": null
     },
     {
@@ -1517,22 +1517,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1699-directorio-imagenes-default",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsimagenes/-/merge_requests/82",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1699",
       "author": "Francisco Ziegler",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-25T14:59:39.488Z",
-      "updated_at": "2026-03-25T14:59:39.488Z",
+      "updated_at": "2026-03-25T21:39:21.019Z",
       "deployed_at": null
     },
     {
@@ -1545,7 +1545,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Tareas por hacer",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1695-situacion-autorizar",
       "target_branch": "develop",
@@ -1554,13 +1554,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "assignee_name": "Blanca López",
+      "assignee_email": "blanca.lopez@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.229Z",
-      "updated_at": "2026-03-25T16:19:30.229Z",
+      "updated_at": "2026-03-25T21:39:29.457Z",
       "deployed_at": null
     },
     {
@@ -1573,7 +1573,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Tareas por hacer",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1695-cirugia-situacion-imagenes",
       "target_branch": "develop",
@@ -1582,13 +1582,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "assignee_name": "Blanca López",
+      "assignee_email": "blanca.lopez@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.230Z",
-      "updated_at": "2026-03-25T16:19:30.230Z",
+      "updated_at": "2026-03-25T21:39:29.458Z",
       "deployed_at": null
     },
     {
@@ -1601,7 +1601,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Tareas por hacer",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1695-insert-imagenes-cirugia",
       "target_branch": "develop",
@@ -1610,15 +1610,15 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "assignee_name": "Blanca López",
+      "assignee_email": "blanca.lopez@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.231Z",
-      "updated_at": "2026-03-25T16:19:30.231Z",
+      "updated_at": "2026-03-25T21:39:29.459Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-25T20:38:49.994Z"
+  "last_updated": "2026-03-25T21:39:29.459Z"
 }

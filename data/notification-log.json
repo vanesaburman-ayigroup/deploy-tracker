@@ -134,7 +134,61 @@
       "channel": "slack",
       "sent_at": "2026-03-19T21:35:56.996Z",
       "payload": "🚨 CORE listo: wsturnos (GRV-1672) — Alta"
+    },
+    {
+      "event_hash": "4dbb571bc71335ba",
+      "ticket_id": "GRV-1692",
+      "mr_id": 387,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-03-25T21:39:24.582Z",
+      "payload": "¡PM! Alerta: GRV-1692 (Error PDF ambulancia)"
+    },
+    {
+      "event_hash": "dbe7349a7ace552e",
+      "ticket_id": "GRV-1692",
+      "mr_id": 387,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-03-25T21:39:25.273Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "06e4c82e5637b516",
+      "ticket_id": "GRV-1692",
+      "mr_id": 387,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-03-25T21:39:25.273Z",
+      "payload": "🚨 CORE listo: wslogistica (GRV-1692) — Bloqueante"
+    },
+    {
+      "event_hash": "b64a5e9bf93d5c64",
+      "ticket_id": "GRV-1692",
+      "mr_id": 682,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-03-25T21:39:28.360Z",
+      "payload": "¡Atención PM! Necesitamos deployar GRV-1692 (Error PDF ambul"
+    },
+    {
+      "event_hash": "276cffa31cfd46e4",
+      "ticket_id": "GRV-1692",
+      "mr_id": 682,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-03-25T21:39:29.224Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "7114eea96ced88a2",
+      "ticket_id": "GRV-1692",
+      "mr_id": 682,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-03-25T21:39:29.225Z",
+      "payload": "🚨 CORE listo: wsturnos (GRV-1692) — Bloqueante"
     }
   ],
-  "last_checked": "2026-03-19T21:35:56.996Z"
+  "last_checked": "2026-03-25T21:39:29.225Z"
 }
