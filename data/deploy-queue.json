@@ -1377,8 +1377,8 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "Tareas por hacer",
+      "mr_status": "merged",
       "source_branch": "feature/grv-1582-detalle-observacion-logistica",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoriatraslados/-/merge_requests/227",
@@ -1386,13 +1386,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Rodrigo Perdomo",
+      "assignee_email": "rodrigo.perdomo@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-20T18:51:23.938Z",
-      "updated_at": "2026-03-20T19:37:17.213Z",
+      "updated_at": "2026-03-25T19:07:28.189Z",
       "deployed_at": null
     },
     {
@@ -1405,8 +1405,8 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "Tareas por hacer",
+      "mr_status": "merged",
       "source_branch": "feature/grv-1582-detalle-observacion-logistica",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriafacturacion/-/merge_requests/639",
@@ -1414,13 +1414,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Rodrigo Perdomo",
+      "assignee_email": "rodrigo.perdomo@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-20T18:51:23.939Z",
-      "updated_at": "2026-03-20T19:37:17.214Z",
+      "updated_at": "2026-03-25T19:07:28.190Z",
       "deployed_at": null
     },
     {
@@ -1489,22 +1489,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/grv-1496-fecha-ocurrencia-siniestros",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/555",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1496",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-25T14:59:39.243Z",
-      "updated_at": "2026-03-25T16:19:30.874Z",
+      "updated_at": "2026-03-25T19:07:27.961Z",
       "deployed_at": null
     },
     {
@@ -1620,5 +1620,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-25T16:19:30.874Z"
+  "last_updated": "2026-03-25T19:07:28.190Z"
 }
