@@ -1560,7 +1560,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.229Z",
-      "updated_at": "2026-03-26T13:17:04.693Z",
+      "updated_at": "2026-03-26T15:04:48.670Z",
       "deployed_at": null
     },
     {
@@ -1588,7 +1588,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.230Z",
-      "updated_at": "2026-03-26T13:17:04.694Z",
+      "updated_at": "2026-03-26T15:04:48.778Z",
       "deployed_at": null
     },
     {
@@ -1616,9 +1616,65 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.231Z",
-      "updated_at": "2026-03-26T13:17:04.695Z",
+      "updated_at": "2026-03-26T15:04:48.876Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1698",
+      "jira_summary": "ERROR HORA DE DENUNCIA",
+      "mr_id": 127,
+      "mr_title": "Feature/grv 1711 numero siniestro completo",
+      "repo_name": "wsmesacarga",
+      "project_path": "backend/wsmesacarga",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1711-numero-siniestro-completo",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsmesacarga/-/merge_requests/127",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1698",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "PDC_Portal de Clientes"
+      ],
+      "detected_at": "2026-03-26T15:04:49.389Z",
+      "updated_at": "2026-03-26T15:04:49.389Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1711",
+      "jira_summary": "ERROR EXCEL PERFIL CLIENTE",
+      "mr_id": 127,
+      "mr_title": "Feature/grv 1711 numero siniestro completo",
+      "repo_name": "wsmesacarga",
+      "project_path": "backend/wsmesacarga",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1711-numero-siniestro-completo",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsmesacarga/-/merge_requests/127",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1711",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "PDC_Portal de Clientes"
+      ],
+      "detected_at": "2026-03-26T15:04:49.631Z",
+      "updated_at": "2026-03-26T15:04:49.631Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-26T13:17:04.695Z"
+  "last_updated": "2026-03-26T15:04:49.631Z"
 }
