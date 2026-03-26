@@ -1442,13 +1442,13 @@
       "author": "Francisco Ziegler",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-20T20:33:29.223Z",
-      "updated_at": "2026-03-26T20:36:25.807Z",
+      "updated_at": "2026-03-26T23:33:11.315Z",
       "deployed_at": null
     },
     {
@@ -1638,13 +1638,13 @@
       "author": "Francisco Ziegler",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-03-26T15:04:49.389Z",
-      "updated_at": "2026-03-26T20:36:26.227Z",
+      "updated_at": "2026-03-26T23:33:11.069Z",
       "deployed_at": null
     },
     {
@@ -1666,15 +1666,15 @@
       "author": "Francisco Ziegler",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-03-26T15:04:49.631Z",
-      "updated_at": "2026-03-26T20:36:26.030Z",
+      "updated_at": "2026-03-26T23:33:10.841Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-26T20:36:26.227Z"
+  "last_updated": "2026-03-26T23:33:11.315Z"
 }
