@@ -1209,7 +1209,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "opened",
       "source_branch": "feature/GRV-1184-sinisestros-con-indicaciones-pendientes",
       "target_branch": "develop",
@@ -1224,7 +1224,7 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-20T13:00:15.228Z",
-      "updated_at": "2026-03-25T13:11:23.632Z",
+      "updated_at": "2026-03-26T17:01:54.933Z",
       "deployed_at": null
     },
     {
@@ -1237,7 +1237,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "opened",
       "source_branch": "feature/GRV-1184-sinisestros-con-indicaciones-pendientes",
       "target_branch": "develop",
@@ -1252,7 +1252,7 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-20T13:00:15.230Z",
-      "updated_at": "2026-03-25T13:11:23.633Z",
+      "updated_at": "2026-03-26T17:01:54.935Z",
       "deployed_at": null
     },
     {
@@ -1676,5 +1676,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-26T15:04:49.631Z"
+  "last_updated": "2026-03-26T17:01:54.935Z"
 }
