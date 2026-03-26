@@ -1545,7 +1545,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "Tareas por hacer",
+      "jira_status": "UAT",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1695-situacion-autorizar",
       "target_branch": "develop",
@@ -1560,7 +1560,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.229Z",
-      "updated_at": "2026-03-25T21:39:29.457Z",
+      "updated_at": "2026-03-26T13:17:04.693Z",
       "deployed_at": null
     },
     {
@@ -1573,7 +1573,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "Tareas por hacer",
+      "jira_status": "UAT",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1695-cirugia-situacion-imagenes",
       "target_branch": "develop",
@@ -1588,7 +1588,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.230Z",
-      "updated_at": "2026-03-25T21:39:29.458Z",
+      "updated_at": "2026-03-26T13:17:04.694Z",
       "deployed_at": null
     },
     {
@@ -1601,7 +1601,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "Tareas por hacer",
+      "jira_status": "UAT",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1695-insert-imagenes-cirugia",
       "target_branch": "develop",
@@ -1616,9 +1616,9 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.231Z",
-      "updated_at": "2026-03-25T21:39:29.459Z",
+      "updated_at": "2026-03-26T13:17:04.695Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-25T23:35:31.323Z"
+  "last_updated": "2026-03-26T13:17:04.695Z"
 }
