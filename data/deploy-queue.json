@@ -1629,7 +1629,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1711-numero-siniestro-completo",
       "target_branch": "develop",
@@ -1638,13 +1638,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-03-26T15:04:49.389Z",
-      "updated_at": "2026-03-26T15:04:49.389Z",
+      "updated_at": "2026-03-26T19:06:14.302Z",
       "deployed_at": null
     },
     {
@@ -1657,7 +1657,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1711-numero-siniestro-completo",
       "target_branch": "develop",
@@ -1666,15 +1666,15 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-03-26T15:04:49.631Z",
-      "updated_at": "2026-03-26T15:04:49.631Z",
+      "updated_at": "2026-03-26T19:06:14.082Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-26T17:01:54.935Z"
+  "last_updated": "2026-03-26T19:06:14.302Z"
 }
