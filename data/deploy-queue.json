@@ -1853,7 +1853,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1518-accidentado-autorizacion",
       "target_branch": "develop",
@@ -1862,15 +1862,15 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-27T16:55:36.925Z",
-      "updated_at": "2026-03-27T17:51:17.540Z",
+      "updated_at": "2026-03-27T19:42:26.937Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-27T18:56:30.369Z"
+  "last_updated": "2026-03-27T19:42:26.937Z"
 }
