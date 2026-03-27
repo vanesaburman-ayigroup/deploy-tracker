@@ -1750,13 +1750,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-27T14:50:40.021Z",
-      "updated_at": "2026-03-27T15:53:14.159Z",
+      "updated_at": "2026-03-27T16:55:37.560Z",
       "deployed_at": null
     },
     {
@@ -1769,7 +1769,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-1625-fix-lista-clientes-consulta-siniestro",
       "target_branch": "develop",
@@ -1784,7 +1784,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-03-27T14:50:40.706Z",
-      "updated_at": "2026-03-27T14:50:40.706Z",
+      "updated_at": "2026-03-27T16:55:37.234Z",
       "deployed_at": null
     },
     {
@@ -1797,7 +1797,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Cancelado",
       "mr_status": "merged",
       "source_branch": "GRV-1635-fix-datos-nuevo-turno",
       "target_branch": "develop",
@@ -1812,7 +1812,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-27T14:50:40.946Z",
-      "updated_at": "2026-03-27T15:53:13.953Z",
+      "updated_at": "2026-03-27T16:55:38.013Z",
       "deployed_at": null
     },
     {
@@ -1825,7 +1825,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1733-edicion-motivo-traslado-mismo-dia",
       "target_branch": "develop",
@@ -1834,15 +1834,43 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-03-27T15:53:14.421Z",
+      "updated_at": "2026-03-27T16:55:37.825Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1518",
+      "jira_summary": "Error en carga de autorizacion ",
+      "mr_id": 700,
+      "mr_title": "GRV-1518 / se modifica generacion de PDF para usar los datos del accidentado...",
+      "repo_name": "wsturnos",
+      "project_path": "backend/wsturnos",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-1518-accidentado-autorizacion",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/700",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1518",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 100,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
-      "detected_at": "2026-03-27T15:53:14.421Z",
-      "updated_at": "2026-03-27T15:53:14.421Z",
+      "detected_at": "2026-03-27T16:55:36.925Z",
+      "updated_at": "2026-03-27T16:55:36.925Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-27T15:53:14.421Z"
+  "last_updated": "2026-03-27T16:55:38.013Z"
 }
