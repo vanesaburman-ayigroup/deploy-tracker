@@ -1218,13 +1218,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-20T13:00:15.228Z",
-      "updated_at": "2026-03-27T14:50:40.347Z",
+      "updated_at": "2026-03-27T17:51:17.312Z",
       "deployed_at": null
     },
     {
@@ -1246,13 +1246,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-20T13:00:15.230Z",
-      "updated_at": "2026-03-27T14:50:40.348Z",
+      "updated_at": "2026-03-27T17:51:17.314Z",
       "deployed_at": null
     },
     {
@@ -1784,7 +1784,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-03-27T14:50:40.706Z",
-      "updated_at": "2026-03-27T16:55:37.234Z",
+      "updated_at": "2026-03-27T17:51:17.862Z",
       "deployed_at": null
     },
     {
@@ -1868,9 +1868,9 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-27T16:55:36.925Z",
-      "updated_at": "2026-03-27T16:55:36.925Z",
+      "updated_at": "2026-03-27T17:51:17.540Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-27T16:55:38.013Z"
+  "last_updated": "2026-03-27T17:51:17.862Z"
 }
