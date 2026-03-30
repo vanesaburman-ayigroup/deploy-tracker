@@ -37,21 +37,21 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/grv-1631-agregar-boton-sgc",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/libreriamodulosgrv/-/merge_requests/83",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1631",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "detected_at": "2026-03-11T14:27:51.487Z",
-      "updated_at": "2026-03-25T20:38:49.990Z",
+      "updated_at": "2026-03-30T19:01:03.105Z",
       "deployed_at": null,
       "jira_summary": "Agregar boton para la migracion a SGC",
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ]
@@ -65,21 +65,21 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/grv-1631-boton-sgc-atencion-cliente",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/atencioncliente/-/merge_requests/33",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1631",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "detected_at": "2026-03-11T14:27:51.488Z",
-      "updated_at": "2026-03-25T20:38:49.991Z",
+      "updated_at": "2026-03-30T19:01:03.107Z",
       "deployed_at": null,
       "jira_summary": "Agregar boton para la migracion a SGC",
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ]
@@ -369,22 +369,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/update-lib",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/libreriamodulosgrv/-/merge_requests/85",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1631",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-03-12T17:49:42.159Z",
-      "updated_at": "2026-03-25T20:38:49.992Z",
+      "updated_at": "2026-03-30T19:01:03.108Z",
       "deployed_at": null
     },
     {
@@ -397,22 +397,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/update-lib-modules",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/atencioncliente/-/merge_requests/35",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1631",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-03-13T15:42:22.400Z",
-      "updated_at": "2026-03-25T20:38:49.993Z",
+      "updated_at": "2026-03-30T19:01:03.109Z",
       "deployed_at": null
     },
     {
@@ -1293,22 +1293,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/agrego-loader-grv-1631",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/atencioncliente/-/merge_requests/37",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1631",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-03-20T17:35:44.526Z",
-      "updated_at": "2026-03-25T20:38:49.994Z",
+      "updated_at": "2026-03-30T19:01:03.110Z",
       "deployed_at": null
     },
     {
@@ -1834,13 +1834,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-27T15:53:14.421Z",
-      "updated_at": "2026-03-27T16:55:37.825Z",
+      "updated_at": "2026-03-30T19:01:03.435Z",
       "deployed_at": null
     },
     {
@@ -1890,13 +1890,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-03-27T20:39:07.900Z",
-      "updated_at": "2026-03-30T16:56:15.902Z",
+      "updated_at": "2026-03-30T19:01:03.682Z",
       "deployed_at": null
     },
     {
@@ -2040,5 +2040,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-30T16:56:16.259Z"
+  "last_updated": "2026-03-30T19:01:03.682Z"
 }
