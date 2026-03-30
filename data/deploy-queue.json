@@ -1554,13 +1554,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.229Z",
-      "updated_at": "2026-03-27T14:50:39.741Z",
+      "updated_at": "2026-03-30T20:44:55.843Z",
       "deployed_at": null
     },
     {
@@ -1582,13 +1582,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.230Z",
-      "updated_at": "2026-03-27T14:50:39.742Z",
+      "updated_at": "2026-03-30T20:44:55.845Z",
       "deployed_at": null
     },
     {
@@ -1610,13 +1610,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.231Z",
-      "updated_at": "2026-03-27T14:50:39.743Z",
+      "updated_at": "2026-03-30T20:44:55.847Z",
       "deployed_at": null
     },
     {
@@ -1694,13 +1694,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-27T14:50:39.744Z",
-      "updated_at": "2026-03-27T14:50:39.744Z",
+      "updated_at": "2026-03-30T20:44:55.848Z",
       "deployed_at": null
     },
     {
@@ -1722,13 +1722,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-27T14:50:39.745Z",
-      "updated_at": "2026-03-27T14:50:39.745Z",
+      "updated_at": "2026-03-30T20:44:55.849Z",
       "deployed_at": null
     },
     {
@@ -2038,7 +2038,63 @@
       "detected_at": "2026-03-30T16:56:15.650Z",
       "updated_at": "2026-03-30T16:56:15.650Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1701",
+      "jira_summary": "Inconveniente : FIN ILT VENCIDA",
+      "mr_id": 658,
+      "mr_title": "GRV[1701]",
+      "repo_name": "wsauditoria",
+      "project_path": "backend/wsauditoria",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/grv-1701-fix-filtros-aud-medica-ilt-vencidos",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/658",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1701",
+      "author": "Rodrigo Perdomo",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-03-30T20:44:56.121Z",
+      "updated_at": "2026-03-30T20:44:56.121Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1701",
+      "jira_summary": "Inconveniente : FIN ILT VENCIDA",
+      "mr_id": 567,
+      "mr_title": "GRV[1701]",
+      "repo_name": "auditoriamedica",
+      "project_path": "frontend/auditoriamedica",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/grv-1701-fix-filtros-aud-medica-ilt-vencidos",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/567",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1701",
+      "author": "Rodrigo Perdomo",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-03-30T20:44:56.122Z",
+      "updated_at": "2026-03-30T20:44:56.122Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-30T19:01:03.682Z"
+  "last_updated": "2026-03-30T20:44:56.122Z"
 }
