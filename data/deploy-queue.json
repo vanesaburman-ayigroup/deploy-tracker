@@ -1881,7 +1881,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1554-clientes-grupos-paso-a-DB",
       "target_branch": "develop",
@@ -1890,13 +1890,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-03-27T20:39:07.900Z",
-      "updated_at": "2026-03-30T15:03:43.339Z",
+      "updated_at": "2026-03-30T16:56:15.902Z",
       "deployed_at": null
     },
     {
@@ -1909,7 +1909,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1491-observaciones-turnos-detalle-traslado",
       "target_branch": "develop",
@@ -1918,13 +1918,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Yosselyn González",
+      "assignee_email": "yosselyn.gonzalez@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-27T20:39:08.514Z",
-      "updated_at": "2026-03-30T15:03:43.032Z",
+      "updated_at": "2026-03-30T16:56:16.255Z",
       "deployed_at": null
     },
     {
@@ -1937,7 +1937,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1491-observaciones-turno-detalle",
       "target_branch": "develop",
@@ -1946,13 +1946,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Yosselyn González",
+      "assignee_email": "yosselyn.gonzalez@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-27T20:39:08.548Z",
-      "updated_at": "2026-03-30T15:03:43.035Z",
+      "updated_at": "2026-03-30T16:56:16.257Z",
       "deployed_at": null
     },
     {
@@ -1965,7 +1965,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1491-observaciones-turnos-rehabilitacion",
       "target_branch": "develop",
@@ -1974,13 +1974,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Yosselyn González",
+      "assignee_email": "yosselyn.gonzalez@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-27T20:39:08.599Z",
-      "updated_at": "2026-03-30T15:03:43.036Z",
+      "updated_at": "2026-03-30T16:56:16.259Z",
       "deployed_at": null
     },
     {
@@ -1993,7 +1993,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1491-observaciones-turnos",
       "target_branch": "develop",
@@ -2002,15 +2002,43 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Yosselyn González",
+      "assignee_email": "yosselyn.gonzalez@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-30T15:03:43.034Z",
-      "updated_at": "2026-03-30T15:03:43.034Z",
+      "updated_at": "2026-03-30T16:56:16.256Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1667",
+      "jira_summary": "Error en auditori medico ",
+      "mr_id": 131,
+      "mr_title": "GRV-1667:Se implemento un fix que elimina una linea en la validacion de...",
+      "repo_name": "wsmesacarga",
+      "project_path": "backend/wsmesacarga",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "GRV-1667-error-auditores-excel-siniestros",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsmesacarga/-/merge_requests/131",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1667",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-03-30T16:56:15.650Z",
+      "updated_at": "2026-03-30T16:56:15.650Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-30T15:03:43.339Z"
+  "last_updated": "2026-03-30T16:56:16.259Z"
 }
