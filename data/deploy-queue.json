@@ -1882,7 +1882,7 @@
       "is_core": true,
       "jira_priority": "Alta",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-1554-clientes-grupos-paso-a-DB",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsempleador/-/merge_requests/169",
@@ -1896,7 +1896,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-03-27T20:39:07.900Z",
-      "updated_at": "2026-03-27T20:39:07.900Z",
+      "updated_at": "2026-03-30T15:03:43.339Z",
       "deployed_at": null
     },
     {
@@ -1910,7 +1910,7 @@
       "is_core": true,
       "jira_priority": "Alta",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "fix/GRV-1491-observaciones-turnos-detalle-traslado",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/323",
@@ -1924,7 +1924,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-27T20:39:08.514Z",
-      "updated_at": "2026-03-27T20:39:08.514Z",
+      "updated_at": "2026-03-30T15:03:43.032Z",
       "deployed_at": null
     },
     {
@@ -1938,7 +1938,7 @@
       "is_core": true,
       "jira_priority": "Alta",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "fix/GRV-1491-observaciones-turno-detalle",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/410",
@@ -1952,7 +1952,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-27T20:39:08.548Z",
-      "updated_at": "2026-03-27T20:39:08.548Z",
+      "updated_at": "2026-03-30T15:03:43.035Z",
       "deployed_at": null
     },
     {
@@ -1980,9 +1980,37 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-27T20:39:08.599Z",
-      "updated_at": "2026-03-27T20:39:08.599Z",
+      "updated_at": "2026-03-30T15:03:43.036Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1491",
+      "jira_summary": "Error en observaciones",
+      "mr_id": 324,
+      "mr_title": "GRV-1491 - observaciones turnos detalle traslado",
+      "repo_name": "logistica",
+      "project_path": "frontend/logistica",
+      "service_type": "core_frontend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "fix/GRV-1491-observaciones-turnos",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/324",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1491",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-03-30T15:03:43.034Z",
+      "updated_at": "2026-03-30T15:03:43.034Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-27T20:39:08.599Z"
+  "last_updated": "2026-03-30T15:03:43.339Z"
 }
