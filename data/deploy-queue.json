@@ -2094,7 +2094,35 @@
       "detected_at": "2026-03-30T20:44:56.122Z",
       "updated_at": "2026-03-30T20:44:56.122Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1731",
+      "jira_summary": "ERROR PARA CARGA DE EVOLUTIVOS 27/3",
+      "mr_id": 535,
+      "mr_title": "GRV-1731 / resolucion a posible problema de lectura/escritura simultanea al...",
+      "repo_name": "wsimportarexportar",
+      "project_path": "backend/wsimportarexportar",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1731-evolutivos-pdf",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsimportarexportar/-/merge_requests/535",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1731",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-03-31T13:19:24.057Z",
+      "updated_at": "2026-03-31T13:19:24.057Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-30T20:44:56.122Z"
+  "last_updated": "2026-03-31T13:19:24.057Z"
 }
