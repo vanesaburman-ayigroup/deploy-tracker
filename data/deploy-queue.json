@@ -1377,22 +1377,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/grv-1582-detalle-observacion-logistica",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoriatraslados/-/merge_requests/227",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1582",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-20T18:51:23.938Z",
-      "updated_at": "2026-03-31T20:42:36.606Z",
+      "updated_at": "2026-03-31T21:39:11.768Z",
       "deployed_at": null
     },
     {
@@ -1405,22 +1405,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/grv-1582-detalle-observacion-logistica",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriafacturacion/-/merge_requests/639",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1582",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-20T18:51:23.939Z",
-      "updated_at": "2026-03-31T20:42:36.607Z",
+      "updated_at": "2026-03-31T21:39:11.770Z",
       "deployed_at": null
     },
     {
@@ -1448,7 +1448,7 @@
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-20T20:33:29.223Z",
-      "updated_at": "2026-03-31T20:42:30.864Z",
+      "updated_at": "2026-03-31T21:39:12.019Z",
       "deployed_at": null
     },
     {
@@ -1644,7 +1644,7 @@
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-03-26T15:04:49.389Z",
-      "updated_at": "2026-03-31T20:42:31.399Z",
+      "updated_at": "2026-03-31T21:39:12.521Z",
       "deployed_at": null
     },
     {
@@ -1672,7 +1672,7 @@
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-03-26T15:04:49.631Z",
-      "updated_at": "2026-03-31T20:42:31.104Z",
+      "updated_at": "2026-03-31T21:39:12.261Z",
       "deployed_at": null
     },
     {
@@ -1741,22 +1741,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1556-error-findByDenuncia",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wscirugias/-/merge_requests/114",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1556",
       "author": "Blanca López",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-27T14:50:40.021Z",
-      "updated_at": "2026-03-27T16:55:37.560Z",
+      "updated_at": "2026-03-31T21:39:11.481Z",
       "deployed_at": null
     },
     {
@@ -2161,22 +2161,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/grv-1582-detalle-observacion-logistica",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoriatraslados/-/merge_requests/229",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1582",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-31T20:42:36.608Z",
-      "updated_at": "2026-03-31T20:42:36.609Z",
+      "updated_at": "2026-03-31T21:39:11.771Z",
       "deployed_at": null
     },
     {
@@ -2189,22 +2189,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-1582-agrego-datos-traslados-modal-observacion-detalle",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriafacturacion/-/merge_requests/648",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1582",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-31T20:42:36.610Z",
-      "updated_at": "2026-03-31T20:42:36.610Z",
+      "updated_at": "2026-03-31T21:39:11.772Z",
       "deployed_at": null
     },
     {
@@ -2236,5 +2236,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-31T20:42:37.031Z"
+  "last_updated": "2026-03-31T21:39:12.521Z"
 }
