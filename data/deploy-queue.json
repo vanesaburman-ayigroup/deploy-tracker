@@ -1918,13 +1918,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-27T20:39:08.514Z",
-      "updated_at": "2026-03-30T16:56:16.255Z",
+      "updated_at": "2026-03-31T19:15:15.336Z",
       "deployed_at": null
     },
     {
@@ -1946,13 +1946,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-27T20:39:08.548Z",
-      "updated_at": "2026-03-30T16:56:16.257Z",
+      "updated_at": "2026-03-31T19:15:15.338Z",
       "deployed_at": null
     },
     {
@@ -1974,13 +1974,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-27T20:39:08.599Z",
-      "updated_at": "2026-03-30T16:56:16.259Z",
+      "updated_at": "2026-03-31T19:15:15.340Z",
       "deployed_at": null
     },
     {
@@ -2002,13 +2002,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-30T15:03:43.034Z",
-      "updated_at": "2026-03-30T16:56:16.256Z",
+      "updated_at": "2026-03-31T19:15:15.337Z",
       "deployed_at": null
     },
     {
@@ -2030,13 +2030,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-03-30T16:56:15.650Z",
-      "updated_at": "2026-03-31T17:59:28.776Z",
+      "updated_at": "2026-03-31T19:15:14.771Z",
       "deployed_at": null
     },
     {
@@ -2058,13 +2058,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-30T20:44:56.121Z",
-      "updated_at": "2026-03-31T17:59:28.562Z",
+      "updated_at": "2026-03-31T19:15:15.034Z",
       "deployed_at": null
     },
     {
@@ -2086,13 +2086,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-30T20:44:56.122Z",
-      "updated_at": "2026-03-31T17:59:28.563Z",
+      "updated_at": "2026-03-31T19:15:15.035Z",
       "deployed_at": null
     },
     {
@@ -2122,7 +2122,35 @@
       "detected_at": "2026-03-31T13:19:24.057Z",
       "updated_at": "2026-03-31T17:59:28.303Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1452",
+      "jira_summary": "anular sesiones FKT de manera completa",
+      "mr_id": 1333,
+      "mr_title": "GRV-1452",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-1452-anular-turnos-fkt-conjunto",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1333",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1452",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-03-31T19:15:14.481Z",
+      "updated_at": "2026-03-31T19:15:14.481Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-31T17:59:28.776Z"
+  "last_updated": "2026-03-31T19:15:15.340Z"
 }
