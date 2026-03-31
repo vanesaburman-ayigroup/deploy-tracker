@@ -47,7 +47,7 @@
       "is_ready": true,
       "priority_weight": 50,
       "detected_at": "2026-03-11T14:27:51.487Z",
-      "updated_at": "2026-03-30T19:01:03.105Z",
+      "updated_at": "2026-03-31T22:34:57.374Z",
       "deployed_at": null,
       "jira_summary": "Agregar boton para la migracion a SGC",
       "assignee_name": "Vanesa Yanina Burman",
@@ -75,7 +75,7 @@
       "is_ready": true,
       "priority_weight": 50,
       "detected_at": "2026-03-11T14:27:51.488Z",
-      "updated_at": "2026-03-30T19:01:03.107Z",
+      "updated_at": "2026-03-31T22:34:57.375Z",
       "deployed_at": null,
       "jira_summary": "Agregar boton para la migracion a SGC",
       "assignee_name": "Vanesa Yanina Burman",
@@ -384,7 +384,7 @@
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-03-12T17:49:42.159Z",
-      "updated_at": "2026-03-30T19:01:03.108Z",
+      "updated_at": "2026-03-31T22:34:57.376Z",
       "deployed_at": null
     },
     {
@@ -412,7 +412,7 @@
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-03-13T15:42:22.400Z",
-      "updated_at": "2026-03-30T19:01:03.109Z",
+      "updated_at": "2026-03-31T22:34:57.377Z",
       "deployed_at": null
     },
     {
@@ -1308,7 +1308,7 @@
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-03-20T17:35:44.526Z",
-      "updated_at": "2026-03-30T19:01:03.110Z",
+      "updated_at": "2026-03-31T22:34:57.379Z",
       "deployed_at": null
     },
     {
@@ -1756,7 +1756,7 @@
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-27T14:50:40.021Z",
-      "updated_at": "2026-03-31T21:39:11.481Z",
+      "updated_at": "2026-03-31T22:34:57.104Z",
       "deployed_at": null
     },
     {
@@ -2236,5 +2236,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-03-31T21:39:12.521Z"
+  "last_updated": "2026-03-31T22:34:57.379Z"
 }
