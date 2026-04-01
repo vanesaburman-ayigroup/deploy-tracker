@@ -1209,7 +1209,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1184-sinisestros-con-indicaciones-pendientes",
       "target_branch": "develop",
@@ -1218,13 +1218,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-20T13:00:15.228Z",
-      "updated_at": "2026-03-27T17:51:17.312Z",
+      "updated_at": "2026-04-01T20:43:30.280Z",
       "deployed_at": null
     },
     {
@@ -1237,7 +1237,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1184-sinisestros-con-indicaciones-pendientes",
       "target_branch": "develop",
@@ -1246,13 +1246,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-20T13:00:15.230Z",
-      "updated_at": "2026-03-27T17:51:17.314Z",
+      "updated_at": "2026-04-01T20:43:30.281Z",
       "deployed_at": null
     },
     {
@@ -1377,22 +1377,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/grv-1582-detalle-observacion-logistica",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoriatraslados/-/merge_requests/227",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1582",
       "author": "Rodrigo Perdomo",
-      "is_ready": true,
-      "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-20T18:51:23.938Z",
-      "updated_at": "2026-03-31T21:39:11.768Z",
+      "updated_at": "2026-04-01T20:43:30.494Z",
       "deployed_at": null
     },
     {
@@ -1405,22 +1405,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/grv-1582-detalle-observacion-logistica",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriafacturacion/-/merge_requests/639",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1582",
       "author": "Rodrigo Perdomo",
-      "is_ready": true,
-      "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-20T18:51:23.939Z",
-      "updated_at": "2026-03-31T21:39:11.770Z",
+      "updated_at": "2026-04-01T20:43:30.495Z",
       "deployed_at": null
     },
     {
@@ -1461,7 +1461,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1611-dictaminar-cirugias",
       "target_branch": "develop",
@@ -1470,13 +1470,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T13:11:23.890Z",
-      "updated_at": "2026-03-25T14:59:39.762Z",
+      "updated_at": "2026-04-01T20:43:32.029Z",
       "deployed_at": null
     },
     {
@@ -1545,7 +1545,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1695-situacion-autorizar",
       "target_branch": "develop",
@@ -1554,13 +1554,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.229Z",
-      "updated_at": "2026-03-30T20:44:55.843Z",
+      "updated_at": "2026-04-01T20:43:31.602Z",
       "deployed_at": null
     },
     {
@@ -1573,7 +1573,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1695-cirugia-situacion-imagenes",
       "target_branch": "develop",
@@ -1582,13 +1582,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.230Z",
-      "updated_at": "2026-03-30T20:44:55.845Z",
+      "updated_at": "2026-04-01T20:43:31.603Z",
       "deployed_at": null
     },
     {
@@ -1601,7 +1601,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1695-insert-imagenes-cirugia",
       "target_branch": "develop",
@@ -1610,13 +1610,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-25T16:19:30.231Z",
-      "updated_at": "2026-03-30T20:44:55.847Z",
+      "updated_at": "2026-04-01T20:43:31.605Z",
       "deployed_at": null
     },
     {
@@ -1685,7 +1685,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1695-situacion-cirugia",
       "target_branch": "develop",
@@ -1694,13 +1694,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-27T14:50:39.744Z",
-      "updated_at": "2026-03-30T20:44:55.848Z",
+      "updated_at": "2026-04-01T20:43:31.606Z",
       "deployed_at": null
     },
     {
@@ -1713,7 +1713,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1695-situacion-denuncia",
       "target_branch": "develop",
@@ -1722,13 +1722,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-27T14:50:39.745Z",
-      "updated_at": "2026-03-30T20:44:55.849Z",
+      "updated_at": "2026-04-01T20:43:31.607Z",
       "deployed_at": null
     },
     {
@@ -1741,22 +1741,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1556-error-findByDenuncia",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wscirugias/-/merge_requests/114",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1556",
       "author": "Blanca López",
-      "is_ready": true,
-      "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-27T14:50:40.021Z",
-      "updated_at": "2026-03-31T22:34:57.104Z",
+      "updated_at": "2026-04-01T20:43:30.693Z",
       "deployed_at": null
     },
     {
@@ -1806,13 +1806,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-27T14:50:40.946Z",
-      "updated_at": "2026-03-27T16:55:38.013Z",
+      "updated_at": "2026-04-01T20:43:31.837Z",
       "deployed_at": null
     },
     {
@@ -1825,7 +1825,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1733-edicion-motivo-traslado-mismo-dia",
       "target_branch": "develop",
@@ -1834,13 +1834,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-27T15:53:14.421Z",
-      "updated_at": "2026-03-30T19:01:03.435Z",
+      "updated_at": "2026-04-01T20:43:31.104Z",
       "deployed_at": null
     },
     {
@@ -1853,7 +1853,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1518-accidentado-autorizacion",
       "target_branch": "develop",
@@ -1862,13 +1862,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-27T16:55:36.925Z",
-      "updated_at": "2026-03-27T19:42:26.937Z",
+      "updated_at": "2026-04-01T20:43:32.219Z",
       "deployed_at": null
     },
     {
@@ -1881,7 +1881,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1554-clientes-grupos-paso-a-DB",
       "target_branch": "develop",
@@ -1890,13 +1890,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-03-27T20:39:07.900Z",
-      "updated_at": "2026-03-30T19:01:03.682Z",
+      "updated_at": "2026-04-01T20:43:32.431Z",
       "deployed_at": null
     },
     {
@@ -1909,7 +1909,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1491-observaciones-turnos-detalle-traslado",
       "target_branch": "develop",
@@ -1918,13 +1918,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-27T20:39:08.514Z",
-      "updated_at": "2026-03-31T19:15:15.336Z",
+      "updated_at": "2026-04-01T20:43:30.034Z",
       "deployed_at": null
     },
     {
@@ -1937,7 +1937,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1491-observaciones-turno-detalle",
       "target_branch": "develop",
@@ -1946,13 +1946,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-27T20:39:08.548Z",
-      "updated_at": "2026-03-31T19:15:15.338Z",
+      "updated_at": "2026-04-01T20:43:30.036Z",
       "deployed_at": null
     },
     {
@@ -1965,7 +1965,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1491-observaciones-turnos-rehabilitacion",
       "target_branch": "develop",
@@ -1974,13 +1974,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-27T20:39:08.599Z",
-      "updated_at": "2026-03-31T19:15:15.340Z",
+      "updated_at": "2026-04-01T20:43:30.038Z",
       "deployed_at": null
     },
     {
@@ -1993,7 +1993,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1491-observaciones-turnos",
       "target_branch": "develop",
@@ -2002,13 +2002,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-03-30T15:03:43.034Z",
-      "updated_at": "2026-03-31T19:15:15.337Z",
+      "updated_at": "2026-04-01T20:43:30.035Z",
       "deployed_at": null
     },
     {
@@ -2021,7 +2021,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "GRV-1667-error-auditores-excel-siniestros",
       "target_branch": "develop",
@@ -2030,13 +2030,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-03-30T16:56:15.650Z",
-      "updated_at": "2026-03-31T19:15:14.771Z",
+      "updated_at": "2026-04-01T20:43:30.918Z",
       "deployed_at": null
     },
     {
@@ -2049,7 +2049,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-1701-fix-filtros-aud-medica-ilt-vencidos",
       "target_branch": "develop",
@@ -2058,13 +2058,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-30T20:44:56.121Z",
-      "updated_at": "2026-03-31T19:15:15.034Z",
+      "updated_at": "2026-04-01T20:43:29.788Z",
       "deployed_at": null
     },
     {
@@ -2077,7 +2077,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-1701-fix-filtros-aud-medica-ilt-vencidos",
       "target_branch": "develop",
@@ -2086,13 +2086,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-03-30T20:44:56.122Z",
-      "updated_at": "2026-03-31T19:15:15.035Z",
+      "updated_at": "2026-04-01T20:43:29.789Z",
       "deployed_at": null
     },
     {
@@ -2105,7 +2105,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1731-evolutivos-pdf",
       "target_branch": "develop",
@@ -2114,13 +2114,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-31T13:19:24.057Z",
-      "updated_at": "2026-03-31T17:59:28.303Z",
+      "updated_at": "2026-04-01T20:43:31.368Z",
       "deployed_at": null
     },
     {
@@ -2161,22 +2161,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/grv-1582-detalle-observacion-logistica",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoriatraslados/-/merge_requests/229",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1582",
       "author": "Rodrigo Perdomo",
-      "is_ready": true,
-      "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-31T20:42:36.608Z",
-      "updated_at": "2026-03-31T21:39:11.771Z",
+      "updated_at": "2026-04-01T20:43:30.497Z",
       "deployed_at": null
     },
     {
@@ -2189,22 +2189,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-1582-agrego-datos-traslados-modal-observacion-detalle",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriafacturacion/-/merge_requests/648",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1582",
       "author": "Rodrigo Perdomo",
-      "is_ready": true,
-      "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-03-31T20:42:36.610Z",
-      "updated_at": "2026-03-31T21:39:11.772Z",
+      "updated_at": "2026-04-01T20:43:30.498Z",
       "deployed_at": null
     },
     {
@@ -2234,7 +2234,63 @@
       "detected_at": "2026-03-31T20:42:37.031Z",
       "updated_at": "2026-04-01T17:52:04.230Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1744",
+      "jira_summary": "Error en visualizar SG",
+      "mr_id": 157,
+      "mr_title": "GRV-1744 / se corrige eliminacion de root para evitar desmonte de componentes innecesario",
+      "repo_name": "solicitudesgenericas",
+      "project_path": "frontend/solicitudesgenericas",
+      "service_type": "core_frontend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-1744-desmonte-componentes-drawer-masInfo",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/solicitudesgenericas/-/merge_requests/157",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1744",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoría de Facturación"
+      ],
+      "detected_at": "2026-04-01T20:43:29.359Z",
+      "updated_at": "2026-04-01T20:43:29.359Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1757",
+      "jira_summary": "[Mejora] Dictaminar Aut de rehabilitación.  ",
+      "mr_id": 1337,
+      "mr_title": "GRV-1757: se habilita el dictamen de autorizaciones de rehabilitacion",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1757-dictaminar-autorizaciones-rehabilitacion",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1337",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1757",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-04-01T20:43:29.585Z",
+      "updated_at": "2026-04-01T20:43:29.585Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-01T17:52:04.231Z"
+  "last_updated": "2026-04-01T20:43:32.431Z"
 }
