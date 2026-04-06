@@ -2245,7 +2245,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1744-desmonte-componentes-drawer-masInfo",
       "target_branch": "develop",
@@ -2254,13 +2254,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-01T20:43:29.359Z",
-      "updated_at": "2026-04-01T21:41:36.091Z",
+      "updated_at": "2026-04-06T14:47:37.900Z",
       "deployed_at": null
     },
     {
@@ -2273,7 +2273,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1757-dictaminar-autorizaciones-rehabilitacion",
       "target_branch": "develop",
@@ -2282,15 +2282,15 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-01T20:43:29.585Z",
-      "updated_at": "2026-04-01T21:41:35.798Z",
+      "updated_at": "2026-04-06T14:47:38.142Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-01T21:41:36.091Z"
+  "last_updated": "2026-04-06T14:47:38.142Z"
 }
