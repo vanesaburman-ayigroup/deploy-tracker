@@ -2133,7 +2133,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1452-anular-turnos-fkt-conjunto",
       "target_branch": "develop",
@@ -2142,13 +2142,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-31T19:15:14.481Z",
-      "updated_at": "2026-04-01T13:22:49.651Z",
+      "updated_at": "2026-04-06T19:00:08.405Z",
       "deployed_at": null
     },
     {
@@ -2226,13 +2226,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-03-31T20:42:37.031Z",
-      "updated_at": "2026-04-01T17:52:04.230Z",
+      "updated_at": "2026-04-06T19:00:08.921Z",
       "deployed_at": null
     },
     {
@@ -2254,13 +2254,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-01T20:43:29.359Z",
-      "updated_at": "2026-04-06T14:47:37.900Z",
+      "updated_at": "2026-04-06T19:00:09.496Z",
       "deployed_at": null
     },
     {
@@ -2282,15 +2282,127 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-01T20:43:29.585Z",
-      "updated_at": "2026-04-06T14:47:38.142Z",
+      "updated_at": "2026-04-06T19:00:08.116Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1753",
+      "jira_summary": "error inhabilitante para archivos",
+      "mr_id": 570,
+      "mr_title": "GRV-1731 / separa acciones de descarga: AUTORIZACION y RECETA_AUTORIZACION apuntan al root correcto",
+      "repo_name": "auditoriamedica",
+      "project_path": "frontend/auditoriamedica",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-1731-evolutivos-pdf",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/570",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1753",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-04-06T19:00:08.664Z",
+      "updated_at": "2026-04-06T19:00:08.664Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1245",
+      "jira_summary": "ACTUALIZACION MÓDULO CIRUGÍAS",
+      "mr_id": 619,
+      "mr_title": "Feature/grv 1245 agrego endpoint guardar seguimiento pedidos materiales qx",
+      "repo_name": "wsauditoria",
+      "project_path": "backend/wsauditoria",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "UAT",
+      "mr_status": "merged",
+      "source_branch": "feature/grv-1245-agrego-endpoint-guardar-seguimiento-pedidos-materiales-qx",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/619",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1245",
+      "author": "Rodrigo Perdomo",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Eduardo Romano",
+      "assignee_email": "eduardo.romano@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-04-06T19:00:09.217Z",
+      "updated_at": "2026-04-06T19:00:09.217Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1245",
+      "jira_summary": "ACTUALIZACION MÓDULO CIRUGÍAS",
+      "mr_id": 533,
+      "mr_title": "Agrego fix para mostrar la receta asociada a una autorizacion en una nueva...",
+      "repo_name": "auditoriamedica",
+      "project_path": "frontend/auditoriamedica",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "UAT",
+      "mr_status": "merged",
+      "source_branch": "feature/grv-1245-autorizacion-modulo-cirugia",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/533",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1245",
+      "author": "Rodrigo Perdomo",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Eduardo Romano",
+      "assignee_email": "eduardo.romano@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-04-06T19:00:09.218Z",
+      "updated_at": "2026-04-06T19:00:09.218Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1245",
+      "jira_summary": "ACTUALIZACION MÓDULO CIRUGÍAS",
+      "mr_id": 535,
+      "mr_title": "Agrego fixes para mostrar seguimiento de pedido materiales qx",
+      "repo_name": "auditoriamedica",
+      "project_path": "frontend/auditoriamedica",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "UAT",
+      "mr_status": "merged",
+      "source_branch": "bugfix/grv-1245-fixes-modulo-cirugia",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/535",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1245",
+      "author": "Rodrigo Perdomo",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Eduardo Romano",
+      "assignee_email": "eduardo.romano@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-04-06T19:00:09.220Z",
+      "updated_at": "2026-04-06T19:00:09.220Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-06T16:48:47.438Z"
+  "last_updated": "2026-04-06T19:00:09.496Z"
 }
