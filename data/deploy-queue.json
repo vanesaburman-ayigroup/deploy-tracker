@@ -2402,7 +2402,91 @@
       "detected_at": "2026-04-06T19:00:09.220Z",
       "updated_at": "2026-04-06T19:00:09.220Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1416",
+      "jira_summary": "Error al querer rechazar ",
+      "mr_id": 413,
+      "mr_title": "GRV-1416: Agrego validacion para evitar envio a SAP si el monto autorizado de un pedido es de 0",
+      "repo_name": "wslogistica",
+      "project_path": "backend/wslogistica",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "LISTO PARA PROD",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1416-rechazo-adelantos-reintegros",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/413",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1416",
+      "author": "Lucas Alvarez",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-04-07T13:19:53.982Z",
+      "updated_at": "2026-04-07T13:19:53.982Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1371",
+      "jira_summary": "DATO \"PROVINCIA\" EN PLANILLAS",
+      "mr_id": 412,
+      "mr_title": "GRV-1371: Agrego dato de provincia para mostrar en excel/pdf",
+      "repo_name": "wslogistica",
+      "project_path": "backend/wslogistica",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "LISTO PARA PROD",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1371-dato-provincia",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/412",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1371",
+      "author": "Lucas Alvarez",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-04-07T13:19:57.182Z",
+      "updated_at": "2026-04-07T13:19:57.182Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1371",
+      "jira_summary": "DATO \"PROVINCIA\" EN PLANILLAS",
+      "mr_id": 50,
+      "mr_title": "GRV-1371: Agrego dato de provincia en campos \"Origen\", \"Destino\" y \"Destino regreso\"",
+      "repo_name": "wsgeneracionpdf",
+      "project_path": "backend/wsgeneracionpdf",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "LISTO PARA PROD",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1371-dato-provincia",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsgeneracionpdf/-/merge_requests/50",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1371",
+      "author": "Lucas Alvarez",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-04-07T13:19:57.183Z",
+      "updated_at": "2026-04-07T13:19:57.183Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-06T19:56:02.394Z"
+  "last_updated": "2026-04-07T13:19:57.183Z"
 }

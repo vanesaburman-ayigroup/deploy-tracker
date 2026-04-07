@@ -188,7 +188,34 @@
       "channel": "slack",
       "sent_at": "2026-03-25T21:39:29.225Z",
       "payload": "🚨 CORE listo: wsturnos (GRV-1692) — Bloqueante"
+    },
+    {
+      "event_hash": "42f1bb6ea4d5d085",
+      "ticket_id": "GRV-1416",
+      "mr_id": 413,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-04-07T13:19:56.948Z",
+      "payload": "¡Atención PM! 🚨 Necesitamos ventana de no uso a las 19"
+    },
+    {
+      "event_hash": "db8b0db2204f214b",
+      "ticket_id": "GRV-1416",
+      "mr_id": 413,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-04-07T13:19:56.948Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "2960b490e84be3b3",
+      "ticket_id": "GRV-1416",
+      "mr_id": 413,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-04-07T13:19:56.949Z",
+      "payload": "🚨 CORE listo: wslogistica (GRV-1416) — Bloqueante"
     }
   ],
-  "last_checked": "2026-03-25T21:39:29.225Z"
+  "last_checked": "2026-04-07T13:19:56.949Z"
 }
