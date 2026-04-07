@@ -2133,22 +2133,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1452-anular-turnos-fkt-conjunto",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1333",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1452",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-03-31T19:15:14.481Z",
-      "updated_at": "2026-04-06T19:56:02.394Z",
+      "updated_at": "2026-04-07T18:03:23.012Z",
       "deployed_at": null
     },
     {
@@ -2217,22 +2217,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-1457-fix-empleador-vip",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1217",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1457",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 100,
+      "is_ready": true,
+      "priority_weight": 150,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-03-31T20:42:37.031Z",
-      "updated_at": "2026-04-06T19:00:08.921Z",
+      "updated_at": "2026-04-07T18:03:19.678Z",
       "deployed_at": null
     },
     {
@@ -2245,22 +2245,22 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1744-desmonte-componentes-drawer-masInfo",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/solicitudesgenericas/-/merge_requests/157",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1744",
       "author": "Francisco Ziegler",
-      "is_ready": false,
-      "priority_weight": 100,
+      "is_ready": true,
+      "priority_weight": 150,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-01T20:43:29.359Z",
-      "updated_at": "2026-04-06T19:00:09.496Z",
+      "updated_at": "2026-04-07T18:03:16.484Z",
       "deployed_at": null
     },
     {
@@ -2273,22 +2273,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1757-dictaminar-autorizaciones-rehabilitacion",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1337",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1757",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-01T20:43:29.585Z",
-      "updated_at": "2026-04-06T19:56:02.137Z",
+      "updated_at": "2026-04-07T18:03:22.803Z",
       "deployed_at": null
     },
     {
@@ -2316,7 +2316,7 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-06T19:00:08.664Z",
-      "updated_at": "2026-04-06T19:00:08.664Z",
+      "updated_at": "2026-04-07T18:03:16.197Z",
       "deployed_at": null
     },
     {
@@ -2572,5 +2572,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-07T15:07:58.662Z"
+  "last_updated": "2026-04-07T18:03:23.013Z"
 }

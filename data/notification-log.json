@@ -215,7 +215,61 @@
       "channel": "slack",
       "sent_at": "2026-04-07T13:19:56.949Z",
       "payload": "🚨 CORE listo: wslogistica (GRV-1416) — Bloqueante"
+    },
+    {
+      "event_hash": "e4512e3081edb830",
+      "ticket_id": "GRV-1744",
+      "mr_id": 157,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-04-07T18:03:19.485Z",
+      "payload": "¡Atención PM!\n\n**Alerta de Deploy:** GRV-1744 ("
+    },
+    {
+      "event_hash": "570455177670d30e",
+      "ticket_id": "GRV-1744",
+      "mr_id": 157,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-04-07T18:03:19.486Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "206d8585b2b09dab",
+      "ticket_id": "GRV-1744",
+      "mr_id": 157,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-04-07T18:03:19.486Z",
+      "payload": "🚨 CORE listo: solicitudesgenericas (GRV-1744) — Bloqueante"
+    },
+    {
+      "event_hash": "637bc024a5add75e",
+      "ticket_id": "GRV-1457",
+      "mr_id": 1217,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-04-07T18:03:22.582Z",
+      "payload": "¡Atención PM! GRV-1457 (Error empleadores VIP"
+    },
+    {
+      "event_hash": "8dc0d969b18d2d70",
+      "ticket_id": "GRV-1457",
+      "mr_id": 1217,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-04-07T18:03:22.582Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "94dccc291c891431",
+      "ticket_id": "GRV-1457",
+      "mr_id": 1217,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-04-07T18:03:22.583Z",
+      "payload": "🚨 CORE listo: wsdocumento (GRV-1457) — Alta"
     }
   ],
-  "last_checked": "2026-04-07T13:19:56.949Z"
+  "last_checked": "2026-04-07T18:03:22.583Z"
 }
