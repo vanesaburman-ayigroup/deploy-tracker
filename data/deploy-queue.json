@@ -2590,13 +2590,13 @@
       "author": "Franco Murabito",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-04-07T19:56:53.829Z",
-      "updated_at": "2026-04-07T19:56:53.829Z",
+      "updated_at": "2026-04-07T23:37:05.426Z",
       "deployed_at": null
     },
     {
@@ -2618,13 +2618,13 @@
       "author": "Franco Murabito",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-04-07T19:56:53.831Z",
-      "updated_at": "2026-04-07T19:56:53.831Z",
+      "updated_at": "2026-04-07T23:37:05.428Z",
       "deployed_at": null
     },
     {
@@ -2656,5 +2656,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-07T19:56:54.087Z"
+  "last_updated": "2026-04-07T23:37:05.428Z"
 }
