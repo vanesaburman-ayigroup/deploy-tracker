@@ -2665,8 +2665,8 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "En curso",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "bugfix/grv-1772-fecha-zona-horaria-dias-ilt-java",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1230",
@@ -2674,13 +2674,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Rodrigo Perdomo",
-      "assignee_email": "rodrigo.perdomo@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-04-08T13:20:56.521Z",
-      "updated_at": "2026-04-08T13:20:56.521Z",
+      "updated_at": "2026-04-08T15:10:51.568Z",
       "deployed_at": null
     },
     {
@@ -2693,7 +2693,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Baja",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1292-erogacion-masiva",
       "target_branch": "develop",
@@ -2702,13 +2702,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-08T13:20:56.859Z",
-      "updated_at": "2026-04-08T13:20:56.859Z",
+      "updated_at": "2026-04-08T15:10:50.772Z",
       "deployed_at": null
     },
     {
@@ -2721,7 +2721,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Baja",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1292-erogacion-masiva",
       "target_branch": "develop",
@@ -2730,13 +2730,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-08T13:20:56.867Z",
-      "updated_at": "2026-04-08T13:20:56.867Z",
+      "updated_at": "2026-04-08T15:10:50.908Z",
       "deployed_at": null
     },
     {
@@ -2749,7 +2749,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Baja",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1292-erogacion-masiva",
       "target_branch": "develop",
@@ -2758,13 +2758,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-08T13:20:56.869Z",
-      "updated_at": "2026-04-08T13:20:56.869Z",
+      "updated_at": "2026-04-08T15:10:51.209Z",
       "deployed_at": null
     },
     {
@@ -2777,7 +2777,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Baja",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1292-erogacion-masiva",
       "target_branch": "develop",
@@ -2786,15 +2786,43 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-08T13:20:56.871Z",
-      "updated_at": "2026-04-08T13:20:56.871Z",
+      "updated_at": "2026-04-08T15:10:51.319Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1292",
+      "jira_summary": "Erogacion masiva - error PRESTADOR",
+      "mr_id": 208,
+      "mr_title": "GRV-1292 / fix a null parameter en llamado a SP, hibernate rebota por defecto...",
+      "repo_name": "wsauditoriafacturacion",
+      "project_path": "backend/wsauditoriafacturacion",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Baja",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-1292-erogacion-masiva",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoriafacturacion/-/merge_requests/208",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1292",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
+      "components": [
+        "SAS_Auditoría de Facturación"
+      ],
+      "detected_at": "2026-04-08T15:10:51.322Z",
+      "updated_at": "2026-04-08T15:10:51.322Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-08T13:20:56.871Z"
+  "last_updated": "2026-04-08T15:10:51.568Z"
 }
