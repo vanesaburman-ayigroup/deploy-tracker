@@ -2702,13 +2702,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-08T13:20:56.859Z",
-      "updated_at": "2026-04-08T15:10:50.772Z",
+      "updated_at": "2026-04-08T17:02:53.943Z",
       "deployed_at": null
     },
     {
@@ -2730,13 +2730,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-08T13:20:56.867Z",
-      "updated_at": "2026-04-08T15:10:50.908Z",
+      "updated_at": "2026-04-08T17:02:53.945Z",
       "deployed_at": null
     },
     {
@@ -2758,13 +2758,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-08T13:20:56.869Z",
-      "updated_at": "2026-04-08T15:10:51.209Z",
+      "updated_at": "2026-04-08T17:02:53.947Z",
       "deployed_at": null
     },
     {
@@ -2786,13 +2786,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-08T13:20:56.871Z",
-      "updated_at": "2026-04-08T15:10:51.319Z",
+      "updated_at": "2026-04-08T17:02:53.948Z",
       "deployed_at": null
     },
     {
@@ -2814,15 +2814,43 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-08T15:10:51.322Z",
-      "updated_at": "2026-04-08T15:10:51.322Z",
+      "updated_at": "2026-04-08T17:02:53.950Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1778",
+      "jira_summary": "Agregar numero de traslado a la grilla de logística.",
+      "mr_id": 328,
+      "mr_title": "GRV-1778 - se agrega nro de traslado en las grillas del home y de detalle de siniestro",
+      "repo_name": "logistica",
+      "project_path": "frontend/logistica",
+      "service_type": "core_frontend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-1778-nro-traslado-grillas",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/328",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1778",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-04-08T17:02:53.606Z",
+      "updated_at": "2026-04-08T17:02:53.606Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-08T15:10:51.568Z"
+  "last_updated": "2026-04-08T17:02:53.950Z"
 }
