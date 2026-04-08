@@ -2934,7 +2934,35 @@
       "detected_at": "2026-04-08T19:16:19.934Z",
       "updated_at": "2026-04-08T19:16:19.934Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1750",
+      "jira_summary": "Re: Entrega de materiales de ortopedia para el siniestro N° 488079",
+      "mr_id": 842,
+      "mr_title": "Agrego solicitante a destinatarios en envio notificaciones de pedidos de ortopedia",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-1750-notificaciones-ortopedia",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/842",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1750",
+      "author": "Blanca López",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-04-08T20:42:39.298Z",
+      "updated_at": "2026-04-08T20:42:39.298Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-08T19:16:20.133Z"
+  "last_updated": "2026-04-08T20:42:39.298Z"
 }
