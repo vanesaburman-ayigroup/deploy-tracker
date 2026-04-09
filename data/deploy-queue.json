@@ -2581,22 +2581,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feat/GRV-1766-filtros-siniestros-portal-clientes",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsmesacarga/-/merge_requests/135",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1766",
       "author": "Franco Murabito",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Mathias Fraifer",
       "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-04-07T19:56:53.829Z",
-      "updated_at": "2026-04-07T23:37:05.426Z",
+      "updated_at": "2026-04-09T11:54:55.128Z",
       "deployed_at": null
     },
     {
@@ -2609,22 +2609,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feat/GRV-1766-nuevos-filtros-siniestros",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/portalclientes/-/merge_requests/420",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1766",
       "author": "Franco Murabito",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Mathias Fraifer",
       "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-04-07T19:56:53.831Z",
-      "updated_at": "2026-04-07T23:37:05.428Z",
+      "updated_at": "2026-04-09T11:54:55.138Z",
       "deployed_at": null
     },
     {
@@ -2964,5 +2964,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-08T20:42:39.298Z"
+  "last_updated": "2026-04-09T11:54:55.138Z"
 }
