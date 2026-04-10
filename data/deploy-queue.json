@@ -3100,7 +3100,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-10T15:53:59.031Z",
-      "updated_at": "2026-04-10T20:37:54.844Z",
+      "updated_at": "2026-04-10T21:37:34.516Z",
       "deployed_at": null
     },
     {
@@ -3184,9 +3184,37 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-10T20:37:54.847Z",
-      "updated_at": "2026-04-10T20:37:54.847Z",
+      "updated_at": "2026-04-10T21:37:34.518Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1793",
+      "jira_summary": "Botón aprobar en dictaminar Autorizaciones FKT",
+      "mr_id": 673,
+      "mr_title": "GRV-1793: corrección para dictaminar autorizaciones fkt con transporte publico",
+      "repo_name": "wsauditoria",
+      "project_path": "backend/wsauditoria",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-1793-autorizar-rehabilitacion-ttp",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/673",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1793",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-04-10T21:37:34.519Z",
+      "updated_at": "2026-04-10T21:37:34.519Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-10T20:37:54.847Z"
+  "last_updated": "2026-04-10T21:37:34.519Z"
 }
