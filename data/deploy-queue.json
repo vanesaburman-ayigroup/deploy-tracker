@@ -3130,7 +3130,35 @@
       "detected_at": "2026-04-10T15:53:59.283Z",
       "updated_at": "2026-04-10T15:53:59.283Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1781",
+      "jira_summary": "Error en cie10",
+      "mr_id": 588,
+      "mr_title": "bugfix/grv-1781-fix-multiple-cie10",
+      "repo_name": "auditoriamedica",
+      "project_path": "frontend/auditoriamedica",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/grv-1781-fix-multiple-cie10",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/588",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1781",
+      "author": "Rodrigo Perdomo",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-04-10T19:43:53.212Z",
+      "updated_at": "2026-04-10T19:43:53.212Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-10T18:53:15.046Z"
+  "last_updated": "2026-04-10T19:43:53.212Z"
 }
