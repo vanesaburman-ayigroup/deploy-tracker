@@ -2954,13 +2954,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-08T20:42:39.298Z",
-      "updated_at": "2026-04-09T19:07:23.461Z",
+      "updated_at": "2026-04-10T18:53:15.043Z",
       "deployed_at": null
     },
     {
@@ -2982,13 +2982,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-09T15:22:25.778Z",
-      "updated_at": "2026-04-09T19:07:23.462Z",
+      "updated_at": "2026-04-10T18:53:15.046Z",
       "deployed_at": null
     },
     {
@@ -3132,5 +3132,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-10T15:53:59.624Z"
+  "last_updated": "2026-04-10T18:53:15.046Z"
 }
