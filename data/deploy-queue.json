@@ -3001,8 +3001,8 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "feature/grv-1480-agrego-campos-fechas-aud-medica",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1235",
@@ -3010,13 +3010,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-09T19:07:23.175Z",
-      "updated_at": "2026-04-09T19:07:23.175Z",
+      "updated_at": "2026-04-13T18:00:45.025Z",
       "deployed_at": null
     },
     {
@@ -3029,8 +3029,8 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "feature/grv-1480-agrego-fechas-save-aud-medica",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/672",
@@ -3038,13 +3038,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-09T19:07:23.176Z",
-      "updated_at": "2026-04-09T19:07:23.176Z",
+      "updated_at": "2026-04-13T18:00:45.027Z",
       "deployed_at": null
     },
     {
@@ -3057,8 +3057,8 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "feature/grv-1480-agrego-fechas-aud-medica",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/587",
@@ -3066,13 +3066,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-09T19:07:23.178Z",
-      "updated_at": "2026-04-09T19:07:23.178Z",
+      "updated_at": "2026-04-13T18:00:45.028Z",
       "deployed_at": null
     },
     {
@@ -3114,7 +3114,7 @@
       "is_core": false,
       "jira_priority": "Alta",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "GRV-1578-limitar-campos-dni-nuevo-siniestro",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1700",
@@ -3128,7 +3128,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-10T15:53:59.283Z",
-      "updated_at": "2026-04-10T15:53:59.283Z",
+      "updated_at": "2026-04-13T18:00:45.246Z",
       "deployed_at": null
     },
     {
@@ -3142,7 +3142,7 @@
       "is_core": false,
       "jira_priority": "Bloqueante",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "bugfix/grv-1781-fix-multiple-cie10",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/588",
@@ -3156,7 +3156,7 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-10T19:43:53.212Z",
-      "updated_at": "2026-04-10T19:43:53.212Z",
+      "updated_at": "2026-04-13T18:00:44.779Z",
       "deployed_at": null
     },
     {
@@ -3214,7 +3214,63 @@
       "detected_at": "2026-04-10T21:37:34.519Z",
       "updated_at": "2026-04-10T21:37:34.519Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1703",
+      "jira_summary": "FILTRO DE ALTAS",
+      "mr_id": 675,
+      "mr_title": "GRV-1703 Agregar filtro de fecha de alta en Siniestros",
+      "repo_name": "wsauditoria",
+      "project_path": "backend/wsauditoria",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1703-filtro-fecha-alta",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/675",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1703",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-04-13T18:00:44.528Z",
+      "updated_at": "2026-04-13T18:00:44.528Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1703",
+      "jira_summary": "FILTRO DE ALTAS",
+      "mr_id": 589,
+      "mr_title": "GRV-1703 Agregar filtro de fecha de alta en Siniestros",
+      "repo_name": "auditoriamedica",
+      "project_path": "frontend/auditoriamedica",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1703-filtro-fecha-alta",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/589",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1703",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-04-13T18:00:44.530Z",
+      "updated_at": "2026-04-13T18:00:44.530Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-13T14:49:03.493Z"
+  "last_updated": "2026-04-13T18:00:45.246Z"
 }
