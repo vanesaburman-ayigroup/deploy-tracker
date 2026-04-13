@@ -2861,7 +2861,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1780-direccion-destino-editar-turno",
       "target_branch": "develop",
@@ -2876,7 +2876,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-08T19:16:19.513Z",
-      "updated_at": "2026-04-08T19:16:19.513Z",
+      "updated_at": "2026-04-13T14:49:03.493Z",
       "deployed_at": null
     },
     {
@@ -3216,5 +3216,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-10T21:37:34.519Z"
+  "last_updated": "2026-04-13T14:49:03.493Z"
 }
