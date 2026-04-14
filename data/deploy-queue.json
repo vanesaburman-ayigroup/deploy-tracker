@@ -3100,7 +3100,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-10T15:53:59.031Z",
-      "updated_at": "2026-04-14T13:54:48.878Z",
+      "updated_at": "2026-04-14T20:54:37.542Z",
       "deployed_at": null
     },
     {
@@ -3184,7 +3184,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-10T20:37:54.847Z",
-      "updated_at": "2026-04-14T13:54:48.883Z",
+      "updated_at": "2026-04-14T20:54:37.543Z",
       "deployed_at": null
     },
     {
@@ -3212,7 +3212,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-10T21:37:34.519Z",
-      "updated_at": "2026-04-14T13:54:48.885Z",
+      "updated_at": "2026-04-14T20:54:37.545Z",
       "deployed_at": null
     },
     {
@@ -3466,7 +3466,35 @@
       "detected_at": "2026-04-14T17:07:34.413Z",
       "updated_at": "2026-04-14T17:07:34.413Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1802",
+      "jira_summary": "Visualizacion de autorizaciones",
+      "mr_id": 663,
+      "mr_title": "GRV-1802 / Corrige error 404 en descarga PDF de autorización",
+      "repo_name": "auditoriafacturacion",
+      "project_path": "frontend/auditoriafacturacion",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1802-descarga-pdf-autorizacion",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriafacturacion/-/merge_requests/663",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1802",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Auditoría de Facturación"
+      ],
+      "detected_at": "2026-04-14T20:54:37.269Z",
+      "updated_at": "2026-04-14T20:54:37.269Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-14T19:15:48.034Z"
+  "last_updated": "2026-04-14T20:54:37.545Z"
 }
