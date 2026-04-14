@@ -269,7 +269,34 @@
       "channel": "slack",
       "sent_at": "2026-04-07T18:03:22.583Z",
       "payload": "🚨 CORE listo: wsdocumento (GRV-1457) — Alta"
+    },
+    {
+      "event_hash": "8de7a09a77be975e",
+      "ticket_id": "GRV-1480",
+      "mr_id": 1235,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-04-14T13:54:52.655Z",
+      "payload": "¡Atención PM!\n\n**GRV-1480 (CAMPOS NUEVOS"
+    },
+    {
+      "event_hash": "4e016fc63d05da5d",
+      "ticket_id": "GRV-1480",
+      "mr_id": 1235,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-04-14T13:54:52.655Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "97c1cae5bf8bc2dd",
+      "ticket_id": "GRV-1480",
+      "mr_id": 1235,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-04-14T13:54:52.656Z",
+      "payload": "🚨 CORE listo: wsdocumento (GRV-1480) — Alta"
     }
   ],
-  "last_checked": "2026-04-07T18:03:22.583Z"
+  "last_checked": "2026-04-14T13:54:52.656Z"
 }

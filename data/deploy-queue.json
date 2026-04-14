@@ -3001,22 +3001,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/grv-1480-agrego-campos-fechas-aud-medica",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1235",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1480",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-09T19:07:23.175Z",
-      "updated_at": "2026-04-13T18:00:45.025Z",
+      "updated_at": "2026-04-14T13:54:49.715Z",
       "deployed_at": null
     },
     {
@@ -3029,22 +3029,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/grv-1480-agrego-fechas-save-aud-medica",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/672",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1480",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-09T19:07:23.176Z",
-      "updated_at": "2026-04-13T18:00:45.027Z",
+      "updated_at": "2026-04-14T13:54:52.657Z",
       "deployed_at": null
     },
     {
@@ -3057,22 +3057,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/grv-1480-agrego-fechas-aud-medica",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/587",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1480",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-09T19:07:23.178Z",
-      "updated_at": "2026-04-13T18:00:45.028Z",
+      "updated_at": "2026-04-14T13:54:52.659Z",
       "deployed_at": null
     },
     {
@@ -3085,7 +3085,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1793-dictaminar-autorizacion-fkt-traslado",
       "target_branch": "develop",
@@ -3094,13 +3094,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Yosselyn González",
+      "assignee_email": "yosselyn.gonzalez@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-10T15:53:59.031Z",
-      "updated_at": "2026-04-10T21:37:34.516Z",
+      "updated_at": "2026-04-14T13:54:48.878Z",
       "deployed_at": null
     },
     {
@@ -3113,22 +3113,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "GRV-1578-limitar-campos-dni-nuevo-siniestro",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1700",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1578",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-10T15:53:59.283Z",
-      "updated_at": "2026-04-14T11:56:50.610Z",
+      "updated_at": "2026-04-14T13:54:49.109Z",
       "deployed_at": null
     },
     {
@@ -3141,22 +3141,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-1781-fix-multiple-cie10",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/588",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1781",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-10T19:43:53.212Z",
-      "updated_at": "2026-04-13T20:05:19.343Z",
+      "updated_at": "2026-04-14T13:54:52.899Z",
       "deployed_at": null
     },
     {
@@ -3169,7 +3169,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1793-anular-turnos-traslado-rechazado",
       "target_branch": "develop",
@@ -3178,13 +3178,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Yosselyn González",
+      "assignee_email": "yosselyn.gonzalez@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-10T20:37:54.847Z",
-      "updated_at": "2026-04-10T21:37:34.518Z",
+      "updated_at": "2026-04-14T13:54:48.883Z",
       "deployed_at": null
     },
     {
@@ -3197,8 +3197,8 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "fix/GRV-1793-autorizar-rehabilitacion-ttp",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/673",
@@ -3206,13 +3206,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Yosselyn González",
+      "assignee_email": "yosselyn.gonzalez@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-10T21:37:34.519Z",
-      "updated_at": "2026-04-10T21:37:34.519Z",
+      "updated_at": "2026-04-14T13:54:48.885Z",
       "deployed_at": null
     },
     {
@@ -3225,22 +3225,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1703-filtro-fecha-alta",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/675",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1703",
       "author": "Maximiliano Carubin",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-13T18:00:44.528Z",
-      "updated_at": "2026-04-13T20:05:19.588Z",
+      "updated_at": "2026-04-14T13:54:49.374Z",
       "deployed_at": null
     },
     {
@@ -3253,22 +3253,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1703-filtro-fecha-alta",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/589",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1703",
       "author": "Maximiliano Carubin",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-13T18:00:44.530Z",
-      "updated_at": "2026-04-13T20:05:19.733Z",
+      "updated_at": "2026-04-14T13:54:49.376Z",
       "deployed_at": null
     },
     {
@@ -3337,7 +3337,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1719-ajustes-serologico",
       "target_branch": "develop",
@@ -3346,13 +3346,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-13T21:50:47.279Z",
-      "updated_at": "2026-04-13T21:50:47.279Z",
+      "updated_at": "2026-04-14T13:54:48.611Z",
       "deployed_at": null
     },
     {
@@ -3365,7 +3365,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1719-direccion-precargada-extraccionista-serologico",
       "target_branch": "develop",
@@ -3374,13 +3374,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-13T21:50:47.281Z",
-      "updated_at": "2026-04-13T21:50:47.281Z",
+      "updated_at": "2026-04-14T13:54:48.614Z",
       "deployed_at": null
     },
     {
@@ -3393,7 +3393,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1719-correcciones-perfil-serologico",
       "target_branch": "develop",
@@ -3402,15 +3402,15 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-13T21:50:47.282Z",
-      "updated_at": "2026-04-13T21:50:47.282Z",
+      "updated_at": "2026-04-14T13:54:48.616Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-14T11:56:50.610Z"
+  "last_updated": "2026-04-14T13:54:52.899Z"
 }
