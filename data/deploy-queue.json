@@ -3436,7 +3436,7 @@
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-04-14T15:13:40.825Z",
-      "updated_at": "2026-04-14T19:15:47.336Z",
+      "updated_at": "2026-04-14T21:52:25.993Z",
       "deployed_at": null
     },
     {
@@ -3496,5 +3496,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-14T20:54:37.545Z"
+  "last_updated": "2026-04-14T21:52:25.993Z"
 }
