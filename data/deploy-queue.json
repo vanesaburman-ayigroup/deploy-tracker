@@ -3410,7 +3410,35 @@
       "detected_at": "2026-04-13T21:50:47.282Z",
       "updated_at": "2026-04-14T13:54:48.616Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1807",
+      "jira_summary": "Agregar Nombre Comercial en busqueda de gestión",
+      "mr_id": 215,
+      "mr_title": "GRV-1807: Se implemento un fix para que el nombre de los proveedores que...",
+      "repo_name": "contrataciones",
+      "project_path": "frontend/contrataciones",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "GRV-1807-agregar-nombre-comercial-consulta-proveedores",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/contrataciones/-/merge_requests/215",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1807",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Contrataciones"
+      ],
+      "detected_at": "2026-04-14T15:13:40.825Z",
+      "updated_at": "2026-04-14T15:13:40.826Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-14T13:54:52.899Z"
+  "last_updated": "2026-04-14T15:13:40.826Z"
 }
