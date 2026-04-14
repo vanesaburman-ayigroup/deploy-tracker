@@ -3282,7 +3282,7 @@
       "is_core": true,
       "jira_priority": "Media",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "feature/GRV-1736-estados-finales-traslados",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/464",
@@ -3296,7 +3296,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-04-13T20:05:20.215Z",
-      "updated_at": "2026-04-13T20:05:20.215Z",
+      "updated_at": "2026-04-14T19:15:48.033Z",
       "deployed_at": null
     },
     {
@@ -3310,7 +3310,7 @@
       "is_core": true,
       "jira_priority": "Media",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "feature/GRV-1736-estados-finales-traslados",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/339",
@@ -3324,7 +3324,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-04-13T20:05:20.281Z",
-      "updated_at": "2026-04-13T20:05:20.281Z",
+      "updated_at": "2026-04-14T19:15:48.034Z",
       "deployed_at": null
     },
     {
@@ -3352,7 +3352,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-13T21:50:47.279Z",
-      "updated_at": "2026-04-14T13:54:48.611Z",
+      "updated_at": "2026-04-14T19:15:47.636Z",
       "deployed_at": null
     },
     {
@@ -3380,7 +3380,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-13T21:50:47.281Z",
-      "updated_at": "2026-04-14T13:54:48.614Z",
+      "updated_at": "2026-04-14T19:15:47.637Z",
       "deployed_at": null
     },
     {
@@ -3408,7 +3408,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-13T21:50:47.282Z",
-      "updated_at": "2026-04-14T13:54:48.616Z",
+      "updated_at": "2026-04-14T19:15:47.639Z",
       "deployed_at": null
     },
     {
@@ -3421,7 +3421,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-1807-agregar-nombre-comercial-consulta-proveedores",
       "target_branch": "develop",
@@ -3436,7 +3436,7 @@
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-04-14T15:13:40.825Z",
-      "updated_at": "2026-04-14T17:07:34.635Z",
+      "updated_at": "2026-04-14T19:15:47.336Z",
       "deployed_at": null
     },
     {
@@ -3468,5 +3468,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-14T17:07:34.635Z"
+  "last_updated": "2026-04-14T19:15:48.034Z"
 }
