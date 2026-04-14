@@ -3113,7 +3113,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-1578-limitar-campos-dni-nuevo-siniestro",
       "target_branch": "develop",
@@ -3128,7 +3128,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-10T15:53:59.283Z",
-      "updated_at": "2026-04-13T18:00:45.246Z",
+      "updated_at": "2026-04-14T11:56:50.610Z",
       "deployed_at": null
     },
     {
@@ -3412,5 +3412,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-13T21:50:47.282Z"
+  "last_updated": "2026-04-14T11:56:50.610Z"
 }
