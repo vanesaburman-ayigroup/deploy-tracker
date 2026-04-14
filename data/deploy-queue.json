@@ -3422,7 +3422,7 @@
       "is_core": false,
       "jira_priority": "Alta",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "GRV-1807-agregar-nombre-comercial-consulta-proveedores",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/contrataciones/-/merge_requests/215",
@@ -3436,9 +3436,37 @@
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-04-14T15:13:40.825Z",
-      "updated_at": "2026-04-14T15:13:40.826Z",
+      "updated_at": "2026-04-14T17:07:34.635Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1758",
+      "jira_summary": "Error de validación - Horario de servicio CP",
+      "mr_id": 1706,
+      "mr_title": "GRV-1758 / se corrije set de de estado en hora de validacion",
+      "repo_name": "frontend",
+      "project_path": "frontend/frontend",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-1758-reset-hora-validacion-cortopunzante",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1706",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1758",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-04-14T17:07:34.413Z",
+      "updated_at": "2026-04-14T17:07:34.413Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-14T15:13:40.826Z"
+  "last_updated": "2026-04-14T17:07:34.635Z"
 }
