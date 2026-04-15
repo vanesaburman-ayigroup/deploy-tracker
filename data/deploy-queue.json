@@ -3337,22 +3337,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1719-ajustes-serologico",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1355",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1719",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-13T21:50:47.279Z",
-      "updated_at": "2026-04-14T19:15:47.636Z",
+      "updated_at": "2026-04-15T20:50:14.709Z",
       "deployed_at": null
     },
     {
@@ -3365,22 +3365,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1719-direccion-precargada-extraccionista-serologico",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslistados/-/merge_requests/584",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1719",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-13T21:50:47.281Z",
-      "updated_at": "2026-04-14T19:15:47.637Z",
+      "updated_at": "2026-04-15T20:50:14.711Z",
       "deployed_at": null
     },
     {
@@ -3393,22 +3393,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1719-correcciones-perfil-serologico",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/850",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1719",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-13T21:50:47.282Z",
-      "updated_at": "2026-04-14T19:15:47.639Z",
+      "updated_at": "2026-04-15T20:50:17.575Z",
       "deployed_at": null
     },
     {
@@ -3522,7 +3522,35 @@
       "detected_at": "2026-04-15T19:18:41.588Z",
       "updated_at": "2026-04-15T19:18:41.588Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1825",
+      "jira_summary": "Error al grabar ",
+      "mr_id": 852,
+      "mr_title": "fix(GRV-1825): resincroniza key_generator de ID_CONTROL_SEROLOGICO",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1825-fix-key-generator-control-serologico",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/852",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1825",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-04-15T20:50:17.877Z",
+      "updated_at": "2026-04-15T20:50:17.877Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-15T19:18:41.937Z"
+  "last_updated": "2026-04-15T20:50:17.877Z"
 }

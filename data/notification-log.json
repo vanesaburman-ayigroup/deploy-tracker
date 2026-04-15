@@ -296,7 +296,34 @@
       "channel": "slack",
       "sent_at": "2026-04-14T13:54:52.656Z",
       "payload": "🚨 CORE listo: wsdocumento (GRV-1480) — Alta"
+    },
+    {
+      "event_hash": "52a23f3b6a106a87",
+      "ticket_id": "GRV-1719",
+      "mr_id": 584,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-04-15T20:50:17.572Z",
+      "payload": "¡Alerta PM! GRV-1719 (Ajustes SAS "
+    },
+    {
+      "event_hash": "7a1f105d6a47f8ec",
+      "ticket_id": "GRV-1719",
+      "mr_id": 584,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-04-15T20:50:17.573Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "e0e9bf42443e91aa",
+      "ticket_id": "GRV-1719",
+      "mr_id": 584,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-04-15T20:50:17.573Z",
+      "payload": "🚨 CORE listo: wslistados (GRV-1719) — Alta"
     }
   ],
-  "last_checked": "2026-04-14T13:54:52.656Z"
+  "last_checked": "2026-04-15T20:50:17.573Z"
 }
