@@ -2217,22 +2217,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Tareas por hacer",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-1457-fix-empleador-vip",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1217",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1457",
       "author": "Rodrigo Perdomo",
-      "is_ready": true,
-      "priority_weight": 150,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-03-31T20:42:37.031Z",
-      "updated_at": "2026-04-07T18:03:19.678Z",
+      "updated_at": "2026-04-15T19:18:41.256Z",
       "deployed_at": null
     },
     {
@@ -3477,24 +3477,52 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1802-descarga-pdf-autorizacion",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriafacturacion/-/merge_requests/663",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1802",
       "author": "Maximiliano Carubin",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-14T20:54:37.269Z",
-      "updated_at": "2026-04-15T13:28:06.407Z",
+      "updated_at": "2026-04-15T19:18:41.937Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1799",
+      "jira_summary": "Filtros de SG en \"consultar todas las SG\"",
+      "mr_id": 424,
+      "mr_title": "Agrego area gestion Auditoria facturacion para Ignacio Nuñez",
+      "repo_name": "wssolicitudesgenericas",
+      "project_path": "backend/wssolicitudesgenericas",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-1799-error-consultas-sg",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/424",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1799",
+      "author": "Blanca López",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoría de Facturación"
+      ],
+      "detected_at": "2026-04-15T19:18:41.588Z",
+      "updated_at": "2026-04-15T19:18:41.588Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-15T13:28:07.327Z"
+  "last_updated": "2026-04-15T19:18:41.937Z"
 }
