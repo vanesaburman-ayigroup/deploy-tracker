@@ -3085,22 +3085,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1793-dictaminar-autorizacion-fkt-traslado",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1350",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1793",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Yosselyn González",
       "assignee_email": "yosselyn.gonzalez@ayi.group",
       "components": [
-        "SAS_Tramitadores"
+        "SAS_Logistica"
       ],
       "detected_at": "2026-04-10T15:53:59.031Z",
-      "updated_at": "2026-04-14T20:54:37.542Z",
+      "updated_at": "2026-04-15T11:55:46.002Z",
       "deployed_at": null
     },
     {
@@ -3169,22 +3169,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1793-anular-turnos-traslado-rechazado",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/720",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1793",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 100,
+      "is_ready": true,
+      "priority_weight": 150,
       "assignee_name": "Yosselyn González",
       "assignee_email": "yosselyn.gonzalez@ayi.group",
       "components": [
-        "SAS_Tramitadores"
+        "SAS_Logistica"
       ],
       "detected_at": "2026-04-10T20:37:54.847Z",
-      "updated_at": "2026-04-14T20:54:37.543Z",
+      "updated_at": "2026-04-15T11:55:46.003Z",
       "deployed_at": null
     },
     {
@@ -3197,22 +3197,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1793-autorizar-rehabilitacion-ttp",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/673",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1793",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Yosselyn González",
       "assignee_email": "yosselyn.gonzalez@ayi.group",
       "components": [
-        "SAS_Tramitadores"
+        "SAS_Logistica"
       ],
       "detected_at": "2026-04-10T21:37:34.519Z",
-      "updated_at": "2026-04-14T20:54:37.545Z",
+      "updated_at": "2026-04-15T11:55:46.005Z",
       "deployed_at": null
     },
     {
@@ -3281,22 +3281,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1736-estados-finales-traslados",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/464",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1736",
       "author": "Francisco Ziegler",
-      "is_ready": false,
-      "priority_weight": 100,
+      "is_ready": true,
+      "priority_weight": 150,
       "assignee_name": "Sebastián Coppola",
       "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-04-13T20:05:20.215Z",
-      "updated_at": "2026-04-14T19:15:48.033Z",
+      "updated_at": "2026-04-15T11:55:45.551Z",
       "deployed_at": null
     },
     {
@@ -3309,22 +3309,22 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1736-estados-finales-traslados",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/339",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1736",
       "author": "Francisco Ziegler",
-      "is_ready": false,
-      "priority_weight": 100,
+      "is_ready": true,
+      "priority_weight": 150,
       "assignee_name": "Sebastián Coppola",
       "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-04-13T20:05:20.281Z",
-      "updated_at": "2026-04-14T19:15:48.034Z",
+      "updated_at": "2026-04-15T11:55:45.554Z",
       "deployed_at": null
     },
     {
@@ -3496,5 +3496,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-14T21:52:25.993Z"
+  "last_updated": "2026-04-15T11:55:46.005Z"
 }
