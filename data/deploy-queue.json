@@ -3578,7 +3578,35 @@
       "detected_at": "2026-04-16T16:22:54.565Z",
       "updated_at": "2026-04-16T18:08:18.131Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1378",
+      "jira_summary": "NO se visualizan las ortopedias a vencer",
+      "mr_id": 1372,
+      "mr_title": "GRV-1378: Indicadores visuales de ortopedias próximas a vencer",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1378-ortopedias-a-vencer-indicadores",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1372",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1378",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-04-16T19:59:39.997Z",
+      "updated_at": "2026-04-16T19:59:39.997Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-16T18:08:18.131Z"
+  "last_updated": "2026-04-16T19:59:39.997Z"
 }
