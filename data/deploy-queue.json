@@ -2217,7 +2217,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "Tareas por hacer",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-1457-fix-empleador-vip",
       "target_branch": "develop",
@@ -2232,7 +2232,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-03-31T20:42:37.031Z",
-      "updated_at": "2026-04-15T19:18:41.256Z",
+      "updated_at": "2026-04-16T20:59:53.656Z",
       "deployed_at": null
     },
     {
@@ -3589,7 +3589,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1378-ortopedias-a-vencer-indicadores",
       "target_branch": "develop",
@@ -3598,15 +3598,15 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Maximiliano Carubin",
-      "assignee_email": "maximiliano.carubin@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-16T19:59:39.997Z",
-      "updated_at": "2026-04-16T19:59:39.997Z",
+      "updated_at": "2026-04-16T20:59:53.898Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-16T19:59:39.997Z"
+  "last_updated": "2026-04-16T20:59:53.898Z"
 }
