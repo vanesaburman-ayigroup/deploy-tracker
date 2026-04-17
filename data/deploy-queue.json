@@ -2217,7 +2217,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-1457-fix-empleador-vip",
       "target_branch": "develop",
@@ -2226,13 +2226,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Leandro Abel Lesca",
-      "assignee_email": "leandro.lesca@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-03-31T20:42:37.031Z",
-      "updated_at": "2026-04-16T21:53:59.663Z",
+      "updated_at": "2026-04-17T19:01:02.403Z",
       "deployed_at": null
     },
     {
@@ -3606,7 +3606,91 @@
       "detected_at": "2026-04-16T19:59:39.997Z",
       "updated_at": "2026-04-16T20:59:53.898Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1837",
+      "jira_summary": "Re: Denuncia: 138543/0 Accidentado: GARCIA GINA CORTEZ DNI: 37348725",
+      "mr_id": 426,
+      "mr_title": "GRV-1837 / Fix SP tramitadores: remover filtro restrictivo y ampliar condición de denuncias",
+      "repo_name": "wssolicitudesgenericas",
+      "project_path": "backend/wssolicitudesgenericas",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1837-fix-sp-tramitadores",
+      "target_branch": "master",
+      "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/426",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1837",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-04-17T19:01:02.129Z",
+      "updated_at": "2026-04-17T19:01:02.129Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1837",
+      "jira_summary": "Re: Denuncia: 138543/0 Accidentado: GARCIA GINA CORTEZ DNI: 37348725",
+      "mr_id": 161,
+      "mr_title": "GRV-1837 / Fix tab \"Solicitudes de otros\" y sincronizar cards con tabla para TRAMITADORES",
+      "repo_name": "solicitudesgenericas",
+      "project_path": "frontend/solicitudesgenericas",
+      "service_type": "core_frontend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1837-solicitudes-de-otros-tramitadores",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/solicitudesgenericas/-/merge_requests/161",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1837",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-04-17T19:01:02.132Z",
+      "updated_at": "2026-04-17T19:01:02.132Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1837",
+      "jira_summary": "Re: Denuncia: 138543/0 Accidentado: GARCIA GINA CORTEZ DNI: 37348725",
+      "mr_id": 1374,
+      "mr_title": "GRV-1837 / Cards de SG en /home usan endpoint tramitadores",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1837-solicitudes-de-otros-tramitadores",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1374",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1837",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-04-17T19:01:02.135Z",
+      "updated_at": "2026-04-17T19:01:02.135Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-17T13:20:15.554Z"
+  "last_updated": "2026-04-17T19:01:02.403Z"
 }
