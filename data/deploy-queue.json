@@ -3690,7 +3690,35 @@
       "detected_at": "2026-04-17T19:01:02.135Z",
       "updated_at": "2026-04-17T20:43:11.051Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1796",
+      "jira_summary": "Replicar monto en erogacion multiple",
+      "mr_id": 667,
+      "mr_title": "Agrego replicar monto en auditoria multiple",
+      "repo_name": "auditoriafacturacion",
+      "project_path": "frontend/auditoriafacturacion",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-1796-replicar-monto-auditoria-multiple",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriafacturacion/-/merge_requests/667",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1796",
+      "author": "Blanca López",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoría de Facturación"
+      ],
+      "detected_at": "2026-04-20T12:04:12.065Z",
+      "updated_at": "2026-04-20T12:04:12.065Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-17T20:43:11.051Z"
+  "last_updated": "2026-04-20T12:04:12.065Z"
 }
