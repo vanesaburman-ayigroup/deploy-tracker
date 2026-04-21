@@ -3802,7 +3802,63 @@
       "detected_at": "2026-04-20T16:09:29.309Z",
       "updated_at": "2026-04-20T22:42:48.345Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1797",
+      "jira_summary": "Error en observaciones a montos",
+      "mr_id": 237,
+      "mr_title": "GRV-1797 / se corrige formateo de observaciones en tralados, el conflicto...",
+      "repo_name": "wsauditoriatraslados",
+      "project_path": "backend/wsauditoriatraslados",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "TEST",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1797-error-observaciones",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoriatraslados/-/merge_requests/237",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1797",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Francisco Ziegler",
+      "assignee_email": "francisco.ziegler@ayi.group",
+      "components": [
+        "SAS_Auditoría de Facturación"
+      ],
+      "detected_at": "2026-04-21T11:59:00.306Z",
+      "updated_at": "2026-04-21T11:59:00.306Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1797",
+      "jira_summary": "Error en observaciones a montos",
+      "mr_id": 1382,
+      "mr_title": "GRV-1797 / se corrige set de espera_ida/vuelta para setear habilita_espera,...",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "TEST",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1797-observaciones-y-monto-espera",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1382",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1797",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Francisco Ziegler",
+      "assignee_email": "francisco.ziegler@ayi.group",
+      "components": [
+        "SAS_Auditoría de Facturación"
+      ],
+      "detected_at": "2026-04-21T11:59:00.308Z",
+      "updated_at": "2026-04-21T11:59:00.308Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-20T22:42:48.345Z"
+  "last_updated": "2026-04-21T11:59:00.308Z"
 }
