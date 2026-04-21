@@ -3970,7 +3970,63 @@
       "detected_at": "2026-04-21T17:59:04.225Z",
       "updated_at": "2026-04-21T17:59:04.225Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1795",
+      "jira_summary": "Filtros de pantalla de auditoria",
+      "mr_id": 1245,
+      "mr_title": "GRV-1795 SP consulta_siniestros: hardening SQL injection + categoriaEstado",
+      "repo_name": "wsdocumento",
+      "project_path": "backend/wsdocumento",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1795-sp-consulta-siniestros-hardening",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1245",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1795",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Auditoría de Facturación"
+      ],
+      "detected_at": "2026-04-21T19:24:07.455Z",
+      "updated_at": "2026-04-21T19:24:07.455Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1795",
+      "jira_summary": "Filtros de pantalla de auditoria",
+      "mr_id": 669,
+      "mr_title": "GRV-1795 Filtros y estados en /home/siniestros",
+      "repo_name": "auditoriafacturacion",
+      "project_path": "frontend/auditoriafacturacion",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1795-filtros-siniestros-auditoria",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriafacturacion/-/merge_requests/669",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1795",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Auditoría de Facturación"
+      ],
+      "detected_at": "2026-04-21T19:24:07.457Z",
+      "updated_at": "2026-04-21T19:24:07.457Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-21T17:59:04.843Z"
+  "last_updated": "2026-04-21T19:24:07.457Z"
 }
