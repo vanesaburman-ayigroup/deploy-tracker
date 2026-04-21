@@ -3968,7 +3968,7 @@
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-04-21T17:59:04.225Z",
-      "updated_at": "2026-04-21T20:53:15.206Z",
+      "updated_at": "2026-04-21T21:45:45.833Z",
       "deployed_at": null
     },
     {
@@ -4052,9 +4052,37 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T20:53:15.412Z",
-      "updated_at": "2026-04-21T20:53:15.412Z",
+      "updated_at": "2026-04-21T21:45:45.556Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1813",
+      "jira_summary": "Siniestro multiples - Error",
+      "mr_id": 1734,
+      "mr_title": "GRV-1813: Se corrigo un metodo que se invocaba antes de ser instanciado",
+      "repo_name": "frontend",
+      "project_path": "frontend/frontend",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "GRV-1813-fix-causas-siniestros-multiples",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1734",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1813",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-04-21T21:45:45.559Z",
+      "updated_at": "2026-04-21T21:45:45.559Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-21T20:53:18.007Z"
+  "last_updated": "2026-04-21T21:45:45.833Z"
 }
