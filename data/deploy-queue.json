@@ -3858,7 +3858,63 @@
       "detected_at": "2026-04-21T11:59:00.308Z",
       "updated_at": "2026-04-21T11:59:00.308Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1070",
+      "jira_summary": "Permitir Renovaciones",
+      "mr_id": 180,
+      "mr_title": "GRV-1070 / se corrige recuperacion de historial de erogaciones para evitar...",
+      "repo_name": "wsauditoriafacturacion",
+      "project_path": "backend/wsauditoriafacturacion",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "Cancelado",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-1117-edicion-erogacion-pedido-ortopedia",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoriafacturacion/-/merge_requests/180",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1070",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
+      "components": [
+        "SAS_Auditoría de Facturación"
+      ],
+      "detected_at": "2026-04-21T14:03:14.586Z",
+      "updated_at": "2026-04-21T14:03:14.586Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1070",
+      "jira_summary": "Permitir Renovaciones",
+      "mr_id": 587,
+      "mr_title": "GRV-1103 / nuevas auditorias en caso de alquiler",
+      "repo_name": "auditoriafacturacion",
+      "project_path": "frontend/auditoriafacturacion",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "Cancelado",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1103-tiempo-proceso-auditar-multiple",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriafacturacion/-/merge_requests/587",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1070",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
+      "components": [
+        "SAS_Auditoría de Facturación"
+      ],
+      "detected_at": "2026-04-21T14:03:14.588Z",
+      "updated_at": "2026-04-21T14:03:14.588Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-21T11:59:00.308Z"
+  "last_updated": "2026-04-21T14:03:14.588Z"
 }
