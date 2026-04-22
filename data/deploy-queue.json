@@ -4138,7 +4138,35 @@
       "detected_at": "2026-04-22T19:36:31.100Z",
       "updated_at": "2026-04-22T19:36:31.100Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1646",
+      "jira_summary": "Error en seleccionar Agencia",
+      "mr_id": 588,
+      "mr_title": "GRV-1646: Se implemento un nuevo or en la consulta de servicio traslado para...",
+      "repo_name": "wslistados",
+      "project_path": "backend/wslistados",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "GRV-1646-fix-seleccionar-agencia-translado",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslistados/-/merge_requests/588",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1646",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Minue",
+      "assignee_email": "alejandro.minue@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-04-22T21:51:31.433Z",
+      "updated_at": "2026-04-22T21:51:31.433Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-22T19:36:32.378Z"
+  "last_updated": "2026-04-22T21:51:31.433Z"
 }
