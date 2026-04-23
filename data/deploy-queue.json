@@ -4037,7 +4037,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-1813-fix-siniestros-multiples",
       "target_branch": "develop",
@@ -4046,13 +4046,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T20:53:15.412Z",
-      "updated_at": "2026-04-22T14:03:19.031Z",
+      "updated_at": "2026-04-23T14:04:52.186Z",
       "deployed_at": null
     },
     {
@@ -4065,7 +4065,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-1813-fix-causas-siniestros-multiples",
       "target_branch": "develop",
@@ -4074,13 +4074,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T21:45:45.559Z",
-      "updated_at": "2026-04-22T14:03:19.033Z",
+      "updated_at": "2026-04-23T14:04:52.188Z",
       "deployed_at": null
     },
     {
@@ -4121,8 +4121,8 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Baja",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "feature/grv-1279-quito-fecha-nacimiento-empleado",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/346",
@@ -4130,13 +4130,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-04-22T19:36:31.100Z",
-      "updated_at": "2026-04-22T19:36:31.100Z",
+      "updated_at": "2026-04-23T14:04:53.260Z",
       "deployed_at": null
     },
     {
@@ -4149,8 +4149,8 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
-      "mr_status": "opened",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
       "source_branch": "GRV-1646-fix-seleccionar-agencia-translado",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslistados/-/merge_requests/588",
@@ -4158,15 +4158,71 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-22T21:51:31.433Z",
-      "updated_at": "2026-04-22T21:51:31.433Z",
+      "updated_at": "2026-04-23T14:04:52.486Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-482",
+      "jira_summary": "Traslados espontaneos",
+      "mr_id": 127,
+      "mr_title": "GRV-482 se agrega entidad GestionTrasladoClienteOEmpleador con repositorio...",
+      "repo_name": "wstraslados",
+      "project_path": "backend/wstraslados",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "Cancelado",
+      "mr_status": "closed",
+      "source_branch": "feature/GRV-482-mail-traslado-clientes-empleadores",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstraslados/-/merge_requests/127",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-482",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-04-23T14:04:52.770Z",
+      "updated_at": "2026-04-23T14:04:52.770Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1798",
+      "jira_summary": "Notificaciones de SG",
+      "mr_id": 374,
+      "mr_title": "Se ordenan las notificaciones por fecha creacion en findAllNotificacionesActivasByIDPersona",
+      "repo_name": "wsnotificaciones",
+      "project_path": "backend/wsnotificaciones",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1798-notificaciones-sg",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsnotificaciones/-/merge_requests/374",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1798",
+      "author": "Blanca López",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoría de Facturación"
+      ],
+      "detected_at": "2026-04-23T14:04:52.998Z",
+      "updated_at": "2026-04-23T14:04:52.998Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-22T21:51:31.433Z"
+  "last_updated": "2026-04-23T14:04:53.260Z"
 }
