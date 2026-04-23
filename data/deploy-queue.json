@@ -4046,13 +4046,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T20:53:15.412Z",
-      "updated_at": "2026-04-23T14:04:52.186Z",
+      "updated_at": "2026-04-23T16:28:02.140Z",
       "deployed_at": null
     },
     {
@@ -4074,13 +4074,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T21:45:45.559Z",
-      "updated_at": "2026-04-23T14:04:52.188Z",
+      "updated_at": "2026-04-23T16:28:02.142Z",
       "deployed_at": null
     },
     {
@@ -4130,13 +4130,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-04-22T19:36:31.100Z",
-      "updated_at": "2026-04-23T14:04:53.260Z",
+      "updated_at": "2026-04-23T16:28:01.848Z",
       "deployed_at": null
     },
     {
@@ -4224,5 +4224,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-23T14:04:53.260Z"
+  "last_updated": "2026-04-23T16:28:02.142Z"
 }
