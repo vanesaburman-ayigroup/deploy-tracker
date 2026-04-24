@@ -4354,13 +4354,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Maximiliano Carubin",
-      "assignee_email": "maximiliano.carubin@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-24T18:52:50.017Z",
-      "updated_at": "2026-04-24T19:52:11.241Z",
+      "updated_at": "2026-04-24T21:47:32.406Z",
       "deployed_at": null
     },
     {
@@ -4382,13 +4382,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Maximiliano Carubin",
-      "assignee_email": "maximiliano.carubin@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-24T18:52:50.020Z",
-      "updated_at": "2026-04-24T19:52:11.244Z",
+      "updated_at": "2026-04-24T21:47:32.409Z",
       "deployed_at": null
     },
     {
@@ -4448,5 +4448,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-24T19:52:11.244Z"
+  "last_updated": "2026-04-24T21:47:32.409Z"
 }
