@@ -323,7 +323,34 @@
       "channel": "slack",
       "sent_at": "2026-04-15T20:50:17.573Z",
       "payload": "🚨 CORE listo: wslistados (GRV-1719) — Alta"
+    },
+    {
+      "event_hash": "15077cef66e3fcb5",
+      "ticket_id": "GRV-1646",
+      "mr_id": 588,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-04-24T13:48:18.279Z",
+      "payload": "🚨 ALERTA: MR core lista para deploy\n\nTicket: GRV-1646\nServicio: wslistados (core_backend)\nMR: !588 — GRV-1646: Se implemento un nuevo or en la consulta de servicio traslado para...\nPrioridad: Alta\nBranch: GRV-1646-fix-seleccionar-agencia-translado → develop\n\n⚠️ Acción requerida: Coordinar ventana de no uso del sistema a las 19:00hs"
+    },
+    {
+      "event_hash": "6f6734f65c9c91f9",
+      "ticket_id": "GRV-1646",
+      "mr_id": 588,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-04-24T13:48:18.280Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "94c60df8e9df36e4",
+      "ticket_id": "GRV-1646",
+      "mr_id": 588,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-04-24T13:48:18.281Z",
+      "payload": "🚨 CORE listo: wslistados (GRV-1646) — Alta"
     }
   ],
-  "last_checked": "2026-04-15T20:50:17.573Z"
+  "last_checked": "2026-04-24T13:48:18.281Z"
 }
