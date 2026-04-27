@@ -4214,13 +4214,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-23T14:04:52.998Z",
-      "updated_at": "2026-04-24T15:08:25.018Z",
+      "updated_at": "2026-04-27T19:22:10.839Z",
       "deployed_at": null
     },
     {
@@ -4298,13 +4298,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-24T13:48:11.716Z",
-      "updated_at": "2026-04-24T15:08:25.292Z",
+      "updated_at": "2026-04-27T19:22:11.133Z",
       "deployed_at": null
     },
     {
@@ -4354,13 +4354,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-24T18:52:50.017Z",
-      "updated_at": "2026-04-27T15:07:18.810Z",
+      "updated_at": "2026-04-27T19:22:10.581Z",
       "deployed_at": null
     },
     {
@@ -4382,13 +4382,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-24T18:52:50.020Z",
-      "updated_at": "2026-04-27T15:07:18.841Z",
+      "updated_at": "2026-04-27T19:22:10.584Z",
       "deployed_at": null
     },
     {
@@ -4448,5 +4448,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-27T15:07:18.841Z"
+  "last_updated": "2026-04-27T19:22:11.133Z"
 }
