@@ -4121,22 +4121,22 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Baja",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/grv-1279-quito-fecha-nacimiento-empleado",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/346",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1279",
       "author": "Rodrigo Perdomo",
-      "is_ready": false,
-      "priority_weight": 100,
+      "is_ready": true,
+      "priority_weight": 150,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-04-22T19:36:31.100Z",
-      "updated_at": "2026-04-23T16:28:01.848Z",
+      "updated_at": "2026-04-27T21:02:21.951Z",
       "deployed_at": null
     },
     {
@@ -4446,7 +4446,63 @@
       "detected_at": "2026-04-24T18:52:50.330Z",
       "updated_at": "2026-04-24T18:52:50.330Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1824",
+      "jira_summary": "Error SAS - DIFERENCIAS VENCIDOS. ",
+      "mr_id": 856,
+      "mr_title": "fix(GRV-1824): alinea calculo de Vencidos del Tablero de Gestores al SAS Clasico",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-1824-vencidos-tablero-clasico",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/856",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1824",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-04-27T21:02:21.661Z",
+      "updated_at": "2026-04-27T21:02:21.661Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1879",
+      "jira_summary": "Rediseño de PDC",
+      "mr_id": 430,
+      "mr_title": "Agrego cambios con rediseño de las pantallas principales de pdc",
+      "repo_name": "portalclientes",
+      "project_path": "frontend/portalclientes",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/grv-1879-fix-rediseño-pdc",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/portalclientes/-/merge_requests/430",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1879",
+      "author": "Rodrigo Perdomo",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "PDC_Portal de Clientes"
+      ],
+      "detected_at": "2026-04-27T21:02:22.295Z",
+      "updated_at": "2026-04-27T21:02:22.295Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-27T19:22:11.133Z"
+  "last_updated": "2026-04-27T21:02:22.295Z"
 }
