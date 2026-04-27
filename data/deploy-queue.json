@@ -3632,7 +3632,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-17T19:01:02.129Z",
-      "updated_at": "2026-04-24T16:57:25.747Z",
+      "updated_at": "2026-04-27T12:19:21.018Z",
       "deployed_at": null
     },
     {
@@ -3660,7 +3660,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-17T19:01:02.132Z",
-      "updated_at": "2026-04-24T16:57:25.750Z",
+      "updated_at": "2026-04-27T12:19:21.022Z",
       "deployed_at": null
     },
     {
@@ -3688,7 +3688,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-17T19:01:02.135Z",
-      "updated_at": "2026-04-24T16:57:25.752Z",
+      "updated_at": "2026-04-27T12:19:21.024Z",
       "deployed_at": null
     },
     {
@@ -4108,7 +4108,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-22T16:08:30.120Z",
-      "updated_at": "2026-04-24T16:57:25.754Z",
+      "updated_at": "2026-04-27T12:19:21.027Z",
       "deployed_at": null
     },
     {
@@ -4248,7 +4248,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-24T13:48:11.405Z",
-      "updated_at": "2026-04-24T16:57:25.756Z",
+      "updated_at": "2026-04-27T12:19:21.029Z",
       "deployed_at": null
     },
     {
@@ -4276,7 +4276,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-24T13:48:11.408Z",
-      "updated_at": "2026-04-24T16:57:25.758Z",
+      "updated_at": "2026-04-27T12:19:21.031Z",
       "deployed_at": null
     },
     {
@@ -4360,7 +4360,7 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-24T18:52:50.017Z",
-      "updated_at": "2026-04-24T21:47:32.406Z",
+      "updated_at": "2026-04-27T12:19:20.709Z",
       "deployed_at": null
     },
     {
@@ -4388,7 +4388,7 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-24T18:52:50.020Z",
-      "updated_at": "2026-04-24T21:47:32.409Z",
+      "updated_at": "2026-04-27T12:19:20.711Z",
       "deployed_at": null
     },
     {
@@ -4448,5 +4448,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-24T21:47:32.409Z"
+  "last_updated": "2026-04-27T12:19:21.031Z"
 }
