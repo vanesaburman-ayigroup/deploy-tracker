@@ -4401,7 +4401,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-1863-nueva-fecha-denuncia-ba",
       "target_branch": "develop",
@@ -4410,13 +4410,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-24T18:52:50.328Z",
-      "updated_at": "2026-04-28T19:41:35.795Z",
+      "updated_at": "2026-04-28T21:06:49.927Z",
       "deployed_at": null
     },
     {
@@ -4513,7 +4513,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-1883-input-dni-copiar",
       "target_branch": "develop",
@@ -4522,13 +4522,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-28T19:41:35.531Z",
-      "updated_at": "2026-04-28T19:41:35.531Z",
+      "updated_at": "2026-04-28T21:06:49.657Z",
       "deployed_at": null
     },
     {
@@ -4541,7 +4541,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-1863-nueva-fecha-denuncia-ba",
       "target_branch": "develop",
@@ -4550,13 +4550,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-28T19:41:35.797Z",
-      "updated_at": "2026-04-28T19:41:35.797Z",
+      "updated_at": "2026-04-28T21:06:49.929Z",
       "deployed_at": null
     },
     {
@@ -4569,7 +4569,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-1863-nueva-fecha-denuncias-ba",
       "target_branch": "develop",
@@ -4578,13 +4578,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-28T19:41:35.800Z",
-      "updated_at": "2026-04-28T19:41:35.800Z",
+      "updated_at": "2026-04-28T21:06:49.931Z",
       "deployed_at": null
     },
     {
@@ -4597,7 +4597,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-1863-nueva-fecha-denuncia-ba",
       "target_branch": "develop",
@@ -4606,15 +4606,15 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-28T19:41:35.802Z",
-      "updated_at": "2026-04-28T19:41:35.802Z",
+      "updated_at": "2026-04-28T21:06:49.933Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-28T19:41:36.331Z"
+  "last_updated": "2026-04-28T21:06:49.933Z"
 }
