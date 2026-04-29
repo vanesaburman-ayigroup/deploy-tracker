@@ -3626,13 +3626,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-17T19:01:02.129Z",
-      "updated_at": "2026-04-28T19:41:36.319Z",
+      "updated_at": "2026-04-29T12:17:18.242Z",
       "deployed_at": null
     },
     {
@@ -3654,13 +3654,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-17T19:01:02.132Z",
-      "updated_at": "2026-04-28T19:41:36.322Z",
+      "updated_at": "2026-04-29T12:17:18.244Z",
       "deployed_at": null
     },
     {
@@ -3682,13 +3682,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-17T19:01:02.135Z",
-      "updated_at": "2026-04-28T19:41:36.324Z",
+      "updated_at": "2026-04-29T12:17:18.246Z",
       "deployed_at": null
     },
     {
@@ -4102,13 +4102,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-22T16:08:30.120Z",
-      "updated_at": "2026-04-28T19:41:36.326Z",
+      "updated_at": "2026-04-29T12:17:18.248Z",
       "deployed_at": null
     },
     {
@@ -4242,13 +4242,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-24T13:48:11.405Z",
-      "updated_at": "2026-04-28T19:41:36.329Z",
+      "updated_at": "2026-04-29T12:17:18.250Z",
       "deployed_at": null
     },
     {
@@ -4270,13 +4270,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-24T13:48:11.408Z",
-      "updated_at": "2026-04-28T19:41:36.331Z",
+      "updated_at": "2026-04-29T12:17:18.252Z",
       "deployed_at": null
     },
     {
@@ -4466,13 +4466,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-27T21:02:21.661Z",
-      "updated_at": "2026-04-28T19:41:35.319Z",
+      "updated_at": "2026-04-29T12:17:18.466Z",
       "deployed_at": null
     },
     {
@@ -4616,5 +4616,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-28T21:06:49.933Z"
+  "last_updated": "2026-04-29T12:17:18.466Z"
 }
