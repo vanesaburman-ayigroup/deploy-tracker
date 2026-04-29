@@ -4614,7 +4614,35 @@
       "detected_at": "2026-04-28T19:41:35.802Z",
       "updated_at": "2026-04-28T21:06:49.933Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1854",
+      "jira_summary": "SOLCITUD PERFIL EZEQUIEL SANCHEZ (URGENTE, CONTROL AUTOSEGURO SOLICITADO POR GERENCIA)",
+      "mr_id": 145,
+      "mr_title": "Se agregan pablabras clave para Estudio, Sutura, Fractura y Ausentismo",
+      "repo_name": "wsmesacarga",
+      "project_path": "backend/wsmesacarga",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-1854-palabras-clave",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsmesacarga/-/merge_requests/145",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1854",
+      "author": "Blanca López",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-04-29T15:13:08.694Z",
+      "updated_at": "2026-04-29T15:13:08.694Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-29T12:17:18.466Z"
+  "last_updated": "2026-04-29T15:13:08.694Z"
 }
