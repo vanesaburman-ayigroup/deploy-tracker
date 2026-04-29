@@ -350,7 +350,61 @@
       "channel": "slack",
       "sent_at": "2026-04-24T13:48:18.281Z",
       "payload": "🚨 CORE listo: wslistados (GRV-1646) — Alta"
+    },
+    {
+      "event_hash": "f79c64176d2a09bf",
+      "ticket_id": "GRV-1863",
+      "mr_id": 1248,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-04-29T19:25:37.703Z",
+      "payload": "¡PM! GRV-1863 (Barreras Arquitectónicas) listo para"
+    },
+    {
+      "event_hash": "1e9d68f1f8ebf949",
+      "ticket_id": "GRV-1863",
+      "mr_id": 1248,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-04-29T19:25:37.704Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "586e9d499bba9656",
+      "ticket_id": "GRV-1863",
+      "mr_id": 1248,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-04-29T19:25:37.704Z",
+      "payload": "🚨 CORE listo: wsdocumento (GRV-1863) — Bloqueante"
+    },
+    {
+      "event_hash": "2c836b7d6ce86a7c",
+      "ticket_id": "GRV-1863",
+      "mr_id": 192,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-04-29T19:25:40.593Z",
+      "payload": "¡Atención PM! 🚨 GRV-1863 (Barreras"
+    },
+    {
+      "event_hash": "3dc6913c0e5a2244",
+      "ticket_id": "GRV-1863",
+      "mr_id": 192,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-04-29T19:25:40.594Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "de1b1251822bf53e",
+      "ticket_id": "GRV-1863",
+      "mr_id": 192,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-04-29T19:25:40.594Z",
+      "payload": "🚨 CORE listo: wssiniestro (GRV-1863) — Bloqueante"
     }
   ],
-  "last_checked": "2026-04-24T13:48:18.281Z"
+  "last_checked": "2026-04-29T19:25:40.594Z"
 }
