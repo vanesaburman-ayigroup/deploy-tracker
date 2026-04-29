@@ -3953,22 +3953,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1693-pdf-convenio-proveedores",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/contrataciones/-/merge_requests/219",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1693",
       "author": "Blanca López",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-04-21T17:59:04.225Z",
-      "updated_at": "2026-04-22T19:36:32.378Z",
+      "updated_at": "2026-04-29T21:04:58.216Z",
       "deployed_at": null
     },
     {
@@ -3981,7 +3981,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1795-sp-consulta-siniestros-hardening",
       "target_branch": "develop",
@@ -3990,13 +3990,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-21T19:24:07.455Z",
-      "updated_at": "2026-04-24T15:08:25.606Z",
+      "updated_at": "2026-04-29T21:04:56.641Z",
       "deployed_at": null
     },
     {
@@ -4009,7 +4009,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1795-filtros-siniestros-auditoria",
       "target_branch": "develop",
@@ -4018,13 +4018,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-21T19:24:07.457Z",
-      "updated_at": "2026-04-24T15:08:25.608Z",
+      "updated_at": "2026-04-29T21:04:56.643Z",
       "deployed_at": null
     },
     {
@@ -4037,22 +4037,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "GRV-1813-fix-siniestros-multiples",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1733",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1813",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T20:53:15.412Z",
-      "updated_at": "2026-04-24T13:48:18.578Z",
+      "updated_at": "2026-04-29T21:04:57.425Z",
       "deployed_at": null
     },
     {
@@ -4065,22 +4065,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "GRV-1813-fix-causas-siniestros-multiples",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1734",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1813",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T21:45:45.559Z",
-      "updated_at": "2026-04-24T13:48:18.580Z",
+      "updated_at": "2026-04-29T21:04:57.427Z",
       "deployed_at": null
     },
     {
@@ -4130,13 +4130,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-04-22T19:36:31.100Z",
-      "updated_at": "2026-04-27T21:02:21.951Z",
+      "updated_at": "2026-04-29T21:04:57.928Z",
       "deployed_at": null
     },
     {
@@ -4149,22 +4149,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "GRV-1646-fix-seleccionar-agencia-translado",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslistados/-/merge_requests/588",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1646",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 150,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-22T21:51:31.433Z",
-      "updated_at": "2026-04-24T13:48:11.977Z",
+      "updated_at": "2026-04-29T21:04:57.660Z",
       "deployed_at": null
     },
     {
@@ -4205,7 +4205,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1798-notificaciones-sg",
       "target_branch": "develop",
@@ -4214,13 +4214,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-23T14:04:52.998Z",
-      "updated_at": "2026-04-27T19:22:10.839Z",
+      "updated_at": "2026-04-29T21:04:57.102Z",
       "deployed_at": null
     },
     {
@@ -4289,7 +4289,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1801-sg",
       "target_branch": "develop",
@@ -4298,13 +4298,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-04-24T13:48:11.716Z",
-      "updated_at": "2026-04-27T19:22:11.133Z",
+      "updated_at": "2026-04-29T21:04:56.885Z",
       "deployed_at": null
     },
     {
@@ -4345,7 +4345,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1835-siniestros-cronicos-activos-cerrados",
       "target_branch": "develop",
@@ -4354,13 +4354,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-24T18:52:50.017Z",
-      "updated_at": "2026-04-27T19:22:10.581Z",
+      "updated_at": "2026-04-29T21:04:56.389Z",
       "deployed_at": null
     },
     {
@@ -4373,7 +4373,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1835-siniestros-cronicos-activos-cerrados",
       "target_branch": "develop",
@@ -4382,13 +4382,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-24T18:52:50.020Z",
-      "updated_at": "2026-04-27T19:22:10.584Z",
+      "updated_at": "2026-04-29T21:04:56.392Z",
       "deployed_at": null
     },
     {
@@ -4672,5 +4672,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-04-29T19:25:40.885Z"
+  "last_updated": "2026-04-29T21:04:58.216Z"
 }
