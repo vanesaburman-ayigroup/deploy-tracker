@@ -3953,22 +3953,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1693-pdf-convenio-proveedores",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/contrataciones/-/merge_requests/219",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1693",
       "author": "Blanca López",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Mathias Fraifer",
       "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-04-21T17:59:04.225Z",
-      "updated_at": "2026-04-29T21:04:58.216Z",
+      "updated_at": "2026-05-04T21:08:51.417Z",
       "deployed_at": null
     },
     {
@@ -4121,22 +4121,22 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Baja",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/grv-1279-quito-fecha-nacimiento-empleado",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/346",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1279",
       "author": "Rodrigo Perdomo",
-      "is_ready": true,
-      "priority_weight": 150,
+      "is_ready": false,
+      "priority_weight": 100,
       "assignee_name": "Mathias Fraifer",
       "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-04-22T19:36:31.100Z",
-      "updated_at": "2026-04-29T21:04:57.928Z",
+      "updated_at": "2026-05-04T21:08:51.016Z",
       "deployed_at": null
     },
     {
@@ -4625,22 +4625,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1854-palabras-clave",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsmesacarga/-/merge_requests/145",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1854",
       "author": "Blanca López",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Mathias Fraifer",
+      "assignee_email": "mathias.fraifer@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-29T15:13:08.694Z",
-      "updated_at": "2026-04-29T17:39:05.950Z",
+      "updated_at": "2026-05-04T21:08:51.210Z",
       "deployed_at": null
     },
     {
@@ -4784,5 +4784,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-04T19:28:37.710Z"
+  "last_updated": "2026-05-04T21:08:51.417Z"
 }
