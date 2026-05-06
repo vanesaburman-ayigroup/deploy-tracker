@@ -404,7 +404,61 @@
       "channel": "slack",
       "sent_at": "2026-04-29T19:25:40.594Z",
       "payload": "🚨 CORE listo: wssiniestro (GRV-1863) — Bloqueante"
+    },
+    {
+      "event_hash": "f3d8af88f8f7cfa5",
+      "ticket_id": "GRV-1841",
+      "mr_id": 1259,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-05-06T19:45:58.821Z",
+      "payload": "¡Atención PM! GRV-1841 (Error en denuncias"
+    },
+    {
+      "event_hash": "3864cc82ff261460",
+      "ticket_id": "GRV-1841",
+      "mr_id": 1259,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-05-06T19:45:58.822Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "f7d86f5812e94fb2",
+      "ticket_id": "GRV-1841",
+      "mr_id": 1259,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-05-06T19:45:58.823Z",
+      "payload": "🚨 CORE listo: wsdocumento (GRV-1841) — Alta"
+    },
+    {
+      "event_hash": "0964f1d7933681e6",
+      "ticket_id": "GRV-1897",
+      "mr_id": 439,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-05-06T19:46:02.318Z",
+      "payload": "¡PM! Alerta: Necesitamos ventana de no uso a las 19hs para servicios"
+    },
+    {
+      "event_hash": "bf836667ee08be25",
+      "ticket_id": "GRV-1897",
+      "mr_id": 439,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-05-06T19:46:02.318Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "dd4a686b7185c0d5",
+      "ticket_id": "GRV-1897",
+      "mr_id": 439,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-05-06T19:46:02.319Z",
+      "payload": "🚨 CORE listo: wssolicitudesgenericas (GRV-1897) — Bloqueante"
     }
   ],
-  "last_checked": "2026-04-29T19:25:40.594Z"
+  "last_checked": "2026-05-06T19:46:02.319Z"
 }
