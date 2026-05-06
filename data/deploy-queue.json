@@ -4765,7 +4765,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "En curso",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1897-error-vencidos-sg",
       "target_branch": "develop",
@@ -4774,13 +4774,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Blanca López",
-      "assignee_email": "blanca.lopez@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-04T19:28:37.710Z",
-      "updated_at": "2026-05-04T19:28:37.710Z",
+      "updated_at": "2026-05-06T17:40:56.797Z",
       "deployed_at": null
     },
     {
@@ -4793,7 +4793,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1910-error-contador",
       "target_branch": "develop",
@@ -4802,13 +4802,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-05T17:26:58.595Z",
-      "updated_at": "2026-05-06T15:26:30.265Z",
+      "updated_at": "2026-05-06T17:40:56.408Z",
       "deployed_at": null
     },
     {
@@ -4877,7 +4877,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1910-correccion-query-vencidos",
       "target_branch": "develop",
@@ -4886,13 +4886,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-05T21:02:43.570Z",
-      "updated_at": "2026-05-06T15:26:30.268Z",
+      "updated_at": "2026-05-06T17:40:56.410Z",
       "deployed_at": null
     },
     {
@@ -4905,7 +4905,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1910-vencidos",
       "target_branch": "develop",
@@ -4914,15 +4914,99 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-05T21:02:43.573Z",
-      "updated_at": "2026-05-06T15:26:30.270Z",
+      "updated_at": "2026-05-06T17:40:56.412Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1887",
+      "jira_summary": "Inconvenientes para cargar CUIL - SAS AYI",
+      "mr_id": 1770,
+      "mr_title": "GRV-1887: restaura autocompletado de CUIL preservando bloqueo en autoseguro/CEM",
+      "repo_name": "frontend",
+      "project_path": "frontend/frontend",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1887-restaurar-autocompletado-cuil",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1770",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1887",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-05-06T17:40:56.168Z",
+      "updated_at": "2026-05-06T17:40:56.169Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1897",
+      "jira_summary": "Problemas generales en SG",
+      "mr_id": 865,
+      "mr_title": "Corrección query siniestros vencidos en consulta_siniestro_tipo_siniestro",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1897-error-vencidos",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/865",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1897",
+      "author": "Blanca López",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-05-06T17:40:56.799Z",
+      "updated_at": "2026-05-06T17:40:56.799Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1897",
+      "jira_summary": "Problemas generales en SG",
+      "mr_id": 866,
+      "mr_title": "Correccion consulta siniestros para no informar activos y activos sin baja en vencidos",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "TEST",
+      "mr_status": "closed",
+      "source_branch": "feature/GRV-1897-error-siniestros-vencidos",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/866",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1897",
+      "author": "Blanca López",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-05-06T17:40:56.801Z",
+      "updated_at": "2026-05-06T17:40:56.801Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-06T15:26:30.270Z"
+  "last_updated": "2026-05-06T17:40:56.801Z"
 }
