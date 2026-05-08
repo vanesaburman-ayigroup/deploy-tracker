@@ -5256,9 +5256,37 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-08T14:51:22.780Z",
-      "updated_at": "2026-05-08T14:51:22.780Z",
+      "updated_at": "2026-05-08T18:10:07.930Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1931",
+      "jira_summary": "corregir diferencias en las card de \"Requerimientos Pendientes\"",
+      "mr_id": 895,
+      "mr_title": "Corrección diferencias contadores requerimientos pendientes",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "En curso",
+      "mr_status": "merged",
+      "source_branch": "hotfix/GRV-1931-requerimientos-pendientes",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/895",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1931",
+      "author": "Blanca López",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Blanca López",
+      "assignee_email": "blanca.lopez@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-05-08T18:10:07.933Z",
+      "updated_at": "2026-05-08T18:10:07.933Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-08T14:51:22.780Z"
+  "last_updated": "2026-05-08T18:10:07.933Z"
 }
