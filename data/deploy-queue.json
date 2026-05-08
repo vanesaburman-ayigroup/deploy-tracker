@@ -5230,7 +5230,35 @@
       "detected_at": "2026-05-07T21:04:06.199Z",
       "updated_at": "2026-05-07T21:04:06.199Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1931",
+      "jira_summary": "corregir diferencias en las card de \"Requerimientos Pendientes\"",
+      "mr_id": 889,
+      "mr_title": "Corrección servicio requerimientos-completos para informar gestores del...",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "En curso",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-1930-1931-requerimientos-sinCentroDeriv-vencidos",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/889",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1931",
+      "author": "Blanca López",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Blanca López",
+      "assignee_email": "blanca.lopez@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-05-08T14:51:22.780Z",
+      "updated_at": "2026-05-08T14:51:22.780Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-07T21:04:06.199Z"
+  "last_updated": "2026-05-08T14:51:22.780Z"
 }
