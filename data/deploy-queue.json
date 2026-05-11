@@ -5314,7 +5314,63 @@
       "detected_at": "2026-05-11T13:47:57.205Z",
       "updated_at": "2026-05-11T13:47:57.205Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1920",
+      "jira_summary": "Error al derivar Consultas y Reclamos.",
+      "mr_id": 60,
+      "mr_title": "GRV-1920: Saca validacion por usuario responsable al derivar consulta/reclamo",
+      "repo_name": "wsgestionconsultasreclamos",
+      "project_path": "backend/wsgestionconsultasreclamos",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1920-derivar-sin-validacion-responsable",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsgestionconsultasreclamos/-/merge_requests/60",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1920",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Atencion al Cliente"
+      ],
+      "detected_at": "2026-05-11T16:32:44.502Z",
+      "updated_at": "2026-05-11T16:32:44.502Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1920",
+      "jira_summary": "Error al derivar Consultas y Reclamos.",
+      "mr_id": 52,
+      "mr_title": "feat(consultas-reclamos): mejoras UX al derivar y crear caso (GRV-1920)",
+      "repo_name": "atencioncliente",
+      "project_path": "frontend/atencioncliente",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1920-derivar-mejoras-ux-front",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/atencioncliente/-/merge_requests/52",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1920",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Atencion al Cliente"
+      ],
+      "detected_at": "2026-05-11T16:32:44.505Z",
+      "updated_at": "2026-05-11T16:32:44.505Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-11T13:47:57.205Z"
+  "last_updated": "2026-05-11T16:32:44.505Z"
 }
