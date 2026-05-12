@@ -5474,13 +5474,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-05-12T16:18:13.064Z",
-      "updated_at": "2026-05-12T18:55:13.540Z",
+      "updated_at": "2026-05-12T20:28:23.911Z",
       "deployed_at": null
     },
     {
@@ -5502,13 +5502,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-05-12T16:18:13.067Z",
-      "updated_at": "2026-05-12T18:55:13.544Z",
+      "updated_at": "2026-05-12T20:28:23.914Z",
       "deployed_at": null
     },
     {
@@ -5530,13 +5530,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-05-12T16:18:13.069Z",
-      "updated_at": "2026-05-12T18:55:13.547Z",
+      "updated_at": "2026-05-12T20:28:23.917Z",
       "deployed_at": null
     },
     {
@@ -5558,13 +5558,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-05-12T16:18:13.072Z",
-      "updated_at": "2026-05-12T18:55:13.550Z",
+      "updated_at": "2026-05-12T20:28:23.920Z",
       "deployed_at": null
     },
     {
@@ -5586,13 +5586,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-05-12T16:18:13.075Z",
-      "updated_at": "2026-05-12T18:55:13.553Z",
+      "updated_at": "2026-05-12T20:28:23.923Z",
       "deployed_at": null
     },
     {
@@ -5614,15 +5614,15 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-05-12T16:18:13.079Z",
-      "updated_at": "2026-05-12T18:55:13.556Z",
+      "updated_at": "2026-05-12T20:28:23.926Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-12T18:55:14.102Z"
+  "last_updated": "2026-05-12T20:28:23.926Z"
 }
