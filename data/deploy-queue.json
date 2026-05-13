@@ -5452,7 +5452,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-05-12T13:03:27.282Z",
-      "updated_at": "2026-05-13T13:10:42.201Z",
+      "updated_at": "2026-05-13T18:56:15.112Z",
       "deployed_at": null
     },
     {
@@ -5624,5 +5624,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-13T13:10:42.201Z"
+  "last_updated": "2026-05-13T18:56:15.112Z"
 }
