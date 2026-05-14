@@ -4948,7 +4948,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-05-06T17:40:56.168Z",
-      "updated_at": "2026-05-12T13:03:27.601Z",
+      "updated_at": "2026-05-14T17:49:45.069Z",
       "deployed_at": null
     },
     {
@@ -5622,7 +5622,35 @@
       "detected_at": "2026-05-12T16:18:13.079Z",
       "updated_at": "2026-05-12T20:28:23.926Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1794",
+      "jira_summary": "Igualar estados auditoria de facturacion/logistica",
+      "mr_id": 250,
+      "mr_title": "GRV-1794 / SQL — DDL unificado, view, SP consulta y migración de datos",
+      "repo_name": "wsauditoriatraslados",
+      "project_path": "backend/wsauditoriatraslados",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "LISTO PARA PROD",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1794-facturacion-sobre-agencias-historico",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoriatraslados/-/merge_requests/250",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1794",
+      "author": "Francisco Ziegler",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoría de Facturación"
+      ],
+      "detected_at": "2026-05-14T17:49:45.396Z",
+      "updated_at": "2026-05-14T17:49:45.396Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-13T18:56:15.112Z"
+  "last_updated": "2026-05-14T17:49:45.396Z"
 }
