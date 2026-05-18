@@ -458,7 +458,142 @@
       "channel": "slack",
       "sent_at": "2026-05-06T19:46:02.319Z",
       "payload": "🚨 CORE listo: wssolicitudesgenericas (GRV-1897) — Bloqueante"
+    },
+    {
+      "event_hash": "56221cda711df590",
+      "ticket_id": "GRV-1905",
+      "mr_id": 352,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-05-18T21:12:20.113Z",
+      "payload": "¡Alerta PM! GRV-1905 (Bugfix PDF Autorización)"
+    },
+    {
+      "event_hash": "e1196bba631a16dc",
+      "ticket_id": "GRV-1905",
+      "mr_id": 352,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-05-18T21:12:20.114Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "ee39a5ba8843d464",
+      "ticket_id": "GRV-1905",
+      "mr_id": 352,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-05-18T21:12:20.114Z",
+      "payload": "🚨 CORE listo: logistica (GRV-1905) — Bloqueante"
+    },
+    {
+      "event_hash": "56c683617f671593",
+      "ticket_id": "GRV-1905",
+      "mr_id": 737,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-05-18T21:12:23.055Z",
+      "payload": "**¡Alerta PM!** GRV-1905 (PDF Autorización"
+    },
+    {
+      "event_hash": "501a1a69d8b95a51",
+      "ticket_id": "GRV-1905",
+      "mr_id": 737,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-05-18T21:12:23.056Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "1ec89a146e0130e8",
+      "ticket_id": "GRV-1905",
+      "mr_id": 737,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-05-18T21:12:23.056Z",
+      "payload": "🚨 CORE listo: wsturnos (GRV-1905) — Bloqueante"
+    },
+    {
+      "event_hash": "defe303cce47e683",
+      "ticket_id": "GRV-1905",
+      "mr_id": 597,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-05-18T21:12:26.048Z",
+      "payload": "¡Atención PM!\n\n**Alerta de Deploy CRÍTICO:**\n\n**GR"
+    },
+    {
+      "event_hash": "b8c0035bb6ccd0d1",
+      "ticket_id": "GRV-1905",
+      "mr_id": 597,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-05-18T21:12:26.048Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "4fb4d7171e474c1f",
+      "ticket_id": "GRV-1905",
+      "mr_id": 597,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-05-18T21:12:26.049Z",
+      "payload": "🚨 CORE listo: wslistados (GRV-1905) — Bloqueante"
+    },
+    {
+      "event_hash": "0d8b2d84f02c0765",
+      "ticket_id": "GRV-1905",
+      "mr_id": 482,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-05-18T21:12:28.775Z",
+      "payload": "¡Atención PM!\n\n**Alerta de Deploy Core:** GRV-1905"
+    },
+    {
+      "event_hash": "cca21c10ec6aedf9",
+      "ticket_id": "GRV-1905",
+      "mr_id": 482,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-05-18T21:12:28.776Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "3ef6adbe0121faba",
+      "ticket_id": "GRV-1905",
+      "mr_id": 482,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-05-18T21:12:28.777Z",
+      "payload": "🚨 CORE listo: wslogistica (GRV-1905) — Bloqueante"
+    },
+    {
+      "event_hash": "404b8f2aa3e8df47",
+      "ticket_id": "GRV-1905",
+      "mr_id": 550,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-05-18T21:12:31.403Z",
+      "payload": "¡Atención PM! 🚨\n\nNecesitamos ventana de no uso a las 19hs"
+    },
+    {
+      "event_hash": "bf11a577b5c572df",
+      "ticket_id": "GRV-1905",
+      "mr_id": 550,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-05-18T21:12:31.404Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "fd7c55cc49f1cfcb",
+      "ticket_id": "GRV-1905",
+      "mr_id": 550,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-05-18T21:12:31.578Z",
+      "payload": "🚨 CORE listo: wsimportarexportar (GRV-1905) — Bloqueante"
     }
   ],
-  "last_checked": "2026-05-06T19:46:02.319Z"
+  "last_checked": "2026-05-18T21:12:31.578Z"
 }
