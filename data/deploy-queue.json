@@ -6014,7 +6014,35 @@
       "detected_at": "2026-05-20T13:37:02.841Z",
       "updated_at": "2026-05-20T13:37:02.841Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1382",
+      "jira_summary": "Modificar ubicacion de asignacion de traslado",
+      "mr_id": 956,
+      "mr_title": "Se modifica el momento de la gestión de ortopedia donde se le asigna traslado",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-1382-asignacion-traslado-gestion-ortopedia",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/956",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1382",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-05-20T21:53:31.239Z",
+      "updated_at": "2026-05-20T21:53:31.239Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-20T19:24:56.699Z"
+  "last_updated": "2026-05-20T21:53:31.239Z"
 }
