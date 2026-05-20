@@ -2321,7 +2321,7 @@
     },
     {
       "jira_ticket": "GRV-1245",
-      "jira_summary": "ACTUALIZACION MÓDULO CIRUGÍAS",
+      "jira_summary": "Modulo de cirugias",
       "mr_id": 619,
       "mr_title": "Feature/grv 1245 agrego endpoint guardar seguimiento pedidos materiales qx",
       "repo_name": "wsauditoria",
@@ -2329,7 +2329,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "UAT",
+      "jira_status": "Tareas por hacer",
       "mr_status": "merged",
       "source_branch": "feature/grv-1245-agrego-endpoint-guardar-seguimiento-pedidos-materiales-qx",
       "target_branch": "develop",
@@ -2338,18 +2338,18 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Eduardo Romano",
-      "assignee_email": "eduardo.romano@ayi.group",
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-06T19:00:09.217Z",
-      "updated_at": "2026-04-06T19:00:09.217Z",
+      "updated_at": "2026-05-20T19:24:56.693Z",
       "deployed_at": null
     },
     {
       "jira_ticket": "GRV-1245",
-      "jira_summary": "ACTUALIZACION MÓDULO CIRUGÍAS",
+      "jira_summary": "Modulo de cirugias",
       "mr_id": 533,
       "mr_title": "Agrego fix para mostrar la receta asociada a una autorizacion en una nueva...",
       "repo_name": "auditoriamedica",
@@ -2357,7 +2357,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "UAT",
+      "jira_status": "Tareas por hacer",
       "mr_status": "merged",
       "source_branch": "feature/grv-1245-autorizacion-modulo-cirugia",
       "target_branch": "develop",
@@ -2366,18 +2366,18 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Eduardo Romano",
-      "assignee_email": "eduardo.romano@ayi.group",
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-06T19:00:09.218Z",
-      "updated_at": "2026-04-06T19:00:09.218Z",
+      "updated_at": "2026-05-20T19:24:56.696Z",
       "deployed_at": null
     },
     {
       "jira_ticket": "GRV-1245",
-      "jira_summary": "ACTUALIZACION MÓDULO CIRUGÍAS",
+      "jira_summary": "Modulo de cirugias",
       "mr_id": 535,
       "mr_title": "Agrego fixes para mostrar seguimiento de pedido materiales qx",
       "repo_name": "auditoriamedica",
@@ -2385,7 +2385,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "UAT",
+      "jira_status": "Tareas por hacer",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-1245-fixes-modulo-cirugia",
       "target_branch": "develop",
@@ -2394,13 +2394,13 @@
       "author": "Rodrigo Perdomo",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Eduardo Romano",
-      "assignee_email": "eduardo.romano@ayi.group",
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-04-06T19:00:09.220Z",
-      "updated_at": "2026-04-06T19:00:09.220Z",
+      "updated_at": "2026-05-20T19:24:56.699Z",
       "deployed_at": null
     },
     {
@@ -6016,5 +6016,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-20T13:37:03.281Z"
+  "last_updated": "2026-05-20T19:24:56.699Z"
 }
