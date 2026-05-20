@@ -5941,7 +5941,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1961-codigo-externo-subprestador-pdf",
       "target_branch": "develop",
@@ -5956,9 +5956,65 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-19T20:49:07.057Z",
-      "updated_at": "2026-05-19T20:49:07.057Z",
+      "updated_at": "2026-05-20T13:37:03.281Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1925",
+      "jira_summary": "Error contador requerimientos pendientes",
+      "mr_id": 1506,
+      "mr_title": "fix: redirigir cards de solicitudes en panel requerimientos a vista de reqs",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-1925-dashboard-y-redireccion-requerimientos-tramitadores",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1506",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1925",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-05-20T13:37:02.835Z",
+      "updated_at": "2026-05-20T13:37:02.836Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1925",
+      "jira_summary": "Error contador requerimientos pendientes",
+      "mr_id": 951,
+      "mr_title": "fix: filtrar requerimientos por id_estado_requerimiento=3 (EN_REVISION)",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-1925-dashboard-y-redireccion-requerimientos-tramitadores",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/951",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1925",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-05-20T13:37:02.841Z",
+      "updated_at": "2026-05-20T13:37:02.841Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-19T20:49:07.057Z"
+  "last_updated": "2026-05-20T13:37:03.281Z"
 }
