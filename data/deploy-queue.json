@@ -4317,7 +4317,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/grv-1846-agregar-imagen-pdc",
       "target_branch": "develop",
@@ -4332,7 +4332,7 @@
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-04-24T13:48:18.890Z",
-      "updated_at": "2026-04-24T15:08:26.595Z",
+      "updated_at": "2026-05-21T14:14:06.009Z",
       "deployed_at": null
     },
     {
@@ -4485,7 +4485,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-1879-fix-rediseño-pdc",
       "target_branch": "develop",
@@ -4500,7 +4500,7 @@
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-04-27T21:02:22.295Z",
-      "updated_at": "2026-05-04T19:28:37.508Z",
+      "updated_at": "2026-05-21T14:14:06.359Z",
       "deployed_at": null
     },
     {
@@ -4653,7 +4653,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-1879-fix-rediseño-pdc",
       "target_branch": "develop",
@@ -4668,7 +4668,7 @@
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-04-29T19:25:40.885Z",
-      "updated_at": "2026-05-04T19:28:37.510Z",
+      "updated_at": "2026-05-21T14:14:06.361Z",
       "deployed_at": null
     },
     {
@@ -5241,7 +5241,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "En curso",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1930-1931-requerimientos-sinCentroDeriv-vencidos",
       "target_branch": "develop",
@@ -5250,13 +5250,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Blanca López",
-      "assignee_email": "blanca.lopez@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-08T14:51:22.780Z",
-      "updated_at": "2026-05-08T18:10:07.930Z",
+      "updated_at": "2026-05-21T14:14:06.982Z",
       "deployed_at": null
     },
     {
@@ -5269,7 +5269,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "En curso",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "hotfix/GRV-1931-requerimientos-pendientes",
       "target_branch": "develop",
@@ -5278,13 +5278,13 @@
       "author": "Blanca López",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Blanca López",
-      "assignee_email": "blanca.lopez@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-08T18:10:07.933Z",
-      "updated_at": "2026-05-08T18:10:07.933Z",
+      "updated_at": "2026-05-21T14:14:06.985Z",
       "deployed_at": null
     },
     {
@@ -5717,8 +5717,8 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "feature/grv-1941-tabla-indicaciones-auditoria-medica-lectura",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/atencioncliente/-/merge_requests/56",
@@ -5726,13 +5726,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-05-15T15:12:47.703Z",
-      "updated_at": "2026-05-15T15:12:47.704Z",
+      "updated_at": "2026-05-21T14:14:06.617Z",
       "deployed_at": null
     },
     {
@@ -5969,7 +5969,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1925-dashboard-y-redireccion-requerimientos-tramitadores",
       "target_branch": "develop",
@@ -5978,13 +5978,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-20T13:37:02.835Z",
-      "updated_at": "2026-05-20T13:37:02.836Z",
+      "updated_at": "2026-05-21T14:14:07.242Z",
       "deployed_at": null
     },
     {
@@ -5997,7 +5997,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1925-dashboard-y-redireccion-requerimientos-tramitadores",
       "target_branch": "develop",
@@ -6006,13 +6006,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-20T13:37:02.841Z",
-      "updated_at": "2026-05-20T13:37:02.841Z",
+      "updated_at": "2026-05-21T14:14:07.245Z",
       "deployed_at": null
     },
     {
@@ -6042,7 +6042,63 @@
       "detected_at": "2026-05-20T21:53:31.239Z",
       "updated_at": "2026-05-20T21:53:31.239Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1895",
+      "jira_summary": "PME SIN MIGRAR",
+      "mr_id": 66,
+      "mr_title": "GRV-1895: registra el envío de documentos PME en el log de integración Provincia",
+      "repo_name": "wsprovinciaart",
+      "project_path": "backend/wsprovinciaart",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "feature/grv-1895-trazabilidad-logs-documento",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsprovinciaart/-/merge_requests/66",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1895",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-05-21T14:14:07.778Z",
+      "updated_at": "2026-05-21T14:14:07.778Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1895",
+      "jira_summary": "PME SIN MIGRAR",
+      "mr_id": 946,
+      "mr_title": "GRV-1895: propaga la denuncia en el envío de documentos PME a Provincia ART",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "feature/grv-1895-trazabilidad-logs-documento",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/946",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1895",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-05-21T14:14:07.781Z",
+      "updated_at": "2026-05-21T14:14:07.781Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-20T21:53:31.239Z"
+  "last_updated": "2026-05-21T14:14:07.781Z"
 }
