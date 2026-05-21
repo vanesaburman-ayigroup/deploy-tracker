@@ -6266,7 +6266,35 @@
       "detected_at": "2026-05-21T17:30:28.672Z",
       "updated_at": "2026-05-21T17:30:28.672Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1810",
+      "jira_summary": "Error en fechas requeridas de pago",
+      "mr_id": 360,
+      "mr_title": "fix(GRV-1810): corregir auditoría de adelantos usando mutation en lugar de query",
+      "repo_name": "logistica",
+      "project_path": "frontend/logistica",
+      "service_type": "core_frontend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-1810-fecha-requerida-pago",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/360",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1810",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-05-21T19:53:01.478Z",
+      "updated_at": "2026-05-21T19:53:01.478Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-21T17:30:28.672Z"
+  "last_updated": "2026-05-21T19:53:01.478Z"
 }
