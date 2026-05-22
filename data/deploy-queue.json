@@ -5717,22 +5717,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/grv-1941-tabla-indicaciones-auditoria-medica-lectura",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/atencioncliente/-/merge_requests/56",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1941",
       "author": "Maximiliano Carubin",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-05-15T15:12:47.703Z",
-      "updated_at": "2026-05-21T21:27:18.399Z",
+      "updated_at": "2026-05-22T18:54:29.224Z",
       "deployed_at": null
     },
     {
@@ -6109,22 +6109,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "GRV-682-fix-endpoint-proveedores",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/contrataciones/-/merge_requests/231",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-682",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-05-21T17:30:27.621Z",
-      "updated_at": "2026-05-21T21:27:18.094Z",
+      "updated_at": "2026-05-22T18:54:28.955Z",
       "deployed_at": null
     },
     {
@@ -6277,22 +6277,22 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1810-fecha-requerida-pago",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/360",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1810",
       "author": "Francisco Ziegler",
-      "is_ready": false,
-      "priority_weight": 100,
+      "is_ready": true,
+      "priority_weight": 150,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-05-21T19:53:01.478Z",
-      "updated_at": "2026-05-22T16:26:01.738Z",
+      "updated_at": "2026-05-22T18:54:29.573Z",
       "deployed_at": null
     },
     {
@@ -6378,7 +6378,35 @@
       "detected_at": "2026-05-22T16:26:01.385Z",
       "updated_at": "2026-05-22T16:26:01.385Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1983",
+      "jira_summary": "[VER] CONSULTA DOBLE ASIGNACION",
+      "mr_id": 499,
+      "mr_title": "fix: actualizar historico agencia al procesar callback del orquestador",
+      "repo_name": "wslogistica",
+      "project_path": "backend/wslogistica",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-1983-actualizacion-etiqueta-satap",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/499",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1983",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-05-22T18:54:28.698Z",
+      "updated_at": "2026-05-22T18:54:28.698Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-22T16:26:01.738Z"
+  "last_updated": "2026-05-22T18:54:29.573Z"
 }

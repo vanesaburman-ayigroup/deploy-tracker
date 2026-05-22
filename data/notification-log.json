@@ -593,7 +593,34 @@
       "channel": "slack",
       "sent_at": "2026-05-18T21:12:31.578Z",
       "payload": "🚨 CORE listo: wsimportarexportar (GRV-1905) — Bloqueante"
+    },
+    {
+      "event_hash": "8a8fe43f856faaef",
+      "ticket_id": "GRV-1810",
+      "mr_id": 360,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-05-22T18:54:30.015Z",
+      "payload": "🚨 ALERTA: MR core lista para deploy\n\nTicket: GRV-1810\nServicio: logistica (core_frontend)\nMR: !360 — fix(GRV-1810): corregir auditoría de adelantos usando mutation en lugar de query\nPrioridad: Bloqueante\nBranch: bugfix/GRV-1810-fecha-requerida-pago → develop\n\n⚠️ Acción requerida: Coordinar ventana de no uso del sistema a las 19:00hs"
+    },
+    {
+      "event_hash": "aa1da80eb79aee3b",
+      "ticket_id": "GRV-1810",
+      "mr_id": 360,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-05-22T18:54:30.016Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "b958325b390fe10a",
+      "ticket_id": "GRV-1810",
+      "mr_id": 360,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-05-22T18:54:30.016Z",
+      "payload": "🚨 CORE listo: logistica (GRV-1810) — Bloqueante"
     }
   ],
-  "last_checked": "2026-05-18T21:12:31.578Z"
+  "last_checked": "2026-05-22T18:54:30.016Z"
 }
