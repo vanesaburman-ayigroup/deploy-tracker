@@ -6376,7 +6376,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-22T16:26:01.385Z",
-      "updated_at": "2026-05-22T16:26:01.385Z",
+      "updated_at": "2026-05-22T20:42:55.786Z",
       "deployed_at": null
     },
     {
@@ -6389,7 +6389,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1983-actualizacion-etiqueta-satap",
       "target_branch": "develop",
@@ -6398,15 +6398,71 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-05-22T18:54:28.698Z",
-      "updated_at": "2026-05-22T18:54:28.698Z",
+      "updated_at": "2026-05-22T20:42:56.014Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1590",
+      "jira_summary": "HU  Adaptar perfil “Gerente de Prestaciones” a “Gerente General”. ",
+      "mr_id": 960,
+      "mr_title": "Se agrega filtro empleadores a los sp del home del gerente",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-1590-gerente-general-filtro-empleadores-home",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/960",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1590",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-05-22T20:42:55.789Z",
+      "updated_at": "2026-05-22T20:42:55.789Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1590",
+      "jira_summary": "HU  Adaptar perfil “Gerente de Prestaciones” a “Gerente General”. ",
+      "mr_id": 709,
+      "mr_title": "Se modifica sp de los contadores del home del perfil gerente general en tramitadores",
+      "repo_name": "wsauditoria",
+      "project_path": "backend/wsauditoria",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-1590-gerente-general-filtro-empleadores-home",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/709",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1590",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-05-22T20:42:55.792Z",
+      "updated_at": "2026-05-22T20:42:55.792Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-22T18:54:29.573Z"
+  "last_updated": "2026-05-22T20:42:56.014Z"
 }
