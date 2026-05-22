@@ -6286,15 +6286,99 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-05-21T19:53:01.478Z",
-      "updated_at": "2026-05-22T13:31:44.571Z",
+      "updated_at": "2026-05-22T16:26:01.738Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1950",
+      "jira_summary": "Agregar filtros y datos a la pantalla de Consultas y Reclamos",
+      "mr_id": 64,
+      "mr_title": "GRV-1976: agrega tablero CyR con contadores y filtros, y refina búsqueda de operadores",
+      "repo_name": "wsgestionconsultasreclamos",
+      "project_path": "backend/wsgestionconsultasreclamos",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-1976-home-consultas-reclamos",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsgestionconsultasreclamos/-/merge_requests/64",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1950",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Atencion al Cliente"
+      ],
+      "detected_at": "2026-05-22T16:26:01.031Z",
+      "updated_at": "2026-05-22T16:26:01.031Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1950",
+      "jira_summary": "Agregar filtros y datos a la pantalla de Consultas y Reclamos",
+      "mr_id": 60,
+      "mr_title": "GRV-1976: reemplaza el inicio del MF por un Home de CyR con tablero, filtros y bandeja refinada",
+      "repo_name": "atencioncliente",
+      "project_path": "frontend/atencioncliente",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-1976-home-consultas-reclamos",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/atencioncliente/-/merge_requests/60",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1950",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Atencion al Cliente"
+      ],
+      "detected_at": "2026-05-22T16:26:01.035Z",
+      "updated_at": "2026-05-22T16:26:01.035Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1590",
+      "jira_summary": "HU  Adaptar perfil “Gerente de Prestaciones” a “Gerente General”. ",
+      "mr_id": 608,
+      "mr_title": "Se agrega endpoint para buscar empleadores por clientes y razon social",
+      "repo_name": "wslistados",
+      "project_path": "backend/wslistados",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-1590-gerente-general-listado-empleadores",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslistados/-/merge_requests/608",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1590",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-05-22T16:26:01.385Z",
+      "updated_at": "2026-05-22T16:26:01.385Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-22T13:31:44.571Z"
+  "last_updated": "2026-05-22T16:26:01.738Z"
 }
