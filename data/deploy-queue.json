@@ -6462,7 +6462,63 @@
       "detected_at": "2026-05-22T20:42:55.792Z",
       "updated_at": "2026-05-22T20:42:55.792Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1975",
+      "jira_summary": "Dar de alta consultas y reclamos sin asociarlos a siniestros",
+      "mr_id": 68,
+      "mr_title": "GRV-1975: habilita altas de C&R sin siniestro y abre asignación a cualquier operador",
+      "repo_name": "wsgestionconsultasreclamos",
+      "project_path": "backend/wsgestionconsultasreclamos",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-1975-consultas-sin-siniestro",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsgestionconsultasreclamos/-/merge_requests/68",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1975",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Atencion al Cliente"
+      ],
+      "detected_at": "2026-05-26T20:08:20.592Z",
+      "updated_at": "2026-05-26T20:08:20.592Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1975",
+      "jira_summary": "Dar de alta consultas y reclamos sin asociarlos a siniestros",
+      "mr_id": 66,
+      "mr_title": "GRV-1975: agrega tabs Con/Sin siniestro y permite asignar o cambiar denuncia",
+      "repo_name": "atencioncliente",
+      "project_path": "frontend/atencioncliente",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-1975-consultas-sin-siniestro",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/atencioncliente/-/merge_requests/66",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1975",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Atencion al Cliente"
+      ],
+      "detected_at": "2026-05-26T20:08:20.595Z",
+      "updated_at": "2026-05-26T20:08:20.595Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-26T17:26:01.032Z"
+  "last_updated": "2026-05-26T20:08:20.595Z"
 }
