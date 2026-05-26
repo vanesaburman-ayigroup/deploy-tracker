@@ -6249,8 +6249,8 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "bugfix/actualizacion-etiqueta-satap",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/496",
@@ -6264,7 +6264,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-05-21T17:30:28.672Z",
-      "updated_at": "2026-05-21T17:30:28.672Z",
+      "updated_at": "2026-05-26T17:26:00.560Z",
       "deployed_at": null
     },
     {
@@ -6305,8 +6305,8 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "feature/GRV-1976-home-consultas-reclamos",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsgestionconsultasreclamos/-/merge_requests/64",
@@ -6320,7 +6320,7 @@
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-05-22T16:26:01.031Z",
-      "updated_at": "2026-05-22T16:26:01.031Z",
+      "updated_at": "2026-05-26T17:26:01.029Z",
       "deployed_at": null
     },
     {
@@ -6333,8 +6333,8 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "feature/GRV-1976-home-consultas-reclamos",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/atencioncliente/-/merge_requests/60",
@@ -6348,7 +6348,7 @@
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-05-22T16:26:01.035Z",
-      "updated_at": "2026-05-22T16:26:01.035Z",
+      "updated_at": "2026-05-26T17:26:01.032Z",
       "deployed_at": null
     },
     {
@@ -6398,13 +6398,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-05-22T18:54:28.698Z",
-      "updated_at": "2026-05-22T20:42:56.014Z",
+      "updated_at": "2026-05-26T17:26:00.766Z",
       "deployed_at": null
     },
     {
@@ -6464,5 +6464,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-22T20:42:56.014Z"
+  "last_updated": "2026-05-26T17:26:01.032Z"
 }
