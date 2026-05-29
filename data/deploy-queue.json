@@ -6518,7 +6518,63 @@
       "detected_at": "2026-05-26T20:08:20.595Z",
       "updated_at": "2026-05-26T20:08:20.595Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1972",
+      "jira_summary": "Error en rechazos/ adelantos y reintegros",
+      "mr_id": 367,
+      "mr_title": "GRV-1972: Se implementaron los cambios para que los adelantos y reintegros se...",
+      "repo_name": "logistica",
+      "project_path": "frontend/logistica",
+      "service_type": "core_frontend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "LISTO PARA PROD",
+      "mr_status": "merged",
+      "source_branch": "GRV-1972-fix-estado-adelantos-reintegros",
+      "target_branch": "release",
+      "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/367",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1972",
+      "author": "Alejandro Minue",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-05-29T14:01:06.030Z",
+      "updated_at": "2026-05-29T14:01:06.030Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1972",
+      "jira_summary": "Error en rechazos/ adelantos y reintegros",
+      "mr_id": 508,
+      "mr_title": "GRV-1972: Se implementaron los cambios para que los adelantos y reintegros se...",
+      "repo_name": "wslogistica",
+      "project_path": "backend/wslogistica",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "LISTO PARA PROD",
+      "mr_status": "merged",
+      "source_branch": "GRV-1972-fix-estado-adelantos-reintegros",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/508",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1972",
+      "author": "Alejandro Minue",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-05-29T14:01:06.033Z",
+      "updated_at": "2026-05-29T14:01:06.033Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-05-26T20:08:20.595Z"
+  "last_updated": "2026-05-29T14:01:06.033Z"
 }
