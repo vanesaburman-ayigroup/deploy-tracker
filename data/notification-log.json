@@ -620,7 +620,34 @@
       "channel": "slack",
       "sent_at": "2026-05-22T18:54:30.016Z",
       "payload": "🚨 CORE listo: logistica (GRV-1810) — Bloqueante"
+    },
+    {
+      "event_hash": "265a159a4a2f3fb3",
+      "ticket_id": "GRV-1984",
+      "mr_id": 745,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-06-01T20:54:52.148Z",
+      "payload": "¡Atención PM!\n\n**Alerta de Deploy: GRV-1984 ("
+    },
+    {
+      "event_hash": "8fc489caef417cd4",
+      "ticket_id": "GRV-1984",
+      "mr_id": 745,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-06-01T20:54:52.149Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "ca077714f9c6e4a7",
+      "ticket_id": "GRV-1984",
+      "mr_id": 745,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-06-01T20:54:52.149Z",
+      "payload": "🚨 CORE listo: wsturnos (GRV-1984) — Alta"
     }
   ],
-  "last_checked": "2026-05-22T18:54:30.016Z"
+  "last_checked": "2026-06-01T20:54:52.149Z"
 }
