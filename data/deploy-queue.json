@@ -5885,8 +5885,8 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "En curso",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "GRV-1939-nuevos-tabs-seguimiento",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1805",
@@ -5894,13 +5894,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-05-18T21:12:16.704Z",
-      "updated_at": "2026-05-18T21:12:16.704Z",
+      "updated_at": "2026-06-04T19:23:13.071Z",
       "deployed_at": null
     },
     {
@@ -6977,7 +6977,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-2005-fix-busqueda-filtros-siniestro",
       "target_branch": "develop",
@@ -6992,7 +6992,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-03T19:48:47.172Z",
-      "updated_at": "2026-06-03T19:48:47.172Z",
+      "updated_at": "2026-06-04T19:23:13.334Z",
       "deployed_at": null
     },
     {
@@ -7005,7 +7005,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-2005-nuevo-permiso-perfil-serologico",
       "target_branch": "develop",
@@ -7020,7 +7020,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-03T19:48:47.176Z",
-      "updated_at": "2026-06-03T19:48:47.176Z",
+      "updated_at": "2026-06-04T19:23:13.337Z",
       "deployed_at": null
     },
     {
@@ -7033,7 +7033,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-2005-fix-busqueda-registro-siniestros",
       "target_branch": "develop",
@@ -7048,7 +7048,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-03T19:48:47.179Z",
-      "updated_at": "2026-06-03T19:48:47.179Z",
+      "updated_at": "2026-06-04T19:23:13.341Z",
       "deployed_at": null
     },
     {
@@ -7076,9 +7076,121 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-06-04T16:55:53.335Z",
-      "updated_at": "2026-06-04T16:55:53.335Z",
+      "updated_at": "2026-06-04T19:23:12.781Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1939",
+      "jira_summary": "Operadores y supervisores necesitan poder cargar evoluciones en el campo de seguimiento (actualmente solo observaciones)",
+      "mr_id": 1847,
+      "mr_title": "GRV-1939: Se implementaron fix de estilos y de un metodo para que no genere error",
+      "repo_name": "frontend",
+      "project_path": "frontend/frontend",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "GRV-1939-nuevos-tabs-seguimiento",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1847",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1939",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Atencion al Cliente"
+      ],
+      "detected_at": "2026-06-04T19:23:13.075Z",
+      "updated_at": "2026-06-04T19:23:13.075Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1939",
+      "jira_summary": "Operadores y supervisores necesitan poder cargar evoluciones en el campo de seguimiento (actualmente solo observaciones)",
+      "mr_id": 1848,
+      "mr_title": "GRV-1939: Fix de estilos para que se vea bien",
+      "repo_name": "frontend",
+      "project_path": "frontend/frontend",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "GRV-1939-nuevos-tabs-seguimientos",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1848",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1939",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Atencion al Cliente"
+      ],
+      "detected_at": "2026-06-04T19:23:13.078Z",
+      "updated_at": "2026-06-04T19:23:13.078Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1939",
+      "jira_summary": "Operadores y supervisores necesitan poder cargar evoluciones en el campo de seguimiento (actualmente solo observaciones)",
+      "mr_id": 1849,
+      "mr_title": "GRV-1939: Se implementaron fix para los siniestros que tienen toda la logica...",
+      "repo_name": "frontend",
+      "project_path": "frontend/frontend",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "GRV-1939-nuevos-tabs-seguimientos",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1849",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1939",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Atencion al Cliente"
+      ],
+      "detected_at": "2026-06-04T19:23:13.083Z",
+      "updated_at": "2026-06-04T19:23:13.083Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2005",
+      "jira_summary": "Limitaciones en SAS 2 – solicitud de ajuste de perfi",
+      "mr_id": 1566,
+      "mr_title": "GRV-2005: Fix para eliminar llamados deuplicados al endpoint que busca los...",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "GRV-2005-fix-busqueda-registros-siniestros",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1566",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2005",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-06-04T19:23:13.345Z",
+      "updated_at": "2026-06-04T19:23:13.345Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-04T16:55:53.335Z"
+  "last_updated": "2026-06-04T19:23:13.345Z"
 }
