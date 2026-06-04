@@ -7050,7 +7050,35 @@
       "detected_at": "2026-06-03T19:48:47.179Z",
       "updated_at": "2026-06-03T19:48:47.179Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1955",
+      "jira_summary": "ERROR AYI-ALARMAS DE MICRO",
+      "mr_id": 513,
+      "mr_title": "GRV-1955 / se filtran traslados que responden a turnos que estan en estados...",
+      "repo_name": "wslogistica",
+      "project_path": "backend/wslogistica",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-1955-estado-turno-pendiente-autorizar-traslado-tp",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/513",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1955",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-06-04T16:55:53.335Z",
+      "updated_at": "2026-06-04T16:55:53.335Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-03T19:48:47.179Z"
+  "last_updated": "2026-06-04T16:55:53.335Z"
 }
