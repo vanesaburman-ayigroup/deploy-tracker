@@ -7190,7 +7190,63 @@
       "detected_at": "2026-06-04T19:23:13.345Z",
       "updated_at": "2026-06-04T19:23:13.345Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2016",
+      "jira_summary": "Error en alarmas",
+      "mr_id": 750,
+      "mr_title": "fix(GRV-2016): incluir dirección y localidad del proveedor en GET /turnos/por-id",
+      "repo_name": "wsturnos",
+      "project_path": "backend/wsturnos",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2016-direccion-traslado-creacion-turno",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/750",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2016",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-06-04T21:41:03.480Z",
+      "updated_at": "2026-06-04T21:41:03.480Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2016",
+      "jira_summary": "Error en alarmas",
+      "mr_id": 1573,
+      "mr_title": "fix(GRV-2016): pre-poblar dirección de destino al editar turno con traslado",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2016-direccion-traslado-creacion-turno",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1573",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2016",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-06-04T21:41:03.485Z",
+      "updated_at": "2026-06-04T21:41:03.485Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-04T19:23:13.345Z"
+  "last_updated": "2026-06-04T21:41:03.485Z"
 }
