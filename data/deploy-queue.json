@@ -4037,7 +4037,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "Finalizada",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "GRV-1813-fix-siniestros-multiples",
       "target_branch": "develop",
@@ -4046,13 +4046,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Mathias Fraifer",
-      "assignee_email": "mathias.fraifer@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T20:53:15.412Z",
-      "updated_at": "2026-04-29T21:04:57.425Z",
+      "updated_at": "2026-06-08T20:15:07.062Z",
       "deployed_at": null
     },
     {
@@ -4065,7 +4065,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "Finalizada",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "GRV-1813-fix-causas-siniestros-multiples",
       "target_branch": "develop",
@@ -4074,13 +4074,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Mathias Fraifer",
-      "assignee_email": "mathias.fraifer@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T21:45:45.559Z",
-      "updated_at": "2026-04-29T21:04:57.427Z",
+      "updated_at": "2026-06-08T20:15:07.067Z",
       "deployed_at": null
     },
     {
@@ -6361,7 +6361,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "En curso",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1590-gerente-general-listado-empleadores",
       "target_branch": "develop",
@@ -6370,13 +6370,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-22T16:26:01.385Z",
-      "updated_at": "2026-06-01T20:54:52.716Z",
+      "updated_at": "2026-06-08T20:15:07.502Z",
       "deployed_at": null
     },
     {
@@ -6417,7 +6417,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "En curso",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1590-gerente-general-filtro-empleadores-home",
       "target_branch": "develop",
@@ -6426,13 +6426,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-22T20:42:55.789Z",
-      "updated_at": "2026-06-01T20:54:52.719Z",
+      "updated_at": "2026-06-08T20:15:07.506Z",
       "deployed_at": null
     },
     {
@@ -6445,7 +6445,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "En curso",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1590-gerente-general-filtro-empleadores-home",
       "target_branch": "develop",
@@ -6454,13 +6454,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-22T20:42:55.792Z",
-      "updated_at": "2026-06-01T20:54:52.722Z",
+      "updated_at": "2026-06-08T20:15:07.509Z",
       "deployed_at": null
     },
     {
@@ -6697,7 +6697,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "En curso",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1590-gerente-general-home",
       "target_branch": "develop",
@@ -6706,13 +6706,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-01T20:54:52.725Z",
-      "updated_at": "2026-06-01T20:54:52.725Z",
+      "updated_at": "2026-06-08T20:15:07.512Z",
       "deployed_at": null
     },
     {
@@ -6725,7 +6725,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "En curso",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1590-home-gerente-general",
       "target_branch": "release",
@@ -6734,13 +6734,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-01T20:54:52.729Z",
-      "updated_at": "2026-06-01T20:54:52.729Z",
+      "updated_at": "2026-06-08T20:15:07.516Z",
       "deployed_at": null
     },
     {
@@ -6753,7 +6753,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "En curso",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1590-home-gerente-general",
       "target_branch": "release",
@@ -6762,13 +6762,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-01T20:54:52.732Z",
-      "updated_at": "2026-06-01T20:54:52.732Z",
+      "updated_at": "2026-06-08T20:15:07.520Z",
       "deployed_at": null
     },
     {
@@ -6781,7 +6781,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "En curso",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1590-home-gerente-general",
       "target_branch": "release",
@@ -6790,13 +6790,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-01T20:54:52.735Z",
-      "updated_at": "2026-06-01T20:54:52.735Z",
+      "updated_at": "2026-06-08T20:15:07.523Z",
       "deployed_at": null
     },
     {
@@ -6809,8 +6809,8 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "En curso",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "feature/GRV-1590-grillas-gerente-general",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/969",
@@ -6818,13 +6818,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-01T20:54:52.737Z",
-      "updated_at": "2026-06-01T20:54:52.737Z",
+      "updated_at": "2026-06-08T20:15:07.526Z",
       "deployed_at": null
     },
     {
@@ -6837,8 +6837,8 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "En curso",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "feature/GRV-1590-filtros-grillas",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/747",
@@ -6846,13 +6846,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-01T20:54:52.741Z",
-      "updated_at": "2026-06-01T20:54:52.741Z",
+      "updated_at": "2026-06-08T20:15:07.529Z",
       "deployed_at": null
     },
     {
@@ -7248,5 +7248,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-08T17:52:51.666Z"
+  "last_updated": "2026-06-08T20:15:07.529Z"
 }
