@@ -6585,7 +6585,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "Finalizada",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1974-trasnformacion-fecha",
       "target_branch": "develop",
@@ -6600,7 +6600,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-05-29T21:07:18.757Z",
-      "updated_at": "2026-06-05T16:29:20.608Z",
+      "updated_at": "2026-06-08T14:48:30.967Z",
       "deployed_at": null
     },
     {
@@ -6613,7 +6613,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "Finalizada",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1974-trasnformacion-fecha",
       "target_branch": "develop",
@@ -6628,7 +6628,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-05-29T21:07:18.761Z",
-      "updated_at": "2026-06-05T16:29:20.613Z",
+      "updated_at": "2026-06-08T14:48:30.971Z",
       "deployed_at": null
     },
     {
@@ -7248,5 +7248,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-05T16:29:20.613Z"
+  "last_updated": "2026-06-08T14:48:30.971Z"
 }
