@@ -7302,7 +7302,63 @@
       "detected_at": "2026-06-09T16:31:11.436Z",
       "updated_at": "2026-06-09T16:31:11.436Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2022",
+      "jira_summary": "00000023202600002300 ANDREA RAVAGNANI ROXANA 18525891",
+      "mr_id": 732,
+      "mr_title": "Se corrige de donde se consume la fecha para calcular dias ilt",
+      "repo_name": "wsauditoria",
+      "project_path": "backend/wsauditoria",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-2022-dias-ilt",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/732",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2022",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-06-09T19:13:17.995Z",
+      "updated_at": "2026-06-09T19:13:17.995Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2022",
+      "jira_summary": "00000023202600002300 ANDREA RAVAGNANI ROXANA 18525891",
+      "mr_id": 1320,
+      "mr_title": "Se corrige de donde se consume la fecha para calcular dias ilt",
+      "repo_name": "wsdocumento",
+      "project_path": "backend/wsdocumento",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-2022-dias-ilt",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1320",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2022",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-06-09T19:13:17.999Z",
+      "updated_at": "2026-06-09T19:13:17.999Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-09T16:31:11.988Z"
+  "last_updated": "2026-06-09T19:13:17.999Z"
 }
