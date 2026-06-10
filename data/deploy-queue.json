@@ -5885,7 +5885,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "GRV-1939-nuevos-tabs-seguimiento",
       "target_branch": "develop",
@@ -5900,7 +5900,7 @@
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-05-18T21:12:16.704Z",
-      "updated_at": "2026-06-04T19:23:13.071Z",
+      "updated_at": "2026-06-10T14:21:45.338Z",
       "deployed_at": null
     },
     {
@@ -6361,22 +6361,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1590-gerente-general-listado-empleadores",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslistados/-/merge_requests/608",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1590",
       "author": "Matias Martinez",
-      "is_ready": true,
-      "priority_weight": 150,
+      "is_ready": false,
+      "priority_weight": 100,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-22T16:26:01.385Z",
-      "updated_at": "2026-06-09T16:31:11.960Z",
+      "updated_at": "2026-06-10T14:21:45.018Z",
       "deployed_at": null
     },
     {
@@ -6417,22 +6417,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1590-gerente-general-filtro-empleadores-home",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/960",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1590",
       "author": "Matias Martinez",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-22T20:42:55.789Z",
-      "updated_at": "2026-06-09T16:31:11.964Z",
+      "updated_at": "2026-06-10T14:21:45.022Z",
       "deployed_at": null
     },
     {
@@ -6445,22 +6445,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1590-gerente-general-filtro-empleadores-home",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/709",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1590",
       "author": "Matias Martinez",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-05-22T20:42:55.792Z",
-      "updated_at": "2026-06-09T16:31:11.968Z",
+      "updated_at": "2026-06-10T14:21:45.025Z",
       "deployed_at": null
     },
     {
@@ -6697,22 +6697,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1590-gerente-general-home",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/503",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1590",
       "author": "Matias Martinez",
-      "is_ready": true,
-      "priority_weight": 150,
+      "is_ready": false,
+      "priority_weight": 100,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-01T20:54:52.725Z",
-      "updated_at": "2026-06-09T16:31:11.971Z",
+      "updated_at": "2026-06-10T14:21:45.029Z",
       "deployed_at": null
     },
     {
@@ -6725,22 +6725,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1590-home-gerente-general",
       "target_branch": "release",
       "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1530",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1590",
       "author": "Matias Martinez",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-01T20:54:52.729Z",
-      "updated_at": "2026-06-09T16:31:11.975Z",
+      "updated_at": "2026-06-10T14:21:45.032Z",
       "deployed_at": null
     },
     {
@@ -6753,22 +6753,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1590-home-gerente-general",
       "target_branch": "release",
       "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1543",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1590",
       "author": "Matias Martinez",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-01T20:54:52.732Z",
-      "updated_at": "2026-06-09T16:31:11.979Z",
+      "updated_at": "2026-06-10T14:21:45.035Z",
       "deployed_at": null
     },
     {
@@ -6781,22 +6781,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1590-home-gerente-general",
       "target_branch": "release",
       "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1544",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1590",
       "author": "Matias Martinez",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-01T20:54:52.735Z",
-      "updated_at": "2026-06-09T16:31:11.982Z",
+      "updated_at": "2026-06-10T14:21:45.038Z",
       "deployed_at": null
     },
     {
@@ -6809,22 +6809,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1590-grillas-gerente-general",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/969",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1590",
       "author": "Matias Martinez",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-01T20:54:52.737Z",
-      "updated_at": "2026-06-09T16:31:11.985Z",
+      "updated_at": "2026-06-10T14:21:45.042Z",
       "deployed_at": null
     },
     {
@@ -6837,22 +6837,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-1590-filtros-grillas",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/747",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1590",
       "author": "Matias Martinez",
-      "is_ready": true,
-      "priority_weight": 150,
+      "is_ready": false,
+      "priority_weight": 100,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-01T20:54:52.741Z",
-      "updated_at": "2026-06-09T16:31:11.988Z",
+      "updated_at": "2026-06-10T14:21:45.045Z",
       "deployed_at": null
     },
     {
@@ -6977,7 +6977,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "GRV-2005-fix-busqueda-filtros-siniestro",
       "target_branch": "develop",
@@ -6992,7 +6992,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-03T19:48:47.172Z",
-      "updated_at": "2026-06-04T19:23:13.334Z",
+      "updated_at": "2026-06-10T14:21:46.350Z",
       "deployed_at": null
     },
     {
@@ -7005,7 +7005,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "GRV-2005-nuevo-permiso-perfil-serologico",
       "target_branch": "develop",
@@ -7020,7 +7020,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-03T19:48:47.176Z",
-      "updated_at": "2026-06-04T19:23:13.337Z",
+      "updated_at": "2026-06-10T14:21:46.354Z",
       "deployed_at": null
     },
     {
@@ -7033,7 +7033,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "GRV-2005-fix-busqueda-registro-siniestros",
       "target_branch": "develop",
@@ -7048,7 +7048,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-03T19:48:47.179Z",
-      "updated_at": "2026-06-04T19:23:13.341Z",
+      "updated_at": "2026-06-10T14:21:46.358Z",
       "deployed_at": null
     },
     {
@@ -7061,22 +7061,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1955-estado-turno-pendiente-autorizar-traslado-tp",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/513",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1955",
       "author": "Francisco Ziegler",
-      "is_ready": true,
-      "priority_weight": 150,
+      "is_ready": false,
+      "priority_weight": 100,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-06-04T16:55:53.335Z",
-      "updated_at": "2026-06-08T17:52:51.666Z",
+      "updated_at": "2026-06-10T14:21:46.001Z",
       "deployed_at": null
     },
     {
@@ -7089,7 +7089,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "GRV-1939-nuevos-tabs-seguimiento",
       "target_branch": "develop",
@@ -7104,7 +7104,7 @@
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-06-04T19:23:13.075Z",
-      "updated_at": "2026-06-04T19:23:13.075Z",
+      "updated_at": "2026-06-10T14:21:45.342Z",
       "deployed_at": null
     },
     {
@@ -7117,7 +7117,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "GRV-1939-nuevos-tabs-seguimientos",
       "target_branch": "develop",
@@ -7132,7 +7132,7 @@
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-06-04T19:23:13.078Z",
-      "updated_at": "2026-06-04T19:23:13.078Z",
+      "updated_at": "2026-06-10T14:21:45.346Z",
       "deployed_at": null
     },
     {
@@ -7145,7 +7145,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "GRV-1939-nuevos-tabs-seguimientos",
       "target_branch": "develop",
@@ -7160,7 +7160,7 @@
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-06-04T19:23:13.083Z",
-      "updated_at": "2026-06-04T19:23:13.083Z",
+      "updated_at": "2026-06-10T14:21:45.349Z",
       "deployed_at": null
     },
     {
@@ -7173,7 +7173,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "GRV-2005-fix-busqueda-registros-siniestros",
       "target_branch": "develop",
@@ -7188,7 +7188,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-04T19:23:13.345Z",
-      "updated_at": "2026-06-04T19:23:13.345Z",
+      "updated_at": "2026-06-10T14:21:46.361Z",
       "deployed_at": null
     },
     {
@@ -7201,7 +7201,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2016-direccion-traslado-creacion-turno",
       "target_branch": "develop",
@@ -7210,13 +7210,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-06-04T21:41:03.480Z",
-      "updated_at": "2026-06-08T17:52:51.422Z",
+      "updated_at": "2026-06-10T14:21:45.695Z",
       "deployed_at": null
     },
     {
@@ -7229,7 +7229,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2016-direccion-traslado-creacion-turno",
       "target_branch": "develop",
@@ -7238,13 +7238,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-06-04T21:41:03.485Z",
-      "updated_at": "2026-06-08T17:52:51.428Z",
+      "updated_at": "2026-06-10T14:21:45.699Z",
       "deployed_at": null
     },
     {
@@ -7257,7 +7257,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "GRV-2002-fix-siniestros-res07/26cx",
       "target_branch": "develop",
@@ -7266,13 +7266,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-09T16:31:11.432Z",
-      "updated_at": "2026-06-09T16:31:11.432Z",
+      "updated_at": "2026-06-10T14:21:46.632Z",
       "deployed_at": null
     },
     {
@@ -7285,7 +7285,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "GRV-2002-fix-siniestros-res07/26cx",
       "target_branch": "develop",
@@ -7294,13 +7294,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-09T16:31:11.436Z",
-      "updated_at": "2026-06-09T16:31:11.436Z",
+      "updated_at": "2026-06-10T14:21:46.636Z",
       "deployed_at": null
     },
     {
@@ -7360,5 +7360,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-09T19:13:17.999Z"
+  "last_updated": "2026-06-10T14:21:46.636Z"
 }
