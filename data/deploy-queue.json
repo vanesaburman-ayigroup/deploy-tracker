@@ -4466,13 +4466,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Maximiliano Carubin",
-      "assignee_email": "maximiliano.carubin@ayi.group",
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-04-27T21:02:21.661Z",
-      "updated_at": "2026-04-30T19:21:34.568Z",
+      "updated_at": "2026-06-11T14:35:55.223Z",
       "deployed_at": null
     },
     {
@@ -7257,7 +7257,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "Finalizada",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-2002-fix-siniestros-res07/26cx",
       "target_branch": "develop",
@@ -7266,13 +7266,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-09T16:31:11.432Z",
-      "updated_at": "2026-06-10T14:21:46.632Z",
+      "updated_at": "2026-06-11T14:35:55.599Z",
       "deployed_at": null
     },
     {
@@ -7285,7 +7285,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "Finalizada",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "GRV-2002-fix-siniestros-res07/26cx",
       "target_branch": "develop",
@@ -7294,13 +7294,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-09T16:31:11.436Z",
-      "updated_at": "2026-06-10T14:21:46.636Z",
+      "updated_at": "2026-06-11T14:35:55.602Z",
       "deployed_at": null
     },
     {
@@ -7313,8 +7313,8 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "fix/GRV-2022-dias-ilt",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/732",
@@ -7322,13 +7322,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-06-09T19:13:17.995Z",
-      "updated_at": "2026-06-09T19:13:17.995Z",
+      "updated_at": "2026-06-11T14:35:57.183Z",
       "deployed_at": null
     },
     {
@@ -7341,8 +7341,8 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "fix/GRV-2022-dias-ilt",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1320",
@@ -7350,13 +7350,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-06-09T19:13:17.999Z",
-      "updated_at": "2026-06-09T19:13:17.999Z",
+      "updated_at": "2026-06-11T14:35:57.186Z",
       "deployed_at": null
     },
     {
@@ -7370,7 +7370,7 @@
       "is_core": false,
       "jira_priority": "Media",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "fix/GRV-2037-archivo-ortopedia-mail",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/992",
@@ -7384,7 +7384,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-10T20:34:06.780Z",
-      "updated_at": "2026-06-10T20:34:06.781Z",
+      "updated_at": "2026-06-11T14:35:57.502Z",
       "deployed_at": null
     },
     {
@@ -7398,7 +7398,7 @@
       "is_core": true,
       "jira_priority": "Media",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "fix/GRV-2037-archivo-mail-gestion-ortopedia",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsnotificaciones/-/merge_requests/387",
@@ -7412,9 +7412,121 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-10T20:34:06.784Z",
-      "updated_at": "2026-06-10T20:34:06.784Z",
+      "updated_at": "2026-06-11T14:35:57.505Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2002",
+      "jira_summary": "SOLAPA RES 07/2026 CX",
+      "mr_id": 991,
+      "mr_title": "GRV-2002: alinear filtro RES_07_2026_CX con lógica del SP de contadores.",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-2002-fix-consultas-res07/2026cx",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/991",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2002",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-06-11T14:35:55.606Z",
+      "updated_at": "2026-06-11T14:35:55.606Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2002",
+      "jira_summary": "SOLAPA RES 07/2026 CX",
+      "mr_id": 994,
+      "mr_title": "fix(turnos): corregir filtros de estado en siniestros RES_07/2026_CX",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-2002-fix-consultas-res07/2026cx",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/994",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2002",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-06-11T14:35:55.610Z",
+      "updated_at": "2026-06-11T14:35:55.610Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1978",
+      "jira_summary": "Solicitudes de ortopedia de Misiones",
+      "mr_id": 1586,
+      "mr_title": "GRV-1978: Se agrega filtro idPersonaRelacionadaClientes en ortopedias e insumos/medicaciones",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "fix/GRV-1978-ortopedias-por-cliente",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1586",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1978",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-06-11T14:35:55.864Z",
+      "updated_at": "2026-06-11T14:35:55.864Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1978",
+      "jira_summary": "Solicitudes de ortopedia de Misiones",
+      "mr_id": 989,
+      "mr_title": "GRV-1978: Se agrega filtro idPersonaRelacionadaClientes en ortopedias e insumos/medicaciones",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "fix/GRV-1978-ortopedias-por-cliente",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/989",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1978",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-06-11T14:35:55.868Z",
+      "updated_at": "2026-06-11T14:35:55.868Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-10T20:34:06.784Z"
+  "last_updated": "2026-06-11T14:35:57.505Z"
 }
