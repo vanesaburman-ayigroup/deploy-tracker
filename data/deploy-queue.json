@@ -7526,7 +7526,35 @@
       "detected_at": "2026-06-11T14:35:55.868Z",
       "updated_at": "2026-06-11T14:35:55.868Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2050",
+      "jira_summary": "BLOQUEANTE - No puedo filtrar con SAS",
+      "mr_id": 163,
+      "mr_title": "GRV-2050: corregir filtro por CUIT empleador en exportación de denuncias mesa de carga",
+      "repo_name": "wsmesacarga",
+      "project_path": "backend/wsmesacarga",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "LISTO PARA PROD",
+      "mr_status": "merged",
+      "source_branch": "fix/GRV-2050-filtro-empleadores-siniestros",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsmesacarga/-/merge_requests/163",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2050",
+      "author": "Matias Martinez",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-06-11T18:12:44.682Z",
+      "updated_at": "2026-06-11T18:12:44.682Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-11T14:35:57.505Z"
+  "last_updated": "2026-06-11T18:12:44.682Z"
 }
