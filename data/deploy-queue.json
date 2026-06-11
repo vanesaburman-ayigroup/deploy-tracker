@@ -7266,13 +7266,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-09T16:31:11.432Z",
-      "updated_at": "2026-06-11T14:35:55.599Z",
+      "updated_at": "2026-06-11T21:20:36.838Z",
       "deployed_at": null
     },
     {
@@ -7294,13 +7294,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-09T16:31:11.436Z",
-      "updated_at": "2026-06-11T14:35:55.602Z",
+      "updated_at": "2026-06-11T21:20:36.842Z",
       "deployed_at": null
     },
     {
@@ -7369,7 +7369,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2037-archivo-ortopedia-mail",
       "target_branch": "develop",
@@ -7384,7 +7384,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-10T20:34:06.780Z",
-      "updated_at": "2026-06-11T14:35:57.502Z",
+      "updated_at": "2026-06-11T21:20:35.921Z",
       "deployed_at": null
     },
     {
@@ -7397,7 +7397,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2037-archivo-mail-gestion-ortopedia",
       "target_branch": "develop",
@@ -7412,7 +7412,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-10T20:34:06.784Z",
-      "updated_at": "2026-06-11T14:35:57.505Z",
+      "updated_at": "2026-06-11T21:20:35.925Z",
       "deployed_at": null
     },
     {
@@ -7434,13 +7434,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-11T14:35:55.606Z",
-      "updated_at": "2026-06-11T14:35:55.606Z",
+      "updated_at": "2026-06-11T21:20:36.847Z",
       "deployed_at": null
     },
     {
@@ -7462,13 +7462,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-11T14:35:55.610Z",
-      "updated_at": "2026-06-11T14:35:55.610Z",
+      "updated_at": "2026-06-11T21:20:36.851Z",
       "deployed_at": null
     },
     {
@@ -7490,13 +7490,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-11T14:35:55.864Z",
-      "updated_at": "2026-06-11T14:35:55.864Z",
+      "updated_at": "2026-06-11T21:20:37.467Z",
       "deployed_at": null
     },
     {
@@ -7518,13 +7518,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-11T14:35:55.868Z",
-      "updated_at": "2026-06-11T14:35:55.868Z",
+      "updated_at": "2026-06-11T21:20:37.471Z",
       "deployed_at": null
     },
     {
@@ -7556,5 +7556,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-11T18:12:44.682Z"
+  "last_updated": "2026-06-11T21:20:37.471Z"
 }
