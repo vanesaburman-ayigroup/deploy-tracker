@@ -674,7 +674,34 @@
       "channel": "slack",
       "sent_at": "2026-06-08T17:52:54.519Z",
       "payload": "🚨 CORE listo: wslogistica (GRV-1955) — Alta"
+    },
+    {
+      "event_hash": "274a67d416fc2de2",
+      "ticket_id": "GRV-2022",
+      "mr_id": 1320,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-06-12T14:09:15.820Z",
+      "payload": "¡Atención PM! Alerta de deploy urgente:\n\n**GRV-2022"
+    },
+    {
+      "event_hash": "d6e4f4c9ff0dc37f",
+      "ticket_id": "GRV-2022",
+      "mr_id": 1320,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-06-12T14:09:15.821Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "9af917ec602c8fe9",
+      "ticket_id": "GRV-2022",
+      "mr_id": 1320,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-06-12T14:09:15.822Z",
+      "payload": "🚨 CORE listo: wsdocumento (GRV-2022) — Alta"
     }
   ],
-  "last_checked": "2026-06-08T17:52:54.519Z"
+  "last_checked": "2026-06-12T14:09:15.822Z"
 }

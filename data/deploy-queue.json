@@ -7257,22 +7257,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "GRV-2002-fix-siniestros-res07/26cx",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/983",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2002",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-09T16:31:11.432Z",
-      "updated_at": "2026-06-11T21:20:36.838Z",
+      "updated_at": "2026-06-12T14:09:16.529Z",
       "deployed_at": null
     },
     {
@@ -7285,22 +7285,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "GRV-2002-fix-siniestros-res07/26cx",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1576",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2002",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-09T16:31:11.436Z",
-      "updated_at": "2026-06-11T21:20:36.842Z",
+      "updated_at": "2026-06-12T14:09:16.532Z",
       "deployed_at": null
     },
     {
@@ -7313,22 +7313,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2022-dias-ilt",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/732",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2022",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-06-09T19:13:17.995Z",
-      "updated_at": "2026-06-11T14:35:57.183Z",
+      "updated_at": "2026-06-12T14:09:12.991Z",
       "deployed_at": null
     },
     {
@@ -7341,22 +7341,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2022-dias-ilt",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1320",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2022",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-06-09T19:13:17.999Z",
-      "updated_at": "2026-06-11T14:35:57.186Z",
+      "updated_at": "2026-06-12T14:09:12.997Z",
       "deployed_at": null
     },
     {
@@ -7369,22 +7369,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2037-archivo-ortopedia-mail",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/992",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2037",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-10T20:34:06.780Z",
-      "updated_at": "2026-06-11T21:20:35.921Z",
+      "updated_at": "2026-06-12T14:09:16.265Z",
       "deployed_at": null
     },
     {
@@ -7397,22 +7397,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2037-archivo-mail-gestion-ortopedia",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsnotificaciones/-/merge_requests/387",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2037",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 100,
+      "is_ready": true,
+      "priority_weight": 150,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-10T20:34:06.784Z",
-      "updated_at": "2026-06-11T21:20:35.925Z",
+      "updated_at": "2026-06-12T14:09:16.269Z",
       "deployed_at": null
     },
     {
@@ -7425,22 +7425,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2002-fix-consultas-res07/2026cx",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/991",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2002",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-11T14:35:55.606Z",
-      "updated_at": "2026-06-11T21:20:36.847Z",
+      "updated_at": "2026-06-12T14:09:16.536Z",
       "deployed_at": null
     },
     {
@@ -7453,22 +7453,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2002-fix-consultas-res07/2026cx",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/994",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2002",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-11T14:35:55.610Z",
-      "updated_at": "2026-06-11T21:20:36.851Z",
+      "updated_at": "2026-06-12T14:09:16.539Z",
       "deployed_at": null
     },
     {
@@ -7481,22 +7481,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1978-ortopedias-por-cliente",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1586",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1978",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-11T14:35:55.864Z",
-      "updated_at": "2026-06-11T21:20:37.467Z",
+      "updated_at": "2026-06-12T14:09:16.744Z",
       "deployed_at": null
     },
     {
@@ -7509,22 +7509,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1978-ortopedias-por-cliente",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/989",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1978",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-11T14:35:55.868Z",
-      "updated_at": "2026-06-11T21:20:37.471Z",
+      "updated_at": "2026-06-12T14:09:16.748Z",
       "deployed_at": null
     },
     {
@@ -7556,5 +7556,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-11T21:20:37.471Z"
+  "last_updated": "2026-06-12T14:09:16.748Z"
 }
