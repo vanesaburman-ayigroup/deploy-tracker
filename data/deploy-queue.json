@@ -5437,7 +5437,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "Tareas por hacer",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "bugfix/agencias-logistica",
       "target_branch": "develop",
@@ -5446,13 +5446,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Yosselyn González",
-      "assignee_email": "yosselyn.gonzalez@ayi.group",
+      "assignee_name": "Francisco Ziegler",
+      "assignee_email": "francisco.ziegler@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-05-12T13:03:27.282Z",
-      "updated_at": "2026-06-17T14:25:39.207Z",
+      "updated_at": "2026-06-18T14:09:40.371Z",
       "deployed_at": null
     },
     {
@@ -7750,7 +7750,63 @@
       "detected_at": "2026-06-17T20:11:45.694Z",
       "updated_at": "2026-06-17T20:11:45.694Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1929",
+      "jira_summary": "Error visualización SG",
+      "mr_id": 465,
+      "mr_title": "GRV-1929: rechaza el alta de SG sin denuncia cuando el tipo la requiere",
+      "repo_name": "wssolicitudesgenericas",
+      "project_path": "backend/wssolicitudesgenericas",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1929-validar-denuncia-requerida-alta-sg",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/465",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1929",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-06-18T14:09:40.761Z",
+      "updated_at": "2026-06-18T14:09:40.761Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1929",
+      "jira_summary": "Error visualización SG",
+      "mr_id": 212,
+      "mr_title": "GRV-1929: exige denuncia vinculable al crear SG y corrige la cabecera del form",
+      "repo_name": "solicitudesgenericas",
+      "project_path": "frontend/solicitudesgenericas",
+      "service_type": "core_frontend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-1929-form-alta-sg-requiere-iddenuncia",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/solicitudesgenericas/-/merge_requests/212",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1929",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-06-18T14:09:40.765Z",
+      "updated_at": "2026-06-18T14:09:40.765Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-17T20:11:45.694Z"
+  "last_updated": "2026-06-18T14:09:40.765Z"
 }
