@@ -7369,22 +7369,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2037-archivo-ortopedia-mail",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/992",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2037",
       "author": "Matias Martinez",
-      "is_ready": true,
-      "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-10T20:34:06.780Z",
-      "updated_at": "2026-06-12T14:09:16.265Z",
+      "updated_at": "2026-06-19T14:12:17.115Z",
       "deployed_at": null
     },
     {
@@ -7397,22 +7397,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2037-archivo-mail-gestion-ortopedia",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsnotificaciones/-/merge_requests/387",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2037",
       "author": "Matias Martinez",
-      "is_ready": true,
-      "priority_weight": 150,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-10T20:34:06.784Z",
-      "updated_at": "2026-06-12T14:09:16.269Z",
+      "updated_at": "2026-06-19T14:12:17.119Z",
       "deployed_at": null
     },
     {
@@ -7836,5 +7836,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-18T20:35:19.234Z"
+  "last_updated": "2026-06-19T14:12:17.119Z"
 }
