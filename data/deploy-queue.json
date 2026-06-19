@@ -6600,7 +6600,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-05-29T21:07:18.757Z",
-      "updated_at": "2026-06-17T14:25:38.812Z",
+      "updated_at": "2026-06-19T17:19:18.709Z",
       "deployed_at": null
     },
     {
@@ -6628,7 +6628,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-05-29T21:07:18.761Z",
-      "updated_at": "2026-06-17T14:25:38.815Z",
+      "updated_at": "2026-06-19T17:19:18.713Z",
       "deployed_at": null
     },
     {
@@ -7706,7 +7706,7 @@
       "is_core": true,
       "jira_priority": "Alta",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-1974-turnos-log",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/762",
@@ -7720,7 +7720,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-06-17T14:25:38.818Z",
-      "updated_at": "2026-06-17T14:25:38.818Z",
+      "updated_at": "2026-06-19T17:19:18.717Z",
       "deployed_at": null
     },
     {
@@ -7818,7 +7818,7 @@
       "is_core": true,
       "jira_priority": "Alta",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "fix/GRV-2008-pdf-adelantos-item",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/395",
@@ -7832,9 +7832,37 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-06-18T20:35:19.234Z",
-      "updated_at": "2026-06-18T20:35:19.234Z",
+      "updated_at": "2026-06-19T17:19:18.993Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2055",
+      "jira_summary": "ERROR AL CARGAR AMBULANCIA Pte: CABRAL CESAR RUBEN (IA508070)",
+      "mr_id": 280,
+      "mr_title": "GRV-2055-generar-traslado-ambulancia",
+      "repo_name": "wstraslados",
+      "project_path": "backend/wstraslados",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-2055-generar-traslado-ambulancia",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstraslados/-/merge_requests/280",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2055",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Atencion al Cliente"
+      ],
+      "detected_at": "2026-06-19T17:19:19.308Z",
+      "updated_at": "2026-06-19T17:19:19.308Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-19T14:12:17.119Z"
+  "last_updated": "2026-06-19T17:19:19.308Z"
 }
