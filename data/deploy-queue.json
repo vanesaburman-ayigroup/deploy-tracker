@@ -7862,7 +7862,35 @@
       "detected_at": "2026-06-19T17:19:19.308Z",
       "updated_at": "2026-06-19T17:19:19.308Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2073",
+      "jira_summary": "ERROR EMPLEADOR UASABI",
+      "mr_id": 173,
+      "mr_title": "fix: corrige error de mapeo en endpoint GET empleador por ID",
+      "repo_name": "wsempleador",
+      "project_path": "backend/wsempleador",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2073-fix-editar-empleadores",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsempleador/-/merge_requests/173",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2073",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-06-19T19:49:02.694Z",
+      "updated_at": "2026-06-19T19:49:02.695Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-19T17:19:19.308Z"
+  "last_updated": "2026-06-19T19:49:02.695Z"
 }
