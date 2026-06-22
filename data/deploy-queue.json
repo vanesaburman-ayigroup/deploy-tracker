@@ -7761,8 +7761,8 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-1929-validar-denuncia-requerida-alta-sg",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/465",
@@ -7770,13 +7770,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-06-18T14:09:40.761Z",
-      "updated_at": "2026-06-18T14:09:40.761Z",
+      "updated_at": "2026-06-22T15:50:50.097Z",
       "deployed_at": null
     },
     {
@@ -7789,8 +7789,8 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-1929-form-alta-sg-requiere-iddenuncia",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/solicitudesgenericas/-/merge_requests/212",
@@ -7798,13 +7798,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-06-18T14:09:40.765Z",
-      "updated_at": "2026-06-18T14:09:40.765Z",
+      "updated_at": "2026-06-22T15:50:50.102Z",
       "deployed_at": null
     },
     {
@@ -7873,8 +7873,8 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-2073-fix-editar-empleadores",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsempleador/-/merge_requests/173",
@@ -7882,13 +7882,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-06-19T19:49:02.694Z",
-      "updated_at": "2026-06-19T19:49:02.695Z",
+      "updated_at": "2026-06-22T15:50:50.694Z",
       "deployed_at": null
     },
     {
@@ -7901,7 +7901,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-1892-visibilidad-supervisores-y-calificar",
       "target_branch": "develop",
@@ -7910,13 +7910,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-19T21:10:51.357Z",
-      "updated_at": "2026-06-19T21:10:51.357Z",
+      "updated_at": "2026-06-22T15:50:50.434Z",
       "deployed_at": null
     },
     {
@@ -7929,7 +7929,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-1892-eliminar-calificar",
       "target_branch": "develop",
@@ -7938,13 +7938,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-19T21:10:51.360Z",
-      "updated_at": "2026-06-19T21:10:51.360Z",
+      "updated_at": "2026-06-22T15:50:50.438Z",
       "deployed_at": null
     },
     {
@@ -7957,7 +7957,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/grv-1892-contador-notificaciones-realtime",
       "target_branch": "develop",
@@ -7966,15 +7966,71 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-19T21:10:51.362Z",
-      "updated_at": "2026-06-19T21:10:51.362Z",
+      "updated_at": "2026-06-22T15:50:50.442Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1906",
+      "jira_summary": "Paciente: JESSICA LOPEZ Denuncia: 02710090/001/00 DNI: 33587950",
+      "mr_id": 1330,
+      "mr_title": "GRV-1906: corrección para indicar si el siniestro está excedido o no",
+      "repo_name": "wsdocumento",
+      "project_path": "backend/wsdocumento",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-1906-excedido-ilt",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1330",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1906",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-06-22T15:50:49.248Z",
+      "updated_at": "2026-06-22T15:50:49.248Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2091",
+      "jira_summary": "Traslados Micro y Avión se eliminan de grilla de Logística al Anular turno desde Tramitadores",
+      "mr_id": 551,
+      "mr_title": "fix(GRV-2091): traslados transporte público con turno anulado ahora se visualizan",
+      "repo_name": "wslogistica",
+      "project_path": "backend/wslogistica",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "fix/GRV-2091-traslados-publicos-turnos-anulados",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/551",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2091",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-06-22T15:50:49.565Z",
+      "updated_at": "2026-06-22T15:50:49.565Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-19T21:10:51.362Z"
+  "last_updated": "2026-06-22T15:50:50.694Z"
 }
