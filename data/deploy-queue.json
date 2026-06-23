@@ -7910,13 +7910,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-19T21:10:51.357Z",
-      "updated_at": "2026-06-22T22:01:50.581Z",
+      "updated_at": "2026-06-23T21:42:32.861Z",
       "deployed_at": null
     },
     {
@@ -7938,13 +7938,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-19T21:10:51.360Z",
-      "updated_at": "2026-06-22T22:01:50.586Z",
+      "updated_at": "2026-06-23T21:42:32.866Z",
       "deployed_at": null
     },
     {
@@ -7966,13 +7966,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-19T21:10:51.362Z",
-      "updated_at": "2026-06-22T22:01:50.591Z",
+      "updated_at": "2026-06-23T21:42:32.871Z",
       "deployed_at": null
     },
     {
@@ -8284,5 +8284,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-23T19:11:26.666Z"
+  "last_updated": "2026-06-23T21:42:32.871Z"
 }
