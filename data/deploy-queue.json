@@ -5437,7 +5437,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "En curso",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/agencias-logistica",
       "target_branch": "develop",
@@ -5452,7 +5452,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-05-12T13:03:27.282Z",
-      "updated_at": "2026-06-18T14:09:40.371Z",
+      "updated_at": "2026-06-24T13:22:02.732Z",
       "deployed_at": null
     },
     {
@@ -7565,7 +7565,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2051-crear-subprestador",
       "target_branch": "develop",
@@ -7574,13 +7574,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-06-16T15:52:42.665Z",
-      "updated_at": "2026-06-16T15:52:42.665Z",
+      "updated_at": "2026-06-24T13:21:58.403Z",
       "deployed_at": null
     },
     {
@@ -7649,7 +7649,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2067-carta-sg-modulo-abandono",
       "target_branch": "develop",
@@ -7658,13 +7658,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-16T19:35:11.213Z",
-      "updated_at": "2026-06-16T19:35:11.213Z",
+      "updated_at": "2026-06-24T13:22:02.077Z",
       "deployed_at": null
     },
     {
@@ -7733,7 +7733,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Baja",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1960-fix-paginacion-tabla-busqueda-palabras-clave",
       "target_branch": "develop",
@@ -7742,13 +7742,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-17T20:11:45.694Z",
-      "updated_at": "2026-06-23T00:05:51.395Z",
+      "updated_at": "2026-06-24T13:22:02.283Z",
       "deployed_at": null
     },
     {
@@ -7817,7 +7817,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2008-pdf-adelantos-item",
       "target_branch": "develop",
@@ -7826,13 +7826,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-06-18T20:35:19.234Z",
-      "updated_at": "2026-06-19T17:19:18.993Z",
+      "updated_at": "2026-06-24T13:22:01.809Z",
       "deployed_at": null
     },
     {
@@ -7845,8 +7845,8 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "Finalizada",
+      "mr_status": "merged",
       "source_branch": "fix/GRV-2055-generar-traslado-ambulancia",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstraslados/-/merge_requests/280",
@@ -7854,13 +7854,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-06-19T17:19:19.308Z",
-      "updated_at": "2026-06-19T17:19:19.308Z",
+      "updated_at": "2026-06-24T13:21:58.615Z",
       "deployed_at": null
     },
     {
@@ -7873,22 +7873,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2073-fix-editar-empleadores",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsempleador/-/merge_requests/173",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2073",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 150,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-06-19T19:49:02.694Z",
-      "updated_at": "2026-06-23T19:11:26.665Z",
+      "updated_at": "2026-06-24T13:22:01.318Z",
       "deployed_at": null
     },
     {
@@ -7985,8 +7985,8 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "Finalizada",
+      "mr_status": "merged",
       "source_branch": "fix/GRV-1906-excedido-ilt",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1330",
@@ -7994,13 +7994,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-06-22T15:50:49.248Z",
-      "updated_at": "2026-06-22T15:50:49.248Z",
+      "updated_at": "2026-06-24T13:22:01.072Z",
       "deployed_at": null
     },
     {
@@ -8013,7 +8013,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Media",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2091-traslados-publicos-turnos-anulados",
       "target_branch": "develop",
@@ -8022,13 +8022,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-06-22T15:50:49.565Z",
-      "updated_at": "2026-06-22T15:50:49.565Z",
+      "updated_at": "2026-06-24T13:22:01.531Z",
       "deployed_at": null
     },
     {
@@ -8284,5 +8284,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-23T21:42:32.871Z"
+  "last_updated": "2026-06-24T13:22:02.732Z"
 }
