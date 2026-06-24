@@ -8282,7 +8282,91 @@
       "detected_at": "2026-06-22T22:01:50.327Z",
       "updated_at": "2026-06-24T16:22:07.639Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2047",
+      "jira_summary": "Re: [24496867] ENRIQUEZ, WALDO WILFREDO",
+      "mr_id": 773,
+      "mr_title": "GRV-2047: no setea estado logistica en traslados reprogramados",
+      "repo_name": "wsturnos",
+      "project_path": "backend/wsturnos",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-2047-estado-logistica-traslados-reprogramados",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/773",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2047",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-06-24T20:48:34.414Z",
+      "updated_at": "2026-06-24T20:48:34.414Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1918",
+      "jira_summary": "INCOVENIENTES EN CUANTO AUTORIZACION POR FORMATO PDF DE ALARMAS",
+      "mr_id": 556,
+      "mr_title": "feat(GRV-1918): agrega fila OBSERVACIONES LOGÍSTICA al PDF de autorización de traslado",
+      "repo_name": "wsimportarexportar",
+      "project_path": "backend/wsimportarexportar",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1918-observacion-logistica-pdf",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsimportarexportar/-/merge_requests/556",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1918",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-06-24T20:48:34.687Z",
+      "updated_at": "2026-06-24T20:48:34.687Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1918",
+      "jira_summary": "INCOVENIENTES EN CUANTO AUTORIZACION POR FORMATO PDF DE ALARMAS",
+      "mr_id": 553,
+      "mr_title": "feat(GRV-1918): envía observación de logística al PDF de autorización de ambulancia",
+      "repo_name": "wslogistica",
+      "project_path": "backend/wslogistica",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "feature/GRV-1918-observacion-logistica-pdf",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/553",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1918",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-06-24T20:48:34.691Z",
+      "updated_at": "2026-06-24T20:48:34.691Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-24T16:22:08.238Z"
+  "last_updated": "2026-06-24T20:48:34.691Z"
 }
