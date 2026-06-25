@@ -701,7 +701,61 @@
       "channel": "slack",
       "sent_at": "2026-06-12T14:09:15.822Z",
       "payload": "🚨 CORE listo: wsdocumento (GRV-2022) — Alta"
+    },
+    {
+      "event_hash": "8a4c684bfe49d45d",
+      "ticket_id": "GRV-2084",
+      "mr_id": 548,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-06-25T21:42:12.952Z",
+      "payload": "¡PM! Alerta: GRV-2084 (Auditoría de Tras"
+    },
+    {
+      "event_hash": "6f1c147cb2125498",
+      "ticket_id": "GRV-2084",
+      "mr_id": 548,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-06-25T21:42:12.953Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "c7d2aafa0aa0a569",
+      "ticket_id": "GRV-2084",
+      "mr_id": 548,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-06-25T21:42:12.954Z",
+      "payload": "🚨 CORE listo: wslogistica (GRV-2084) — Alta"
+    },
+    {
+      "event_hash": "f1a559d875f104d0",
+      "ticket_id": "GRV-2082",
+      "mr_id": 547,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-06-25T21:42:16.183Z",
+      "payload": "¡Atención PM! GRV-2082 (SATAPP: mont"
+    },
+    {
+      "event_hash": "7cdb131f5b64e584",
+      "ticket_id": "GRV-2082",
+      "mr_id": 547,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-06-25T21:42:16.184Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "10637db14a1a5a77",
+      "ticket_id": "GRV-2082",
+      "mr_id": 547,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-06-25T21:42:16.185Z",
+      "payload": "🚨 CORE listo: wslogistica (GRV-2082) — Alta"
     }
   ],
-  "last_checked": "2026-06-12T14:09:15.822Z"
+  "last_checked": "2026-06-25T21:42:16.185Z"
 }
