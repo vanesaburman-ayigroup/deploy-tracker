@@ -7664,7 +7664,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-16T19:35:11.213Z",
-      "updated_at": "2026-06-25T13:16:20.206Z",
+      "updated_at": "2026-06-25T16:23:09.061Z",
       "deployed_at": null
     },
     {
@@ -8396,5 +8396,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-25T13:16:20.206Z"
+  "last_updated": "2026-06-25T16:23:09.061Z"
 }
