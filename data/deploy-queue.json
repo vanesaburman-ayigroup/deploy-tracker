@@ -8470,13 +8470,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-26T13:10:43.740Z",
-      "updated_at": "2026-06-29T14:47:16.727Z",
+      "updated_at": "2026-06-29T17:36:26.513Z",
       "deployed_at": null
     },
     {
@@ -8489,7 +8489,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1989-listado-sin-asignar-masinfo",
       "target_branch": "develop",
@@ -8504,7 +8504,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-06-26T16:15:43.543Z",
-      "updated_at": "2026-06-26T18:50:53.108Z",
+      "updated_at": "2026-06-29T17:36:27.325Z",
       "deployed_at": null
     },
     {
@@ -8526,13 +8526,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-06-26T22:12:31.593Z",
-      "updated_at": "2026-06-26T22:12:31.593Z",
+      "updated_at": "2026-06-29T17:36:27.020Z",
       "deployed_at": null
     },
     {
@@ -8554,13 +8554,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-06-26T22:12:31.597Z",
-      "updated_at": "2026-06-26T22:12:31.597Z",
+      "updated_at": "2026-06-29T17:36:27.024Z",
       "deployed_at": null
     },
     {
@@ -8592,5 +8592,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-29T14:47:16.727Z"
+  "last_updated": "2026-06-29T17:36:27.325Z"
 }
