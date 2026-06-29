@@ -8461,8 +8461,8 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Media",
-      "jira_status": "En curso",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-2116-fix-filtros-siniestros-cert-defuncion",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1605",
@@ -8470,13 +8470,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-06-26T13:10:43.740Z",
-      "updated_at": "2026-06-26T13:10:43.740Z",
+      "updated_at": "2026-06-29T14:47:16.727Z",
       "deployed_at": null
     },
     {
@@ -8562,7 +8562,35 @@
       "detected_at": "2026-06-26T22:12:31.597Z",
       "updated_at": "2026-06-26T22:12:31.597Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2077",
+      "jira_summary": "NO SALEN POR PLANILLA",
+      "mr_id": 576,
+      "mr_title": "fix(GRV-2077): planilla por agencia usa fecha_turno cuando fecha_traslado es null",
+      "repo_name": "wslogistica",
+      "project_path": "backend/wslogistica",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2077-planilla-usa-fecha-turno",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/576",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2077",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Francisco Ziegler",
+      "assignee_email": "francisco.ziegler@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-06-29T14:47:16.427Z",
+      "updated_at": "2026-06-29T14:47:16.427Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-26T22:12:31.597Z"
+  "last_updated": "2026-06-29T14:47:16.727Z"
 }
