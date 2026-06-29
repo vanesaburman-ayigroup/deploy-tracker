@@ -8618,7 +8618,63 @@
       "detected_at": "2026-06-29T19:57:21.483Z",
       "updated_at": "2026-06-29T19:57:21.483Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2045",
+      "jira_summary": "Falla en notificación de SG.",
+      "mr_id": 477,
+      "mr_title": "GRV-2045: corrige listado de Solicitudes Genéricas vacío por dato inconsistente",
+      "repo_name": "wssolicitudesgenericas",
+      "project_path": "backend/wssolicitudesgenericas",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/grv-2045-listado-sg-resiliente-mapeo-personas",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/477",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2045",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-06-29T21:38:35.721Z",
+      "updated_at": "2026-06-29T21:38:35.721Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2131",
+      "jira_summary": "Error en siniestros SAS",
+      "mr_id": 679,
+      "mr_title": "fix: cambiar ordenamiento por defecto de grillas de siniestros a D.ILT descendente",
+      "repo_name": "auditoriamedica",
+      "project_path": "frontend/auditoriamedica",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2131-fix-ordenamiento-siniestros-dias-ILT",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/679",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2131",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-06-29T21:38:36.093Z",
+      "updated_at": "2026-06-29T21:38:36.093Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-29T19:57:25.524Z"
+  "last_updated": "2026-06-29T21:38:36.093Z"
 }
