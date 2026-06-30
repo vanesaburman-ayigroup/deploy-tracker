@@ -8674,7 +8674,35 @@
       "detected_at": "2026-06-29T21:38:36.093Z",
       "updated_at": "2026-06-29T21:38:36.093Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2119",
+      "jira_summary": "SG casos figuraban cargados a Lucas Nieto (gestor ausente).",
+      "mr_id": 1013,
+      "mr_title": "GRV-2119: evita reasignar solicitudes al gestor ausente al cerrar el reemplazo",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/grv-2119-no-migrar-id-gestor-al-finalizar-temporal",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/1013",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2119",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-06-30T18:55:31.397Z",
+      "updated_at": "2026-06-30T18:55:31.397Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-06-30T16:22:26.739Z"
+  "last_updated": "2026-06-30T18:55:31.397Z"
 }
