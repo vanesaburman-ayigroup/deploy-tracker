@@ -782,7 +782,34 @@
       "channel": "slack",
       "sent_at": "2026-06-29T19:57:25.259Z",
       "payload": "🚨 CORE listo: wssolicitudesgenericas (GRV-1989) — Alta"
+    },
+    {
+      "event_hash": "40c90e6682a1edb9",
+      "ticket_id": "GRV-2077",
+      "mr_id": 576,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-07-02T12:57:21.694Z",
+      "payload": "**Alerta de Deploy - GRV-2077**\n\nPM, necesitamos ventana"
+    },
+    {
+      "event_hash": "ec99fd92bb8bc04d",
+      "ticket_id": "GRV-2077",
+      "mr_id": 576,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-07-02T12:57:21.695Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "166de14b3d96b8f7",
+      "ticket_id": "GRV-2077",
+      "mr_id": 576,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-07-02T12:57:21.696Z",
+      "payload": "🚨 CORE listo: wslogistica (GRV-2077) — Alta"
     }
   ],
-  "last_checked": "2026-06-29T19:57:25.259Z"
+  "last_checked": "2026-07-02T12:57:21.696Z"
 }
