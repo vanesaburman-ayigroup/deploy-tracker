@@ -8573,22 +8573,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2077-planilla-usa-fecha-turno",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/576",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2077",
       "author": "Francisco Ziegler",
-      "is_ready": true,
-      "priority_weight": 150,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-06-29T14:47:16.427Z",
-      "updated_at": "2026-07-02T12:57:18.578Z",
+      "updated_at": "2026-07-02T23:06:21.947Z",
       "deployed_at": null
     },
     {
@@ -8601,7 +8601,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2117-fecha-defuncion",
       "target_branch": "develop",
@@ -8610,13 +8610,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-06-29T19:57:21.483Z",
-      "updated_at": "2026-07-02T19:23:48.239Z",
+      "updated_at": "2026-07-02T23:06:21.718Z",
       "deployed_at": null
     },
     {
@@ -8788,5 +8788,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-02T21:06:08.851Z"
+  "last_updated": "2026-07-02T23:06:21.947Z"
 }
