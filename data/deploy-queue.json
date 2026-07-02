@@ -8730,7 +8730,35 @@
       "detected_at": "2026-07-01T16:25:58.313Z",
       "updated_at": "2026-07-02T15:20:41.529Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2145",
+      "jira_summary": "Re: TABLERO CON CARDS DE INDICADORES",
+      "mr_id": 681,
+      "mr_title": "fix(GRV-2145): cargar \"Indicadores Gestión\" del Home aunque el usuario no...",
+      "repo_name": "auditoriamedica",
+      "project_path": "frontend/auditoriamedica",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2145-indicadores-gestion-en-cero",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/681",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2145",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Francisco Ziegler",
+      "assignee_email": "francisco.ziegler@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-07-02T17:47:03.060Z",
+      "updated_at": "2026-07-02T17:47:03.061Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-02T15:20:41.529Z"
+  "last_updated": "2026-07-02T17:47:03.061Z"
 }
