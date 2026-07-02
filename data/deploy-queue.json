@@ -8610,13 +8610,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-06-29T19:57:21.483Z",
-      "updated_at": "2026-07-01T16:25:58.541Z",
+      "updated_at": "2026-07-02T19:23:48.239Z",
       "deployed_at": null
     },
     {
@@ -8741,7 +8741,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "opened",
       "source_branch": "bugfix/GRV-2145-indicadores-gestion-en-cero",
       "target_branch": "develop",
@@ -8750,15 +8750,43 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Francisco Ziegler",
-      "assignee_email": "francisco.ziegler@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-02T17:47:03.060Z",
-      "updated_at": "2026-07-02T17:47:03.061Z",
+      "updated_at": "2026-07-02T19:23:47.738Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2147",
+      "jira_summary": "Re: SAS Connect",
+      "mr_id": 625,
+      "mr_title": "GRV-2147: correccion vigencia convenios",
+      "repo_name": "wslistados",
+      "project_path": "backend/wslistados",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-2147-correccion-vigencia-convenios",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslistados/-/merge_requests/625",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2147",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
+      "components": [
+        "SAS_Connect"
+      ],
+      "detected_at": "2026-07-02T19:23:48.011Z",
+      "updated_at": "2026-07-02T19:23:48.011Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-02T17:47:03.061Z"
+  "last_updated": "2026-07-02T19:23:48.239Z"
 }
