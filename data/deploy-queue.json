@@ -8870,7 +8870,91 @@
       "detected_at": "2026-07-06T17:42:35.063Z",
       "updated_at": "2026-07-06T17:42:35.063Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2153",
+      "jira_summary": "Campo Aclaraciones (Domicilio).",
+      "mr_id": 1618,
+      "mr_title": "fix: mostrar campo aclaraciones del domicilio en primera pantalla",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-2153-nuevo-campo-domicilio-aclaracion",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1618",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2153",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Minue",
+      "assignee_email": "alejandro.minue@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-07-06T21:38:28.687Z",
+      "updated_at": "2026-07-06T21:38:28.687Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2153",
+      "jira_summary": "Campo Aclaraciones (Domicilio).",
+      "mr_id": 470,
+      "mr_title": "fix: mostrar campo aclaraciones del domicilio en datos del empleado",
+      "repo_name": "portalclientes",
+      "project_path": "frontend/portalclientes",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-2153-nuevo-campo-domicilio-aclaracion",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/portalclientes/-/merge_requests/470",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2153",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Minue",
+      "assignee_email": "alejandro.minue@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-07-06T21:38:28.692Z",
+      "updated_at": "2026-07-06T21:38:28.692Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2153",
+      "jira_summary": "Campo Aclaraciones (Domicilio).",
+      "mr_id": 225,
+      "mr_title": "fix: mostrar campo aclaraciones del domicilio en drawer de datos del paciente",
+      "repo_name": "solicitudesgenericas",
+      "project_path": "frontend/solicitudesgenericas",
+      "service_type": "core_frontend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-2153-nuevo-campo-domicilio-aclaracion",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/solicitudesgenericas/-/merge_requests/225",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2153",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Minue",
+      "assignee_email": "alejandro.minue@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-07-06T21:38:28.696Z",
+      "updated_at": "2026-07-06T21:38:28.696Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-06T17:42:35.063Z"
+  "last_updated": "2026-07-06T21:38:28.696Z"
 }
