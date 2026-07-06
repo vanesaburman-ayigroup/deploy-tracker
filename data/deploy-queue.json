@@ -8685,7 +8685,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-2119-no-migrar-id-gestor-al-finalizar-temporal",
       "target_branch": "develop",
@@ -8694,13 +8694,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Martinez",
-      "assignee_email": "matias.martinez@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-06-30T18:55:31.397Z",
-      "updated_at": "2026-07-02T15:20:41.140Z",
+      "updated_at": "2026-07-06T17:42:34.754Z",
       "deployed_at": null
     },
     {
@@ -8713,7 +8713,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2128-responsable-en-texto-evolucion-cie10",
       "target_branch": "develop",
@@ -8722,13 +8722,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-01T16:25:58.313Z",
-      "updated_at": "2026-07-02T15:20:41.529Z",
+      "updated_at": "2026-07-06T17:42:34.493Z",
       "deployed_at": null
     },
     {
@@ -8842,7 +8842,35 @@
       "detected_at": "2026-07-03T21:05:37.400Z",
       "updated_at": "2026-07-06T14:24:18.399Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2085",
+      "jira_summary": "Re: Nomenclador Vigente Acton Neuquen",
+      "mr_id": 54,
+      "mr_title": "GRV-2085-actualizacion-prestaciones-nun",
+      "repo_name": "wsprestaciones",
+      "project_path": "backend/wsprestaciones",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-2085-actualizacion-prestaciones-nun",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsprestaciones/-/merge_requests/54",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2085",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
+      "components": [
+        "SAS_Contrataciones"
+      ],
+      "detected_at": "2026-07-06T17:42:35.063Z",
+      "updated_at": "2026-07-06T17:42:35.063Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-06T14:24:18.399Z"
+  "last_updated": "2026-07-06T17:42:35.063Z"
 }
