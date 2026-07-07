@@ -8982,7 +8982,63 @@
       "detected_at": "2026-07-07T16:30:29.308Z",
       "updated_at": "2026-07-07T16:30:29.309Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2100",
+      "jira_summary": "B4 — PDF de renovación no actualiza la nueva fecha de vencimiento",
+      "mr_id": 1028,
+      "mr_title": "fix(GRV-2100): regenerar PDF de pedido de ortesis al renovar (versión incremental)",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2100-pdf-ortesis-version",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/1028",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2100",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Contrataciones"
+      ],
+      "detected_at": "2026-07-07T21:23:39.535Z",
+      "updated_at": "2026-07-07T21:23:39.535Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2100",
+      "jira_summary": "B4 — PDF de renovación no actualiza la nueva fecha de vencimiento",
+      "mr_id": 560,
+      "mr_title": "fix(GRV-2100): versionar el nombre del PDF de pedido de ortesis",
+      "repo_name": "wsimportarexportar",
+      "project_path": "backend/wsimportarexportar",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2100-pdf-ortesis-version",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsimportarexportar/-/merge_requests/560",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2100",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Contrataciones"
+      ],
+      "detected_at": "2026-07-07T21:23:39.540Z",
+      "updated_at": "2026-07-07T21:23:39.540Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-07T19:01:39.596Z"
+  "last_updated": "2026-07-07T21:23:39.540Z"
 }
