@@ -8685,22 +8685,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-2119-no-migrar-id-gestor-al-finalizar-temporal",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/1013",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2119",
       "author": "Maximiliano Carubin",
-      "is_ready": false,
-      "priority_weight": 0,
+      "is_ready": true,
+      "priority_weight": 50,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-06-30T18:55:31.397Z",
-      "updated_at": "2026-07-06T17:42:34.754Z",
+      "updated_at": "2026-07-07T19:01:39.596Z",
       "deployed_at": null
     },
     {
@@ -8984,5 +8984,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-07T16:30:29.309Z"
+  "last_updated": "2026-07-07T19:01:39.596Z"
 }
