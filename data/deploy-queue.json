@@ -4046,13 +4046,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T20:53:15.412Z",
-      "updated_at": "2026-06-08T20:15:07.062Z",
+      "updated_at": "2026-07-07T13:20:50.329Z",
       "deployed_at": null
     },
     {
@@ -4074,13 +4074,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T21:45:45.559Z",
-      "updated_at": "2026-06-08T20:15:07.067Z",
+      "updated_at": "2026-07-07T13:20:50.333Z",
       "deployed_at": null
     },
     {
@@ -8713,7 +8713,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2128-responsable-en-texto-evolucion-cie10",
       "target_branch": "develop",
@@ -8722,13 +8722,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-01T16:25:58.313Z",
-      "updated_at": "2026-07-06T17:42:34.493Z",
+      "updated_at": "2026-07-07T13:20:50.641Z",
       "deployed_at": null
     },
     {
@@ -8769,8 +8769,8 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "fix/GRV-2147-correccion-vigencia-convenios",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslistados/-/merge_requests/625",
@@ -8778,13 +8778,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Connect"
       ],
       "detected_at": "2026-07-02T19:23:48.011Z",
-      "updated_at": "2026-07-03T12:55:16.180Z",
+      "updated_at": "2026-07-07T13:20:50.021Z",
       "deployed_at": null
     },
     {
@@ -8881,7 +8881,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "opened",
       "source_branch": "feature/GRV-2153-nuevo-campo-domicilio-aclaracion",
       "target_branch": "develop",
@@ -8890,13 +8890,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-06T21:38:28.687Z",
-      "updated_at": "2026-07-06T21:38:28.687Z",
+      "updated_at": "2026-07-07T13:20:51.052Z",
       "deployed_at": null
     },
     {
@@ -8909,7 +8909,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "opened",
       "source_branch": "feature/GRV-2153-nuevo-campo-domicilio-aclaracion",
       "target_branch": "develop",
@@ -8918,13 +8918,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-06T21:38:28.692Z",
-      "updated_at": "2026-07-06T21:38:28.692Z",
+      "updated_at": "2026-07-07T13:20:51.056Z",
       "deployed_at": null
     },
     {
@@ -8937,7 +8937,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "opened",
       "source_branch": "feature/GRV-2153-nuevo-campo-domicilio-aclaracion",
       "target_branch": "develop",
@@ -8946,15 +8946,15 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-06T21:38:28.696Z",
-      "updated_at": "2026-07-06T21:38:28.696Z",
+      "updated_at": "2026-07-07T13:20:51.059Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-06T21:38:28.696Z"
+  "last_updated": "2026-07-07T13:20:51.059Z"
 }
