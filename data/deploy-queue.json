@@ -9066,7 +9066,63 @@
       "detected_at": "2026-07-08T19:24:13.652Z",
       "updated_at": "2026-07-08T19:24:13.652Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1958",
+      "jira_summary": "Ajuste necesario en sistema – fecha de alta en casos serológicos",
+      "mr_id": 1030,
+      "mr_title": "GRV-1958: cierre siniestro sin baja laboral",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-1958-cierre-siniestro-sin-baja",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/1030",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1958",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-07-13T20:14:23.906Z",
+      "updated_at": "2026-07-13T20:14:23.906Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1958",
+      "jira_summary": "Ajuste necesario en sistema – fecha de alta en casos serológicos",
+      "mr_id": 1665,
+      "mr_title": "GRV-1958: agrega validacion de cierre para siniestro Sin Baja Laboral con fecha de baja distinta a fecha de ocurrencia",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-1958-cierre-siniestro-sin-baja",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1665",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1958",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-07-13T20:14:23.911Z",
+      "updated_at": "2026-07-13T20:14:23.911Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-08T19:24:14.424Z"
+  "last_updated": "2026-07-13T20:14:23.911Z"
 }
