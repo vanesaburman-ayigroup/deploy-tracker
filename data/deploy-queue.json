@@ -8741,8 +8741,8 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-2145-indicadores-gestion-en-cero",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/681",
@@ -8750,13 +8750,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-02T17:47:03.060Z",
-      "updated_at": "2026-07-02T19:23:47.738Z",
+      "updated_at": "2026-07-13T22:56:38.363Z",
       "deployed_at": null
     },
     {
@@ -8797,7 +8797,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Muy Baja",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1940-fix-demora-consultas-sg",
       "target_branch": "develop",
@@ -8806,13 +8806,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-07-03T21:05:37.395Z",
-      "updated_at": "2026-07-06T14:24:18.395Z",
+      "updated_at": "2026-07-13T22:56:37.930Z",
       "deployed_at": null
     },
     {
@@ -8825,7 +8825,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Muy Baja",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1940-fix-llamada-duplicada-endpoints-sg",
       "target_branch": "develop",
@@ -8834,13 +8834,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-07-03T21:05:37.400Z",
-      "updated_at": "2026-07-06T14:24:18.399Z",
+      "updated_at": "2026-07-13T22:56:37.934Z",
       "deployed_at": null
     },
     {
@@ -9002,13 +9002,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-07-07T21:23:39.535Z",
-      "updated_at": "2026-07-13T21:56:00.915Z",
+      "updated_at": "2026-07-13T22:56:37.157Z",
       "deployed_at": null
     },
     {
@@ -9030,13 +9030,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-07-07T21:23:39.540Z",
-      "updated_at": "2026-07-13T21:56:00.920Z",
+      "updated_at": "2026-07-13T22:56:37.164Z",
       "deployed_at": null
     },
     {
@@ -9049,8 +9049,8 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-2161-mail-trazadora-no-corresponde",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1354",
@@ -9058,13 +9058,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-08T19:24:13.652Z",
-      "updated_at": "2026-07-08T19:24:13.652Z",
+      "updated_at": "2026-07-13T22:56:38.148Z",
       "deployed_at": null
     },
     {
@@ -9086,13 +9086,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-13T20:14:23.906Z",
-      "updated_at": "2026-07-13T21:56:02.053Z",
+      "updated_at": "2026-07-13T22:56:37.682Z",
       "deployed_at": null
     },
     {
@@ -9114,13 +9114,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-13T20:14:23.911Z",
-      "updated_at": "2026-07-13T21:56:02.057Z",
+      "updated_at": "2026-07-13T22:56:37.688Z",
       "deployed_at": null
     },
     {
@@ -9152,5 +9152,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-13T21:56:02.057Z"
+  "last_updated": "2026-07-13T22:56:38.363Z"
 }
