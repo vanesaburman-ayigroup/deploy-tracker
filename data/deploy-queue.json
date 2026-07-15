@@ -9064,7 +9064,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-08T19:24:13.652Z",
-      "updated_at": "2026-07-13T22:56:38.148Z",
+      "updated_at": "2026-07-15T14:49:23.386Z",
       "deployed_at": null
     },
     {
@@ -9236,5 +9236,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-15T12:13:43.453Z"
+  "last_updated": "2026-07-15T14:49:23.386Z"
 }
