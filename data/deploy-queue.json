@@ -9058,13 +9058,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-08T19:24:13.652Z",
-      "updated_at": "2026-07-15T14:49:23.386Z",
+      "updated_at": "2026-07-15T16:20:58.022Z",
       "deployed_at": null
     },
     {
@@ -9236,5 +9236,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-15T14:49:23.386Z"
+  "last_updated": "2026-07-15T16:20:58.023Z"
 }
