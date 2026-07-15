@@ -9178,7 +9178,63 @@
       "detected_at": "2026-07-14T16:14:05.855Z",
       "updated_at": "2026-07-14T16:14:05.855Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2149",
+      "jira_summary": "BLOQUEANTE URGENTE - NUMERO DE ROAMS",
+      "mr_id": 1928,
+      "mr_title": "fix(denuncia-completa): extender guard anti-stale a todos los datos generales",
+      "repo_name": "frontend",
+      "project_path": "frontend/frontend",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "Finalizada",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-2149-stale-guard-datos-generales",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1928",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2149",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-07-15T12:13:43.448Z",
+      "updated_at": "2026-07-15T12:13:43.448Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2149",
+      "jira_summary": "BLOQUEANTE URGENTE - NUMERO DE ROAMS",
+      "mr_id": 766,
+      "mr_title": "fix(auditoria): no sobrescribir nro_roam en el guardado de auditoría médica",
+      "repo_name": "wsauditoria",
+      "project_path": "backend/wsauditoria",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "Finalizada",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-2149-auditoria-no-escribir-roam",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/766",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2149",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-07-15T12:13:43.453Z",
+      "updated_at": "2026-07-15T12:13:43.453Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-14T16:14:05.855Z"
+  "last_updated": "2026-07-15T12:13:43.453Z"
 }
