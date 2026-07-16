@@ -8806,13 +8806,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-07-03T21:05:37.395Z",
-      "updated_at": "2026-07-13T22:56:37.930Z",
+      "updated_at": "2026-07-16T17:14:44.095Z",
       "deployed_at": null
     },
     {
@@ -8834,13 +8834,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-07-03T21:05:37.400Z",
-      "updated_at": "2026-07-13T22:56:37.934Z",
+      "updated_at": "2026-07-16T17:14:44.099Z",
       "deployed_at": null
     },
     {
@@ -9234,7 +9234,61 @@
       "detected_at": "2026-07-15T12:13:43.453Z",
       "updated_at": "2026-07-15T12:13:43.453Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2167",
+      "jira_summary": "[ETAPA 0] - Script para crear tabla y cargar la lista de proveedores con su área de cobertura",
+      "mr_id": 439,
+      "mr_title": "GRV-2167: creación tabla proveedores_localidad_cobertura y carga de datos [ETAPA 0]",
+      "repo_name": "wsproveedor",
+      "project_path": "backend/wsproveedor",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-2167-carga-area-cobertura-proveedores",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsproveedor/-/merge_requests/439",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2167",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
+      "components": [],
+      "detected_at": "2026-07-16T17:14:43.729Z",
+      "updated_at": "2026-07-16T17:14:43.729Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2166",
+      "jira_summary": "Re: CARGA DE PRESTADOR EN SAS",
+      "mr_id": 440,
+      "mr_title": "GRV-2166: corrige el alta de prestador que fallaba con error 500",
+      "repo_name": "wsproveedor",
+      "project_path": "backend/wsproveedor",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/fix-grv-2166-alta-prestador",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsproveedor/-/merge_requests/440",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2166",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
+      "components": [
+        "SAS_Contrataciones"
+      ],
+      "detected_at": "2026-07-16T17:14:44.424Z",
+      "updated_at": "2026-07-16T17:14:44.424Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-15T16:20:58.023Z"
+  "last_updated": "2026-07-16T17:14:44.424Z"
 }
