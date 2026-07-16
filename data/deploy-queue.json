@@ -8685,22 +8685,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/grv-2119-no-migrar-id-gestor-al-finalizar-temporal",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/1013",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2119",
       "author": "Maximiliano Carubin",
-      "is_ready": true,
-      "priority_weight": 50,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-06-30T18:55:31.397Z",
-      "updated_at": "2026-07-07T19:01:39.596Z",
+      "updated_at": "2026-07-16T22:05:28.914Z",
       "deployed_at": null
     },
     {
@@ -8741,7 +8741,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2145-indicadores-gestion-en-cero",
       "target_branch": "develop",
@@ -8750,13 +8750,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-02T17:47:03.060Z",
-      "updated_at": "2026-07-13T22:56:38.363Z",
+      "updated_at": "2026-07-16T22:05:29.258Z",
       "deployed_at": null
     },
     {
@@ -8769,7 +8769,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2147-correccion-vigencia-convenios",
       "target_branch": "develop",
@@ -8778,13 +8778,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Connect"
       ],
       "detected_at": "2026-07-02T19:23:48.011Z",
-      "updated_at": "2026-07-08T19:24:14.424Z",
+      "updated_at": "2026-07-16T22:05:30.262Z",
       "deployed_at": null
     },
     {
@@ -8797,22 +8797,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Muy Baja",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1940-fix-demora-consultas-sg",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/480",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1940",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 100,
+      "is_ready": true,
+      "priority_weight": 150,
       "assignee_name": "Vanesa Yanina Burman",
       "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-07-03T21:05:37.395Z",
-      "updated_at": "2026-07-16T20:56:58.308Z",
+      "updated_at": "2026-07-16T22:05:29.612Z",
       "deployed_at": null
     },
     {
@@ -8825,22 +8825,22 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Muy Baja",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-1940-fix-llamada-duplicada-endpoints-sg",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/solicitudesgenericas/-/merge_requests/221",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1940",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 100,
+      "is_ready": true,
+      "priority_weight": 150,
       "assignee_name": "Vanesa Yanina Burman",
       "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Atencion al Cliente"
       ],
       "detected_at": "2026-07-03T21:05:37.400Z",
-      "updated_at": "2026-07-16T20:56:58.312Z",
+      "updated_at": "2026-07-16T22:05:29.615Z",
       "deployed_at": null
     },
     {
@@ -8881,7 +8881,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-2153-nuevo-campo-domicilio-aclaracion",
       "target_branch": "develop",
@@ -8896,7 +8896,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-06T21:38:28.687Z",
-      "updated_at": "2026-07-13T21:56:01.749Z",
+      "updated_at": "2026-07-16T22:05:30.001Z",
       "deployed_at": null
     },
     {
@@ -8909,7 +8909,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-2153-nuevo-campo-domicilio-aclaracion",
       "target_branch": "develop",
@@ -8924,7 +8924,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-06T21:38:28.692Z",
-      "updated_at": "2026-07-13T21:56:01.754Z",
+      "updated_at": "2026-07-16T22:05:30.003Z",
       "deployed_at": null
     },
     {
@@ -8937,7 +8937,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-2153-nuevo-campo-domicilio-aclaracion",
       "target_branch": "develop",
@@ -8952,7 +8952,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-06T21:38:28.696Z",
-      "updated_at": "2026-07-13T21:56:01.758Z",
+      "updated_at": "2026-07-16T22:05:30.007Z",
       "deployed_at": null
     },
     {
@@ -9049,7 +9049,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2161-mail-trazadora-no-corresponde",
       "target_branch": "develop",
@@ -9058,13 +9058,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-08T19:24:13.652Z",
-      "updated_at": "2026-07-15T16:20:58.022Z",
+      "updated_at": "2026-07-16T22:05:28.624Z",
       "deployed_at": null
     },
     {
@@ -9319,5 +9319,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-16T20:56:58.312Z"
+  "last_updated": "2026-07-16T22:05:30.262Z"
 }
