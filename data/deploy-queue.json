@@ -8756,7 +8756,7 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-02T17:47:03.060Z",
-      "updated_at": "2026-07-16T22:05:29.258Z",
+      "updated_at": "2026-07-17T16:14:42.113Z",
       "deployed_at": null
     },
     {
@@ -9317,7 +9317,35 @@
       "detected_at": "2026-07-16T20:56:56.469Z",
       "updated_at": "2026-07-16T20:56:56.469Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2175",
+      "jira_summary": "PEDIDO PERFIL CLIENTE - Check Recalificación",
+      "mr_id": 483,
+      "mr_title": "feat: agregar campo Recalificacion en pestaña General del detalle de siniestro",
+      "repo_name": "portalclientes",
+      "project_path": "frontend/portalclientes",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-2175-nuevo-campo-recalificacion-siniestro-general",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/portalclientes/-/merge_requests/483",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2175",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
+      "components": [
+        "PDC_Portal de Clientes"
+      ],
+      "detected_at": "2026-07-17T16:14:41.732Z",
+      "updated_at": "2026-07-17T16:14:41.732Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-16T22:05:30.262Z"
+  "last_updated": "2026-07-17T16:14:42.113Z"
 }
