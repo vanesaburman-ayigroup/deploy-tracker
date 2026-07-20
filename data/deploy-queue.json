@@ -9002,13 +9002,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-07-07T21:23:39.535Z",
-      "updated_at": "2026-07-16T20:56:56.219Z",
+      "updated_at": "2026-07-20T21:59:18.257Z",
       "deployed_at": null
     },
     {
@@ -9030,13 +9030,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-07-07T21:23:39.540Z",
-      "updated_at": "2026-07-16T20:56:56.224Z",
+      "updated_at": "2026-07-20T21:59:18.262Z",
       "deployed_at": null
     },
     {
@@ -9539,5 +9539,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-20T20:20:11.875Z"
+  "last_updated": "2026-07-20T21:59:18.262Z"
 }
