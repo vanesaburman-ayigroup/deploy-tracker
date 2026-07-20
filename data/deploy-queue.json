@@ -9170,13 +9170,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-14T16:14:05.855Z",
-      "updated_at": "2026-07-14T16:14:05.855Z",
+      "updated_at": "2026-07-20T13:05:05.515Z",
       "deployed_at": null
     },
     {
@@ -9337,15 +9337,41 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "PDC_Portal de Clientes"
       ],
       "detected_at": "2026-07-17T16:14:41.732Z",
-      "updated_at": "2026-07-17T16:14:41.732Z",
+      "updated_at": "2026-07-20T13:05:05.935Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2170",
+      "jira_summary": "[ETAPA 1] - Back: endpoint para visualización de las areas de cobertura por proveedor",
+      "mr_id": 443,
+      "mr_title": "GRV-2170: agrega listado de areas de cobertura de proveedores [ETAPA 1]",
+      "repo_name": "wsproveedor",
+      "project_path": "backend/wsproveedor",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-2170-listar-areas-cobertura",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsproveedor/-/merge_requests/443",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2170",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
+      "components": [],
+      "detected_at": "2026-07-20T13:05:06.283Z",
+      "updated_at": "2026-07-20T13:05:06.283Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-17T16:14:42.113Z"
+  "last_updated": "2026-07-20T13:05:06.283Z"
 }
