@@ -9397,7 +9397,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-20T15:49:20.456Z",
-      "updated_at": "2026-07-20T15:49:20.456Z",
+      "updated_at": "2026-07-20T20:20:11.861Z",
       "deployed_at": null
     },
     {
@@ -9425,7 +9425,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-20T15:49:20.461Z",
-      "updated_at": "2026-07-20T15:49:20.461Z",
+      "updated_at": "2026-07-20T20:20:11.875Z",
       "deployed_at": null
     },
     {
@@ -9479,9 +9479,65 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-20T15:49:21.241Z",
-      "updated_at": "2026-07-20T18:02:01.355Z",
+      "updated_at": "2026-07-20T20:20:11.217Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2176",
+      "jira_summary": "141828/0 GUSTAVO EDGARDO URRUTIA 24019758",
+      "mr_id": 1061,
+      "mr_title": "GRV-2176: agrega el diagnóstico CIE-10 a la exportación de siniestros",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/grv-2176-diagnostico-exportado",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/1061",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2176",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-07-20T20:20:10.733Z",
+      "updated_at": "2026-07-20T20:20:10.734Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2176",
+      "jira_summary": "141828/0 GUSTAVO EDGARDO URRUTIA 24019758",
+      "mr_id": 1712,
+      "mr_title": "GRV-2176: agrega las columnas de CIE-10 al Excel de siniestros",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/grv-2176-diagnostico-exportado",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1712",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2176",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-07-20T20:20:10.739Z",
+      "updated_at": "2026-07-20T20:20:10.739Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-20T18:02:01.356Z"
+  "last_updated": "2026-07-20T20:20:11.875Z"
 }
