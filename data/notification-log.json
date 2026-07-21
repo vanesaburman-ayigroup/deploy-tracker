@@ -809,7 +809,34 @@
       "channel": "slack",
       "sent_at": "2026-07-02T12:57:21.696Z",
       "payload": "🚨 CORE listo: wslogistica (GRV-2077) — Alta"
+    },
+    {
+      "event_hash": "877e88d99127671d",
+      "ticket_id": "GRV-2100",
+      "mr_id": 560,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-07-21T15:03:07.943Z",
+      "payload": "¡Atención PM! 🚨\n\n**GRV-2100 (PDF renovación"
+    },
+    {
+      "event_hash": "f756eda87521dde5",
+      "ticket_id": "GRV-2100",
+      "mr_id": 560,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-07-21T15:03:07.944Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "2350f206d08a602b",
+      "ticket_id": "GRV-2100",
+      "mr_id": 560,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-07-21T15:03:07.945Z",
+      "payload": "🚨 CORE listo: wsimportarexportar (GRV-2100) — Alta"
     }
   ],
-  "last_checked": "2026-07-02T12:57:21.696Z"
+  "last_checked": "2026-07-21T15:03:07.945Z"
 }
