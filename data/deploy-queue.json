@@ -9492,7 +9492,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/grv-2176-diagnostico-exportado",
       "target_branch": "develop",
@@ -9501,13 +9501,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-20T20:20:10.733Z",
-      "updated_at": "2026-07-21T15:03:03.677Z",
+      "updated_at": "2026-07-22T23:02:38.587Z",
       "deployed_at": null
     },
     {
@@ -9520,7 +9520,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/grv-2176-diagnostico-exportado",
       "target_branch": "develop",
@@ -9529,13 +9529,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Agustin Godoy",
+      "assignee_email": "agustin.godoy@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-20T20:20:10.739Z",
-      "updated_at": "2026-07-21T15:03:03.682Z",
+      "updated_at": "2026-07-22T23:02:38.592Z",
       "deployed_at": null
     },
     {
@@ -9563,7 +9563,35 @@
       "detected_at": "2026-07-21T15:03:04.108Z",
       "updated_at": "2026-07-22T19:17:57.665Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2164",
+      "jira_summary": "Re: Error pestaña CIRUGIAS SAS AYI",
+      "mr_id": 128,
+      "mr_title": "GRV-2164: corrige la pestaña Cirugías que no mostraba ninguna cirugía",
+      "repo_name": "wscirugias",
+      "project_path": "backend/wscirugias",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "feature/grv-2164-cirugias-motivo-huerfano",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wscirugias/-/merge_requests/128",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2164",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Auditoría de Facturación"
+      ],
+      "detected_at": "2026-07-22T23:02:38.169Z",
+      "updated_at": "2026-07-22T23:02:38.169Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-22T19:17:58.241Z"
+  "last_updated": "2026-07-22T23:02:38.592Z"
 }
