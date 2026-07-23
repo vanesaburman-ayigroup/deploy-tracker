@@ -9382,7 +9382,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "En curso",
+      "jira_status": "En pausa",
       "mr_status": "closed",
       "source_branch": "bugfix/GRV-2185-fix-fecha-rechazo-siniestro-interocurrencia",
       "target_branch": "develop",
@@ -9397,7 +9397,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-20T15:49:20.456Z",
-      "updated_at": "2026-07-23T17:22:04.851Z",
+      "updated_at": "2026-07-23T19:15:58.514Z",
       "deployed_at": null
     },
     {
@@ -9410,7 +9410,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "En curso",
+      "jira_status": "En pausa",
       "mr_status": "closed",
       "source_branch": "bugfix/GRV-2185-fix-fecha-rechazo-siniestro-interocurrencia",
       "target_branch": "develop",
@@ -9425,7 +9425,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-20T15:49:20.461Z",
-      "updated_at": "2026-07-23T17:22:04.858Z",
+      "updated_at": "2026-07-23T19:15:58.519Z",
       "deployed_at": null
     },
     {
@@ -9619,7 +9619,63 @@
       "detected_at": "2026-07-23T15:07:57.685Z",
       "updated_at": "2026-07-23T17:22:05.185Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2184",
+      "jira_summary": "00002494202600249401",
+      "mr_id": 426,
+      "mr_title": "Draft: fix(srt): reingreso denegado siempre fuerza categoría RE (GRV-2184)",
+      "repo_name": "wssiniestralidad",
+      "project_path": "backend/wssiniestralidad",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "En pausa",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-2184-reingreso-denegado-categoria-re",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wssiniestralidad/-/merge_requests/426",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2184",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-07-23T19:15:58.262Z",
+      "updated_at": "2026-07-23T19:15:58.263Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2184",
+      "jira_summary": "00002494202600249401",
+      "mr_id": 471,
+      "mr_title": "Draft: fix(siniestralidad): bloquear guardado si reingreso denegado no es categoría Rechazo (GRV-2184)",
+      "repo_name": "mesadecarga",
+      "project_path": "frontend/mesadecarga",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "En pausa",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-2184-reingreso-denegado-categoria-re",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/mesadecarga/-/merge_requests/471",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2184",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-07-23T19:15:58.268Z",
+      "updated_at": "2026-07-23T19:15:58.268Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-23T17:22:05.185Z"
+  "last_updated": "2026-07-23T19:15:58.519Z"
 }
