@@ -9492,7 +9492,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "feature/grv-2176-diagnostico-exportado",
       "target_branch": "develop",
@@ -9501,13 +9501,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-20T20:20:10.733Z",
-      "updated_at": "2026-07-22T23:02:38.587Z",
+      "updated_at": "2026-07-23T15:07:57.675Z",
       "deployed_at": null
     },
     {
@@ -9520,7 +9520,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "feature/grv-2176-diagnostico-exportado",
       "target_branch": "develop",
@@ -9529,13 +9529,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-20T20:20:10.739Z",
-      "updated_at": "2026-07-22T23:02:38.592Z",
+      "updated_at": "2026-07-23T15:07:57.680Z",
       "deployed_at": null
     },
     {
@@ -9591,7 +9591,35 @@
       "detected_at": "2026-07-22T23:02:38.169Z",
       "updated_at": "2026-07-22T23:02:38.169Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2176",
+      "jira_summary": "141828/0 GUSTAVO EDGARDO URRUTIA 24019758",
+      "mr_id": 1071,
+      "mr_title": "GRV-2176: corrige export de siniestros vacío para usuarios sin grupo",
+      "repo_name": "wstramitador",
+      "project_path": "backend/wstramitador",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "fix/grv-2176-export-supervisor-id-grupo-null",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/1071",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2176",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Auditoria_Médica"
+      ],
+      "detected_at": "2026-07-23T15:07:57.685Z",
+      "updated_at": "2026-07-23T15:07:57.685Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-22T23:02:38.592Z"
+  "last_updated": "2026-07-23T15:07:57.685Z"
 }
