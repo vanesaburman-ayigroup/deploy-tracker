@@ -4037,7 +4037,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "merged",
       "source_branch": "GRV-1813-fix-siniestros-multiples",
       "target_branch": "develop",
@@ -4046,13 +4046,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Leandro Abel Lesca",
-      "assignee_email": "leandro.lesca@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T20:53:15.412Z",
-      "updated_at": "2026-07-08T15:21:34.984Z",
+      "updated_at": "2026-07-24T16:41:16.584Z",
       "deployed_at": null
     },
     {
@@ -4065,7 +4065,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "merged",
       "source_branch": "GRV-1813-fix-causas-siniestros-multiples",
       "target_branch": "develop",
@@ -4074,13 +4074,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Leandro Abel Lesca",
-      "assignee_email": "leandro.lesca@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T21:45:45.559Z",
-      "updated_at": "2026-07-08T15:21:34.988Z",
+      "updated_at": "2026-07-24T16:41:16.589Z",
       "deployed_at": null
     },
     {
@@ -9839,7 +9839,91 @@
       "detected_at": "2026-07-24T14:53:37.223Z",
       "updated_at": "2026-07-24T14:53:37.223Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2226",
+      "jira_summary": " Wizard de \"Nuevo turno: Laboratorio\" habilita \"Siguiente\" según eventos de interacción, no según el estado real del formulario",
+      "mr_id": 1733,
+      "mr_title": "GRV-2226: arregla validacion del step 1 en nuevo turno de Laboratorio",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Media",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-2226-nuevo-turno-laboratorio",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1733",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2226",
+      "author": "Matias Martinez",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Matias Martinez",
+      "assignee_email": "matias.martinez@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-07-24T16:41:16.302Z",
+      "updated_at": "2026-07-24T16:41:16.302Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1813",
+      "jira_summary": "Siniestro multiples - Error",
+      "mr_id": 1948,
+      "mr_title": "GRV-1813: corrige desincronización del checkbox de siniestro múltiple",
+      "repo_name": "frontend",
+      "project_path": "frontend/frontend",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "fix/GRV-1813-siniestro-multiple-flag",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1948",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1813",
+      "author": "Leandro Lesca",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-07-24T16:41:16.594Z",
+      "updated_at": "2026-07-24T16:41:16.594Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-1813",
+      "jira_summary": "Siniestro multiples - Error",
+      "mr_id": 1358,
+      "mr_title": "GRV-1813: preserva el flag de siniestro múltiple en guardados parciales",
+      "repo_name": "wsdocumento",
+      "project_path": "backend/wsdocumento",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "fix/GRV-1813-siniestro-multiple-flag",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1358",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1813",
+      "author": "Leandro Lesca",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-07-24T16:41:16.599Z",
+      "updated_at": "2026-07-24T16:41:16.599Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-24T14:53:37.223Z"
+  "last_updated": "2026-07-24T16:41:16.599Z"
 }
