@@ -9176,7 +9176,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-14T16:14:05.855Z",
-      "updated_at": "2026-07-24T12:17:49.984Z",
+      "updated_at": "2026-07-24T14:53:36.811Z",
       "deployed_at": null
     },
     {
@@ -9739,7 +9739,7 @@
       "is_core": false,
       "jira_priority": "Alta",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "bugfix/grv2163-direccion-lugar-accidente-reporte",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsmesacarga/-/merge_requests/172",
@@ -9753,9 +9753,93 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-24T12:17:49.991Z",
-      "updated_at": "2026-07-24T12:17:49.991Z",
+      "updated_at": "2026-07-24T14:53:36.815Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2214",
+      "jira_summary": "CH511728 - MORAGA ANDREA MACARENA 38046246",
+      "mr_id": 433,
+      "mr_title": "GRV-2214: genera el alta SRT cuando la denuncia quedo sin estructura",
+      "repo_name": "wssiniestralidad",
+      "project_path": "backend/wssiniestralidad",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/fix-alta-srt-modificacion-sin-dds",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wssiniestralidad/-/merge_requests/433",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2214",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-07-24T14:53:36.523Z",
+      "updated_at": "2026-07-24T14:53:36.523Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2123",
+      "jira_summary": "Error SAS AYI - Cortopunzantes / Mixtos",
+      "mr_id": 1721,
+      "mr_title": "GRV-2123: cortopunzante como prerrequisito de siniestro mixto",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-2123-cortopunzante-prerrequisito-mixto",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1721",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2123",
+      "author": "Leandro Lesca",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-07-24T14:53:37.219Z",
+      "updated_at": "2026-07-24T14:53:37.219Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2123",
+      "jira_summary": "Error SAS AYI - Cortopunzantes / Mixtos",
+      "mr_id": 1960,
+      "mr_title": "GRV-2123: cortopunzante como prerrequisito de siniestro mixto",
+      "repo_name": "frontend",
+      "project_path": "frontend/frontend",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "fix/GRV-2123-cortopunzante-prerrequisito-mixto",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1960",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2123",
+      "author": "Leandro Lesca",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-07-24T14:53:37.223Z",
+      "updated_at": "2026-07-24T14:53:37.223Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-24T12:17:49.991Z"
+  "last_updated": "2026-07-24T14:53:37.223Z"
 }
