@@ -9949,9 +9949,37 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-24T20:18:37.199Z",
-      "updated_at": "2026-07-24T20:18:37.199Z",
+      "updated_at": "2026-07-27T18:23:59.320Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2183",
+      "jira_summary": "Re: Error en modificaciones/historial",
+      "mr_id": 1372,
+      "mr_title": "GRV-2183: preserva los campos de cierre al guardar denuncias no completas",
+      "repo_name": "wsdocumento",
+      "project_path": "backend/wsdocumento",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/grv-2183-preservacion-campos-cierre",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1372",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2183",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-07-27T18:23:59.599Z",
+      "updated_at": "2026-07-27T18:23:59.599Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-27T16:18:32.235Z"
+  "last_updated": "2026-07-27T18:23:59.599Z"
 }
