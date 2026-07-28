@@ -9971,15 +9971,15 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Maximiliano Carubin",
-      "assignee_email": "maximiliano.carubin@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-27T18:23:59.599Z",
-      "updated_at": "2026-07-27T18:23:59.599Z",
+      "updated_at": "2026-07-28T12:52:38.078Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-27T20:21:33.497Z"
+  "last_updated": "2026-07-28T12:52:38.078Z"
 }
