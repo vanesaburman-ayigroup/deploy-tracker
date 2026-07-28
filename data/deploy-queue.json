@@ -9161,7 +9161,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/grv2163-direccion-lugar-accidente-reporte",
       "target_branch": "develop",
@@ -9176,7 +9176,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-14T16:14:05.855Z",
-      "updated_at": "2026-07-27T13:38:45.462Z",
+      "updated_at": "2026-07-28T15:20:07.833Z",
       "deployed_at": null
     },
     {
@@ -9479,7 +9479,7 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-20T15:49:21.241Z",
-      "updated_at": "2026-07-20T20:20:11.217Z",
+      "updated_at": "2026-07-28T15:20:08.357Z",
       "deployed_at": null
     },
     {
@@ -9738,7 +9738,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/grv2163-direccion-lugar-accidente-reporte",
       "target_branch": "develop",
@@ -9753,7 +9753,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-24T12:17:49.991Z",
-      "updated_at": "2026-07-27T13:38:45.467Z",
+      "updated_at": "2026-07-28T15:20:07.892Z",
       "deployed_at": null
     },
     {
@@ -9981,5 +9981,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-28T12:52:38.078Z"
+  "last_updated": "2026-07-28T15:20:08.357Z"
 }
