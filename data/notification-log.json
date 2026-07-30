@@ -836,7 +836,34 @@
       "channel": "slack",
       "sent_at": "2026-07-21T15:03:07.945Z",
       "payload": "🚨 CORE listo: wsimportarexportar (GRV-2100) — Alta"
+    },
+    {
+      "event_hash": "0f9611ce2b4b9e36",
+      "ticket_id": "GRV-2183",
+      "mr_id": 1372,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-07-30T23:06:29.688Z",
+      "payload": "¡Alerta PM! GRV-2183 (Bloqueante) listo para"
+    },
+    {
+      "event_hash": "7b9c3d1066690e84",
+      "ticket_id": "GRV-2183",
+      "mr_id": 1372,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-07-30T23:06:29.689Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "7b6689453cb47b9d",
+      "ticket_id": "GRV-2183",
+      "mr_id": 1372,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-07-30T23:06:29.690Z",
+      "payload": "🚨 CORE listo: wsdocumento (GRV-2183) — Bloqueante"
     }
   ],
-  "last_checked": "2026-07-21T15:03:07.945Z"
+  "last_checked": "2026-07-30T23:06:29.690Z"
 }
