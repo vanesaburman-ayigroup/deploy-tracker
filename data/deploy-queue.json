@@ -9630,7 +9630,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "En pausa",
+      "jira_status": "En curso",
       "mr_status": "opened",
       "source_branch": "fix/GRV-2184-reingreso-denegado-categoria-re",
       "target_branch": "develop",
@@ -9639,13 +9639,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Leandro Cabrera",
-      "assignee_email": "leandro.cabrera@ayi.group",
+      "assignee_name": "Francisco Ziegler",
+      "assignee_email": "francisco.ziegler@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-23T19:15:58.262Z",
-      "updated_at": "2026-07-28T21:06:22.830Z",
+      "updated_at": "2026-07-30T12:27:51.310Z",
       "deployed_at": null
     },
     {
@@ -9658,7 +9658,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "En pausa",
+      "jira_status": "En curso",
       "mr_status": "opened",
       "source_branch": "fix/GRV-2184-reingreso-denegado-categoria-re",
       "target_branch": "develop",
@@ -9667,13 +9667,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Leandro Cabrera",
-      "assignee_email": "leandro.cabrera@ayi.group",
+      "assignee_name": "Francisco Ziegler",
+      "assignee_email": "francisco.ziegler@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-23T19:15:58.268Z",
-      "updated_at": "2026-07-28T21:06:22.836Z",
+      "updated_at": "2026-07-30T12:27:51.314Z",
       "deployed_at": null
     },
     {
@@ -10035,7 +10035,63 @@
       "detected_at": "2026-07-28T21:06:07.019Z",
       "updated_at": "2026-07-29T15:14:05.040Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2174",
+      "jira_summary": "Inconveniente al generar denuncias - ALE-FLACEL S.A. 30716352400",
+      "mr_id": 451,
+      "mr_title": "feat(sede): endpoints de listado de tipos y sedes por empleador (GRV-2174)",
+      "repo_name": "wsproveedor",
+      "project_path": "backend/wsproveedor",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-2174-listado-sedes-empleador",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsproveedor/-/merge_requests/451",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2174",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-07-30T12:27:51.747Z",
+      "updated_at": "2026-07-30T12:27:51.747Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2174",
+      "jira_summary": "Inconveniente al generar denuncias - ALE-FLACEL S.A. 30716352400",
+      "mr_id": 1981,
+      "mr_title": "fix(callcenter): precarga combos de Sede Laboral en alta de denuncia (GRV-2174)",
+      "repo_name": "frontend",
+      "project_path": "frontend/frontend",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2174-autoprecarga-sede-laboral",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1981",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2174",
+      "author": "Francisco Ziegler",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-07-30T12:27:51.751Z",
+      "updated_at": "2026-07-30T12:27:51.751Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-29T15:14:05.040Z"
+  "last_updated": "2026-07-30T12:27:51.751Z"
 }
