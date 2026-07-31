@@ -863,7 +863,34 @@
       "channel": "slack",
       "sent_at": "2026-07-30T23:06:29.690Z",
       "payload": "🚨 CORE listo: wsdocumento (GRV-2183) — Bloqueante"
+    },
+    {
+      "event_hash": "47fe4847aee13da1",
+      "ticket_id": "GRV-2229",
+      "mr_id": 808,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-07-31T15:19:02.067Z",
+      "payload": "¡PM! Alerta: GRV-2229 (fix \"Estado DESCON"
+    },
+    {
+      "event_hash": "070941db54374dd1",
+      "ticket_id": "GRV-2229",
+      "mr_id": 808,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-07-31T15:19:02.068Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "61892a1eacbf57ff",
+      "ticket_id": "GRV-2229",
+      "mr_id": 808,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-07-31T15:19:02.069Z",
+      "payload": "🚨 CORE listo: wsturnos (GRV-2229) — Bloqueante"
     }
   ],
-  "last_checked": "2026-07-30T23:06:29.690Z"
+  "last_checked": "2026-07-31T15:19:02.069Z"
 }
