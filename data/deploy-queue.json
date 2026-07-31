@@ -10215,7 +10215,7 @@
       "is_core": false,
       "jira_priority": "Alta",
       "jira_status": "En curso",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "feature/GRV-2188-gestion-carga-espontaneos",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstraslados/-/merge_requests/297",
@@ -10229,7 +10229,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-30T21:09:24.672Z",
-      "updated_at": "2026-07-30T21:09:24.672Z",
+      "updated_at": "2026-07-31T21:02:49.359Z",
       "deployed_at": null
     },
     {
@@ -10313,5 +10313,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-07-31T15:19:02.294Z"
+  "last_updated": "2026-07-31T21:02:49.359Z"
 }
