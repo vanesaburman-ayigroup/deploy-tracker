@@ -9794,7 +9794,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "En pausa",
       "mr_status": "opened",
       "source_branch": "fix/GRV-2123-cortopunzante-prerrequisito-mixto",
       "target_branch": "develop",
@@ -9803,13 +9803,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-24T14:53:37.219Z",
-      "updated_at": "2026-07-24T14:53:37.219Z",
+      "updated_at": "2026-08-04T16:11:24.165Z",
       "deployed_at": null
     },
     {
@@ -9822,8 +9822,8 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "En pausa",
+      "mr_status": "closed",
       "source_branch": "fix/GRV-2123-cortopunzante-prerrequisito-mixto",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1960",
@@ -9831,13 +9831,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-24T14:53:37.223Z",
-      "updated_at": "2026-07-24T14:53:37.223Z",
+      "updated_at": "2026-08-04T16:11:24.170Z",
       "deployed_at": null
     },
     {
@@ -10425,5 +10425,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-03T16:24:37.595Z"
+  "last_updated": "2026-08-04T16:11:24.170Z"
 }
