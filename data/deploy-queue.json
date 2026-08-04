@@ -9809,7 +9809,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-24T14:53:37.219Z",
-      "updated_at": "2026-08-04T16:11:24.165Z",
+      "updated_at": "2026-08-04T18:26:28.666Z",
       "deployed_at": null
     },
     {
@@ -9837,7 +9837,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-24T14:53:37.223Z",
-      "updated_at": "2026-08-04T16:11:24.170Z",
+      "updated_at": "2026-08-04T18:26:28.671Z",
       "deployed_at": null
     },
     {
@@ -10131,7 +10131,7 @@
       "is_core": false,
       "jira_priority": "Alta",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "fix/GRV-2150-manejo-error-dictamen",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wstramitador/-/merge_requests/1105",
@@ -10145,7 +10145,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-30T19:24:49.113Z",
-      "updated_at": "2026-07-30T19:24:49.113Z",
+      "updated_at": "2026-08-04T18:26:29.028Z",
       "deployed_at": null
     },
     {
@@ -10159,7 +10159,7 @@
       "is_core": false,
       "jira_priority": "Alta",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "fix/GRV-2150-manejo-error-dictamen",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsmesacarga/-/merge_requests/174",
@@ -10173,7 +10173,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-30T19:24:49.125Z",
-      "updated_at": "2026-07-30T19:24:49.125Z",
+      "updated_at": "2026-08-04T18:26:29.033Z",
       "deployed_at": null
     },
     {
@@ -10425,5 +10425,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-04T16:11:24.170Z"
+  "last_updated": "2026-08-04T18:26:29.033Z"
 }
