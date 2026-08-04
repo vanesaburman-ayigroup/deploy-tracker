@@ -10423,7 +10423,91 @@
       "detected_at": "2026-08-03T16:24:37.595Z",
       "updated_at": "2026-08-03T16:24:37.595Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2241",
+      "jira_summary": "Prioridad GCBA - Tabulación de \"Motivos\" por Estados \"FALLIDOS\" ",
+      "mr_id": 436,
+      "mr_title": "feat(traslados): seleccionar motivo al marcar traslado como FALLIDO [GRV-2241]",
+      "repo_name": "logistica",
+      "project_path": "frontend/logistica",
+      "service_type": "core_frontend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-2241-agregar-motivos-traslados-fallidos",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/436",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2241",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-08-04T20:23:09.964Z",
+      "updated_at": "2026-08-04T20:23:09.965Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2241",
+      "jira_summary": "Prioridad GCBA - Tabulación de \"Motivos\" por Estados \"FALLIDOS\" ",
+      "mr_id": 623,
+      "mr_title": "feat(traslados): persistir motivo de FALLIDO en verificar traslado [GRV-2241]",
+      "repo_name": "wslogistica",
+      "project_path": "backend/wslogistica",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-2241-agregar-motivos-traslados-fallidos",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/623",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2241",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-08-04T20:23:09.970Z",
+      "updated_at": "2026-08-04T20:23:09.970Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2241",
+      "jira_summary": "Prioridad GCBA - Tabulación de \"Motivos\" por Estados \"FALLIDOS\" ",
+      "mr_id": 655,
+      "mr_title": "feat(motivos-fallido): agregar catálogo de motivos de traslado FALLIDO [GRV-2241]",
+      "repo_name": "wslistados",
+      "project_path": "backend/wslistados",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/GRV-2241-agregar-motivos-traslados-fallidos",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslistados/-/merge_requests/655",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2241",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-08-04T20:23:09.975Z",
+      "updated_at": "2026-08-04T20:23:09.975Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-04T18:26:29.033Z"
+  "last_updated": "2026-08-04T20:23:09.975Z"
 }
