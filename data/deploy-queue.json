@@ -10229,7 +10229,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-30T21:09:24.672Z",
-      "updated_at": "2026-08-03T16:24:37.590Z",
+      "updated_at": "2026-08-05T12:51:09.942Z",
       "deployed_at": null
     },
     {
@@ -10421,7 +10421,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-08-03T16:24:37.595Z",
-      "updated_at": "2026-08-03T16:24:37.595Z",
+      "updated_at": "2026-08-05T12:51:09.950Z",
       "deployed_at": null
     },
     {
@@ -10509,5 +10509,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-04T20:23:09.975Z"
+  "last_updated": "2026-08-05T12:51:09.950Z"
 }
