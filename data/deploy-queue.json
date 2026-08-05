@@ -9464,7 +9464,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2178-eliminar-seccion-excedente-ilt",
       "target_branch": "develop",
@@ -9473,13 +9473,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-20T15:49:21.241Z",
-      "updated_at": "2026-08-03T13:40:32.622Z",
+      "updated_at": "2026-08-05T22:57:50.708Z",
       "deployed_at": null
     },
     {
@@ -9766,7 +9766,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/fix-alta-srt-modificacion-sin-dds",
       "target_branch": "develop",
@@ -9775,13 +9775,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-24T14:53:36.523Z",
-      "updated_at": "2026-08-03T13:40:32.931Z",
+      "updated_at": "2026-08-05T22:57:51.023Z",
       "deployed_at": null
     },
     {
@@ -9990,7 +9990,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2198-fix-calendar-fecha-turno-autorizaciones-pendientes",
       "target_branch": "develop",
@@ -9999,13 +9999,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-28T21:06:06.733Z",
-      "updated_at": "2026-08-03T13:40:32.309Z",
+      "updated_at": "2026-08-05T22:57:50.402Z",
       "deployed_at": null
     },
     {
@@ -10102,7 +10102,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/fix-corte-reingresos-clonar-denuncia",
       "target_branch": "develop",
@@ -10111,13 +10111,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-30T15:09:31.410Z",
-      "updated_at": "2026-08-03T13:40:32.935Z",
+      "updated_at": "2026-08-05T22:57:51.028Z",
       "deployed_at": null
     },
     {
@@ -10294,22 +10294,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2229-estados-turnos-null",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/808",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2229",
       "author": "Matias Martinez",
-      "is_ready": true,
-      "priority_weight": 150,
+      "is_ready": false,
+      "priority_weight": 100,
       "assignee_name": "Alejandro Schnidrig",
       "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-31T15:18:59.368Z",
-      "updated_at": "2026-07-31T15:18:59.368Z",
+      "updated_at": "2026-08-05T22:57:50.166Z",
       "deployed_at": null
     },
     {
@@ -10322,7 +10322,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2178-eliminar-seccion-excedente-ilt",
       "target_branch": "develop",
@@ -10331,13 +10331,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "assignee_name": "Alejandro Schnidrig",
+      "assignee_email": "alejandro.schnidrig@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-08-03T13:40:32.628Z",
-      "updated_at": "2026-08-03T13:40:32.628Z",
+      "updated_at": "2026-08-05T22:57:50.714Z",
       "deployed_at": null
     },
     {
@@ -10509,5 +10509,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-05T12:51:09.950Z"
+  "last_updated": "2026-08-05T22:57:51.028Z"
 }
