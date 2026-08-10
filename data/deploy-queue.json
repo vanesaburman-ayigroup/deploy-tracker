@@ -10434,7 +10434,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/GRV-2241-agregar-motivos-traslados-fallidos",
       "target_branch": "develop",
@@ -10443,13 +10443,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-04T20:23:09.964Z",
-      "updated_at": "2026-08-07T14:51:24.683Z",
+      "updated_at": "2026-08-10T11:46:28.199Z",
       "deployed_at": null
     },
     {
@@ -10462,7 +10462,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/GRV-2241-agregar-motivos-traslados-fallidos",
       "target_branch": "develop",
@@ -10471,13 +10471,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-04T20:23:09.970Z",
-      "updated_at": "2026-08-07T14:51:24.689Z",
+      "updated_at": "2026-08-10T11:46:28.204Z",
       "deployed_at": null
     },
     {
@@ -10490,7 +10490,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/GRV-2241-agregar-motivos-traslados-fallidos",
       "target_branch": "develop",
@@ -10499,15 +10499,15 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-04T20:23:09.975Z",
-      "updated_at": "2026-08-07T14:51:24.694Z",
+      "updated_at": "2026-08-10T11:46:28.209Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-07T17:48:39.691Z"
+  "last_updated": "2026-08-10T11:46:28.209Z"
 }
