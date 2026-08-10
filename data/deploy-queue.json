@@ -10591,7 +10591,63 @@
       "detected_at": "2026-08-10T18:56:02.945Z",
       "updated_at": "2026-08-10T18:56:02.945Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2138",
+      "jira_summary": "Re: FALLO ASIGNACION SATAPP 30/06",
+      "mr_id": 441,
+      "mr_title": "GRV-2138: agrega elección de ubicaciones y vía de escape al mapa de traslados",
+      "repo_name": "logistica",
+      "project_path": "frontend/logistica",
+      "service_type": "core_frontend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "feature/grv-2138-escape-y-observabilidad-satapp",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/441",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2138",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-08-10T22:36:03.564Z",
+      "updated_at": "2026-08-10T22:36:03.564Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2138",
+      "jira_summary": "Re: FALLO ASIGNACION SATAPP 30/06",
+      "mr_id": 630,
+      "mr_title": "GRV-2138: registra los tramos que no se envían a la agencia externa",
+      "repo_name": "wslogistica",
+      "project_path": "backend/wslogistica",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "feature/grv-2138-escape-y-observabilidad-satapp",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/630",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2138",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-08-10T22:36:03.568Z",
+      "updated_at": "2026-08-10T22:36:03.568Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-10T18:56:03.320Z"
+  "last_updated": "2026-08-10T22:36:03.568Z"
 }
