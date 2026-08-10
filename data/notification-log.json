@@ -890,7 +890,88 @@
       "channel": "slack",
       "sent_at": "2026-07-31T15:19:02.069Z",
       "payload": "🚨 CORE listo: wsturnos (GRV-2229) — Bloqueante"
+    },
+    {
+      "event_hash": "529cdb1130eabe42",
+      "ticket_id": "GRV-2182",
+      "mr_id": 235,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-08-10T13:05:44.260Z",
+      "payload": "¡Atención, PM!\n\n**Alerta de Deploy:** GRV-2"
+    },
+    {
+      "event_hash": "8bf99786a3070eef",
+      "ticket_id": "GRV-2182",
+      "mr_id": 235,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-08-10T13:05:44.261Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "7ea3dd40e65b24c8",
+      "ticket_id": "GRV-2182",
+      "mr_id": 235,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-08-10T13:05:44.262Z",
+      "payload": "🚨 CORE listo: solicitudesgenericas (GRV-2182) — Alta"
+    },
+    {
+      "event_hash": "72a5aa77b069bd2a",
+      "ticket_id": "GRV-2182",
+      "mr_id": 487,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-08-10T13:05:47.075Z",
+      "payload": "\" (ready) is better.\n\n5.  **Refining for Conciseness and Action"
+    },
+    {
+      "event_hash": "7e6473150cb42a2d",
+      "ticket_id": "GRV-2182",
+      "mr_id": 487,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-08-10T13:05:47.076Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "9ab283272c41b3e6",
+      "ticket_id": "GRV-2182",
+      "mr_id": 487,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-08-10T13:05:47.077Z",
+      "payload": "🚨 CORE listo: wssolicitudesgenericas (GRV-2182) — Alta"
+    },
+    {
+      "event_hash": "750063faab7805af",
+      "ticket_id": "GRV-1813",
+      "mr_id": 1358,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-08-10T13:05:50.440Z",
+      "payload": "¡Alerta PM! GRV-1813 (wsdocumento,"
+    },
+    {
+      "event_hash": "1c6963b5c758112b",
+      "ticket_id": "GRV-1813",
+      "mr_id": 1358,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-08-10T13:05:50.441Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "ce72578c01f642e1",
+      "ticket_id": "GRV-1813",
+      "mr_id": 1358,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-08-10T13:05:50.442Z",
+      "payload": "🚨 CORE listo: wsdocumento (GRV-1813) — Alta"
     }
   ],
-  "last_checked": "2026-07-31T15:19:02.069Z"
+  "last_checked": "2026-08-10T13:05:50.442Z"
 }

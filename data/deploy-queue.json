@@ -4037,22 +4037,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "GRV-1813-fix-siniestros-multiples",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1733",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1813",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T20:53:15.412Z",
-      "updated_at": "2026-08-07T14:51:25.163Z",
+      "updated_at": "2026-08-10T13:05:47.531Z",
       "deployed_at": null
     },
     {
@@ -4065,22 +4065,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "GRV-1813-fix-causas-siniestros-multiples",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1734",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1813",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T21:45:45.559Z",
-      "updated_at": "2026-08-07T14:51:25.171Z",
+      "updated_at": "2026-08-10T13:05:47.536Z",
       "deployed_at": null
     },
     {
@@ -9878,22 +9878,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1813-siniestro-multiple-flag",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/1948",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1813",
       "author": "Leandro Lesca",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-24T16:41:16.594Z",
-      "updated_at": "2026-08-07T14:51:25.177Z",
+      "updated_at": "2026-08-10T13:05:47.541Z",
       "deployed_at": null
     },
     {
@@ -9906,22 +9906,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-1813-siniestro-multiple-flag",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1358",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-1813",
       "author": "Leandro Lesca",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-24T16:41:16.599Z",
-      "updated_at": "2026-08-07T14:51:25.181Z",
+      "updated_at": "2026-08-10T13:05:47.546Z",
       "deployed_at": null
     },
     {
@@ -10350,22 +10350,22 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/solicitudesgenericas/-/merge_requests/235",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2182",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.241Z",
-      "updated_at": "2026-08-03T13:40:33.241Z",
+      "updated_at": "2026-08-10T13:05:41.495Z",
       "deployed_at": null
     },
     {
@@ -10378,22 +10378,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/487",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2182",
       "author": "Matias Martinez",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.245Z",
-      "updated_at": "2026-08-03T13:40:33.245Z",
+      "updated_at": "2026-08-10T13:05:44.267Z",
       "deployed_at": null
     },
     {
@@ -10509,5 +10509,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-10T11:46:28.209Z"
+  "last_updated": "2026-08-10T13:05:47.546Z"
 }
