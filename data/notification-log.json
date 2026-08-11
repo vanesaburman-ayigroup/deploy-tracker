@@ -971,7 +971,88 @@
       "channel": "slack",
       "sent_at": "2026-08-10T13:05:50.442Z",
       "payload": "🚨 CORE listo: wsdocumento (GRV-1813) — Alta"
+    },
+    {
+      "event_hash": "dc48eb0620eca0a4",
+      "ticket_id": "GRV-2241",
+      "mr_id": 436,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-08-11T19:00:53.991Z",
+      "payload": "¡Atención PM!\n\n**Alerta Deploy GRV-2241 (Prioridad"
+    },
+    {
+      "event_hash": "ff52e62470b26aa2",
+      "ticket_id": "GRV-2241",
+      "mr_id": 436,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-08-11T19:00:53.992Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "ff56cc89096f8369",
+      "ticket_id": "GRV-2241",
+      "mr_id": 436,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-08-11T19:00:53.993Z",
+      "payload": "🚨 CORE listo: logistica (GRV-2241) — Alta"
+    },
+    {
+      "event_hash": "a0e88e5a42680295",
+      "ticket_id": "GRV-2241",
+      "mr_id": 623,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-08-11T19:00:56.736Z",
+      "payload": "¡PM! Che, GRV-2241 (Prioridad GCBA)"
+    },
+    {
+      "event_hash": "7cd4dd42f27a906a",
+      "ticket_id": "GRV-2241",
+      "mr_id": 623,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-08-11T19:00:56.736Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "173fb3998b30dc05",
+      "ticket_id": "GRV-2241",
+      "mr_id": 623,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-08-11T19:00:56.737Z",
+      "payload": "🚨 CORE listo: wslogistica (GRV-2241) — Alta"
+    },
+    {
+      "event_hash": "c2e3ef2ba0b40de7",
+      "ticket_id": "GRV-2241",
+      "mr_id": 655,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-08-11T19:00:59.475Z",
+      "payload": "¡Atención PM! 🚨\n\n**GRV-2241 (Prioridad GC"
+    },
+    {
+      "event_hash": "26c41a1b2bbb6e2b",
+      "ticket_id": "GRV-2241",
+      "mr_id": 655,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-08-11T19:00:59.476Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "b1337c3c04133c43",
+      "ticket_id": "GRV-2241",
+      "mr_id": 655,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-08-11T19:00:59.477Z",
+      "payload": "🚨 CORE listo: wslistados (GRV-2241) — Alta"
     }
   ],
-  "last_checked": "2026-08-10T13:05:50.442Z"
+  "last_checked": "2026-08-11T19:00:59.477Z"
 }
