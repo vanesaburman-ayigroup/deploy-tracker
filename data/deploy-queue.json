@@ -9943,13 +9943,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Leandro Abel Lesca",
-      "assignee_email": "leandro.lesca@ayi.group",
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-24T20:18:37.199Z",
-      "updated_at": "2026-08-11T16:01:24.243Z",
+      "updated_at": "2026-08-11T20:41:55.239Z",
       "deployed_at": null
     },
     {
@@ -10675,7 +10675,63 @@
       "detected_at": "2026-08-11T16:01:24.895Z",
       "updated_at": "2026-08-11T19:00:50.705Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2189",
+      "jira_summary": "Re: ALBERTO ARTURO LAMBERTUCCI 29804938 - CLINICA PRIVADA FATIMA",
+      "mr_id": 824,
+      "mr_title": "GRV-2189: corrige duplicación de cirugías y bloqueo de materiales al reprogramar",
+      "repo_name": "wsturnos",
+      "project_path": "backend/wsturnos",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "TEST",
+      "mr_status": "opened",
+      "source_branch": "fix/grv-2189-race-condition-y-reprogramacion-materiales",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/824",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2189",
+      "author": "Leandro Lesca",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-08-11T20:41:55.245Z",
+      "updated_at": "2026-08-11T20:41:55.245Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2189",
+      "jira_summary": "Re: ALBERTO ARTURO LAMBERTUCCI 29804938 - CLINICA PRIVADA FATIMA",
+      "mr_id": 809,
+      "mr_title": "GRV-2189: corrige duplicación de cirugías por condición de carrera al aprobar",
+      "repo_name": "wsauditoria",
+      "project_path": "backend/wsauditoria",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "TEST",
+      "mr_status": "opened",
+      "source_branch": "fix/grv-2189-cirugia-duplicada-race-condition",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/809",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2189",
+      "author": "Leandro Lesca",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-08-11T20:41:55.250Z",
+      "updated_at": "2026-08-11T20:41:55.250Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-11T19:00:59.803Z"
+  "last_updated": "2026-08-11T20:41:55.250Z"
 }
