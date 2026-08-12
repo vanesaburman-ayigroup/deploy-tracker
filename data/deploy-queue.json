@@ -10434,22 +10434,22 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-2241-agregar-motivos-traslados-fallidos",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/logistica/-/merge_requests/436",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2241",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 150,
+      "is_ready": false,
+      "priority_weight": 100,
       "assignee_name": "Leandro Cabrera",
       "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-04T20:23:09.964Z",
-      "updated_at": "2026-08-11T22:40:29.386Z",
+      "updated_at": "2026-08-12T13:06:46.369Z",
       "deployed_at": null
     },
     {
@@ -10462,22 +10462,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-2241-agregar-motivos-traslados-fallidos",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/623",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2241",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 150,
+      "is_ready": false,
+      "priority_weight": 100,
       "assignee_name": "Leandro Cabrera",
       "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-04T20:23:09.970Z",
-      "updated_at": "2026-08-11T22:40:29.391Z",
+      "updated_at": "2026-08-12T13:06:46.375Z",
       "deployed_at": null
     },
     {
@@ -10490,22 +10490,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-2241-agregar-motivos-traslados-fallidos",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslistados/-/merge_requests/655",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2241",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 150,
+      "is_ready": false,
+      "priority_weight": 100,
       "assignee_name": "Leandro Cabrera",
       "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-04T20:23:09.975Z",
-      "updated_at": "2026-08-11T22:40:29.396Z",
+      "updated_at": "2026-08-12T13:06:46.379Z",
       "deployed_at": null
     },
     {
@@ -10518,7 +10518,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2260-nuevo-texto-mail-viajes-asignados",
       "target_branch": "develop",
@@ -10527,13 +10527,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-10T16:02:50.150Z",
-      "updated_at": "2026-08-11T17:55:19.250Z",
+      "updated_at": "2026-08-12T13:06:45.509Z",
       "deployed_at": null
     },
     {
@@ -10546,7 +10546,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2260-nuevo-texto-mail-viajes-asignados",
       "target_branch": "develop",
@@ -10555,13 +10555,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-10T16:02:50.155Z",
-      "updated_at": "2026-08-11T17:55:19.256Z",
+      "updated_at": "2026-08-12T13:06:45.623Z",
       "deployed_at": null
     },
     {
@@ -10658,22 +10658,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/GRV-2212-nuevo-check-cronico-mesa-carga",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/2019",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2212",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Leandro Cabrera",
       "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-11T16:01:24.895Z",
-      "updated_at": "2026-08-11T22:40:29.055Z",
+      "updated_at": "2026-08-12T13:06:45.916Z",
       "deployed_at": null
     },
     {
@@ -10733,5 +10733,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-11T22:40:29.396Z"
+  "last_updated": "2026-08-12T13:06:46.379Z"
 }
