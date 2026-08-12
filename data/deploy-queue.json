@@ -10533,7 +10533,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-10T16:02:50.150Z",
-      "updated_at": "2026-08-12T13:06:45.509Z",
+      "updated_at": "2026-08-12T14:55:35.927Z",
       "deployed_at": null
     },
     {
@@ -10561,7 +10561,7 @@
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-10T16:02:50.155Z",
-      "updated_at": "2026-08-12T13:06:45.623Z",
+      "updated_at": "2026-08-12T14:55:35.934Z",
       "deployed_at": null
     },
     {
@@ -10731,7 +10731,35 @@
       "detected_at": "2026-08-11T20:41:55.250Z",
       "updated_at": "2026-08-11T20:41:55.250Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2260",
+      "jira_summary": "Fwd: Pacientes en estado Asignado 07/08",
+      "mr_id": 415,
+      "mr_title": "refactor(sql): unificar los updates del template de asignacion en GRV-2260 [GRV-2260]",
+      "repo_name": "wsnotificaciones",
+      "project_path": "backend/wsnotificaciones",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-2260-nuevo-texto-mail-viajes-asignados",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsnotificaciones/-/merge_requests/415",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2260",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
+      "components": [
+        "SAS_Logistica"
+      ],
+      "detected_at": "2026-08-12T14:55:36.042Z",
+      "updated_at": "2026-08-12T14:55:36.042Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-12T13:06:46.379Z"
+  "last_updated": "2026-08-12T14:55:36.042Z"
 }
