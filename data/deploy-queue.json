@@ -10574,7 +10574,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "En curso",
       "mr_status": "opened",
       "source_branch": "bugfix/GRV-2266-fix-limpiar-filtros-siniestros",
       "target_branch": "develop",
@@ -10583,13 +10583,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Alejandro Minue",
+      "assignee_email": "alejandro.minue@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-10T18:56:02.945Z",
-      "updated_at": "2026-08-10T18:56:02.945Z",
+      "updated_at": "2026-08-12T15:58:58.885Z",
       "deployed_at": null
     },
     {
@@ -10759,7 +10759,63 @@
       "detected_at": "2026-08-12T14:55:36.042Z",
       "updated_at": "2026-08-12T14:55:36.042Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2213",
+      "jira_summary": "Carga de datos - Borrado - SAS AYI",
+      "mr_id": 241,
+      "mr_title": "fix(accidentado): preservar datos demograficos en el update [GRV-2213]",
+      "repo_name": "wspersona",
+      "project_path": "backend/wspersona",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Baja",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2213-fix-datos-personales-nueva-denuncia",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wspersona/-/merge_requests/241",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2213",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-08-12T15:58:59.316Z",
+      "updated_at": "2026-08-12T15:58:59.316Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2213",
+      "jira_summary": "Carga de datos - Borrado - SAS AYI",
+      "mr_id": 2028,
+      "mr_title": "fix(datos-accidentado): no pisar datos del accidentado al aplicar card de nomina [GRV-2213]",
+      "repo_name": "frontend",
+      "project_path": "frontend/frontend",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Baja",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2213-fix-datos-personales-nueva-denuncia",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/2028",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2213",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-08-12T15:58:59.321Z",
+      "updated_at": "2026-08-12T15:58:59.321Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-12T14:55:36.042Z"
+  "last_updated": "2026-08-12T15:58:59.321Z"
 }
