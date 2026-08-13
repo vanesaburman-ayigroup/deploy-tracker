@@ -9473,13 +9473,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Leandro Cabrera",
-      "assignee_email": "leandro.cabrera@ayi.group",
+      "assignee_name": "Alejandro Minue",
+      "assignee_email": "alejandro.minue@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-20T15:49:21.241Z",
-      "updated_at": "2026-08-07T17:48:39.686Z",
+      "updated_at": "2026-08-13T15:59:31.983Z",
       "deployed_at": null
     },
     {
@@ -10195,13 +10195,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Matias Schranz",
-      "assignee_email": "",
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-30T19:24:49.526Z",
-      "updated_at": "2026-08-03T13:40:34.512Z",
+      "updated_at": "2026-08-13T15:59:31.396Z",
       "deployed_at": null
     },
     {
@@ -10229,7 +10229,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-30T21:09:24.672Z",
-      "updated_at": "2026-08-12T20:42:14.115Z",
+      "updated_at": "2026-08-13T15:59:31.702Z",
       "deployed_at": null
     },
     {
@@ -10331,13 +10331,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Leandro Cabrera",
-      "assignee_email": "leandro.cabrera@ayi.group",
+      "assignee_name": "Alejandro Minue",
+      "assignee_email": "alejandro.minue@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-08-03T13:40:32.628Z",
-      "updated_at": "2026-08-07T17:48:39.691Z",
+      "updated_at": "2026-08-13T15:59:31.988Z",
       "deployed_at": null
     },
     {
@@ -10421,7 +10421,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-08-03T16:24:37.595Z",
-      "updated_at": "2026-08-12T20:42:14.121Z",
+      "updated_at": "2026-08-13T15:59:31.708Z",
       "deployed_at": null
     },
     {
@@ -10826,7 +10826,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "opened",
       "source_branch": "bugfix/GRV-2269-fix-guardado-cliente-empleador",
       "target_branch": "develop",
@@ -10835,15 +10835,71 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-13T14:56:06.602Z",
-      "updated_at": "2026-08-13T14:56:06.602Z",
+      "updated_at": "2026-08-13T15:59:32.304Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2191",
+      "jira_summary": "FECHA DE EVOLUTIVOS EN SAS - EVOLUTIVOS DE ADMINISTRATIVO MÉDICO",
+      "mr_id": 745,
+      "mr_title": "fix(evoluciones): validar próximo control por teclado, no solo en el calendario (GRV-2191)",
+      "repo_name": "auditoriamedica",
+      "project_path": "frontend/auditoriamedica",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2191-fix-fecha-control-nueva-evolucion",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/745",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2191",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-08-13T15:59:31.401Z",
+      "updated_at": "2026-08-13T15:59:31.401Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2191",
+      "jira_summary": "FECHA DE EVOLUTIVOS EN SAS - EVOLUTIVOS DE ADMINISTRATIVO MÉDICO",
+      "mr_id": 812,
+      "mr_title": "fix(evoluciones): rechazar próximo control anterior a fecha de evolución (GRV-2191)",
+      "repo_name": "wsauditoria",
+      "project_path": "backend/wsauditoria",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2191-fix-fecha-control-nueva-evolucion",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/812",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2191",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-08-13T15:59:31.407Z",
+      "updated_at": "2026-08-13T15:59:31.407Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-13T14:56:06.809Z"
+  "last_updated": "2026-08-13T15:59:32.304Z"
 }
