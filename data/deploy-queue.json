@@ -10955,7 +10955,63 @@
       "detected_at": "2026-08-13T19:01:39.025Z",
       "updated_at": "2026-08-13T19:01:39.025Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2228",
+      "jira_summary": "Carga - Sub prestador - GLPI",
+      "mr_id": 468,
+      "mr_title": "GRV-2228: corrige el alta, la edición y la importación de sub prestadores",
+      "repo_name": "wsproveedor",
+      "project_path": "backend/wsproveedor",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/grv-2228-persistencia-subprestador",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsproveedor/-/merge_requests/468",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2228",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
+      "components": [
+        "SAS_Contrataciones"
+      ],
+      "detected_at": "2026-08-13T20:41:05.152Z",
+      "updated_at": "2026-08-13T20:41:05.152Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2228",
+      "jira_summary": "Carga - Sub prestador - GLPI",
+      "mr_id": 313,
+      "mr_title": "GRV-2228: corrige el instructivo de importación y muestra el motivo del rechazo",
+      "repo_name": "contrataciones",
+      "project_path": "frontend/contrataciones",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/grv-2228-persistencia-subprestador",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/contrataciones/-/merge_requests/313",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2228",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
+      "components": [
+        "SAS_Contrataciones"
+      ],
+      "detected_at": "2026-08-13T20:41:05.158Z",
+      "updated_at": "2026-08-13T20:41:05.158Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-13T19:01:39.025Z"
+  "last_updated": "2026-08-13T20:41:05.158Z"
 }
