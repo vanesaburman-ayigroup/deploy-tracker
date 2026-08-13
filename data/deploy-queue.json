@@ -8377,7 +8377,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2089-crear-subprestador-excel",
       "target_branch": "develop",
@@ -8386,13 +8386,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Agustin Godoy",
-      "assignee_email": "agustin.godoy@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-06-24T22:17:03.352Z",
-      "updated_at": "2026-06-24T22:17:03.352Z",
+      "updated_at": "2026-08-13T14:56:06.809Z",
       "deployed_at": null
     },
     {
@@ -10815,7 +10815,35 @@
       "detected_at": "2026-08-12T15:58:59.321Z",
       "updated_at": "2026-08-12T15:58:59.321Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2269",
+      "jira_summary": "Re: Diferencias 10-08",
+      "mr_id": 1412,
+      "mr_title": "fix(denuncia): sincronizar cliente (ART) al cambiar el empleador de la denuncia",
+      "repo_name": "wsdocumento",
+      "project_path": "backend/wsdocumento",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "En curso",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2269-fix-guardado-cliente-empleador",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1412",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2269",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Alejandro Minue",
+      "assignee_email": "alejandro.minue@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-08-13T14:56:06.602Z",
+      "updated_at": "2026-08-13T14:56:06.602Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-12T20:42:14.121Z"
+  "last_updated": "2026-08-13T14:56:06.809Z"
 }
