@@ -4052,7 +4052,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T20:53:15.412Z",
-      "updated_at": "2026-08-10T13:05:47.531Z",
+      "updated_at": "2026-08-13T17:04:32.852Z",
       "deployed_at": null
     },
     {
@@ -4080,7 +4080,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-04-21T21:45:45.559Z",
-      "updated_at": "2026-08-10T13:05:47.536Z",
+      "updated_at": "2026-08-13T17:04:32.857Z",
       "deployed_at": null
     },
     {
@@ -9893,7 +9893,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-24T16:41:16.594Z",
-      "updated_at": "2026-08-10T13:05:47.541Z",
+      "updated_at": "2026-08-13T17:04:32.862Z",
       "deployed_at": null
     },
     {
@@ -9921,7 +9921,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-24T16:41:16.599Z",
-      "updated_at": "2026-08-10T13:05:47.546Z",
+      "updated_at": "2026-08-13T17:04:32.867Z",
       "deployed_at": null
     },
     {
@@ -9934,7 +9934,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "bugfix/grv2189-materiales-quirurgicos-y-cirugias-duplicadas",
       "target_branch": "develop",
@@ -9943,13 +9943,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-24T20:18:37.199Z",
-      "updated_at": "2026-08-11T20:41:55.239Z",
+      "updated_at": "2026-08-13T17:04:33.221Z",
       "deployed_at": null
     },
     {
@@ -10061,7 +10061,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-30T12:27:51.747Z",
-      "updated_at": "2026-08-11T16:01:23.596Z",
+      "updated_at": "2026-08-13T17:04:32.416Z",
       "deployed_at": null
     },
     {
@@ -10089,7 +10089,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-30T12:27:51.751Z",
-      "updated_at": "2026-08-11T16:01:23.602Z",
+      "updated_at": "2026-08-13T17:04:32.421Z",
       "deployed_at": null
     },
     {
@@ -10365,7 +10365,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.241Z",
-      "updated_at": "2026-08-11T19:00:50.427Z",
+      "updated_at": "2026-08-13T17:04:32.067Z",
       "deployed_at": null
     },
     {
@@ -10393,7 +10393,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.245Z",
-      "updated_at": "2026-08-11T19:00:50.434Z",
+      "updated_at": "2026-08-13T17:04:32.073Z",
       "deployed_at": null
     },
     {
@@ -10686,8 +10686,8 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
-      "mr_status": "opened",
+      "jira_status": "En curso",
+      "mr_status": "closed",
       "source_branch": "fix/grv-2189-race-condition-y-reprogramacion-materiales",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/824",
@@ -10695,13 +10695,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-11T20:41:55.245Z",
-      "updated_at": "2026-08-11T20:41:55.245Z",
+      "updated_at": "2026-08-13T17:04:33.225Z",
       "deployed_at": null
     },
     {
@@ -10714,8 +10714,8 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
-      "mr_status": "opened",
+      "jira_status": "En curso",
+      "mr_status": "closed",
       "source_branch": "fix/grv-2189-cirugia-duplicada-race-condition",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/809",
@@ -10723,13 +10723,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-11T20:41:55.250Z",
-      "updated_at": "2026-08-11T20:41:55.250Z",
+      "updated_at": "2026-08-13T17:04:33.230Z",
       "deployed_at": null
     },
     {
@@ -10901,5 +10901,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-13T15:59:32.304Z"
+  "last_updated": "2026-08-13T17:04:33.230Z"
 }
