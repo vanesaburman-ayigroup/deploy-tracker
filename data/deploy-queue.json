@@ -9464,7 +9464,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "Tareas por hacer",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2178-eliminar-seccion-excedente-ilt",
       "target_branch": "develop",
@@ -9479,7 +9479,7 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-20T15:49:21.241Z",
-      "updated_at": "2026-08-13T15:59:31.983Z",
+      "updated_at": "2026-08-13T19:01:38.688Z",
       "deployed_at": null
     },
     {
@@ -9934,7 +9934,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "merged",
       "source_branch": "bugfix/grv2189-materiales-quirurgicos-y-cirugias-duplicadas",
       "target_branch": "develop",
@@ -9949,7 +9949,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-24T20:18:37.199Z",
-      "updated_at": "2026-08-13T17:04:33.221Z",
+      "updated_at": "2026-08-13T19:01:39.006Z",
       "deployed_at": null
     },
     {
@@ -10229,7 +10229,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-30T21:09:24.672Z",
-      "updated_at": "2026-08-13T15:59:31.702Z",
+      "updated_at": "2026-08-13T19:01:38.382Z",
       "deployed_at": null
     },
     {
@@ -10322,7 +10322,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "Tareas por hacer",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2178-eliminar-seccion-excedente-ilt",
       "target_branch": "develop",
@@ -10337,7 +10337,7 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-08-03T13:40:32.628Z",
-      "updated_at": "2026-08-13T15:59:31.988Z",
+      "updated_at": "2026-08-13T19:01:38.693Z",
       "deployed_at": null
     },
     {
@@ -10421,7 +10421,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-08-03T16:24:37.595Z",
-      "updated_at": "2026-08-13T15:59:31.708Z",
+      "updated_at": "2026-08-13T19:01:38.388Z",
       "deployed_at": null
     },
     {
@@ -10686,7 +10686,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "closed",
       "source_branch": "fix/grv-2189-race-condition-y-reprogramacion-materiales",
       "target_branch": "develop",
@@ -10701,7 +10701,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-11T20:41:55.245Z",
-      "updated_at": "2026-08-13T17:04:33.225Z",
+      "updated_at": "2026-08-13T19:01:39.011Z",
       "deployed_at": null
     },
     {
@@ -10714,7 +10714,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "closed",
       "source_branch": "fix/grv-2189-cirugia-duplicada-race-condition",
       "target_branch": "develop",
@@ -10729,7 +10729,7 @@
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-11T20:41:55.250Z",
-      "updated_at": "2026-08-13T17:04:33.230Z",
+      "updated_at": "2026-08-13T19:01:39.016Z",
       "deployed_at": null
     },
     {
@@ -10899,7 +10899,63 @@
       "detected_at": "2026-08-13T15:59:31.407Z",
       "updated_at": "2026-08-13T15:59:31.407Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2189",
+      "jira_summary": "Re: ALBERTO ARTURO LAMBERTUCCI 29804938 - CLINICA PRIVADA FATIMA",
+      "mr_id": 827,
+      "mr_title": "GRV-2189: revert del fix de cirugias duplicadas / materiales al reprogramar",
+      "repo_name": "wsturnos",
+      "project_path": "backend/wsturnos",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "revert/grv-2189-rollback-materiales-cirugias-duplicadas",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/827",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2189",
+      "author": "Leandro Lesca",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-08-13T19:01:39.020Z",
+      "updated_at": "2026-08-13T19:01:39.020Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2189",
+      "jira_summary": "Re: ALBERTO ARTURO LAMBERTUCCI 29804938 - CLINICA PRIVADA FATIMA",
+      "mr_id": 813,
+      "mr_title": "GRV-2189: revert del guard de cirugias duplicadas al aprobar desde auditoria",
+      "repo_name": "wsauditoria",
+      "project_path": "backend/wsauditoria",
+      "service_type": "secondary_backend",
+      "is_core": false,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "revert/grv-2189-rollback-guard-cirugia-duplicada",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/813",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2189",
+      "author": "Leandro Lesca",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-08-13T19:01:39.025Z",
+      "updated_at": "2026-08-13T19:01:39.025Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-13T17:04:33.230Z"
+  "last_updated": "2026-08-13T19:01:39.025Z"
 }
