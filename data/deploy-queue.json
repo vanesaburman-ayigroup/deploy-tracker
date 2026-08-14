@@ -10214,7 +10214,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "merged",
       "source_branch": "feature/GRV-2188-gestion-carga-espontaneos",
       "target_branch": "develop",
@@ -10223,13 +10223,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Leandro Abel Lesca",
-      "assignee_email": "leandro.lesca@ayi.group",
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-30T21:09:24.672Z",
-      "updated_at": "2026-08-13T19:01:38.382Z",
+      "updated_at": "2026-08-14T13:03:56.589Z",
       "deployed_at": null
     },
     {
@@ -10406,7 +10406,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "opened",
       "source_branch": "feature/GRV-2188-gestion-carga-espontaneos",
       "target_branch": "develop",
@@ -10415,13 +10415,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Leandro Abel Lesca",
-      "assignee_email": "leandro.lesca@ayi.group",
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-08-03T16:24:37.595Z",
-      "updated_at": "2026-08-13T19:01:38.388Z",
+      "updated_at": "2026-08-14T13:03:56.595Z",
       "deployed_at": null
     },
     {
@@ -10583,13 +10583,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Alejandro Minue",
+      "assignee_email": "alejandro.minue@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-10T18:56:02.945Z",
-      "updated_at": "2026-08-12T19:00:38.200Z",
+      "updated_at": "2026-08-14T13:03:57.025Z",
       "deployed_at": null
     },
     {
@@ -11013,5 +11013,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-13T22:40:05.593Z"
+  "last_updated": "2026-08-14T13:03:57.025Z"
 }
