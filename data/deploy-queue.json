@@ -10583,13 +10583,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-10T18:56:02.945Z",
-      "updated_at": "2026-08-14T13:03:57.025Z",
+      "updated_at": "2026-08-14T14:50:19.217Z",
       "deployed_at": null
     },
     {
@@ -11013,5 +11013,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-14T13:03:57.025Z"
+  "last_updated": "2026-08-14T14:50:19.218Z"
 }
