@@ -10195,13 +10195,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Alejandro Minue",
+      "assignee_email": "alejandro.minue@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-30T19:24:49.526Z",
-      "updated_at": "2026-08-13T15:59:31.396Z",
+      "updated_at": "2026-08-18T18:36:35.516Z",
       "deployed_at": null
     },
     {
@@ -10350,7 +10350,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "Tareas por hacer",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
@@ -10365,7 +10365,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.241Z",
-      "updated_at": "2026-08-18T17:25:23.001Z",
+      "updated_at": "2026-08-18T18:36:35.027Z",
       "deployed_at": null
     },
     {
@@ -10378,7 +10378,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "Tareas por hacer",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
@@ -10393,7 +10393,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.245Z",
-      "updated_at": "2026-08-18T17:25:23.005Z",
+      "updated_at": "2026-08-18T18:36:35.035Z",
       "deployed_at": null
     },
     {
@@ -10771,7 +10771,7 @@
       "is_core": true,
       "jira_priority": "Baja",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "closed",
       "source_branch": "bugfix/GRV-2213-fix-datos-personales-nueva-denuncia",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wspersona/-/merge_requests/241",
@@ -10779,13 +10779,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Alejandro Minue",
+      "assignee_email": "alejandro.minue@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-08-12T15:58:59.316Z",
-      "updated_at": "2026-08-12T15:58:59.316Z",
+      "updated_at": "2026-08-18T18:36:35.248Z",
       "deployed_at": null
     },
     {
@@ -10799,7 +10799,7 @@
       "is_core": false,
       "jira_priority": "Baja",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-2213-fix-datos-personales-nueva-denuncia",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/2028",
@@ -10807,13 +10807,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Alejandro Minue",
+      "assignee_email": "alejandro.minue@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-08-12T15:58:59.321Z",
-      "updated_at": "2026-08-12T15:58:59.321Z",
+      "updated_at": "2026-08-18T18:36:35.253Z",
       "deployed_at": null
     },
     {
@@ -10863,13 +10863,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Alejandro Minue",
+      "assignee_email": "alejandro.minue@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-13T15:59:31.401Z",
-      "updated_at": "2026-08-13T15:59:31.401Z",
+      "updated_at": "2026-08-18T18:36:35.523Z",
       "deployed_at": null
     },
     {
@@ -10883,7 +10883,7 @@
       "is_core": false,
       "jira_priority": "Alta",
       "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-2191-fix-fecha-control-nueva-evolucion",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/812",
@@ -10891,13 +10891,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Alejandro Minue",
+      "assignee_email": "alejandro.minue@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-13T15:59:31.407Z",
-      "updated_at": "2026-08-13T15:59:31.407Z",
+      "updated_at": "2026-08-18T18:36:35.530Z",
       "deployed_at": null
     },
     {
@@ -11069,5 +11069,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-18T17:25:23.005Z"
+  "last_updated": "2026-08-18T18:36:35.530Z"
 }
