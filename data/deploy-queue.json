@@ -9943,13 +9943,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-24T20:18:37.199Z",
-      "updated_at": "2026-08-14T20:29:45.120Z",
+      "updated_at": "2026-08-18T12:43:15.387Z",
       "deployed_at": null
     },
     {
@@ -10695,13 +10695,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-11T20:41:55.245Z",
-      "updated_at": "2026-08-14T20:29:45.126Z",
+      "updated_at": "2026-08-18T12:43:15.393Z",
       "deployed_at": null
     },
     {
@@ -10723,13 +10723,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-11T20:41:55.250Z",
-      "updated_at": "2026-08-14T20:29:45.133Z",
+      "updated_at": "2026-08-18T12:43:15.399Z",
       "deployed_at": null
     },
     {
@@ -10919,13 +10919,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-13T19:01:39.020Z",
-      "updated_at": "2026-08-14T20:29:45.140Z",
+      "updated_at": "2026-08-18T12:43:15.403Z",
       "deployed_at": null
     },
     {
@@ -10947,13 +10947,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-13T19:01:39.025Z",
-      "updated_at": "2026-08-14T20:29:45.147Z",
+      "updated_at": "2026-08-18T12:43:15.409Z",
       "deployed_at": null
     },
     {
@@ -10966,7 +10966,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/grv-2228-persistencia-subprestador",
       "target_branch": "develop",
@@ -10981,7 +10981,7 @@
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-08-13T20:41:05.152Z",
-      "updated_at": "2026-08-14T18:52:28.882Z",
+      "updated_at": "2026-08-18T12:43:15.738Z",
       "deployed_at": null
     },
     {
@@ -10994,7 +10994,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "feature/grv-2228-persistencia-subprestador",
       "target_branch": "develop",
@@ -11009,7 +11009,7 @@
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-08-13T20:41:05.158Z",
-      "updated_at": "2026-08-14T18:52:28.888Z",
+      "updated_at": "2026-08-18T12:43:15.743Z",
       "deployed_at": null
     },
     {
@@ -11069,5 +11069,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-14T20:29:45.147Z"
+  "last_updated": "2026-08-18T12:43:15.743Z"
 }
