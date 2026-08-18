@@ -10981,7 +10981,7 @@
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-08-13T20:41:05.152Z",
-      "updated_at": "2026-08-18T20:22:09.578Z",
+      "updated_at": "2026-08-18T21:22:52.142Z",
       "deployed_at": null
     },
     {
@@ -11009,7 +11009,7 @@
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-08-13T20:41:05.158Z",
-      "updated_at": "2026-08-18T20:22:09.584Z",
+      "updated_at": "2026-08-18T21:22:52.148Z",
       "deployed_at": null
     },
     {
@@ -11069,5 +11069,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-18T20:22:09.902Z"
+  "last_updated": "2026-08-18T21:22:52.148Z"
 }
