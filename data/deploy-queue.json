@@ -10975,13 +10975,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-08-13T20:41:05.152Z",
-      "updated_at": "2026-08-18T21:22:52.142Z",
+      "updated_at": "2026-08-18T22:22:02.597Z",
       "deployed_at": null
     },
     {
@@ -11003,13 +11003,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-08-13T20:41:05.158Z",
-      "updated_at": "2026-08-18T21:22:52.148Z",
+      "updated_at": "2026-08-18T22:22:02.605Z",
       "deployed_at": null
     },
     {
@@ -11069,5 +11069,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-18T21:22:52.148Z"
+  "last_updated": "2026-08-18T22:22:02.605Z"
 }
