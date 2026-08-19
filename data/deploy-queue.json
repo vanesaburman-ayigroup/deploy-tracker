@@ -10518,22 +10518,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2260-nuevo-texto-mail-viajes-asignados",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/629",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2260",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-10T16:02:50.150Z",
-      "updated_at": "2026-08-12T14:55:35.927Z",
+      "updated_at": "2026-08-19T12:43:50.767Z",
       "deployed_at": null
     },
     {
@@ -10546,22 +10546,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2260-nuevo-texto-mail-viajes-asignados",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsnotificaciones/-/merge_requests/413",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2260",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-10T16:02:50.155Z",
-      "updated_at": "2026-08-12T14:55:35.934Z",
+      "updated_at": "2026-08-19T12:43:53.589Z",
       "deployed_at": null
     },
     {
@@ -10742,22 +10742,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2260-nuevo-texto-mail-viajes-asignados",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsnotificaciones/-/merge_requests/415",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2260",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-12T14:55:36.042Z",
-      "updated_at": "2026-08-12T14:55:36.042Z",
+      "updated_at": "2026-08-19T12:43:56.113Z",
       "deployed_at": null
     },
     {
@@ -10966,22 +10966,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/grv-2228-persistencia-subprestador",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsproveedor/-/merge_requests/468",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2228",
       "author": "Maximiliano Carubin",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Leandro Cabrera",
       "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-08-13T20:41:05.152Z",
-      "updated_at": "2026-08-18T22:22:02.597Z",
+      "updated_at": "2026-08-19T12:44:01.064Z",
       "deployed_at": null
     },
     {
@@ -10994,22 +10994,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/grv-2228-persistencia-subprestador",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/contrataciones/-/merge_requests/313",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2228",
       "author": "Maximiliano Carubin",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Leandro Cabrera",
       "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Contrataciones"
       ],
       "detected_at": "2026-08-13T20:41:05.158Z",
-      "updated_at": "2026-08-18T22:22:02.605Z",
+      "updated_at": "2026-08-19T12:44:01.070Z",
       "deployed_at": null
     },
     {
@@ -11069,5 +11069,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-19T11:23:58.564Z"
+  "last_updated": "2026-08-19T12:44:01.070Z"
 }

@@ -1052,7 +1052,88 @@
       "channel": "slack",
       "sent_at": "2026-08-11T19:00:59.477Z",
       "payload": "🚨 CORE listo: wslistados (GRV-2241) — Alta"
+    },
+    {
+      "event_hash": "913378574006d6ee",
+      "ticket_id": "GRV-2260",
+      "mr_id": 629,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-08-19T12:43:53.584Z",
+      "payload": "**¡ALERTA PM!**\n\nNecesitamos ventana de no uso a las 1"
+    },
+    {
+      "event_hash": "fca5b85e6adf13a5",
+      "ticket_id": "GRV-2260",
+      "mr_id": 629,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-08-19T12:43:53.585Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "51dcb35a20b7caf2",
+      "ticket_id": "GRV-2260",
+      "mr_id": 629,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-08-19T12:43:53.586Z",
+      "payload": "🚨 CORE listo: wslogistica (GRV-2260) — Bloqueante"
+    },
+    {
+      "event_hash": "074295a6512a9a78",
+      "ticket_id": "GRV-2260",
+      "mr_id": 413,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-08-19T12:43:56.109Z",
+      "payload": "**¡Alerta PM! GRV-2260 (fix \"Pac"
+    },
+    {
+      "event_hash": "9c691cf89537eacf",
+      "ticket_id": "GRV-2260",
+      "mr_id": 413,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-08-19T12:43:56.110Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "1047285bc3d70957",
+      "ticket_id": "GRV-2260",
+      "mr_id": 413,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-08-19T12:43:56.110Z",
+      "payload": "🚨 CORE listo: wsnotificaciones (GRV-2260) — Bloqueante"
+    },
+    {
+      "event_hash": "2ec538c72ba77c93",
+      "ticket_id": "GRV-2260",
+      "mr_id": 415,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-08-19T12:43:58.856Z",
+      "payload": "**¡ALERTA DEPLOY URGENTE!**\n\nPM, necesitamos ventana de"
+    },
+    {
+      "event_hash": "4ded385546f75202",
+      "ticket_id": "GRV-2260",
+      "mr_id": 415,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-08-19T12:43:58.857Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "6c19a8a1fc933f2b",
+      "ticket_id": "GRV-2260",
+      "mr_id": 415,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-08-19T12:43:58.857Z",
+      "payload": "🚨 CORE listo: wsnotificaciones (GRV-2260) — Bloqueante"
     }
   ],
-  "last_checked": "2026-08-11T19:00:59.477Z"
+  "last_checked": "2026-08-19T12:43:58.857Z"
 }
