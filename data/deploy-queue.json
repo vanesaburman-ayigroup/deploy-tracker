@@ -10365,7 +10365,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.241Z",
-      "updated_at": "2026-08-19T14:32:38.181Z",
+      "updated_at": "2026-08-19T17:25:30.416Z",
       "deployed_at": null
     },
     {
@@ -10393,7 +10393,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.245Z",
-      "updated_at": "2026-08-19T14:32:38.186Z",
+      "updated_at": "2026-08-19T17:25:30.423Z",
       "deployed_at": null
     },
     {
@@ -11069,5 +11069,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-19T14:32:38.186Z"
+  "last_updated": "2026-08-19T17:25:30.423Z"
 }
