@@ -10186,7 +10186,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2191-fix-fecha-control-nueva-evolucion",
       "target_branch": "develop",
@@ -10195,13 +10195,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-30T19:24:49.526Z",
-      "updated_at": "2026-08-18T20:22:09.892Z",
+      "updated_at": "2026-08-19T11:23:58.204Z",
       "deployed_at": null
     },
     {
@@ -10770,7 +10770,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Baja",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "closed",
       "source_branch": "bugfix/GRV-2213-fix-datos-personales-nueva-denuncia",
       "target_branch": "develop",
@@ -10779,13 +10779,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-08-12T15:58:59.316Z",
-      "updated_at": "2026-08-18T19:26:08.089Z",
+      "updated_at": "2026-08-19T11:23:58.558Z",
       "deployed_at": null
     },
     {
@@ -10798,7 +10798,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Baja",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2213-fix-datos-personales-nueva-denuncia",
       "target_branch": "develop",
@@ -10807,13 +10807,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-08-12T15:58:59.321Z",
-      "updated_at": "2026-08-18T19:26:08.095Z",
+      "updated_at": "2026-08-19T11:23:58.564Z",
       "deployed_at": null
     },
     {
@@ -10854,7 +10854,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2191-fix-fecha-control-nueva-evolucion",
       "target_branch": "develop",
@@ -10863,13 +10863,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-13T15:59:31.401Z",
-      "updated_at": "2026-08-18T20:22:09.896Z",
+      "updated_at": "2026-08-19T11:23:58.210Z",
       "deployed_at": null
     },
     {
@@ -10882,7 +10882,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2191-fix-fecha-control-nueva-evolucion",
       "target_branch": "develop",
@@ -10891,13 +10891,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-13T15:59:31.407Z",
-      "updated_at": "2026-08-18T20:22:09.902Z",
+      "updated_at": "2026-08-19T11:23:58.216Z",
       "deployed_at": null
     },
     {
@@ -11069,5 +11069,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-18T22:22:02.605Z"
+  "last_updated": "2026-08-19T11:23:58.564Z"
 }
