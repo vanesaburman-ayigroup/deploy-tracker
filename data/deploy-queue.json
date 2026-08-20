@@ -10229,7 +10229,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-30T21:09:24.672Z",
-      "updated_at": "2026-08-20T14:34:47.728Z",
+      "updated_at": "2026-08-20T15:32:17.362Z",
       "deployed_at": null
     },
     {
@@ -10350,7 +10350,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
@@ -10359,13 +10359,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.241Z",
-      "updated_at": "2026-08-20T13:44:49.353Z",
+      "updated_at": "2026-08-20T15:32:16.910Z",
       "deployed_at": null
     },
     {
@@ -10378,7 +10378,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "PENDIENTE DE MR",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
@@ -10387,13 +10387,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Alejandro Minue",
-      "assignee_email": "alejandro.minue@ayi.group",
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.245Z",
-      "updated_at": "2026-08-20T13:44:49.358Z",
+      "updated_at": "2026-08-20T15:32:16.915Z",
       "deployed_at": null
     },
     {
@@ -10421,7 +10421,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-08-03T16:24:37.595Z",
-      "updated_at": "2026-08-20T14:34:47.736Z",
+      "updated_at": "2026-08-20T15:32:17.367Z",
       "deployed_at": null
     },
     {
@@ -11067,7 +11067,35 @@
       "detected_at": "2026-08-14T16:51:25.101Z",
       "updated_at": "2026-08-14T16:51:25.101Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2182",
+      "jira_summary": "Error en derivación de SG",
+      "mr_id": 496,
+      "mr_title": "fix(sql): habilitar derivación del tipo 136 desde Mesa de Carga a Tramitadores (GRV-2182)",
+      "repo_name": "wssolicitudesgenericas",
+      "project_path": "backend/wssolicitudesgenericas",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2182-error-derivacion-sg",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/496",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2182",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-08-20T15:32:16.922Z",
+      "updated_at": "2026-08-20T15:32:16.922Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-20T14:34:47.736Z"
+  "last_updated": "2026-08-20T15:32:17.367Z"
 }
