@@ -10214,7 +10214,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "feature/GRV-2188-gestion-carga-espontaneos",
       "target_branch": "develop",
@@ -10223,13 +10223,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-30T21:09:24.672Z",
-      "updated_at": "2026-08-14T13:03:56.589Z",
+      "updated_at": "2026-08-20T14:34:47.728Z",
       "deployed_at": null
     },
     {
@@ -10406,7 +10406,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "En curso",
       "mr_status": "opened",
       "source_branch": "feature/GRV-2188-gestion-carga-espontaneos",
       "target_branch": "develop",
@@ -10415,13 +10415,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Abel Lesca",
+      "assignee_email": "leandro.lesca@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-08-03T16:24:37.595Z",
-      "updated_at": "2026-08-14T13:03:56.595Z",
+      "updated_at": "2026-08-20T14:34:47.736Z",
       "deployed_at": null
     },
     {
@@ -11069,5 +11069,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-20T13:44:49.684Z"
+  "last_updated": "2026-08-20T14:34:47.736Z"
 }
