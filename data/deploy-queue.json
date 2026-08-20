@@ -10195,13 +10195,13 @@
       "author": "Alejandro Minue",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-30T19:24:49.526Z",
-      "updated_at": "2026-08-20T13:44:49.673Z",
+      "updated_at": "2026-08-20T22:25:56.395Z",
       "deployed_at": null
     },
     {
@@ -10527,13 +10527,13 @@
       "author": "Alejandro Minue",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-10T16:02:50.150Z",
-      "updated_at": "2026-08-19T12:43:50.767Z",
+      "updated_at": "2026-08-20T22:25:56.786Z",
       "deployed_at": null
     },
     {
@@ -10555,13 +10555,13 @@
       "author": "Alejandro Minue",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-10T16:02:50.155Z",
-      "updated_at": "2026-08-19T12:43:53.589Z",
+      "updated_at": "2026-08-20T22:25:56.793Z",
       "deployed_at": null
     },
     {
@@ -10751,13 +10751,13 @@
       "author": "Alejandro Minue",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-12T14:55:36.042Z",
-      "updated_at": "2026-08-19T12:43:56.113Z",
+      "updated_at": "2026-08-20T22:25:56.798Z",
       "deployed_at": null
     },
     {
@@ -10863,13 +10863,13 @@
       "author": "Alejandro Minue",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-13T15:59:31.401Z",
-      "updated_at": "2026-08-20T13:44:49.677Z",
+      "updated_at": "2026-08-20T22:25:56.401Z",
       "deployed_at": null
     },
     {
@@ -10891,13 +10891,13 @@
       "author": "Alejandro Minue",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-13T15:59:31.407Z",
-      "updated_at": "2026-08-20T13:44:49.684Z",
+      "updated_at": "2026-08-20T22:25:56.407Z",
       "deployed_at": null
     },
     {
@@ -11097,5 +11097,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-20T15:32:17.367Z"
+  "last_updated": "2026-08-20T22:25:56.798Z"
 }
