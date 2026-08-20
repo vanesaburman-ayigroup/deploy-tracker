@@ -10186,22 +10186,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2191-fix-fecha-control-nueva-evolucion",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/720",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2191",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-30T19:24:49.526Z",
-      "updated_at": "2026-08-19T11:23:58.204Z",
+      "updated_at": "2026-08-20T13:44:49.673Z",
       "deployed_at": null
     },
     {
@@ -10350,7 +10350,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "En pausa",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
@@ -10365,7 +10365,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.241Z",
-      "updated_at": "2026-08-19T19:23:40.865Z",
+      "updated_at": "2026-08-20T13:44:49.353Z",
       "deployed_at": null
     },
     {
@@ -10378,7 +10378,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "En pausa",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
@@ -10393,7 +10393,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.245Z",
-      "updated_at": "2026-08-19T19:23:40.871Z",
+      "updated_at": "2026-08-20T13:44:49.358Z",
       "deployed_at": null
     },
     {
@@ -10854,22 +10854,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2191-fix-fecha-control-nueva-evolucion",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/745",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2191",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-13T15:59:31.401Z",
-      "updated_at": "2026-08-19T11:23:58.210Z",
+      "updated_at": "2026-08-20T13:44:49.677Z",
       "deployed_at": null
     },
     {
@@ -10882,22 +10882,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2191-fix-fecha-control-nueva-evolucion",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/812",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2191",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-13T15:59:31.407Z",
-      "updated_at": "2026-08-19T11:23:58.216Z",
+      "updated_at": "2026-08-20T13:44:49.684Z",
       "deployed_at": null
     },
     {
@@ -11069,5 +11069,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-19T19:23:40.871Z"
+  "last_updated": "2026-08-20T13:44:49.684Z"
 }
