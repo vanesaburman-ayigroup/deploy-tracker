@@ -10186,22 +10186,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2191-fix-fecha-control-nueva-evolucion",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/720",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2191",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Leandro Cabrera",
       "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-30T19:24:49.526Z",
-      "updated_at": "2026-08-20T22:25:56.395Z",
+      "updated_at": "2026-08-21T12:44:21.543Z",
       "deployed_at": null
     },
     {
@@ -10350,7 +10350,7 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
@@ -10359,13 +10359,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.241Z",
-      "updated_at": "2026-08-20T15:32:16.910Z",
+      "updated_at": "2026-08-21T12:44:22.223Z",
       "deployed_at": null
     },
     {
@@ -10378,7 +10378,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
@@ -10387,13 +10387,13 @@
       "author": "Matias Martinez",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.245Z",
-      "updated_at": "2026-08-20T15:32:16.915Z",
+      "updated_at": "2026-08-21T12:44:22.227Z",
       "deployed_at": null
     },
     {
@@ -10518,22 +10518,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2260-nuevo-texto-mail-viajes-asignados",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wslogistica/-/merge_requests/629",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2260",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 150,
+      "is_ready": false,
+      "priority_weight": 100,
       "assignee_name": "Leandro Cabrera",
       "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-10T16:02:50.150Z",
-      "updated_at": "2026-08-20T22:25:56.786Z",
+      "updated_at": "2026-08-21T12:44:21.844Z",
       "deployed_at": null
     },
     {
@@ -10546,22 +10546,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2260-nuevo-texto-mail-viajes-asignados",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsnotificaciones/-/merge_requests/413",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2260",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 150,
+      "is_ready": false,
+      "priority_weight": 100,
       "assignee_name": "Leandro Cabrera",
       "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-10T16:02:50.155Z",
-      "updated_at": "2026-08-20T22:25:56.793Z",
+      "updated_at": "2026-08-21T12:44:21.850Z",
       "deployed_at": null
     },
     {
@@ -10742,22 +10742,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2260-nuevo-texto-mail-viajes-asignados",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsnotificaciones/-/merge_requests/415",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2260",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 150,
+      "is_ready": false,
+      "priority_weight": 100,
       "assignee_name": "Leandro Cabrera",
       "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Logistica"
       ],
       "detected_at": "2026-08-12T14:55:36.042Z",
-      "updated_at": "2026-08-20T22:25:56.798Z",
+      "updated_at": "2026-08-21T12:44:21.855Z",
       "deployed_at": null
     },
     {
@@ -10854,22 +10854,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2191-fix-fecha-control-nueva-evolucion",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/745",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2191",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Leandro Cabrera",
       "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-13T15:59:31.401Z",
-      "updated_at": "2026-08-20T22:25:56.401Z",
+      "updated_at": "2026-08-21T12:44:21.549Z",
       "deployed_at": null
     },
     {
@@ -10882,22 +10882,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2191-fix-fecha-control-nueva-evolucion",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/812",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2191",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Leandro Cabrera",
       "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-13T15:59:31.407Z",
-      "updated_at": "2026-08-20T22:25:56.407Z",
+      "updated_at": "2026-08-21T12:44:21.554Z",
       "deployed_at": null
     },
     {
@@ -11078,8 +11078,8 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/496",
@@ -11087,15 +11087,15 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-20T15:32:16.922Z",
-      "updated_at": "2026-08-20T15:32:16.922Z",
+      "updated_at": "2026-08-21T12:44:22.233Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-20T22:25:56.798Z"
+  "last_updated": "2026-08-21T12:44:22.233Z"
 }
