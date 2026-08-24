@@ -9934,22 +9934,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/grv2189-materiales-quirurgicos-y-cirugias-duplicadas",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/803",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2189",
       "author": "Leandro Lesca",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-24T20:18:37.199Z",
-      "updated_at": "2026-08-19T13:42:31.970Z",
+      "updated_at": "2026-08-24T16:36:00.457Z",
       "deployed_at": null
     },
     {
@@ -10686,22 +10686,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "closed",
       "source_branch": "fix/grv-2189-race-condition-y-reprogramacion-materiales",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/824",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2189",
       "author": "Leandro Lesca",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-11T20:41:55.245Z",
-      "updated_at": "2026-08-19T13:42:31.977Z",
+      "updated_at": "2026-08-24T16:36:03.261Z",
       "deployed_at": null
     },
     {
@@ -10714,22 +10714,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "closed",
       "source_branch": "fix/grv-2189-cirugia-duplicada-race-condition",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/809",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2189",
       "author": "Leandro Lesca",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-11T20:41:55.250Z",
-      "updated_at": "2026-08-19T13:42:32.035Z",
+      "updated_at": "2026-08-24T16:36:05.989Z",
       "deployed_at": null
     },
     {
@@ -10910,22 +10910,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "revert/grv-2189-rollback-materiales-cirugias-duplicadas",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsturnos/-/merge_requests/827",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2189",
       "author": "Leandro Lesca",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-13T19:01:39.020Z",
-      "updated_at": "2026-08-19T13:42:32.130Z",
+      "updated_at": "2026-08-24T16:36:05.994Z",
       "deployed_at": null
     },
     {
@@ -10938,22 +10938,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "revert/grv-2189-rollback-guard-cirugia-duplicada",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoria/-/merge_requests/813",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2189",
       "author": "Leandro Lesca",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-13T19:01:39.025Z",
-      "updated_at": "2026-08-19T13:42:32.136Z",
+      "updated_at": "2026-08-24T16:36:08.604Z",
       "deployed_at": null
     },
     {
@@ -11125,5 +11125,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-24T14:40:17.145Z"
+  "last_updated": "2026-08-24T16:36:08.604Z"
 }

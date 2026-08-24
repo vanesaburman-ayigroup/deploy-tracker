@@ -1160,7 +1160,88 @@
       "channel": "slack",
       "sent_at": "2026-08-24T12:48:06.554Z",
       "payload": "🚨 CORE listo: wssolicitudesgenericas (GRV-2182) — Alta"
+    },
+    {
+      "event_hash": "ca538d91ebeaa57e",
+      "ticket_id": "GRV-2189",
+      "mr_id": 803,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-08-24T16:36:03.256Z",
+      "payload": "¡PM! Alerta: GRV-2189 (wsturn"
+    },
+    {
+      "event_hash": "8227debc888d3bd1",
+      "ticket_id": "GRV-2189",
+      "mr_id": 803,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-08-24T16:36:03.257Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "fcfa7dd65703258e",
+      "ticket_id": "GRV-2189",
+      "mr_id": 803,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-08-24T16:36:03.258Z",
+      "payload": "🚨 CORE listo: wsturnos (GRV-2189) — Alta"
+    },
+    {
+      "event_hash": "a8da347a671a8200",
+      "ticket_id": "GRV-2189",
+      "mr_id": 824,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-08-24T16:36:05.984Z",
+      "payload": "¡Alerta PM! 🚨\n\n**GRV-2189 (w"
+    },
+    {
+      "event_hash": "d628e356d43eef6b",
+      "ticket_id": "GRV-2189",
+      "mr_id": 824,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-08-24T16:36:05.985Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "5fa9b33333f4e5a6",
+      "ticket_id": "GRV-2189",
+      "mr_id": 824,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-08-24T16:36:05.986Z",
+      "payload": "🚨 CORE listo: wsturnos (GRV-2189) — Alta"
+    },
+    {
+      "event_hash": "5c2d382236348cfb",
+      "ticket_id": "GRV-2189",
+      "mr_id": 827,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-08-24T16:36:08.597Z",
+      "payload": "¡Atención PM! Necesitamos ventana de no uso a las 19hs para deploy"
+    },
+    {
+      "event_hash": "38163761f1959c3f",
+      "ticket_id": "GRV-2189",
+      "mr_id": 827,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-08-24T16:36:08.598Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "d8ea90adc5fc2d81",
+      "ticket_id": "GRV-2189",
+      "mr_id": 827,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-08-24T16:36:08.599Z",
+      "payload": "🚨 CORE listo: wsturnos (GRV-2189) — Alta"
     }
   ],
-  "last_checked": "2026-08-24T12:48:06.554Z"
+  "last_checked": "2026-08-24T16:36:08.599Z"
 }
