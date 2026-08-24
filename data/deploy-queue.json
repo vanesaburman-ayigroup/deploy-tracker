@@ -10365,7 +10365,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.241Z",
-      "updated_at": "2026-08-24T12:48:03.791Z",
+      "updated_at": "2026-08-24T13:50:38.196Z",
       "deployed_at": null
     },
     {
@@ -10393,7 +10393,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.245Z",
-      "updated_at": "2026-08-24T12:48:03.798Z",
+      "updated_at": "2026-08-24T13:50:38.205Z",
       "deployed_at": null
     },
     {
@@ -11093,7 +11093,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-20T15:32:16.922Z",
-      "updated_at": "2026-08-24T12:48:03.805Z",
+      "updated_at": "2026-08-24T13:50:38.213Z",
       "deployed_at": null
     },
     {
@@ -11125,5 +11125,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-24T12:48:07.185Z"
+  "last_updated": "2026-08-24T13:50:38.213Z"
 }
