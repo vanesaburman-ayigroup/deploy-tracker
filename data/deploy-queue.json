@@ -11106,24 +11106,24 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "feature/grv-2298-saldo-factura-reauditoria",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoriatraslados/-/merge_requests/356",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2298",
       "author": "Maximiliano Carubin",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-08-24T12:48:07.185Z",
-      "updated_at": "2026-08-24T20:28:44.185Z",
+      "updated_at": "2026-08-25T19:30:49.447Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-25T14:43:23.596Z"
+  "last_updated": "2026-08-25T19:30:49.447Z"
 }
