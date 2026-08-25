@@ -9943,13 +9943,13 @@
       "author": "Leandro Lesca",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-24T20:18:37.199Z",
-      "updated_at": "2026-08-25T14:43:23.574Z",
+      "updated_at": "2026-08-25T22:25:46.252Z",
       "deployed_at": null
     },
     {
@@ -9990,22 +9990,22 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "Finalizada",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2198-fix-calendar-fecha-turno-autorizaciones-pendientes",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/715",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2198",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 0,
-      "assignee_name": "Alejandro Schnidrig",
-      "assignee_email": "alejandro.schnidrig@ayi.group",
+      "is_ready": true,
+      "priority_weight": 50,
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-28T21:06:06.733Z",
-      "updated_at": "2026-08-05T22:57:50.402Z",
+      "updated_at": "2026-08-25T22:25:44.987Z",
       "deployed_at": null
     },
     {
@@ -10359,13 +10359,13 @@
       "author": "Matias Martinez",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.241Z",
-      "updated_at": "2026-08-24T13:50:38.196Z",
+      "updated_at": "2026-08-25T22:25:45.615Z",
       "deployed_at": null
     },
     {
@@ -10387,13 +10387,13 @@
       "author": "Matias Martinez",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.245Z",
-      "updated_at": "2026-08-24T13:50:38.205Z",
+      "updated_at": "2026-08-25T22:25:45.620Z",
       "deployed_at": null
     },
     {
@@ -10583,13 +10583,13 @@
       "author": "Alejandro Minue",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-10T18:56:02.945Z",
-      "updated_at": "2026-08-25T12:44:36.247Z",
+      "updated_at": "2026-08-25T22:25:45.905Z",
       "deployed_at": null
     },
     {
@@ -10695,13 +10695,13 @@
       "author": "Leandro Lesca",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-11T20:41:55.245Z",
-      "updated_at": "2026-08-25T14:43:23.580Z",
+      "updated_at": "2026-08-25T22:25:46.259Z",
       "deployed_at": null
     },
     {
@@ -10723,13 +10723,13 @@
       "author": "Leandro Lesca",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-11T20:41:55.250Z",
-      "updated_at": "2026-08-25T14:43:23.586Z",
+      "updated_at": "2026-08-25T22:25:46.265Z",
       "deployed_at": null
     },
     {
@@ -10919,13 +10919,13 @@
       "author": "Leandro Lesca",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-13T19:01:39.020Z",
-      "updated_at": "2026-08-25T14:43:23.591Z",
+      "updated_at": "2026-08-25T22:25:46.270Z",
       "deployed_at": null
     },
     {
@@ -10947,13 +10947,13 @@
       "author": "Leandro Lesca",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-13T19:01:39.025Z",
-      "updated_at": "2026-08-25T14:43:23.596Z",
+      "updated_at": "2026-08-25T22:25:46.275Z",
       "deployed_at": null
     },
     {
@@ -11087,13 +11087,13 @@
       "author": "Alejandro Minue",
       "is_ready": true,
       "priority_weight": 150,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-20T15:32:16.922Z",
-      "updated_at": "2026-08-24T13:50:38.213Z",
+      "updated_at": "2026-08-25T22:25:45.626Z",
       "deployed_at": null
     },
     {
@@ -11115,15 +11115,15 @@
       "author": "Maximiliano Carubin",
       "is_ready": true,
       "priority_weight": 50,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-08-24T12:48:07.185Z",
-      "updated_at": "2026-08-25T19:30:49.447Z",
+      "updated_at": "2026-08-25T22:25:44.632Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-25T19:30:49.447Z"
+  "last_updated": "2026-08-25T22:25:46.275Z"
 }
