@@ -10229,7 +10229,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-30T21:09:24.672Z",
-      "updated_at": "2026-08-25T14:43:22.678Z",
+      "updated_at": "2026-08-26T13:53:35.373Z",
       "deployed_at": null
     },
     {
@@ -10365,7 +10365,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.241Z",
-      "updated_at": "2026-08-25T22:25:45.615Z",
+      "updated_at": "2026-08-26T13:53:35.687Z",
       "deployed_at": null
     },
     {
@@ -10393,7 +10393,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.245Z",
-      "updated_at": "2026-08-25T22:25:45.620Z",
+      "updated_at": "2026-08-26T13:53:35.692Z",
       "deployed_at": null
     },
     {
@@ -10421,7 +10421,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-08-03T16:24:37.595Z",
-      "updated_at": "2026-08-25T14:43:22.686Z",
+      "updated_at": "2026-08-26T13:53:35.378Z",
       "deployed_at": null
     },
     {
@@ -11093,7 +11093,7 @@
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-20T15:32:16.922Z",
-      "updated_at": "2026-08-25T22:25:45.626Z",
+      "updated_at": "2026-08-26T13:53:35.697Z",
       "deployed_at": null
     },
     {
@@ -11125,5 +11125,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-25T22:25:46.275Z"
+  "last_updated": "2026-08-26T13:53:35.697Z"
 }
