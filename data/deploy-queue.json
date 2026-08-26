@@ -10229,7 +10229,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-07-30T21:09:24.672Z",
-      "updated_at": "2026-08-26T13:53:35.373Z",
+      "updated_at": "2026-08-26T19:01:04.018Z",
       "deployed_at": null
     },
     {
@@ -10350,22 +10350,22 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/solicitudesgenericas/-/merge_requests/235",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2182",
       "author": "Matias Martinez",
-      "is_ready": true,
-      "priority_weight": 150,
-      "assignee_name": "Leandro Cabrera",
-      "assignee_email": "leandro.cabrera@ayi.group",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.241Z",
-      "updated_at": "2026-08-26T13:53:35.687Z",
+      "updated_at": "2026-08-26T19:01:03.490Z",
       "deployed_at": null
     },
     {
@@ -10378,22 +10378,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "fix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/487",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2182",
       "author": "Matias Martinez",
-      "is_ready": true,
-      "priority_weight": 150,
-      "assignee_name": "Leandro Cabrera",
-      "assignee_email": "leandro.cabrera@ayi.group",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-03T13:40:33.245Z",
-      "updated_at": "2026-08-26T13:53:35.692Z",
+      "updated_at": "2026-08-26T19:01:03.496Z",
       "deployed_at": null
     },
     {
@@ -10421,7 +10421,7 @@
         "SAS_Call Center"
       ],
       "detected_at": "2026-08-03T16:24:37.595Z",
-      "updated_at": "2026-08-26T13:53:35.378Z",
+      "updated_at": "2026-08-26T19:01:04.024Z",
       "deployed_at": null
     },
     {
@@ -11078,22 +11078,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "En curso",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/496",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2182",
       "author": "Alejandro Minue",
-      "is_ready": true,
-      "priority_weight": 150,
-      "assignee_name": "Leandro Cabrera",
-      "assignee_email": "leandro.cabrera@ayi.group",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-20T15:32:16.922Z",
-      "updated_at": "2026-08-26T13:53:35.697Z",
+      "updated_at": "2026-08-26T19:01:03.502Z",
       "deployed_at": null
     },
     {
@@ -11125,5 +11125,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-26T13:53:35.697Z"
+  "last_updated": "2026-08-26T19:01:04.024Z"
 }
