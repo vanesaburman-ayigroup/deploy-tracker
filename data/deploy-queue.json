@@ -9464,7 +9464,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "En pausa",
+      "jira_status": "Tareas por hacer",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2178-eliminar-seccion-excedente-ilt",
       "target_branch": "develop",
@@ -9479,7 +9479,7 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-07-20T15:49:21.241Z",
-      "updated_at": "2026-08-14T15:50:46.270Z",
+      "updated_at": "2026-08-31T17:54:32.767Z",
       "deployed_at": null
     },
     {
@@ -10322,7 +10322,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "En pausa",
+      "jira_status": "Tareas por hacer",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2178-eliminar-seccion-excedente-ilt",
       "target_branch": "develop",
@@ -10337,7 +10337,7 @@
         "SAS_Auditoria_Médica"
       ],
       "detected_at": "2026-08-03T13:40:32.628Z",
-      "updated_at": "2026-08-14T15:50:46.278Z",
+      "updated_at": "2026-08-31T17:54:32.771Z",
       "deployed_at": null
     },
     {
@@ -11106,22 +11106,22 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "LISTO PARA PROD",
+      "jira_status": "Finalizada",
       "mr_status": "merged",
       "source_branch": "feature/grv-2298-saldo-factura-reauditoria",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wsauditoriatraslados/-/merge_requests/356",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2298",
       "author": "Maximiliano Carubin",
-      "is_ready": true,
-      "priority_weight": 50,
+      "is_ready": false,
+      "priority_weight": 0,
       "assignee_name": "Leandro Cabrera",
       "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Auditoría de Facturación"
       ],
       "detected_at": "2026-08-24T12:48:07.185Z",
-      "updated_at": "2026-08-25T22:25:44.632Z",
+      "updated_at": "2026-08-31T17:54:32.366Z",
       "deployed_at": null
     },
     {
@@ -11265,5 +11265,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-28T21:18:45.931Z"
+  "last_updated": "2026-08-31T17:54:32.771Z"
 }
