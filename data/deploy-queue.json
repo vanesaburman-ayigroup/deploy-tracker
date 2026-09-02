@@ -11263,7 +11263,35 @@
       "detected_at": "2026-08-28T21:18:45.931Z",
       "updated_at": "2026-08-28T21:18:45.931Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2283",
+      "jira_summary": "CIERRES SG",
+      "mr_id": 506,
+      "mr_title": "fix(GRV-2283): limitar \"Mis pedidas cerradas\" al último mes por defecto",
+      "repo_name": "wssolicitudesgenericas",
+      "project_path": "backend/wssolicitudesgenericas",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "bugfix/GRV-2283-nuevo-filtro-sg-cerradas",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/506",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2283",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Sebastián Coppola",
+      "assignee_email": "sebastian.coppola@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-09-02T18:32:36.567Z",
+      "updated_at": "2026-09-02T18:32:36.567Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-08-31T17:54:32.771Z"
+  "last_updated": "2026-09-02T18:32:36.567Z"
 }
