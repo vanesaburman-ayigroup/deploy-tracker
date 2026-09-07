@@ -11403,7 +11403,63 @@
       "detected_at": "2026-09-07T16:17:12.258Z",
       "updated_at": "2026-09-07T16:17:12.258Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2328",
+      "jira_summary": "Problemas con SGs",
+      "mr_id": 505,
+      "mr_title": "GRV-2328: corrige el alta de Solicitudes Genéricas rechazada por área de origen",
+      "repo_name": "wssolicitudesgenericas",
+      "project_path": "backend/wssolicitudesgenericas",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "fix/grv-2328-area-origen-alta-sg",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/505",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2328",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-09-07T20:22:02.217Z",
+      "updated_at": "2026-09-07T20:22:02.217Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2328",
+      "jira_summary": "Problemas con SGs",
+      "mr_id": 508,
+      "mr_title": "GRV-2328: repone el fallback de área de origen en el alta de Solicitudes Genéricas",
+      "repo_name": "wssolicitudesgenericas",
+      "project_path": "backend/wssolicitudesgenericas",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "merged",
+      "source_branch": "fix/grv-2328-reponer-fallback-area-origen",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/508",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2328",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-09-07T20:22:02.223Z",
+      "updated_at": "2026-09-07T20:22:02.223Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-09-07T16:17:12.258Z"
+  "last_updated": "2026-09-07T20:22:02.223Z"
 }
