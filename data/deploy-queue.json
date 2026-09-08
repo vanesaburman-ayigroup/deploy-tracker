@@ -9630,7 +9630,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "En pausa",
+      "jira_status": "Cancelado",
       "mr_status": "closed",
       "source_branch": "fix/GRV-2184-reingreso-denegado-categoria-re",
       "target_branch": "develop",
@@ -9639,13 +9639,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Yosselyn González",
+      "assignee_email": "yosselyn.gonzalez@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-23T19:15:58.262Z",
-      "updated_at": "2026-08-24T17:29:43.731Z",
+      "updated_at": "2026-09-08T21:35:31.399Z",
       "deployed_at": null
     },
     {
@@ -9658,7 +9658,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "En pausa",
+      "jira_status": "Cancelado",
       "mr_status": "closed",
       "source_branch": "fix/GRV-2184-reingreso-denegado-categoria-re",
       "target_branch": "develop",
@@ -9667,13 +9667,13 @@
       "author": "Francisco Ziegler",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Yosselyn González",
+      "assignee_email": "yosselyn.gonzalez@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-07-23T19:15:58.268Z",
-      "updated_at": "2026-08-24T17:29:43.737Z",
+      "updated_at": "2026-09-08T21:35:31.403Z",
       "deployed_at": null
     },
     {
@@ -11330,8 +11330,8 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-2347-cambio-label-fecha-recepcion",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/portalclientes/-/merge_requests/515",
@@ -11339,13 +11339,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-09-07T16:17:12.247Z",
-      "updated_at": "2026-09-07T16:17:12.247Z",
+      "updated_at": "2026-09-08T21:35:30.956Z",
       "deployed_at": null
     },
     {
@@ -11358,8 +11358,8 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "merged",
       "source_branch": "bugfix/GRV-2347-cambio-label-fecha-recepcion",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/contrataciones/-/merge_requests/336",
@@ -11367,13 +11367,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-09-07T16:17:12.253Z",
-      "updated_at": "2026-09-07T16:17:12.253Z",
+      "updated_at": "2026-09-08T21:35:30.961Z",
       "deployed_at": null
     },
     {
@@ -11386,8 +11386,8 @@
       "service_type": "core_frontend",
       "is_core": true,
       "jira_priority": "Bloqueante",
-      "jira_status": "PENDIENTE DE MR",
-      "mr_status": "opened",
+      "jira_status": "TEST",
+      "mr_status": "closed",
       "source_branch": "bugfix/GRV-2347-cambio-label-fecha-recepcion",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/frontend/solicitudesgenericas/-/merge_requests/253",
@@ -11395,13 +11395,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Sebastián Coppola",
-      "assignee_email": "sebastian.coppola@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-09-07T16:17:12.258Z",
-      "updated_at": "2026-09-07T16:17:12.258Z",
+      "updated_at": "2026-09-08T21:35:30.966Z",
       "deployed_at": null
     },
     {
@@ -11487,7 +11487,119 @@
       "detected_at": "2026-09-08T14:54:49.944Z",
       "updated_at": "2026-09-08T14:54:49.944Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2314",
+      "jira_summary": "GRAVE ERROR. 167752 CLAUDIA PATRICIA SERRALLES 23633258",
+      "mr_id": 669,
+      "mr_title": "GRV-2314 | Nuevo endpoint GET /tramitador/asignables con los gestores habilitados para asignación",
+      "repo_name": "wslistados",
+      "project_path": "backend/wslistados",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "Finalizada",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV2314-gestor-mal-asignado",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wslistados/-/merge_requests/669",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2314",
+      "author": "Carla Debernardi",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-09-08T21:35:30.581Z",
+      "updated_at": "2026-09-08T21:35:30.581Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2314",
+      "jira_summary": "GRAVE ERROR. 167752 CLAUDIA PATRICIA SERRALLES 23633258",
+      "mr_id": 2076,
+      "mr_title": "GRV-2314 | El combo de asignación de gestor ofrece sólo gestores SAS activos",
+      "repo_name": "frontend",
+      "project_path": "frontend/frontend",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "Finalizada",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV2314-gestor-mal-asignado",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/2076",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2314",
+      "author": "Carla Debernardi",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
+      "components": [
+        "SAS_Tramitadores"
+      ],
+      "detected_at": "2026-09-08T21:35:30.587Z",
+      "updated_at": "2026-09-08T21:35:30.587Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2347",
+      "jira_summary": "IMPORTANTE: Unificación de criterio para el registro de Fecha de Denuncia",
+      "mr_id": 803,
+      "mr_title": "GRV-2347 Renombrar \"Fecha de Denuncia\" a \"Fecha de Carga\" (según mail)",
+      "repo_name": "auditoriamedica",
+      "project_path": "frontend/auditoriamedica",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-2347-cambio-label-fecha-recepcion",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/auditoriamedica/-/merge_requests/803",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2347",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-09-08T21:35:30.970Z",
+      "updated_at": "2026-09-08T21:35:30.970Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2347",
+      "jira_summary": "IMPORTANTE: Unificación de criterio para el registro de Fecha de Denuncia",
+      "mr_id": 1891,
+      "mr_title": "GRV-2347 Renombrar \"Fecha de Denuncia\" a \"Fecha de Carga\" (según mail)",
+      "repo_name": "tramitadores",
+      "project_path": "frontend/tramitadores",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "bugfix/GRV-2347-cambio-label-fecha-recepcion",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/tramitadores/-/merge_requests/1891",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2347",
+      "author": "Alejandro Minue",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-09-08T21:35:30.975Z",
+      "updated_at": "2026-09-08T21:35:30.975Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-09-08T18:20:37.603Z"
+  "last_updated": "2026-09-08T21:35:31.403Z"
 }
