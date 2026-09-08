@@ -9934,7 +9934,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "Cancelado",
       "mr_status": "merged",
       "source_branch": "bugfix/grv2189-materiales-quirurgicos-y-cirugias-duplicadas",
       "target_branch": "develop",
@@ -9943,13 +9943,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Leandro Abel Lesca",
-      "assignee_email": "leandro.lesca@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-07-24T20:18:37.199Z",
-      "updated_at": "2026-09-04T21:15:20.415Z",
+      "updated_at": "2026-09-08T18:20:37.179Z",
       "deployed_at": null
     },
     {
@@ -10686,7 +10686,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "Cancelado",
       "mr_status": "closed",
       "source_branch": "fix/grv-2189-race-condition-y-reprogramacion-materiales",
       "target_branch": "develop",
@@ -10695,13 +10695,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Leandro Abel Lesca",
-      "assignee_email": "leandro.lesca@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-11T20:41:55.245Z",
-      "updated_at": "2026-09-04T21:15:20.421Z",
+      "updated_at": "2026-09-08T18:20:37.188Z",
       "deployed_at": null
     },
     {
@@ -10714,7 +10714,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "Cancelado",
       "mr_status": "closed",
       "source_branch": "fix/grv-2189-cirugia-duplicada-race-condition",
       "target_branch": "develop",
@@ -10723,13 +10723,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Leandro Abel Lesca",
-      "assignee_email": "leandro.lesca@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-11T20:41:55.250Z",
-      "updated_at": "2026-09-04T21:15:20.427Z",
+      "updated_at": "2026-09-08T18:20:37.196Z",
       "deployed_at": null
     },
     {
@@ -10910,7 +10910,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "Cancelado",
       "mr_status": "merged",
       "source_branch": "revert/grv-2189-rollback-materiales-cirugias-duplicadas",
       "target_branch": "develop",
@@ -10919,13 +10919,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Leandro Abel Lesca",
-      "assignee_email": "leandro.lesca@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-13T19:01:39.020Z",
-      "updated_at": "2026-09-04T21:15:20.444Z",
+      "updated_at": "2026-09-08T18:20:37.201Z",
       "deployed_at": null
     },
     {
@@ -10938,7 +10938,7 @@
       "service_type": "secondary_backend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "Cancelado",
       "mr_status": "merged",
       "source_branch": "revert/grv-2189-rollback-guard-cirugia-duplicada",
       "target_branch": "develop",
@@ -10947,13 +10947,13 @@
       "author": "Leandro Lesca",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Leandro Abel Lesca",
-      "assignee_email": "leandro.lesca@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-13T19:01:39.025Z",
-      "updated_at": "2026-09-04T21:15:20.450Z",
+      "updated_at": "2026-09-08T18:20:37.209Z",
       "deployed_at": null
     },
     {
@@ -11414,7 +11414,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/grv-2328-area-origen-alta-sg",
       "target_branch": "develop",
@@ -11423,13 +11423,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-09-07T20:22:02.217Z",
-      "updated_at": "2026-09-07T20:22:02.217Z",
+      "updated_at": "2026-09-08T18:20:37.594Z",
       "deployed_at": null
     },
     {
@@ -11442,7 +11442,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "fix/grv-2328-reponer-fallback-area-origen",
       "target_branch": "develop",
@@ -11451,13 +11451,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Call Center"
       ],
       "detected_at": "2026-09-07T20:22:02.223Z",
-      "updated_at": "2026-09-07T20:22:02.223Z",
+      "updated_at": "2026-09-08T18:20:37.603Z",
       "deployed_at": null
     },
     {
@@ -11489,5 +11489,5 @@
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-09-08T14:54:49.944Z"
+  "last_updated": "2026-09-08T18:20:37.603Z"
 }
