@@ -11078,22 +11078,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/496",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2182",
       "author": "Alejandro Minue",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-20T15:32:16.922Z",
-      "updated_at": "2026-09-10T14:51:09.723Z",
+      "updated_at": "2026-09-10T18:07:35.780Z",
       "deployed_at": null
     },
     {
@@ -11610,22 +11610,22 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "merged",
       "source_branch": "fix/grv-2182-rutas-derivacion-familia-cd",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/509",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2182",
       "author": "Maximiliano Carubin",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-09-10T14:51:09.760Z",
-      "updated_at": "2026-09-10T14:51:09.760Z",
+      "updated_at": "2026-09-10T18:07:35.786Z",
       "deployed_at": null
     },
     {
@@ -11638,24 +11638,24 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "TEST",
+      "jira_status": "LISTO PARA PROD",
       "mr_status": "opened",
       "source_branch": "fix/grv-2182-rutas-derivacion-tl-y-revision-ar",
       "target_branch": "develop",
       "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/511",
       "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2182",
       "author": "Maximiliano Carubin",
-      "is_ready": false,
-      "priority_weight": 100,
-      "assignee_name": "Andrea Bouza",
-      "assignee_email": "andrea.bouza@ayi.group",
+      "is_ready": true,
+      "priority_weight": 150,
+      "assignee_name": "Vanesa Yanina Burman",
+      "assignee_email": "vanesa.burman@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-09-10T14:51:09.807Z",
-      "updated_at": "2026-09-10T14:51:09.807Z",
+      "updated_at": "2026-09-10T18:07:38.567Z",
       "deployed_at": null
     }
   ],
-  "last_updated": "2026-09-10T14:51:09.807Z"
+  "last_updated": "2026-09-10T18:07:38.567Z"
 }

@@ -1241,7 +1241,61 @@
       "channel": "slack",
       "sent_at": "2026-08-24T16:36:08.599Z",
       "payload": "🚨 CORE listo: wsturnos (GRV-2189) — Alta"
+    },
+    {
+      "event_hash": "59f6771749d9f246",
+      "ticket_id": "GRV-2182",
+      "mr_id": 509,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-09-10T18:07:38.561Z",
+      "payload": "**¡Alerta Deploy GRV-2182!**\n\nNecesitamos ventana de no"
+    },
+    {
+      "event_hash": "fa70457580890f56",
+      "ticket_id": "GRV-2182",
+      "mr_id": 509,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-09-10T18:07:38.563Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "edd7eaf466e91234",
+      "ticket_id": "GRV-2182",
+      "mr_id": 509,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-09-10T18:07:38.564Z",
+      "payload": "🚨 CORE listo: wssolicitudesgenericas (GRV-2182) — Alta"
+    },
+    {
+      "event_hash": "217636fdeb1a647a",
+      "ticket_id": "GRV-2182",
+      "mr_id": 511,
+      "status": "alert_ready",
+      "channel": "email",
+      "sent_at": "2026-09-10T18:07:41.303Z",
+      "payload": "¡Atención PM!\n\n**Alerta de Deploy: GRV-2182 ("
+    },
+    {
+      "event_hash": "e51cb3e6c199b1a7",
+      "ticket_id": "GRV-2182",
+      "mr_id": 511,
+      "status": "calendar_event",
+      "channel": "calendar",
+      "sent_at": "2026-09-10T18:07:41.304Z",
+      "payload": "Event created"
+    },
+    {
+      "event_hash": "48a7cd1724cb2b7f",
+      "ticket_id": "GRV-2182",
+      "mr_id": 511,
+      "status": "alert_slack",
+      "channel": "slack",
+      "sent_at": "2026-09-10T18:07:41.305Z",
+      "payload": "🚨 CORE listo: wssolicitudesgenericas (GRV-2182) — Alta"
     }
   ],
-  "last_checked": "2026-08-24T16:36:08.599Z"
+  "last_checked": "2026-09-10T18:07:41.305Z"
 }
