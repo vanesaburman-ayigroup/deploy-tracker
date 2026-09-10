@@ -11078,7 +11078,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "En curso",
+      "jira_status": "TEST",
       "mr_status": "merged",
       "source_branch": "bugfix/GRV-2182-error-derivacion-sg",
       "target_branch": "develop",
@@ -11087,13 +11087,13 @@
       "author": "Alejandro Minue",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Maximiliano Carubin",
-      "assignee_email": "maximiliano.carubin@ayi.group",
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
       "components": [
         "SAS_Mesa de Carga"
       ],
       "detected_at": "2026-08-20T15:32:16.922Z",
-      "updated_at": "2026-08-26T19:01:03.502Z",
+      "updated_at": "2026-09-10T14:51:09.723Z",
       "deployed_at": null
     },
     {
@@ -11599,7 +11599,63 @@
       "detected_at": "2026-09-08T21:35:30.975Z",
       "updated_at": "2026-09-08T21:35:30.975Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2182",
+      "jira_summary": "Error en derivación de SG",
+      "mr_id": 509,
+      "mr_title": "GRV-2182: habilita la derivación de las Solicitudes de CD de Chubut y GCBA",
+      "repo_name": "wssolicitudesgenericas",
+      "project_path": "backend/wssolicitudesgenericas",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "TEST",
+      "mr_status": "merged",
+      "source_branch": "fix/grv-2182-rutas-derivacion-familia-cd",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/509",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2182",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-09-10T14:51:09.760Z",
+      "updated_at": "2026-09-10T14:51:09.760Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2182",
+      "jira_summary": "Error en derivación de SG",
+      "mr_id": 511,
+      "mr_title": "GRV-2182: suma las variantes TL y Revisión A/R a la derivación desde Mesa de Carga",
+      "repo_name": "wssolicitudesgenericas",
+      "project_path": "backend/wssolicitudesgenericas",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Alta",
+      "jira_status": "TEST",
+      "mr_status": "opened",
+      "source_branch": "fix/grv-2182-rutas-derivacion-tl-y-revision-ar",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wssolicitudesgenericas/-/merge_requests/511",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2182",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Andrea Bouza",
+      "assignee_email": "andrea.bouza@ayi.group",
+      "components": [
+        "SAS_Mesa de Carga"
+      ],
+      "detected_at": "2026-09-10T14:51:09.807Z",
+      "updated_at": "2026-09-10T14:51:09.807Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-09-09T19:05:38.518Z"
+  "last_updated": "2026-09-10T14:51:09.807Z"
 }
