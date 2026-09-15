@@ -11022,7 +11022,7 @@
       "service_type": "core_backend",
       "is_core": true,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "Cancelado",
       "mr_status": "opened",
       "source_branch": "fix/grv-2199-fecha-ocurrencia-timezone",
       "target_branch": "develop",
@@ -11031,13 +11031,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 100,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-14T16:51:25.097Z",
-      "updated_at": "2026-09-09T19:05:38.241Z",
+      "updated_at": "2026-09-15T15:26:46.012Z",
       "deployed_at": null
     },
     {
@@ -11050,7 +11050,7 @@
       "service_type": "secondary_frontend",
       "is_core": false,
       "jira_priority": "Alta",
-      "jira_status": "PENDIENTE DE MR",
+      "jira_status": "Cancelado",
       "mr_status": "opened",
       "source_branch": "fix/grv-2199-fecha-ocurrencia-timezone",
       "target_branch": "develop",
@@ -11059,13 +11059,13 @@
       "author": "Maximiliano Carubin",
       "is_ready": false,
       "priority_weight": 0,
-      "assignee_name": "Vanesa Yanina Burman",
-      "assignee_email": "vanesa.burman@ayi.group",
+      "assignee_name": "Leandro Cabrera",
+      "assignee_email": "leandro.cabrera@ayi.group",
       "components": [
         "SAS_Tramitadores"
       ],
       "detected_at": "2026-08-14T16:51:25.101Z",
-      "updated_at": "2026-09-09T19:05:38.245Z",
+      "updated_at": "2026-09-15T15:26:46.018Z",
       "deployed_at": null
     },
     {
@@ -11711,7 +11711,91 @@
       "detected_at": "2026-09-14T20:44:58.409Z",
       "updated_at": "2026-09-14T20:44:58.409Z",
       "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2369",
+      "jira_summary": "Urgente - Campo bloqueado - \"Estado medico activo\"",
+      "mr_id": 2099,
+      "mr_title": "GRV-2369: repone el cambio de estado médico en la solapa General para CEM y Mesa",
+      "repo_name": "frontend",
+      "project_path": "frontend/frontend",
+      "service_type": "secondary_frontend",
+      "is_core": false,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/grv-2369-cambio-estado-medico-general",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/frontend/frontend/-/merge_requests/2099",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2369",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 0,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-09-15T15:26:46.378Z",
+      "updated_at": "2026-09-15T15:26:46.378Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2369",
+      "jira_summary": "Urgente - Campo bloqueado - \"Estado medico activo\"",
+      "mr_id": 1438,
+      "mr_title": "GRV-2369: valida que marcar \"Rechazado por ART\" deje el siniestro en Fin ILT",
+      "repo_name": "wsdocumento",
+      "project_path": "backend/wsdocumento",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/grv-2369-cambio-estado-medico-general",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsdocumento/-/merge_requests/1438",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2369",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-09-15T15:26:46.383Z",
+      "updated_at": "2026-09-15T15:26:46.383Z",
+      "deployed_at": null
+    },
+    {
+      "jira_ticket": "GRV-2369",
+      "jira_summary": "Urgente - Campo bloqueado - \"Estado medico activo\"",
+      "mr_id": 53,
+      "mr_title": "GRV-2369: agrega el permiso cem_reabrir_siniestro para acotar la reapertura en CEM",
+      "repo_name": "wsperfilespermisos",
+      "project_path": "backend/wsperfilespermisos",
+      "service_type": "core_backend",
+      "is_core": true,
+      "jira_priority": "Bloqueante",
+      "jira_status": "PENDIENTE DE MR",
+      "mr_status": "opened",
+      "source_branch": "feature/grv-2369-cambio-estado-medico-general",
+      "target_branch": "develop",
+      "mr_url": "https://gitlab.com/grvx/backend/wsperfilespermisos/-/merge_requests/53",
+      "jira_url": "https://ayigroup.atlassian.net/browse/GRV-2369",
+      "author": "Maximiliano Carubin",
+      "is_ready": false,
+      "priority_weight": 100,
+      "assignee_name": "Maximiliano Carubin",
+      "assignee_email": "maximiliano.carubin@ayi.group",
+      "components": [
+        "SAS_Call Center"
+      ],
+      "detected_at": "2026-09-15T15:26:46.389Z",
+      "updated_at": "2026-09-15T15:26:46.389Z",
+      "deployed_at": null
     }
   ],
-  "last_updated": "2026-09-14T20:44:58.409Z"
+  "last_updated": "2026-09-15T15:26:46.389Z"
 }
